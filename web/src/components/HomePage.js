@@ -32,7 +32,6 @@ const HomePage = () => {
             <span className="circle3"></span>
 
 
-
         </>
     );
 };
