@@ -1,0 +1,64 @@
+.LabDirector {
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-image: url("../img/LabDirector.svg");
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.LabDirector .Hsipl {
+  display: -ms-grid;
+  display: grid;
+  margin: 5% 0%;
+}
+
+.LabDirector .Hsipl img {
+  margin: 10% 0%;
+}
+
+.LabDirector .Hsipl h {
+  margin-top: 1%;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.LabDirector .App {
+  display: -ms-grid;
+  display: grid;
+  margin: 5% 0%;
+}
+
+.LabDirector .App img {
+  margin: 10% 0%;
+}
+
+.LabDirector .App h {
+  margin-top: 0.1%;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.LabDirector .Web {
+  display: -ms-grid;
+  display: grid;
+  margin: 5% 0%;
+}
+
+.LabDirector .Web img {
+  margin: 10% 0%;
+}
+
+.LabDirector .Web h {
+  margin-top: 0.1%;
+  color: #ffffff;
+  font-size: 2rem;
+  text-align: center;
+}
+/*# sourceMappingURL=LabDirector.css.map */

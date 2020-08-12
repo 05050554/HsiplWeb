@@ -1,0 +1,49 @@
+.LabDirector{
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-image: url('../img/LabDirector.svg');
+    display: inline-flex;
+    justify-content: space-evenly;
+
+    .Hsipl{
+        display: grid;
+        margin: 5% 0%;
+        img{
+            margin: 10% 0%;
+        }
+        h{
+            margin-top: 1%;
+            color: #ffffff;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .App{
+        display: grid;
+        margin: 5% 0%;
+        img{
+            margin: 10% 0%;
+        }
+        h{
+            margin-top: 0.1%;
+            color: #ffffff;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+    .Web{
+        display: grid;
+        margin: 5% 0%;
+        img{
+            margin: 10% 0%;
+        }
+        h{
+            margin-top: 0.1%;
+            color: #ffffff;
+            font-size: 2rem;
+            text-align: center;
+        }
+    }
+
+}
