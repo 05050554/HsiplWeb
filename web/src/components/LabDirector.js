@@ -8,19 +8,19 @@ export const LabDirector = () => {
     return (
         <div className="LabDirector">
             <div className="Hsipl">
-                <img src={camera}></img>
+                <img src={camera} href="#"></img>
                 <h>HSIPL</h>      
                 </div>
             <div className="App">
-                <img src={app}></img>
+                <img src={app} href="#"></img>
                 <h>Mobile</h>
                 <h>Application</h>
             </div>
-            <div className="Web">
-                <img src={web}></img>
+            <div className="Web" href="#">
+                <img src={web} ></img>
                 <h>Web</h>
                 <h>Development</h>
-
+                
             </div>
             
         </div>

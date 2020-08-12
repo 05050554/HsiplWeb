@@ -6,15 +6,21 @@
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .LabDirector .Hsipl {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   display: -ms-grid;
   display: grid;
-  margin: 5% 0%;
+  margin: 5% 5%;
+  border-radius: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .LabDirector .Hsipl img {
@@ -22,16 +28,24 @@
 }
 
 .LabDirector .Hsipl h {
-  margin-top: 1%;
+  margin-top: 0.1%;
   color: #ffffff;
   font-size: 2rem;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .LabDirector .App {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   display: -ms-grid;
   display: grid;
-  margin: 5% 0%;
+  margin: 5% 5%;
+  border-radius: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .LabDirector .App img {
@@ -43,12 +57,20 @@
   color: #ffffff;
   font-size: 2rem;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
 }
 
 .LabDirector .Web {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   display: -ms-grid;
   display: grid;
-  margin: 5% 0%;
+  margin: 5% 5%;
+  border-radius: 10%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .LabDirector .Web img {
@@ -60,5 +82,18 @@
   color: #ffffff;
   font-size: 2rem;
   text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.Hsipl:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.App:hover {
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.Web:hover {
+  background-color: rgba(255, 255, 255, 0.6);
 }
 /*# sourceMappingURL=LabDirector.css.map */
