@@ -31,7 +31,6 @@ const HomePage = () => {
             <span className="circle2"></span>
             <span className="circle3"></span>
 
-
         </>
     );
 };
