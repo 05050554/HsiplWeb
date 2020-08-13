@@ -1,0 +1,55 @@
+// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+// body{
+//     margin:0;
+//     padding: 0;
+//     font-family: 'Open Sans', sans-serif;
+// }
+// .wrapper{
+//     width: 100%;
+//     min-height: 100px;
+//     background: #262626;
+//     position: absolute;
+//     top: 50%;
+//     transform: translateY(-50%);
+    
+// }
+
+// .column{
+//     position:relative;
+//     width: 20%;
+//     height: 360px;
+//     float: left;
+//     // overflow: hidden;
+// }
+
+// .column .imgBx{
+//     position: relative;
+// }
+
+// .column .imgBx .img{
+//     max-width: 100%;
+//     transition: 1s;
+// }
+
+// .column.hover .imgBx .img{
+//     // transform: scale(1.5);
+// }
+
+// .column .details{
+//     position: absolute;
+//     top: 10px;
+//     left: 10px;
+//     right: 10px;
+//     bottom:10px;
+//     background: #fff;
+//     text-align: center;
+//     transition: .5s;
+// }
+
+// .column .details .content{ /*背面文字*/
+//     position: absolute;
+//     top: 50%;
+//     left: 50%;
+//     transform: translate(-50%,-50%);
+//     width: 100%;
+// }
