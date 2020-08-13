@@ -19,7 +19,6 @@ const Introduction = () => {
                     endmember finding and target detection. In particular, 
                     we have wide interests in various research topics for multi/hyperspectral applications.
                 </span>
-                
             </div>
         </div>
     )
