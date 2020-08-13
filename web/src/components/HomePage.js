@@ -3,7 +3,7 @@ import "./HomePage.css";
 import homepagepic from "../assets/images/homepage.svg";
 const HomePage = () => {
     return (
-        <>
+        <> 
             <div className="top">
                 <div className="mark">Hsipl</div>
                 <div className="list">
@@ -30,7 +30,7 @@ const HomePage = () => {
             <span className="circle1"></span>
             <span className="circle3"></span>
             <span className="circle2"></span>
-            
+
 
         </>
     );

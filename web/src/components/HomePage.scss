@@ -1,141 +1,140 @@
 
-.top{
-    position: fixed;
-    top: 0;
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    height: 8%;
+
+    .top{
+        position: fixed;
+        top: 0;
+        background-color: white;
+        display: flex;
+        justify-content: flex-end;
+        width: 100%;
+        height: 8%;
+        
+    }
+
+    .list ul li{
+        display: inline;
+        margin: 3ex;
+        
+    } 
+
+    .list{
+        padding: 1vh 1vw;
+        
+    } 
+
+    #p1{
+        text-decoration: none;
+        font-family: Oswald;
+        font-size: 1.5em;
+    }
+
+    .mark{
+        position: fixed;
+        display: flex;
+        justify-content: flex-end;
+        top: 0.5vh;
+        left: 3vw;
+        width: 5%;
+        height: 5%;
+        font-size: 3em;
+        font-family: Oregano;
     
-}
+    }
 
- .list ul li{
-    display: inline;
-    margin: 3ex;
+    .HomePic {
+
+        display: flex;
+        margin-top: 10rem;
+        margin-left: 68.9rem;
+        overflow: hidden;
+    }
+
+    .HomePic img{
+        width: 150%;
+        height: auto;
     
-} 
+    }
 
-.list{
-    padding: 1vh 1vw;
+    .title{
+        display: flex;
+        width: 631px;
+        height: 71px;
+        margin-left: 10rem;
+        margin-top: -25rem;
+        font-family: Oswald;
+        font-size: 48px;
+        line-height: 71px;
+        text-align: left;
+        color: #2961B5;
+        
+    }
+
+    .content{
+        display: flex;
+        width: 30%;
+        height: 172px;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 38px;
+        line-height: 1.5em;
+        text-align: left;
+        color: #B0AAAA;
+    }
+
+    .more{
+        position: relative;
+        width: 10%;
+        height: 10%;
+        margin-left: 10rem;
+        margin-top: 2rem;
+        background-color: #8498E0;
+        font-family: Oswald;
+        font-size: 38px;
+        color: white;
+        z-index: 1;
+        
+    }
+
+    #lm{
+        text-decoration: none;
+        color: white;
+    }
+
+    .circle1{
+        width: 30em;
+        height: 30em;
+        background-color: #C1CAF6;
+        border-radius: 50%;
+        display: flex;
+        margin-left: 15rem;
+        margin-top: -46rem;
     
-} 
 
-#p1{
-    text-decoration: none;
-    font-family: Oswald;
-    font-size: 1.5em;
-}
+    }
 
-.mark{
-    position: fixed;
-    display: flex;
-    justify-content: flex-end;
-    top: 0.5vh;
-    left: 3vw;
-    width: 5%;
-    height: 5%;
-    font-size: 3em;
-    font-family: Oregano;
-   
-}
+    .circle2{
+        z-index: -1;
+        width: 25em;
+        height: 25em;
+        background-color: #E5E5E5;
+        border-radius: 50%;
+        display: flex;
+        margin-left: 0.5rem;
+        margin-top: -17.5rem;
+        opacity: 0.7;
+    }
 
-.HomePic {
-    width: 50rem;
-    display: flex;
-    margin-top: 10rem;
-    margin-left: 68.9rem;
-    overflow: hidden;
-
+    .circle3{
+        width: 20em;
+        height: 20em;
+        background-color: #D4DFEC;
+        border-radius: 50%;
+        display: flex;
+        margin-left: 45rem;
+        margin-top: 5rem;
     
-}
-
-.HomePic img{
-    width: 150%;
-    height: auto;
-  
-}
-
-.title{
-    display: flex;
-    width: 631px;
-    height: 71px;
-    margin-left: 10rem;
-    margin-top: -25rem;
-    font-family: Oswald;
-    font-size: 48px;
-    line-height: 71px;
-    text-align: left;
-    color: #2961B5;
-    
-}
-
-.content{
-    display: flex;
-    width: 30%;
-    height: 172px;
-    margin-left: 10rem;
-    margin-top: 2rem;
-    font-family: Oswald;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 38px;
-    line-height: 1.5em;
-    text-align: left;
-    color: #B0AAAA;
-}
-
-.more{
-    position: relative;
-    width: 10%;
-    height: 10%;
-    margin-left: 10rem;
-    margin-top: 2rem;
-    background-color: #8498E0;
-    font-family: Oswald;
-    font-size: 38px;
-    color: white;
-    z-index: 1;
-    
-}
-
-#lm{
-    text-decoration: none;
-    color: white;
-}
-
-.circle1{
-    width: 30em;
-    height: 30em;
-    background-color: #C1CAF6;
-    border-radius: 50%;
-    display: flex;
-    margin-left: 15rem;
-    margin-top: -46rem;
-   
-
-}
-
-.circle2{
-    z-index: -1;
-    width: 25em;
-    height: 25em;
-    background-color: #E5E5E5;
-    border-radius: 50%;
-    display: flex;
-    margin-left: 0.5rem;
-    margin-top: -17.5rem;
-    opacity: 0.7;
-}
-
-.circle3{
-    width: 20em;
-    height: 20em;
-    background-color: #D4DFEC;
-    border-radius: 50%;
-    display: flex;
-    margin-left: 45rem;
-    margin-top: 5rem;
- 
-    opacity: 0.5;
-}
+        opacity: 0.5;
+    }
