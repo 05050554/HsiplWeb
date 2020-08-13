@@ -30,7 +30,7 @@ const HomePage = () => {
             <span className="circle1"></span>
             <span className="circle3"></span>
             <span className="circle2"></span>
-            
+
 
         </>
     );
