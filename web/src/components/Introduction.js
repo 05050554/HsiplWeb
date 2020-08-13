@@ -3,11 +3,12 @@ import "./Introduction.css"
 
 const Introduction = () => {
     return (
+
         <div className="Introduction">
             
             <div className="videobox">
-                <h1>　Introduction</h1>
-                <video autoPlay={'autoPlay'} preload={'none'} controls={'controls'} >
+                <span>　Introduction</span>
+                <video muted autoPlay preload controls >
                         <source src={'https://video.wixstatic.com/video/096150_1449a5a33d164b1a9b2a81f95b734c82/1080p/mp4/file.mp4'} type="video/mp4" />
                 </video>
             </div>

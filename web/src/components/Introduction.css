@@ -14,16 +14,16 @@
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  z-index: 1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
 }
 
-.Introduction .videobox h1 {
+.Introduction .videobox span {
   font-family: Oswald;
   letter-spacing: 0.2rem;
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: bold;
 }
 
 .Introduction .videobox video {
@@ -41,7 +41,6 @@
   display: -ms-grid;
   display: grid;
   margin: 5% 5%;
-  z-index: 1;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
