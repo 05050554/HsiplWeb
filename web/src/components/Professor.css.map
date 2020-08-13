@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAA;EACN,KAAK,EAAE,IAAI;EACX,MAAM,EAAE,IAAI;EACZ,OAAO,EAAE,WAAW;EACpB,eAAe,EAAE,YAAY;EAC7B,gBAAgB,EAAE,UAAU;CAC/B",
+    "sources": [
+        "Professor.scss"
+    ],
+    "names": [],
+    "file": "Professor.css"
+}
