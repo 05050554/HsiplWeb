@@ -41,7 +41,7 @@ export const Members = () => {
                     <div className="details">
                         <div className="content1">
                             <h1>Menbers<br /><span>Developer</span></h1>
-                            <ul>
+                            <ul> 
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
