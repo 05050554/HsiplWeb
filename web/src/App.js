@@ -2,10 +2,10 @@ import React from 'react';
 import './App.css';
 import HomePage from './components/HomePage';
 import { LabDirector } from './components/LabDirector';
-import Members from './components/Members';
 
 import Introduction from './components/Introduction';
 
+import Professor from './components/Professor';
 
 function App() {
   return (
@@ -14,6 +14,7 @@ function App() {
       <LabDirector></LabDirector>
       <Introduction></Introduction>
       <Members></Members>
+      <Professor></Professor>
     </div>
   );
 }
