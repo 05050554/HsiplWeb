@@ -1,5 +1,5 @@
 import React from "react";
-import "./LabDirector.css";
+import "./LabDirector.scss";
 import camera from "../img/camera.png"
 import app from "../img/mobile.png"
 import web from "../img/web.png"

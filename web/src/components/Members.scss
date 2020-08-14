@@ -1,55 +1,313 @@
-// @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
-// body{
-//     margin:0;
-//     padding: 0;
-//     font-family: 'Open Sans', sans-serif;
-// }
-// .wrapper{
-//     width: 100%;
-//     min-height: 100px;
-//     background: #262626;
-//     position: absolute;
-//     top: 50%;
-//     transform: translateY(-50%);
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+    margin:0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.title2{
+    display: flex;
+    margin-top: 0rem;
+    justify-content: start;
+    margin-left:5rem ;
+    font-size: 72px;
+    font-family: Oswald;
+}
+
+.master2{
+    display: flex;
+    width: 80%;
+    margin-left: 8rem;
+    background-color: yellow;
+    font-size: 40px;
+    font-family: Oswald;
+}
+
+.wrapper{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    margin-top: 55rem;
+    // position: absolute;
+    // top: 150rem;
+    transform: translateY(-50%);
+
+}
+
+.column{
+    position:relative;
+    padding: 5%;
+    width: 100%;
+  
+    float: left;
+    overflow: hidden;
+    margin-top: -45%;
+}
+
+.column .imgBx{
+    // width: 20%;
+    // height: auto;
+    position: relative;
+}
+
+.column .imgBx .img{  /*接不到 詭異*/
+    width: 100%;
+    transition: 1s;
+    //  object-fit: cover;
+
+}
+
+#p1{
+    max-width: 120%;
+
+}
+
+.column:hover .imgBx .img{
+    transform:scale(1.5);
+
+}
+
+.column .details{
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+    right: 0px;
+    bottom:10px;
+    // display: flex;
+    background: #fff;
+    text-align: center;
+    transform: scale(.5);
+    visibility: hidden;
+    transition: .5s;
+    width: 70%;
+    height: 55%;
+
+
+}
+
+.column:hover .details{
+    transform: scale(1);
+    visibility: visible;
+}
+
+.column .details .content1{ /*背面文字*/
+    position: absolute;
+    top: 40%;
+    left: 20rem;
+    // display: flex;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    box-sizing: border-box;
+    // max-width: 50%;
+
+}
+
+.column .details .content1 h1{ /*背面Menbername*/
+    position: relative;
+    right: 6.5rem;
+    // display: flex;
+    margin-top: -50px;
+    padding: 0;
+    font-size: 20px;
+    color: #262626;
+    text-transform: uppercase;
+}
+
+.column .details .content1 h1 span{
+    font-size: 16px;
+    color: #999;
+}
+.column .details .content1 h1::before{/*紅線*/
+    content: '';
+    position: absolute;
+    bottom: 0rem;
+    width: 85px;
+    height: 2px;
+    background: #f00;
+    left: 7rem;
+    transform: translateX(-50%);
+}
+
+.column .details .content1 ul{ /*圖+文字 EMAIL*/
+    position: relative;
+    right: 10rem;
+    display: flex;
+    width: 100%;
+    // margin: 30px auto 0;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: .5s;
+
+}
+
+.column:hover .details .content1 ul{
+    transform: translateY(0 px);
+    opacity: 1;
+}
+
+.column .details .content1 ul li{
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    margin-top: 0.5rem;
+
+}
+
+.column .details .content1 ul li a{     /*圖示*/
+    color: #262626;
+    width: 50%;
+    height: 50%;
+    line-height: 36px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #262626;
+}
+ 
+.column .details .content1 ul li a:hover{
+    background-color: #f00;
+    color: #fff;
+    border: 1px solid #f00;
+}
+
+
+
+
+
+.wrapper1{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.column1{
+    position:relative;
+    padding: 5%;
+    width: 20%;
+    height: 20%;
+    float: left;
+    overflow: hidden;
+    margin-top: -10%;
+    margin-left: 10%;
+}
+
+.column1 .imgBx1{
+    position: relative;
+}
+
+.column1 .imgBx1 .img{
+    max-width: 100%;
+    transition: 1s;
     
-// }
+}
 
-// .column{
-//     position:relative;
-//     width: 20%;
-//     height: 360px;
-//     float: left;
-//     // overflow: hidden;
-// }
+.column1:hover .imgBx1 .img{
+    transform:scale(1.5);
+}
 
-// .column .imgBx{
-//     position: relative;
-// }
+.column1 .details1{
+    position: absolute;
+    top: 7rem;
+    left: 8rem;
+    right: 0px;
+    bottom:10px;
+    // display: flex;
+    background: #fff;
+    text-align: center;
+    transform: scale(.5);
+    visibility: hidden;
+    transition: .5s;
+    width: 70%;
+    height: 65%;
+}
 
-// .column .imgBx .img{
-//     max-width: 100%;
-//     transition: 1s;
-// }
+.column1:hover .details1{
+    transform: scale(1);
+    visibility: visible;
+}
 
-// .column.hover .imgBx .img{
-//     // transform: scale(1.5);
-// }
+.column1 .details1 .content2{ /*背面文字*/
+    position: absolute;
+    top: 40%;
+    left: 19rem;
+    // display: flex;
+    transform: translate(-50%,-50%);
+    width: 50%;
+    box-sizing: border-box;
+}
 
-// .column .details{
-//     position: absolute;
-//     top: 10px;
-//     left: 10px;
-//     right: 10px;
-//     bottom:10px;
-//     background: #fff;
-//     text-align: center;
-//     transition: .5s;
-// }
+.column1 .details1 .content2 h1{ /*背面Menbername*/
+    position: relative;
+    right: 6.5rem;
+    // display: flex;
+    margin-top: -50px;
+    padding: 0;
+    font-size: 20px;
+    color: #262626;
+    text-transform: uppercase;
+}
 
-// .column .details .content{ /*背面文字*/
-//     position: absolute;
-//     top: 50%;
-//     left: 50%;
-//     transform: translate(-50%,-50%);
-//     width: 100%;
-// }
+.column1 .details1 .content2 h1 span{
+    font-size: 16px;
+    color: #999;
+}
+.column1 .details1 .content2 h1::before{/*紅線*/
+    content: '';
+    position: absolute;
+    bottom: 0rem;
+    width: 85px;
+    height: 2px;
+    background: #f00;
+    left: 6.3rem;
+    transform: translateX(-50%);
+}
+
+.column1 .details1 .content2 ul{
+    position: relative;
+    right: 10rem;
+    display: flex;
+    width: 100%;
+    // margin: 30px auto 0;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: .5s;
+
+}
+
+.column1:hover .details1 .content2 ul{
+    transform: translateY(0 px);
+    opacity: 1;
+}
+
+.column1 .details1 .content2 ul li{
+    list-style: none;
+    width: 30%;
+    text-align: center;
+    margin-top: 0.5rem;
+
+}
+
+.column1 .details1 .content2 ul li a{
+    color: #262626;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    border: 1px solid #262626;
+}
+ 
+.column1 .details1 .content2 ul li a:hover{
+    background-color: #f00;
+    color: #fff;
+    border: 1px solid #f00;
+}
+
+
+.master1{
+    display: flex;
+    width: 80%;
+    margin-left: 8rem;
+    background-color: yellow;
+    font-size: 40px;
+    font-family: Oswald;
+}
