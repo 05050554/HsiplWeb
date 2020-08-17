@@ -57,17 +57,17 @@
     }
 
     .title{
-        display: flex;
+        position: relative;
         width: 631px;
         height: 71px;
         margin-left: 10rem;
-        margin-top: -25rem;
+        top: -35rem;
         font-family: Oswald;
         font-size: 48px;
         line-height: 71px;
         text-align: left;
         color: #2961B5;
-        
+        z-index: 2;
     }
 
     .content{
@@ -75,7 +75,7 @@
         width: 30%;
         height: 172px;
         margin-left: 10rem;
-        margin-top: 2rem;
+        margin-top: -30rem;
         font-family: Oswald;
         font-style: normal;
         font-weight: 500;
@@ -83,17 +83,21 @@
         line-height: 1.5em;
         text-align: left;
         color: #B0AAAA;
+        position: relative;
+        z-index: 2;
+    
     }
 
     .more{
-        position: relative;
-        width: 10%;
-        height: 10%;
+      
+        position: absolute;
+        width: 15%;
+
         margin-left: 10rem;
         margin-top: 2rem;
         background-color: #8498E0;
         font-family: Oswald;
-        font-size: 38px;
+        font-size: 30px;
         color: white;
         z-index: 1;
         
@@ -102,6 +106,7 @@
     #lm{
         text-decoration: none;
         color: white;
+    
     }
 
     .circle1{
@@ -111,9 +116,9 @@
         border-radius: 50%;
         display: flex;
         margin-left: 15rem;
-        margin-top: -46rem;
-    
-
+        margin-top: -35rem;
+        opacity: 0.5;
+        z-index: -1;
     }
 
     .circle2{
@@ -124,7 +129,7 @@
         border-radius: 50%;
         display: flex;
         margin-left: 0.5rem;
-        margin-top: -17.5rem;
+        margin-top: -8rem;
         opacity: 0.7;
     }
 
@@ -135,7 +140,7 @@
         border-radius: 50%;
         display: flex;
         margin-left: 45rem;
-        margin-top: 5rem;
+        margin-top: -3rem;
     
         opacity: 0.5;
     }
