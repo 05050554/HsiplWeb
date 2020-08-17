@@ -15,19 +15,19 @@
         .Hsipl{
             flex: 1;
             display: grid;
-            margin: 5% 10%;
+            margin: 5% 5%;
             justify-items: center;
             align-items: center;
-
             .Icon{
-                transform: translateY(50%);
+                width: 100%;
+                transform: translateY(30%);
                 background-color: rgba($color:#000000, $alpha: 0.9);
                 z-index: 2;
-                align-items: center;
+                display: grid;
                 justify-items: center;
                 
                 img{
-                    width: 75%;
+                    width: 50%;
                     
                     
                 }
@@ -40,12 +40,14 @@
             }
 
             .Content{
-                //display: none;
+                
                 z-index: 1;
-                transform: translateY(-50%);
+                transform: translateY(-80%);
                 background-color: #ffffff;
+                transform: scale(0);
 
                 p{
+                    display: inline-flex;
                     color: #000000;
                     padding: 1%;
                 }
@@ -68,14 +70,17 @@
         .App{
             flex: 1;
             display: grid;
-            margin: 5% 10%;
+            margin: 5% 5%;
             justify-items: center;
             .Icon{
-                transform: translateY(50%);
+                width: 100%;
+                display: grid;
+                justify-items: center;
+                transform: translateY(30%);
                 z-index: 2;
                 background-color: rgba($color: #000000, $alpha: 0.9);
                 img{
-                    width: 75%;
+                    width: 50%;
                 }
                 h{
                     color: #ffffff;
@@ -87,10 +92,10 @@
             
             .Content{
                 display: block;
-                transform: translateY(-50%);
+                transform: translateY(-80%);
                 z-index: 1;
                 background-color: #ffffff;
-
+                transform: scale(0);
                 p{
                     color: #000000;
                     padding: 1%;
@@ -109,14 +114,18 @@
         .Web{
             flex: 1;
             display: grid;
-            margin: 5% 10%;
+            margin: 5% 5%;
             justify-items: center;
             .Icon{
-                transform: translateY(50%);
+                width: 100%;
+                display: grid;
+                justify-items: center;
+                transform: translateY(30%);
                 z-index: 2;
                 background-color: rgba($color:#000000, $alpha: 0.9);
+                
                 img{
-                    width: 75%;
+                    width: 50%;
                 }
                 h{
                     color: #ffffff;
@@ -126,17 +135,17 @@
                 }
             }
             .Content{
-                transform: translateY(-50%);
+                transform: translateY(-80%);
                 z-index: 1; 
                 background-color: #ffffff;
-
+                transform: scale(0);
                 p{
                     color: #000000;
                     padding: 1%;
                 }
-                
-            }
 
+            }
+            
             .Icon:hover{
                 transform: translateY(0%);
                 

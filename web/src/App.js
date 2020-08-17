@@ -7,6 +7,8 @@ import Introduction from './components/Introduction';
 
 import Professor from './components/Professor';
 
+import Members from './components/Members';
+
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
       <HomePage></HomePage>
       <LabDirector></LabDirector>
       <Introduction></Introduction>
-      <Members></Members>
       <Professor></Professor>
+      <Members></Members>
     </div>
   );
 }
