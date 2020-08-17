@@ -1,5 +1,5 @@
 import React from 'react'
-import "./Professor.css"
+import "./Professor.scss"
 import Professor_img from "../img/Professor_img.jpg"
 import Mail_img from "../img/Mail_img.png"
 import Call_img from "../img/Call_img.png"
@@ -8,7 +8,7 @@ const Professor = () => {
     return (
         <div className="Professor">
             <div className="Pic">
-                <span>　Professor</span>
+                <span>Professor</span>
                 <img src={Professor_img} width={'60%'} height={'auto'} ></img>
             </div>
             <div className="Info">

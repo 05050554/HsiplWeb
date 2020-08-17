@@ -1,5 +1,5 @@
 import React from "react";
-import "./LabDirector.css";
+import "./LabDirector.scss";
 import camera from "../img/camera.png"
 import app from "../img/mobile.png"
 import web from "../img/web.png"
@@ -7,22 +7,51 @@ import web from "../img/web.png"
 export const LabDirector = () => {
     return (
         <div className="LabDirector">
-            <div className="Hsipl">
-                <img src={camera} href="#" width={'100%'}></img>
-                <h>HSIPL</h>      
+            <div className="Background">
+                <div className="Hsipl">
+                    <div className="Icon">
+                        <img src={camera} href="#"></img>
+                        <h>HSIPL<br></br>　</h>
+                    </div>
+                    <div className="Content">
+                        <p>HSIPL is dedicated to design and 
+                            develop algorithms for multi/hyperspectral,
+                            medical and satellite images, 
+                            specifically for image classification, 
+                            endmember finding and target detection.
+                        </p> 
+                    </div>     
                 </div>
-            <div className="App">
-                <img src={app} href="#" width={'100%'}></img>
-                <h>Mobile</h>
-                <h>Application</h>
+                <div className="App">
+                    <div className="Icon">
+                        <img src={app} href="#"></img>
+                        <h>Mobile<br></br>Application</h>
+                    </div>
+                    <div className="Content">
+                        <p>HSIPL is dedicated to design and 
+                            develop algorithms for multi/hyperspectral,
+                            medical and satellite images, 
+                            specifically for image classification, 
+                            endmember finding and target detection.
+                        </p>
+                    </div>
+                </div>
+                <div className="Web" >
+                    <div className="Icon">
+                        <img src={web} href="#"></img>
+                        <h>Web<br></br>Development</h>
+                    </div>
+                    <div className="Content">
+                        <p>HSIPL is dedicated to design and 
+                            develop algorithms for multi/hyperspectral,
+                            medical and satellite images, 
+                            specifically for image classification, 
+                            endmember finding and target detection.
+                        </p>
+                    </div>
+                    
+                </div>
             </div>
-            <div className="Web" >
-                <img src={web} href="#" width={'100%'}></img>
-                <h>Web</h>
-                <h>Development</h>
-                
-            </div>
-            
         </div>
     );
 };

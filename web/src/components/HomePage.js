@@ -1,5 +1,5 @@
 import React from "react";
-import "./HomePage.css";
+import "./HomePage.scss";
 import homepagepic from "../assets/images/homepage.svg";
 const HomePage = () => {
     return (

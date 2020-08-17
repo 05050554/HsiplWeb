@@ -16,13 +16,14 @@
             font-size: 3rem;
             font-weight: bold;
             align-items: center;
+            margin-left: 7%;
         }
 
         img{
             margin: 0% 20% 5% 20%;
             align-items: center;
             border-radius: 25%;
-            border:solid white 1rem;
+            border:solid white 0.5rem;
 
         }
           
@@ -39,6 +40,7 @@
             letter-spacing: 0.2rem;
             font-size: 2rem;
             align-items: center;
+            margin-bottom: 2.5%;
         }
 
         span{
@@ -47,7 +49,7 @@
             display: inline-flex;
             justify-content: start;
             font-size: 1.5rem;
-            line-height: 50px;
+            line-height: 3rem;
             //font-family: Oswald;
             text-align: left;
 
