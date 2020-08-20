@@ -265,22 +265,24 @@
 
     @media(max-width:425px){
         .title{
-            margin-left: 5rem;
+            margin-left: 3rem;
         }
         .mark{
             margin-left: 13rem;
             }
         .content{
             margin-top: -15rem;
-            margin-left: 5rem;
+            margin-left: 3rem;
         }
         .more{
-            margin-left: 5rem;
+            margin-left: 3rem;
             margin-top: 7rem;
             width: 40%;
         }
         .circle2{
-            visibility: hidden;
+        width: 5%;
+        visibility: hidden;
+            
         }
     }
 
@@ -288,17 +290,17 @@
 
     @media(max-width:340px){
         .title{
-            margin-left: 5rem;
+            margin-left: 3rem;
         }
         .mark{
             margin-left: 11rem;
             }
         .content{
             margin-top: -15rem;
-            margin-left: 5rem;
+            margin-left: 3rem;
         }
         .more{
-            margin-left: 5rem;
+            margin-left: 3rem;
             margin-top: 8rem;
             max-width: 50%;
         }
