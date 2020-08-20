@@ -4,7 +4,7 @@ export const Members = () => {
     return (
         <>
             <div className="title2">Members</div>
-            <div className="master2">碩士二年級</div>
+            <div className="master">碩士二年級</div>
             <div className="wrapper">
                 <div className="column">
                     <div calssName="imgBx">
@@ -12,9 +12,9 @@ export const Members = () => {
                     </div>
                     <div className="details" >
                         <div  className="content1">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fas fa-envelope-square"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -26,9 +26,9 @@ export const Members = () => {
                     </div>
                     <div className="details">
                         <div className="content1">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -40,9 +40,9 @@ export const Members = () => {
                     </div>
                     <div className="details">
                         <div className="content1">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul> 
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -52,13 +52,13 @@ export const Members = () => {
             <div className="wrapper1">
                 <div className="column1">
                     <div calssName="imgBx1">
-                        <img id="p1" src="girl4.jpg"></img>
+                        <img id="p3" src="girl4.jpg"></img>
                     </div>
                     <div className="details1">
                         <div className="content2">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -68,13 +68,13 @@ export const Members = () => {
 
                 <div className="column1">
                     <div calssName="imgBx1">
-                        <img id="p1" src="girl4.jpg"></img>
+                        <img id="p3" src="girl4.jpg"></img>
                     </div>
                     <div className="details1">
                         <div className="content2">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -89,9 +89,9 @@ export const Members = () => {
                     </div>
                     <div className="details">
                         <div className="content1">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fas fa-envelope-square"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -103,9 +103,9 @@ export const Members = () => {
                     </div>
                     <div className="details">
                         <div className="content1">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -117,9 +117,9 @@ export const Members = () => {
                     </div>
                     <div className="details">
                         <div className="content1">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -129,13 +129,13 @@ export const Members = () => {
             <div className="wrapper1">
                 <div className="column1">
                     <div calssName="imgBx1">
-                        <img id="p1" src="girl4.jpg"></img>
+                        <img id="p3" src="girl4.jpg"></img>
                     </div>
                     <div className="details1">
                         <div className="content2">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
@@ -145,13 +145,13 @@ export const Members = () => {
 
                 <div className="column1">
                     <div calssName="imgBx1">
-                        <img id="p1" src="girl4.jpg"></img>
+                        <img id="p3" src="girl4.jpg"></img>
                     </div>
                     <div className="details1">
                         <div className="content2">
-                            <h1>Menbers<br /><span>Developer</span></h1>
+                            <p2>Members<br /><span>Developer</span></p2>
                             <ul>
-                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
                                 <p>abcdefg@gmail.com</p>
                             </ul>
                         </div>
