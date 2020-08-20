@@ -28,7 +28,7 @@ body{
     height: 100%;
     display: flex;
     margin-top: 25rem;
-    padding: 5rem;
+    // padding: 5rem;
     // padding-left: -5rem;
     // position: absolute;
     // top: 150rem;
@@ -157,6 +157,12 @@ body{
 
 
  @media(max-width:800px){
+     .title2{
+         margin-left: 1.5rem;
+     }
+     .master{
+        margin-left: 2rem;
+    }
      .wrapper{
          margin-top:11rem;
      }
@@ -194,11 +200,11 @@ body{
 
     .wrapper{
 
-        margin-left: -3rem;
+        margin-left: 1.5rem;
         margin-top: 8rem;
      }
     .wrapper1{
-        margin-left: -4rem;
+        margin-left: 1rem;
     }
 
     .details{
@@ -235,6 +241,9 @@ body{
      }
      .master{
         margin-left: 2rem;
+     }
+     .master1{
+         margin-left: -100rem;
      }
 
      .wrapper{
@@ -331,8 +340,8 @@ body{
 .master1{
     display: flex;
     width: 80%;
-    margin-left: 8rem;
-    margin-top: -45rem;
+    margin-left: 7rem;
+    margin-top: -35rem;
     background-color: #D4DFEC;
     font-size: 40px;
     font-family: Oswald;
@@ -345,7 +354,7 @@ body{
     display: flex;
     margin-top: -4rem;
 
-    padding: 5rem;
+    // padding: 5rem;
     // padding-left: -5rem;
     // position: absolute;
     // top: 150rem;
@@ -504,7 +513,8 @@ body{
 @media(max-width:1024px){
 
     .wrapper1{
-        margin-bottom: 15rem;
+        margin-bottom: 16rem;
+        margin-top: 2rem;
     }
     .details1{
         margin-top: -10rem;
@@ -530,10 +540,11 @@ body{
 
  @media(max-width:800px){ 
     .wrapper1{
-        margin-top:-8rem;
+        margin-top:2rem;
      }
      .master1{
          margin-top: -30rem;
+         margin-left: 2rem;
      }
     .details1{
     margin-top: -13rem;
@@ -562,6 +573,7 @@ body{
  @media(max-width:450px){ 
     .master1{
         margin-left:3rem;
+        margin-top: -25rem;
     }
     .details1{
      margin-top: -17rem;
@@ -588,10 +600,11 @@ body{
 
  @media(max-width:320px){ 
 
-    //   .wrapper1{
-    //     margin-top: 0.5rem;
-    // }
-     .details1{
+    .wrapper1{
+        margin-top: 0.5rem;
+        margin-bottom: 20rem;
+    }
+    .details1{
          margin-top: -18rem;
      margin-left: -19rem; 
      }
