@@ -8,6 +8,7 @@ import Introduction from './components/Introduction';
 import Professor from './components/Professor';
 
 import Members from './components/Members';
+import Equipment from './components/Equipment';
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
       <Introduction></Introduction>
       <Professor></Professor>
       <Members></Members>
+      <Equipment></Equipment>
     </div>
   );
 }

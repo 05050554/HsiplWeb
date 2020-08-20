@@ -32,7 +32,7 @@ const HomePage = () => {
             <span className="circle2"></span>
 
 
-        </>
+        </> 
     );
 };
 

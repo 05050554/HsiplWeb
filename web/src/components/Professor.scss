@@ -4,6 +4,7 @@
     display: inline-flex;
     justify-content: space-around;
     background-color: powderblue;
+    overflow: hidden;
 
     .Pic{
         display: grid;
@@ -41,6 +42,7 @@
             font-size: 2rem;
             align-items: center;
             margin-bottom: 2.5%;
+            word-break: keep-all;
         }
 
         span{
@@ -60,10 +62,45 @@
                 margin: 0% 3% 0% 0%;
             }
 
+            
+
         }
+        
 
         .Mail{
             margin: 2.5% 0% 2.5% 0%;
         }
+    }
+
+    .More{
+        display: grid;
+        margin: 0% 5%;
+        span{
+            height: fit-content;
+            align-self: flex-end;
+            margin:20% 10%;
+            background-color: lightseagreen;
+            font-family: Oswald ;
+            font-size: 2rem;
+            padding: 5% 10%;
+            border-radius: 5%;
+        }
+        
+    }
+    .More:hover{
+        background-color: lightcoral;
+    }
+}
+
+@media screen and(max-width:800px){
+
+    .Professor{
+
+        display: grid;
+
+        .Pic span{
+            margin:5% 0%;
+        }
+        
     }
 }

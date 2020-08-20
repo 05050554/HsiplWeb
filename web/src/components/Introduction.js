@@ -6,8 +6,8 @@ const Introduction = () => {
 
         <div className="Introduction">
             
-            <div className="videobox">
-                <span>　Introduction</span>
+            <div className="Videobox">
+                <span>Introduction</span>
                 <video muted autoPlay preload controls >
                         <source src={'https://video.wixstatic.com/video/096150_1449a5a33d164b1a9b2a81f95b734c82/1080p/mp4/file.mp4'} type="video/mp4" />
                 </video>
