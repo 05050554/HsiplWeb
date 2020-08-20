@@ -34,15 +34,20 @@
         display: grid;
         flex: 2;
         align-items: center;
-        margin: 2.5% 10%;
+        margin: 2.5% 10% 2.5% 2.5%;
         .Name{
-            text-align: left;
-            font-family: Oswald ;
-            letter-spacing: 0.2rem;
-            font-size: 2rem;
-            align-items: center;
-            margin-bottom: 2.5%;
-            word-break: keep-all;
+            display: inline-flex;
+            justify-content: space-around;
+            span{
+                text-align: left;
+                font-family: Oswald ;
+                letter-spacing: 0.2rem;
+                font-size: 2rem;
+                align-items: center;
+                margin-bottom: 2.5%;
+                white-space: nowrap;
+            }
+            
         }
 
         span{
@@ -59,40 +64,76 @@
             img{
 
                 align-self: center;
-                margin: 0% 3% 0% 0%;
+                margin-right: 3%;
             }
 
             
 
         }
-        
 
-        .Mail{
-            margin: 2.5% 0% 2.5% 0%;
+        .Phone{
+            display: inline-flex;
+            .Number{
+                flex:3;
+            }
+
+            .Btn-more{
+                width: fit-content;
+                //flex:1;
+                //margin-right: 20%;
+                background-color: lightseagreen;
+                font-family: Oswald ;
+                font-size: 2rem;
+                border-radius: 10%;
+                text-align: center;
+                vertical-align: middle;
+                padding:1% 2%;
+            }
+    
+            .Btn-more:hover{
+                background-color: lightcoral;
+            }
         }
     }
-
-    .More{
-        display: grid;
-        margin: 0% 5%;
-        span{
-            height: fit-content;
-            align-self: flex-end;
-            margin:20% 10%;
-            background-color: lightseagreen;
-            font-family: Oswald ;
-            font-size: 2rem;
-            padding: 5% 10%;
-            border-radius: 5%;
-        }
-        
-    }
-    .More:hover{
-        background-color: lightcoral;
-    }
+    
 }
 
-@media screen and(max-width:800px){
+@media screen and(max-width:850px){
+
+    .Professor{
+
+        display: grid;
+
+        
+
+        .Pic span{
+            margin:5% 0%;
+        }
+        
+
+        .Info{
+
+            .Name{
+                display: grid;
+            }
+            span{
+                margin: 1% 0% 1% 10%;
+                font-size: 1rem;
+            }
+            .Phone{
+                display: grid;
+                .Btn-more{
+                   justify-self: center;
+                   margin:5% 0%;
+                }
+            }
+        }
+    
+    }
+ 
+}
+
+@media screen and(max-width:520px){
 
     .Professor{
 
@@ -102,5 +143,31 @@
             margin:5% 0%;
         }
         
+
+        .Info{
+            
+            span{
+                margin: 1% 0% 1% 10%;
+                
+            }
+
+            .Mail{
+                font-size: 0.8rem;
+            }
+            .Phone{
+                display: grid;
+                
+                span{
+                    font-size: 0.8rem;
+                }
+
+                .Btn-more{
+                   justify-self: center;
+                   margin:5% 0%;
+                }
+            }
+        }
+    
     }
+ 
 }

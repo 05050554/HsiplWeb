@@ -12,16 +12,22 @@ const Professor = () => {
                 <img src={Professor_img} width={'60%'} height={'auto'} ></img>
             </div>
             <div className="Info">
-                <span className="Name">Associate Professor  Chen, Shih-Yu  陳士煜</span>
+                <div  className="Name"><span>Associate Professor</span><span>Chen, Shih-Yu</span><span>陳士煜</span></div>
                 <span>Department of Computer Science and Information Engineering</span>
                 <span>National Yunlin University of Science and Technology</span>
                 <span className="Mail"><img src={Mail_img} width={'7%'} height={'7%'}></img>sychen@yuntech.edu.tw</span>
-                <span ><img src={Call_img} width={'7%'} height={'7%'}></img>(work)   +886-5-5342601 ext 4514
-                    <br></br>(lab)      +886-5-5342601 ext 4598
-                    
-                </span>
+                <div className="Phone">
+                    <span className="Number"><img src={Call_img} width={'8%'} height={'8%'}></img>
+                        (work)   +886-5-5342601 ext 4514
+                        <br></br>(lab)      +886-5-5342601 ext 4598    
+                    </span>
+                    <p className="Btn-more" href="#">More</p>
+                </div>
             </div>
-            <div className="More"><span href="#">More</span></div>
+            {/* <div className="More">
+                    <span className="Btn-more" href="#">More</span>
+            </div> */}
+            
         </div>
     )
 }
