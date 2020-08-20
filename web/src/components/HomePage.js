@@ -3,7 +3,7 @@ import "./HomePage.scss";
 import homepagepic from "../assets/images/homepage.svg";
 const HomePage = () => {
     return (
-        <> 
+        <>
             <div className="top">
                 <div className="mark">Hsipl</div>
                 <div className="list">
@@ -17,22 +17,29 @@ const HomePage = () => {
                 </div>
             </div>
 
+
+
+
+
+
+
+
             <div className="HomePic">
                 <img src={homepagepic} alt="homepagepic img"></img>
             </div>
 
 
-            <div className="title">Hyperspectral Imaging System</div>
+            <div className="title">Hyperspectral Imaging System</div> {/* 問題1 */}
 
             <div className="content">Learn more about <br /> hyperspectral imaging system</div>
 
             <div className="more">< a id="lm" href="/">Learn more</a></div>
-            <span className="circle1"></span>
+            <span className="circle1"></span> {/* 問題2 */}
             <span className="circle3"></span>
             <span className="circle2"></span>
 
 
-        </> 
+        </>
     );
 };
 

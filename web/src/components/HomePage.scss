@@ -47,6 +47,7 @@
         display: flex;
         margin-top: 10rem;
         margin-left: 68.9rem;
+        // margin-left: 50rem;
         overflow: hidden;
     }
 
@@ -129,7 +130,6 @@
         border-radius: 50%;
         display: flex;
         margin-left: 0.5rem;
-        margin-top: -8rem;
         opacity: 0.7;
     }
 
@@ -145,9 +145,162 @@
         opacity: 0.5;
     }
 
-    @media(max-width:1024px){
+    @media(max-width:1800px){
+        // .title{
+        //     margin-top: 10rem;
+     
+        // }
+        .circle2{
+            margin-top: 15rem;
+        }
+        
+    }
+
+    @media(max-width:1520px){
+        .title{
+            margin-top: 10rem;
+     
+        }
+        .circle2{
+            margin-top: 10rem;
+        }
+        
+    }
+
+    @media(max-width:1440px){
+        .circle2{
+            margin-top: 20rem;
+        }
+        .title{
+            margin-top: 20rem;
+     
+        }
+        .HomePic{
+            visibility: hidden;
+        }
+        .mark{
+            margin-left: 3rem;
+        }
+        
+    }
+
+
+    @media(max-width:1050px){
+        .title{
+            margin-top: 30rem;
+            margin-left: 10rem;
+        }
+        .content{
+            width: 50%;
+            margin-top: -15rem;
+            margin-left: 10rem;
+        }
+        .more{
+            margin-top: -1rem;
+            margin-left: 10rem;
+        }
         .circle3{
-            overflow: hidden;
+            display: none;
+        }   
+        .circle2{
+            margin-top: 3rem;
+        }
+    }
+
+
+    @media(max-width:835px){
+        .title{
+            max-width: 50%;
+            margin-top: 25rem;
+        }
+        .content{
+            width: 55%;
+            max-width: 55%;
+            margin-left: 10rem;
+            margin-top: -15rem;
+        }
+        .more{
+            width: 20%;
+            margin-top: 3rem;
 
         }
+        .circle1{
+            max-width: 50%;
+            max-height: 50%;
+            margin-left: 5rem;
+        }
+        .circle2{
+            margin-top: 3.5rem;
+        }
+        .list{
+            visibility: hidden;
+        }
+        .mark{
+        margin-left: 23rem;
+
+        }
+    }
+
+    @media(max-width:650px){
+        .mark{
+            margin-left: 18rem;
+            }
+        .more{
+            width: 25%;
+        }
+        .circle1{
+            visibility: hidden;
+        }
+    }
+
+    @media(max-width:570px){
+
+        .content{
+            margin-top: -15rem;
+        }
+        .more{
+            width: 30%;
+        }
+    }
+
+    @media(max-width:425px){
+        .title{
+            margin-left: 5rem;
+        }
+        .mark{
+            margin-left: 13rem;
+            }
+        .content{
+            margin-top: -15rem;
+            margin-left: 5rem;
+        }
+        .more{
+            margin-left: 5rem;
+            margin-top: 7rem;
+            width: 40%;
+        }
+        .circle2{
+            visibility: hidden;
+        }
+    }
+
+
+
+    @media(max-width:340px){
+        .title{
+            margin-left: 5rem;
+        }
+        .mark{
+            margin-left: 11rem;
+            }
+        .content{
+            margin-top: -15rem;
+            margin-left: 5rem;
+        }
+        .more{
+            margin-left: 5rem;
+            margin-top: 8rem;
+            max-width: 50%;
+        }
+
     }
