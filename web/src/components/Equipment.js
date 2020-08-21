@@ -14,7 +14,7 @@ const Equipment = () => {
             <div className="Item">
                 <div className="FX10">
                     <div className="Icon">
-                        <img src={FX10} href="#"></img>
+                        <img src={FX10} ></img>
                         <h>Hyperspectral Camera FX10</h>
                     </div>
                     <div className="Content">
@@ -25,7 +25,7 @@ const Equipment = () => {
                 </div>
                 <div className="FX17">
                     <div className="Icon">
-                        <img src={FX17} href="#"></img>
+                        <img src={FX17} ></img>
                         <h>Hyperspectral Camera FX17</h>
                     </div>
                     <div className="Content">
@@ -34,9 +34,9 @@ const Equipment = () => {
                         </p>
                     </div>
                 </div>
-                <div className="Sky" >
+                <div className="Sky"  >
                     <div className="Icon">
-                        <img src="https://img.icons8.com/carbon-copy/100/000000/drone-with-camera.png" href="#"/>
+                        <img src="https://img.icons8.com/carbon-copy/100/000000/drone-with-camera.png" />
                         <h>　Go to sky　</h>
                     </div>
                     <div className="Content">
@@ -45,7 +45,7 @@ const Equipment = () => {
                 </div>
                 <div className="Portable" >
                     <div className="Icon">
-                        <img src={Portable} href="#"></img>
+                        <img src={Portable} ></img>
                         <h>Portable Device</h>
                     </div>
                     <div className="Content">
