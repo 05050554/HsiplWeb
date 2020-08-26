@@ -56,12 +56,16 @@
             
 
             .Icon:hover{
+                transition: all 1s;
                 transform: translateY(0%);
+                
 
             }
                 
             .Icon:hover +.Content {
+                transition: all 1s;
                 transform: translateY(0%);
+                
                 
             }
         }
@@ -106,10 +110,10 @@
             }
             .Icon:hover{
                 transform: translateY(0%);
-                
+                transition: all 1s;
             }
             .Icon:hover  +.Content{
-                
+                transition: all 1s;
                 transform: translateY(0%);
             }
         }
@@ -151,10 +155,11 @@
             
             .Icon:hover{
                 transform: translateY(0%);
-                
+                transition: all 1s;
             }
             .Icon:hover +.Content{
                 transform: translateY(0%);
+                transition: all 1s;
             }
         }
     }

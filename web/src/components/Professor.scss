@@ -3,8 +3,12 @@
     height: 100%;
     display: inline-flex;
     justify-content: space-around;
-    background-color: powderblue;
+    //background-color: powderblue;
     overflow: hidden;
+    background:no-repeat;
+    background-size: cover;
+    background-position-y: 40%;
+    background-image: url('../img/Professor_bg.jpg');
 
     .Pic{
         display: grid;
@@ -40,6 +44,7 @@
         .Name{
             display: inline-flex;
             
+            
             span{
                 text-align: left;
                 font-family: Oswald ;
@@ -68,6 +73,7 @@
 
         .Mail{
             display: inline-flex;
+            margin-top:2%;
             img{
                 width:7%;
                 height:auto;
@@ -101,7 +107,7 @@
                 text-decoration: none;
                 //flex:1;
                 //margin-right: 20%;
-                background-color: rgb(138, 161, 180);
+                background-color: rgb(155, 176, 192);
                 font-family: Oswald ;
                 font-size: 1.2rem;
                 border-radius: 10%;

@@ -27,7 +27,7 @@ const Professor = () => {
                     <span className="Number">(work) +886-5-5342601 ext 4514
                         <br></br>(lab) +886-5-5342601 ext 4598    
                     </span>
-                    <a className="Btn-more" href="#" style={{color:"black"}}>More</a>
+                    <a className="Btn-more" href="/" style={{color:"black"}}>More</a>
                 </div>
             </div>
         </div>

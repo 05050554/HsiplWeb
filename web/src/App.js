@@ -9,7 +9,7 @@ import Professor from './components/Professor';
 
 import Members from './components/Members';
 import Equipment from './components/Equipment';
-
+import Research_interests from './components/Research_interests'
 
 function App() {
   return (
@@ -20,6 +20,7 @@ function App() {
       <Professor></Professor>
       <Members></Members>
       <Equipment></Equipment>
+      <Research_interests></Research_interests>
     </div>
   );
 }

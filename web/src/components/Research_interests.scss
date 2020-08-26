@@ -1,0 +1,51 @@
+.Research_interests{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+
+    display: grid;
+
+    .Title{
+        font-family: Signika, sans-serif;
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    span{
+        font-family: Signika, sans-serif;
+        font-size:1.2rem;
+        margin:0% 5%;
+        text-align: left;
+        font-weight: bold;
+        padding:1% 0%;
+        
+    }
+
+    .Ch{
+        font-family: 'Noto Sans TC', sans-serif;
+        border-bottom: solid 0.1rem gray;
+        padding:1% 0%;
+    }
+
+    .Article1{
+        display: inline-flex;
+        justify-content: center;
+        //height: 50%;
+        margin:0% 10%;
+        //justify-self: center;
+        align-items: center;
+        img{
+            flex:1;
+            //margin: 0% 5% ;
+            height: 20rem;
+            //width: 20rem;
+        }
+        span{
+            flex:1;
+            margin:0%;
+            font-family: 'Noto Sans TC', sans-serif;
+        }
+    }
+
+}
