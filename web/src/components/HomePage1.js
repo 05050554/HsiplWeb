@@ -34,7 +34,7 @@ const HomePage1 = () => {
             </div>
             
         </>
-    );
-};
+    )
+}
 
 export default HomePage1;

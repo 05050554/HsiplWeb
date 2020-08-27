@@ -1,8 +1,8 @@
 import React from "react";
 import "./LabDirector.scss";
-import camera from "../img/camera.png"
-import app from "../img/mobile.png"
-import web from "../img/web.png"
+import camera from "../img/LabDirector/camera.png"
+import app from "../img/LabDirector/mobile.png"
+import web from "../img/LabDirector/web.png"
 
 export const LabDirector = () => {
     return (

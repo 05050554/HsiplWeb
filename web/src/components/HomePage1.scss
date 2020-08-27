@@ -38,22 +38,12 @@
         font-size: 1.5em;
     }
     
-    
 }
 
 
-.circle1{
-    margin-bottom: -10rem;
-    width: 25em;
-    height: 25em;
-    background-color: #C1CAF6;
-    border-radius: 50%;
-    opacity: 0.5;
-    z-index: 0;
-}
 
 .HomePic{
-    //margin-top:10%;
+    
     display: flex;
     justify-items: stretch;
     overflow: hidden;
@@ -63,26 +53,39 @@
     
 
     .Home{
-        flex:3;
-        
+        flex:2;
         margin-left: 10%;
+        
         .text{
             z-index: 1;
             display: grid;
+            width: 100%;
             
+            
+            .circle1{
+                margin-left: 5%;
+                margin-bottom: -10rem;
+                width: 25rem;
+                height: 25rem;
+                background-color: #C1CAF6;
+                border-radius: 50%;
+                opacity: 0.9;
+                z-index: 0;
+            }
+
             h1{
                 z-index: 1;
                 font-size:3rem;
                 font-family: Oswald;
-                line-height: 71px;
+                line-height: 4.5rem;
                 text-align: left;
                 color: #2961B5;
-                letter-spacing: 0.01em;
-
+                letter-spacing: 0.02em;
+                //white-space: nowrap;
             }
             h2{
                 font-size:2rem;
-                line-height: 1.5em;
+                line-height: 2.8rem;
                 text-align: left;
                 font-family: Oswald;
                 color: #B0AAAA;
@@ -99,8 +102,9 @@
                 display: flex;
                 
                 #lm{
-                    width: 15rem;
+                    width: 13rem;
                     height: 20%;
+                    letter-spacing: 0.05em;
                     background-color: #8498E0;
                     display: grid;
                     justify-items: center;
@@ -109,15 +113,26 @@
                     white-space: nowrap;
                 }
                 .circle2{
-                    margin-left: 10rem;
+                    margin-left: 5%;
                     width: 12rem;
                     height: 12rem;
-                    background-color: #c5d5e9;
+                    background-color: #D4DFEC;
                     border-radius: 50%;
-                    opacity: 0.5;
+                    opacity: 0.9;
                     z-index: 0;
                 }
                 
+            }
+
+            .circle3{
+                width: 18rem;
+                height: 18rem;
+                background-color: #E5E5E5;
+                border-radius: 50%;
+                z-index: 0;
+                opacity: 0.9;
+            
+                margin:-11rem 10rem 2rem -8rem;
             }
 
         }
@@ -125,26 +140,226 @@
 
     img{
         //z-index: 0;
-        flex:1;
-        margin:0% -10% 5% 0%;
-        width: 60%;
+        flex:3;
+        margin: 0rem -12rem 0rem -15rem;
+        width: 100%;
     }
 
     
 }
 
-.circle3{
-    width: 20em;
-    height: 20em;
-    background-color: #E5E5E5;
-    border-radius: 50%;
-    z-index: 0;
-    opacity: 0.7;
+@media screen and(max-width:1440px){
 
-    margin:-12rem 10rem 10rem -5rem;
+    .mark{
+        margin-left: 3rem;
+    }
+    .HomePic img{
+        margin: 0rem -5rem 0rem 0rem;
+        width: 70%;
+    }
+
+    h1{
+        white-space: nowrap;
+    }
 }
- 
+@media screen and(max-width:1280px){
 
-    
+    .HomePic img{
+        margin: 0rem -5rem 0rem 0rem;
+        width: 60%;
+    }
+}
+
+@media screen and(max-width:1024px){
+
+    .HomePic{ 
+        display: grid;
+        img{
+            display: none;
+        }
+
+        .Home{
+            margin-left: 0%;
+            width: 100%;
+            display: grid;
+            justify-items: center;
+            .text{
+                width: 60%;
+                .more{
+                    .circle2{
+                        margin-left: 50%;
+                        margin-right: -50%;
+                    }
+                }
+                
+            }
+        }
+    }
+
+}
+
+@media screen and(max-width:899px){
+    .mark{
+        margin-left: 5rem;
+    }
+
+    .HomePic .Home .text{
+        width: 60%;
+        h1{
+            white-space: normal;
+        }
+        .more{
+            .circle2{
+                margin-left: 25%;
+                margin-right: -25%;
+                
+            }
+        }
+
+        .circle3{
+            margin:-11rem 0rem 2rem -5rem;
+            //visibility: hidden;
+        }
+    }   
+    }
+
+@media screen and(max-width:639px){
+
+    .HomePic .Home .text{
+        width: 60%;
+        margin:0% 10% 0% 0% ;
+        justify-self: center;
+        h1{
+            white-space: normal;
+            justify-self: center;
+        }
+
+        .more{
+            .circle2{
+                margin-left: 5%;
+                margin-right: -5%;
+                
+            }
+        }
+        .circle3{
+            margin:-11rem 0rem 2rem 0rem;
+            visibility: hidden;
+        }
+    }   
+}
 
 
+@media screen and(max-width:547px){
+
+    .HomePic .Home .text{
+        
+        margin:0% 0% 0% 10% ;
+        justify-self: center;
+        .circle1{
+            margin-left: -5rem;
+        }
+        h1{
+            width: 100%;
+            justify-self: center;
+            white-space: normal;
+        }
+        h2{
+            width: 100%;
+            justify-self: center;
+            white-space: normal;
+        }
+        .more{
+            
+            justify-self: center;
+            .circle2{
+                display: none;
+            }
+        }
+    }   
+}
+
+@media screen and(max-width:460px){
+
+    .HomePic .Home .text{
+        margin:0% 0% 0% 0% ;
+        justify-self: center;
+        h1{
+            width: 100%;
+            font-size: 2.5rem;
+            justify-self: center;
+            white-space: normal;
+            line-height: 3rem;
+        }
+        h2{
+            width: 100%;
+            justify-self: center;
+            white-space: normal;
+        }
+
+        .circle1{
+            width: 20rem;
+            height: 20rem;
+            margin-left: -10%;
+            margin-top: 5rem;
+            margin-bottom: -10rem;
+        }
+        
+        
+        
+        
+    }   
+}
+
+@media screen and(max-width:413px){
+
+    .HomePic .Home .text{
+        margin:0% 0% 0% -10% ;
+        justify-self: center;
+        h1{
+            width: 80%;
+            font-size: 2.2rem;
+            white-space: normal;
+        }
+        h2{
+            width: 80%;
+            font-size: 1.6rem;
+            white-space: normal;
+            line-height: 2rem;
+        }
+        
+        .more{
+            justify-self: center;
+            // #lm{
+                
+            //     width: 9rem;
+            //     font-size: 1.6rem;
+            //     line-height: 3rem;
+            // }
+        }
+
+        .circle1{
+            width: 20rem;
+            height: 20rem;
+            margin-left: -10%;
+            margin-top: 5rem;
+            margin-bottom: -10rem;
+        }
+        
+    }   
+}
+
+@media screen and(max-width:374px){
+
+    .HomePic .Home .text{
+        margin:0% 0% 0% -20% ;
+        justify-self: center;
+        .circle1{
+            width: 15rem;
+            height: 15rem;
+            margin-left: 0%;
+            margin-top: 10rem;
+            margin-bottom: -10rem;
+        }
+        
+    }   
+}

@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Professor.scss"
-import Professor_img from "../img/Professor_img.jpg"
-import Mail_img from "../img/Mail_img.png"
-import Call_img from "../img/Call_img.png"
+import Professor_img from "../img/Professor/Professor_img.jpg"
+import Mail_img from "../img/Professor/Mail_img.png"
+import Call_img from "../img/Professor/Call_img.png"
 
 const Professor = () => {
     return (
