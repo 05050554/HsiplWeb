@@ -3,7 +3,7 @@ import "./Members.scss";
 export const Members = () => {
     return (
         <>
-            <div className="title2">Members</div>
+            <div className="title2"><a id="members">Members</a></div>
             <div className="master">碩士二年級</div>
             <div className="wrapper">
                 <div className="column">

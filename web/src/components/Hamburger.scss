@@ -1,0 +1,104 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    height: 10vh;
+    
+  }
+  .navbar h2 {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    top: -4.5vh;
+    width: 100%;
+    font-size: 3em;
+    font-family: Oregano;
+    z-index: 10;
+    background-color: ivory;
+ 
+  }
+  .navbar .nav {
+    display: flex;
+    z-index: 9;
+  }
+  .navbar ul li {
+    list-style: none;
+    margin-right: 1em;
+    font-size: 1.5em;
+  }
+  .navbar ul li a {
+    font-size: 1.5em;
+    color: black;
+    font-family: 'Russo One', sans-serif;
+    text-decoration: none;
+  }
+  
+  .ham {
+    // display: none;
+    width: 95%;
+    height: 2vh;
+    position: fixed;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -2.5vh;
+    z-index: 10;
+  }
+
+  @media (max-width: 1300px) {
+    .navbar .nav {
+      display: none;
+      left: -200px;
+    }
+  }
+
+  @media (max-width: 1176px) {
+    .navbar .nav {
+      display: none;
+      left: -200px;
+    }
+    .ham {
+      display: flex;
+    }
+  
+    .navbar .open {
+      position: fixed;
+      display: flex;
+      flex-direction: column;
+      padding: 15px 0;
+      left: 0px;
+      top: 2.5em;
+      height: 100vh;
+      width: 100vw;
+      text-align: center;
+      background-color: rgba(240, 240, 240, 0.6);
+      animation: open 0.5s ease;
+    }
+    .navbar .close {
+      display: none;
+    }
+    .navbar .open li {
+      padding: 1em 3em;
+    }
+
+  }
+  @media (max-width: 800px) {
+    .navbar ul li a {
+      font-size: 1.5em;
+    }
+  }
+  @media (max-width: 500px) {
+    .navbar ul li a {
+      font-size: 1em;
+    }
+  }
+  @keyframes open {
+    0% {
+      left: -200px;
+    }
+  
+    100% {
+      left: 0px;
+    }
+  }
+  

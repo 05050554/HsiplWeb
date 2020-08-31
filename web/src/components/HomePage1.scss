@@ -1,7 +1,7 @@
 .top{
     position: fixed;
     top: 0;
-    background-color: white;
+    background-color: ivory;
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -171,6 +171,9 @@
 }
 
 @media screen and(max-width:1024px){
+    .top{
+        display: none;
+    }
 
     .HomePic{ 
         display: grid;
@@ -194,6 +197,7 @@
                 
             }
         }
+
     }
 
 }
