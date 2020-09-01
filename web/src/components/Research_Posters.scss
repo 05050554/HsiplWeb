@@ -1,0 +1,51 @@
+.Research_Posters{
+    //margin-top: -25rem;
+    width: 100%;
+    height: 100%;
+    /*background-size: cover;
+    background-image: url('../img/.jpg');*/
+    overflow: hidden;
+    
+    
+    .Title{
+        text-align: left;
+        margin-left: 5%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.8rem;
+        
+    }
+
+    .Posters{
+        display: flex;
+        justify-content: center;
+        padding:2% 0%;
+        flex-wrap: wrap;
+        .Item{
+            padding: 2%;
+            display:grid;
+            justify-content: center;
+            width: 30vh;
+            
+            img{
+                width: 100%;
+                align-self: end;
+            }
+            h3{
+                align-self: center;
+                font-family: 'Noto Sans TC', sans-serif;
+            }
+        }
+    }
+    
+
+}  
+
+
+@media screen and(max-width:1024px){
+
+    .Equipment .Item{
+
+        display: grid;
+        
+    }
+}
