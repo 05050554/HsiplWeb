@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import Hamburger from './components/Hamburger'
 import HomePage from './components/HomePage1';
 import { LabDirector } from './components/LabDirector';
 
@@ -15,6 +16,7 @@ import Research_Posters from './components/Research_Posters'
 function App() {
   return (
     <div className="App">
+      <Hamburger/>
       <HomePage></HomePage>
       <LabDirector></LabDirector>
       <Introduction></Introduction>
