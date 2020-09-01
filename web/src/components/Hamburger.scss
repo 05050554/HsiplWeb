@@ -4,31 +4,37 @@
     justify-content: space-between;
     width: 100vw;
     height: 10vh;
-    
+    position: fixed;
+    z-index: 9;
+    background-color: ivory;
   }
   .navbar h2 {
     position: fixed;
     display: flex;
     justify-content: center;
-    top: -4.5vh;
-    width: 100%;
+    width: 100vw;
     font-size: 3em;
     font-family: Oregano;
-    z-index: 10;
-    background-color: ivory;
- 
   }
   .navbar .nav {
     display: flex;
-    z-index: 9;
   }
+  .navbar ul{
+    display: flex;
+    justify-content: center;
+  }
+
   .navbar ul li {
-    list-style: none;
-    margin-right: 1em;
-    font-size: 1.5em;
+    width: 90%;
+    height: 5%;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+
+
   }
   .navbar ul li a {
-    font-size: 1.5em;
+    font-size: 2em;
     color: black;
     font-family: 'Russo One', sans-serif;
     text-decoration: none;
@@ -37,13 +43,18 @@
   .ham {
     // display: none;
     width: 95%;
-    height: 2vh;
     position: fixed;
     display: flex;
     justify-content: flex-end;
-    margin-top: -2.5vh;
     z-index: 10;
   }
+
+  @media (max-width: 1920px) {
+    .navbar .nav {
+      display: none;
+    }
+  }
+
 
   @media (max-width: 1300px) {
     .navbar .nav {
@@ -65,31 +76,31 @@
       position: fixed;
       display: flex;
       flex-direction: column;
-      padding: 15px 0;
+      padding: 0px;
       left: 0px;
-      top: 2.5em;
-      height: 100vh;
+      // margin-top: 1rem;
+      top: -1em;
+      height: 100%;
       width: 100vw;
-      text-align: center;
-      background-color: rgba(240, 240, 240, 0.6);
+      // text-align: center;
+      
+      background-color: rgba(240, 240, 240, 0.8);
       animation: open 0.5s ease;
+      
     }
     .navbar .close {
       display: none;
-    }
-    .navbar .open li {
-      padding: 1em 3em;
     }
 
   }
   @media (max-width: 800px) {
     .navbar ul li a {
-      font-size: 1.5em;
+      font-size: 2em;
     }
   }
   @media (max-width: 500px) {
     .navbar ul li a {
-      font-size: 1em;
+      font-size: 1.8em;
     }
   }
   @keyframes open {
