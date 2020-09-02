@@ -1,8 +1,8 @@
 import React from 'react'
 import "./Equipment.scss";
-import FX10 from "../img/FX10.png"
-import FX17 from "../img/FX17.png"
-import Portable from "../img/Portable.png"
+import FX10 from "../img/Equipments/FX10.png"
+import FX17 from "../img/Equipments/FX17.png"
+import Portable from "../img/Equipments/Portable.png"
 
 
 const Equipment = () => {
