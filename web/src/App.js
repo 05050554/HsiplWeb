@@ -12,7 +12,7 @@ import Members from './components/Members';
 import Equipment from './components/Equipment';
 import Research_interests from './components/Research_interests'
 import Research_Posters from './components/Research_Posters'
-
+import Awards from './components/Awards'
 function App() {
   return (
     <div className="App">
@@ -25,6 +25,7 @@ function App() {
       <Equipment></Equipment>
       <Research_interests/>
       <Research_Posters/>
+      <Awards/>
     </div>
   );
 }
