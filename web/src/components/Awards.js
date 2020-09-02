@@ -115,7 +115,7 @@ const Awards = () => {
                 
                 <div className="Item">   
                     <h1>2017-03/29</h1>
-                    <img src={img20170329} ></img>
+                    <img src={img20170329} id="img20170329"></img>
                     <h3>本實驗室莊尚儒同學榮獲雲林縣106年度<span className="red">大專優秀青年</span></h3>
                 </div>
                 <div className="Item">   
