@@ -4,7 +4,7 @@ import "./Introduction.scss"
 const Introduction = () => {
     return (
 
-        <div className="Introduction">
+        <div className="Introduction" id="Introduction">
             
             <div className="Videobox">
                 <span>Introduction</span>

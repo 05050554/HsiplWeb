@@ -3,14 +3,8 @@ import "./HomePage1.scss";
 import homepagepic from "../assets/images/homepage.svg";
 
 
-// scrollToAnchor = (anchorId) => {
-//     if (anchorId) {   
-//         let anchorElement = document.getElementById(anchorId);
-//         if(anchorElement) {        
-// 			anchorElement.scrollIntoView({block: 'start', behavior: 'smooth'});
-// 		}
-//     }
-// }
+
+
 const HomePage1 = () => {
     return (
         <>
@@ -20,12 +14,11 @@ const HomePage1 = () => {
 
                 <div className="list">
                     <ul>
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Lab Director</a></li>
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Introduction</a></li>
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Professor</a></li>
+                        <li><a id="p1" href='#LabDirector'  style={{ color: "black" }}>Lab Director</a></li>
+                        <li><a id="p1" href='#Introduction' style={{ color: "black" }}>Introduction</a></li>
+                        <li><a id="p1" href='#Professor' style={{ color: "black" }}>Professor</a></li>
                         <li><a id="p1" href='#members' style={{ color: "black" }}>Members</a></li>
-                        {/* <a onClick={() => this.scrollToAnchor(members)}></a>   */}
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Equipment</a></li>
+                        <li><a id="p1" href='#Equipment' style={{ color: "black" }}>Equipment</a></li>
                     </ul>
                 </div>
             </div>
@@ -37,7 +30,7 @@ const HomePage1 = () => {
                         <span className="circle1"></span> {/* 問題2 */}
                         <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
                         <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
-                        <h2 className="more"><a id="lm" href="/">Learn more</a><span className="circle2"></span></h2>
+                        <h2 className="more"><a id="lm" href="/test">Learn more</a><span className="circle2"></span></h2>
                         <span className="circle3"></span>
                     </div>
 

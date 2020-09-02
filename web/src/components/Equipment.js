@@ -7,7 +7,7 @@ import Portable from "../img/Equipments/Portable.png"
 
 const Equipment = () => {
     return (
-        <div className="Equipment">
+        <div className="Equipment" id="Equipment">
             <div className="Title">
                 <h1>Equipment</h1>
             </div>
