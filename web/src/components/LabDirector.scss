@@ -2,12 +2,13 @@
     width: 100%;
     height: 100%;
     background-size: cover;
-    background-image: url('../img/LabDirector/Lab_bg.jpg');
+    //background-image: url('../img/LabDirector/Lab_bg.jpg');
+    background-color:#9999CC;
 
     .Background{
         max-width: 100%;
         height: 100%;
-        background-color: rgba($color: #000000, $alpha: 0.8);
+        //background-color: rgba($color: #000000, $alpha: 0.8);
         display:inline-flex;
         justify-items: stretch;
         align-items: center;
@@ -22,7 +23,7 @@
             .Icon{
                 width: 100%;
                 transform: translateY(30%);
-                background-color: rgba($color:#000000, $alpha: 0.9);
+                //background-color: rgba($color:#000000, $alpha: 0.9);
                 z-index: 2;
                 display: grid;
                 justify-items: center;
@@ -58,7 +59,7 @@
             .Icon:hover{
                 transition: all 1s;
                 transform: translateY(0%);
-                
+                background-color: slateblue;
 
             }
                 
@@ -83,7 +84,7 @@
                 justify-items: center;
                 transform: translateY(30%);
                 z-index: 2;
-                background-color: rgba($color: #000000, $alpha: 0.9);
+                //background-color: rgba($color: #000000, $alpha: 0.9);
                 img{
                     width: 50%;
                 }
@@ -111,6 +112,7 @@
             .Icon:hover{
                 transform: translateY(0%);
                 transition: all 1s;
+                background-color: slateblue;
             }
             .Icon:hover  +.Content{
                 transition: all 1s;
@@ -128,7 +130,7 @@
                 justify-items: center;
                 transform: translateY(30%);
                 z-index: 2;
-                background-color: rgba($color:#000000, $alpha: 0.9);
+                //background-color: rgba($color:#000000, $alpha: 0.9);
                 
                 img{
                     width: 50%;
@@ -156,6 +158,7 @@
             .Icon:hover{
                 transform: translateY(0%);
                 transition: all 1s;
+                background-color: slateblue;
             }
             .Icon:hover +.Content{
                 transform: translateY(0%);
