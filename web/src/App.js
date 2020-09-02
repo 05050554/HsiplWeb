@@ -8,7 +8,7 @@ import Introduction from './components/Introduction';
 
 import Professor from './components/Professor';
 
-import Members from './components/Members';
+import Members from './components/Members1';
 import Equipment from './components/Equipment';
 import Research_interests from './components/Research_interests'
 import Research_Posters from './components/Research_Posters'

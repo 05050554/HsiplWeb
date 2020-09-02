@@ -1,0 +1,102 @@
+.members{
+    //margin-top: -25rem;
+    width: 100%;
+    height: 100%;
+    /*background-size: cover;
+    background-image: url('../img/.jpg');*/
+    overflow: hidden;
+    
+    .master2{
+        text-align: left;
+        margin-left: 5%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        background-color: lightblue;
+    }
+
+    .Title{
+        text-align: left;
+        margin-left: 5%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.8rem;
+        
+    }
+
+    .masterpic{
+        display: flex;
+        justify-content: center;
+        padding:2% 0%;
+        flex-wrap: wrap;
+        .pic{
+            margin-top: -2rem;
+            padding: 2%;
+            display:grid;
+            justify-content: center;
+            width: 40vh;
+            
+            img{
+                width: 100%;
+                align-self: end;
+            }
+
+            .detail{
+                align-self: center;
+                font-family: 'Noto Sans TC', sans-serif;
+                width: 80%;
+                height: 250%;
+                background-color: white;
+                transform: scale(.5);
+                visibility: hidden;
+                transition: .5s;
+            }
+        }
+    }
+    .pic:hover .detail{
+        transform: scale(1);
+        visibility: visible;
+    }
+
+    .detail{
+        display: flex;
+        justify-content: center;
+        position: relative;
+        top: 13rem;
+        left: 2rem;
+        align-self: end;
+        text-align: center;
+
+        
+    }
+    .detail p2{
+        display: grid;
+        align-items: center;
+    }
+    .detail2 {
+        visibility: hidden;
+        font-size: 1em;
+        background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+    }
+    .detail2 p{
+        margin-top: -0.4rem;
+    }
+    // .mail{
+    //     margin-right: 0rem;
+    // }
+    .mail1{
+        position: relative;
+        top: 12.2rem;
+        right: 1rem;    
+    }
+
+    @media (max-width: 450px){
+        .detail{
+            display: none;
+            
+        }
+        .detail2{
+            visibility: visible;
+            margin-bottom: 3rem;
+            
+        }
+    }
+}  
