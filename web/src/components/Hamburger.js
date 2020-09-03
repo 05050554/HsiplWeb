@@ -15,14 +15,14 @@ const Hamburger = () => {
           onClick={() => setOpen(!open)}
         ></i>
       )}
-
+ 
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><a href="/">Home</a></li>
-        <li><a href="/">Lab Director</a></li>
-        <li><a href="/">Introduction</a></li>
-        <li><a href="/">Professor</a></li>
-        <li><a href="/">Members</a></li>
-        <li><a href="/">Equipment</a></li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#LabDirector">Lab Director</a></li>
+        <li><a href="#Introduction">Introduction</a></li>
+        <li><a href="#Professor">Professor</a></li>
+        <li><a href="#members">Members</a></li>
+        <li><a href="#Equipment">Equipment</a></li>
       </ul>
     </nav>
   );

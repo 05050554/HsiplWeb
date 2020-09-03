@@ -4,11 +4,14 @@ import homepagepic from "../assets/images/homepage.svg";
 
 
 
-
+// var body = document.body;
+// var html = document.documentElement;
+// html.scrollTop -=100;
+// body.scrollTop -=100;
 const HomePage1 = () => {
     return (
         <>
-            <div className="top">
+            <div className="top" >
                 <div className="mark">Hsipl</div>
                 
 
@@ -26,17 +29,18 @@ const HomePage1 = () => {
 
             <div className="HomePic">
                 <div className="Home">
-                    <div className="text">
+                    <div className="text" >
                         <span className="circle1"></span> {/* 問題2 */}
                         <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
                         <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
                         <h2 className="more"><a id="lm" href="/test">Learn more</a><span className="circle2"></span></h2>
-                        <span className="circle3"></span>
+                        <span className="circle3" ></span>
                     </div>
 
                 </div>
 
                 <img src={homepagepic} alt="homepagepic img"></img>
+                
             </div>
 
         </>

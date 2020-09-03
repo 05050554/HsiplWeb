@@ -4,6 +4,13 @@ import girl1 from "../img/members/girl1.jpg"
 import girl2 from "../img/members/girl2.jpg"
 import girl3 from "../img/members/girl3.jpg"
 import girl4 from "../img/members/girl4.jpg"
+
+// var elmnt = document.getElementById("members");
+
+// elmnt.scrollTop = 1000;
+
+// window.scrollTo(0,-1000)
+
 const Members1 = () => {
     return (
         <div className="members" id="members">
