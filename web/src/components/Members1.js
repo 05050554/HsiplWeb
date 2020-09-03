@@ -6,7 +6,7 @@ import girl3 from "../img/members/girl3.jpg"
 import girl4 from "../img/members/girl4.jpg"
 const Members1 = () => {
     return (
-        <div className="members">
+        <div className="members" id="members">
             <div className="Title">
                 <h1>Members</h1>
             </div>

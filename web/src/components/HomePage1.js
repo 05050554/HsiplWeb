@@ -21,12 +21,11 @@ const HomePage1 = () => {
 
                 <div className="list">
                     <ul>
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Lab Director</a></li>
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Introduction</a></li>
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Professor</a></li>
+                        <li><a id="p1" href='#LabDirector'  style={{ color: "black" }}>Lab Director</a></li>
+                        <li><a id="p1" href='#Introduction' style={{ color: "black" }}>Introduction</a></li>
+                        <li><a id="p1" href='#Professor' style={{ color: "black" }}>Professor</a></li>
                         <li><a id="p1" href='#members' style={{ color: "black" }}>Members</a></li>
-                        {/* <a onClick={() => this.scrollToAnchor(members)}></a>   */}
-                        <li><a id="p1" href='#' style={{ color: "black" }}>Equipment</a></li>
+                        <li><a id="p1" href='#Equipment' style={{ color: "black" }}>Equipment</a></li>
                     </ul>
                 </div>
             </div>

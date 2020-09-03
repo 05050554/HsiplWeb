@@ -6,7 +6,7 @@ import Call_img from "../img/Professor/Call_img.png"
 
 const Professor = () => {
     return (
-        <div className="Professor">
+        <div className="Professor" id="Professor">
             <div className="Pic">
                 <span>Professor</span>
                 <img src={Professor_img} width={'60%'} height={'auto'} ></img>

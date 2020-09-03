@@ -6,7 +6,7 @@ import web from "../img/LabDirector/web.png"
 
 export const LabDirector = () => {
     return (
-        <div className="LabDirector">
+        <div className="LabDirector" id="LabDirector">
             <div className="Background">
                 <div className="Hsipl">
                     <div className="Icon">
