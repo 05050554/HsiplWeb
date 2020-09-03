@@ -5,14 +5,13 @@ const Introduction = () => {
     return (
 
         <div className="Introduction" id="Introduction">
-            
-            <div className="Videobox">
-                <span>Introduction</span>
-                <video muted autoPlay  controls >
-                        <source src={'https://video.wixstatic.com/video/096150_1449a5a33d164b1a9b2a81f95b734c82/1080p/mp4/file.mp4'} type="video/mp4" />
-                </video>
+            <div className="Title">
+                <h1>Introduction</h1>
             </div>
-            <div className="text">
+            <div className="content">
+                <video muted autoPlay  controls >
+                    <source src={'https://video.wixstatic.com/video/096150_1449a5a33d164b1a9b2a81f95b734c82/1080p/mp4/file.mp4'} type="video/mp4" />
+                </video>
                 <span>The Hyperspectral Signal and Image Processing Laboratory (HSIPL), 
                     founded in Sept. 2014, is under the direction of Dr. Shih-Yu Chen. 
                     HSIPL is dedicated to design and develop algorithms for multi/hyperspectral, 
