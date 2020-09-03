@@ -14,97 +14,86 @@ const Members1 = () => {
                 <h2>碩士二年級</h2>
             </div>
             <div className="masterpic">
-                <div className="pic">  
+                <div className="pic">
                     <div className="detail">
-                        <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                        <p2>Members<br /><span>Developer<br /></span>
-                            <p>abcdefg@gmail.com</p>
-                        </p2>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                     </div>
-                    <img src={girl1} ></img> 
-     
+                    <img className="img" src={girl1} ></img>
+
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
-                </div>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
 
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                        <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                            <p2>Members<br /><span>Developer<br /></span>
-                                <p>abcdefg@gmail.com</p>
-                            </p2>
-                        </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl2} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl3} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl4} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl4} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+            
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl4} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
-                </div>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
             </div>
 
@@ -112,86 +101,74 @@ const Members1 = () => {
                 <h2>碩士一年級</h2>
             </div>
             <div className="masterpic">
-                <div className="pic">  
+                <div className="pic">
                     <div className="detail">
-                        <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                        <p2>Members<br /><span>Developer<br /></span>
-                            <p>abcdefg@gmail.com</p>
-                        </p2>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                     </div>
-                    <img src={girl1} ></img> 
-     
+                    <img src={girl1} ></img>
+
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
-                </div>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
 
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                        <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                            <p2>Members<br /><span>Developer<br /></span>
-                                <p>abcdefg@gmail.com</p>
-                            </p2>
-                        </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl2} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl3} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl4} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
-                </div>
-                <div className="pic">   
+                <div className="pic">
                     <div className="detail">
-                    <a href="#"><i class="fas fa-envelope mail1"></i></a>
-                                <p2>Members<br /><span>Developer<br /></span>
-                                    <p>abcdefg@gmail.com</p>
-                                </p2>
-                            </div>
+                        <span>Members<br />Developer</span>
+                        <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                    </div>
                     <img src={girl4} ></img>
                     <div className="detail2">
                         <p3>Members<br /><span>Developer<br /></span>
-                        <a href="#"><i class="fas fa-envelope mail"></i></a>
-                        <p>abcdefg@gmail.com</p>
-                    </p3>
-                </div>
+                            <a href="#"><i class="fas fa-envelope mail"></i></a>
+                            <p>abcdefg@gmail.com</p>
+                        </p3>
+                    </div>
                 </div>
             </div>
-
-
         </div>
 
 

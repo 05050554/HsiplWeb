@@ -2,7 +2,8 @@ import React from "react";
 import "./HomePage1.scss";
 import homepagepic from "../assets/images/homepage.svg";
 
-
+import {
+    BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 // scrollToAnchor = (anchorId) => {
 //     if (anchorId) {   
 //         let anchorElement = document.getElementById(anchorId);
@@ -37,7 +38,8 @@ const HomePage1 = () => {
                         <span className="circle1"></span> {/* 問題2 */}
                         <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
                         <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
-                        <h2 className="more"><a id="lm" href="/">Learn more</a><span className="circle2"></span></h2>
+                        <h2 className="more">
+                            <Link id="lm" to="/LearnMore">Learn more</Link><span className="circle2"></span></h2>
                         <span className="circle3"></span>
                     </div>
 

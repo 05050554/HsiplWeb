@@ -27,8 +27,9 @@
         justify-content: center;
         padding:2% 0%;
         flex-wrap: wrap;
+        //margin-top:-20vh;
         .pic{
-            margin-top: -2rem;
+            margin-top: -20vh;
             padding: 2%;
             display:grid;
             justify-content: center;
@@ -40,37 +41,46 @@
             }
 
             .detail{
+                display: grid;
                 align-self: center;
                 font-family: 'Noto Sans TC', sans-serif;
                 width: 80%;
-                height: 250%;
+                height: 20vh;
                 background-color: white;
-                transform: scale(.5);
+                transform: scale(.1);
                 visibility: hidden;
-                transition: .5s;
+                transition: .8s;
+                justify-content: center;
+                position: relative;
+                top: 34vh;
+                // left: 2rem;
+                align-self: end;
+                text-align: center;
+                justify-self: center;
+
+                padding: 10% 0%;
+                span{
+                    display: grid;
+                    align-items: center;
+                    //font-size: 2rem;
+                }
+                .mail{
+                    display:flex;
+                    align-items: stretch;
+                    a{
+                        padding-right: 2%;
+                    }
+                }
+                
             }
         }
     }
     .pic:hover .detail{
         transform: scale(1);
         visibility: visible;
+        //height: 20vh;
     }
 
-    .detail{
-        display: flex;
-        justify-content: center;
-        position: relative;
-        top: 13rem;
-        left: 2rem;
-        align-self: end;
-        text-align: center;
-
-        
-    }
-    .detail p2{
-        display: grid;
-        align-items: center;
-    }
     .detail2 {
         visibility: hidden;
         font-size: 1em;
@@ -82,11 +92,11 @@
     // .mail{
     //     margin-right: 0rem;
     // }
-    .mail1{
-        position: relative;
-        top: 12.2rem;
-        right: 1rem;    
-    }
+    // .mail1{
+    //     position: relative;
+    //     top: 12.2rem;
+    //     right: 1rem;    
+    // }
 
     @media (max-width: 450px){
         .detail{
