@@ -1,5 +1,5 @@
 .Professor{
-    padding-top: 9%;
+    padding-top: 5%;
     width: 100%;
     height: 100%;
     display: inline-flex;
@@ -125,6 +125,11 @@
         }
     }
     
+}
+@media screen and(max-width:1200px){
+    .Professor{
+        padding-top: 13%;
+    }
 }
 
 @media screen and(max-width:850px){

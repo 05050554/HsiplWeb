@@ -72,3 +72,13 @@
 
 }  
 
+@media screen and(max-width:520px){
+    .Awards .Title{
+        font-size: 1.5rem;
+    }
+}
+@media screen and(max-width:400px){
+    .Awards .Title{
+        font-size: 1.1rem;
+    }
+}

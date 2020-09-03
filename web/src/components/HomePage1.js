@@ -1,17 +1,17 @@
 import React from "react";
 import "./HomePage1.scss";
 import homepagepic from "../assets/images/homepage.svg";
+import logo from "../img/LOGO/LOGO_1.png";
 
 
+import {
+    BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
 
-// var body = document.body;
-// var html = document.documentElement;
-// html.scrollTop -=100;
-// body.scrollTop -=100;
 const HomePage1 = () => {
     return (
         <>
             <div className="top" >
+                <img className="logo" src={logo} ></img>
                 <div className="mark">Hsipl</div>
                 
 
@@ -33,8 +33,9 @@ const HomePage1 = () => {
                         <span className="circle1"></span> {/* 問題2 */}
                         <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
                         <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
-                        <h2 className="more"><a id="lm" href="/test">Learn more</a><span className="circle2"></span></h2>
-                        <span className="circle3" ></span>
+                        <h2 className="more">
+                            <Link id="lm" to="/LearnMore">Learn more</Link><span className="circle2"></span></h2>
+                        <span className="circle3"></span>
                     </div>
 
                 </div>

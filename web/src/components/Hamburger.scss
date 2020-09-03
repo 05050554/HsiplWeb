@@ -1,3 +1,10 @@
+.logo1{
+  width: 15vw;
+  height: 10vh;
+  position: relative;
+  left: 1rem;
+  top: -0.3rem;
+}
 .navbar {
     display: flex;
     align-items: center;
@@ -13,6 +20,7 @@
     display: flex;
     justify-content: center;
     width: 100vw;
+    top: -2.3rem;
     font-size: 3em;
     font-family: Oregano;
   }
@@ -50,6 +58,9 @@
   }
 
   @media (max-width: 1920px) {
+    .logo1{
+      visibility: hidden;
+    }
     .navbar .nav {
       display: none;
     }
@@ -64,6 +75,7 @@
   }
 
   @media (max-width: 1176px) {
+  
     .navbar .nav {
       display: none;
       left: -200px;
@@ -93,12 +105,23 @@
     }
 
   }
+
+  @media (max-width: 1024px){
+    .logo1{
+      visibility:visible ;
+    }
+  }
+
   @media (max-width: 800px) {
+    
     .navbar ul li a {
       font-size: 2em;
     }
   }
   @media (max-width: 500px) {
+    // .navbar h2{
+    //     margin-top: 0rem;
+    // }
     .navbar ul li a {
       font-size: 1.8em;
     }
