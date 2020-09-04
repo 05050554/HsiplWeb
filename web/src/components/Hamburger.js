@@ -1,9 +1,12 @@
 import React, { useState } from "react";
 import "./Hamburger.scss";
 import logo from "../img/LOGO/LOGO_1.png";
+
+
+
 const Hamburger = () => {
   const [open, setOpen] = useState(false);
-  
+
   return (
     <nav className="navbar">
       <img className="logo1" src={logo} ></img>
@@ -18,12 +21,12 @@ const Hamburger = () => {
       )}
  
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><a href="#">Home</a></li>
-        <li><a href="#LabDirector">Lab Director</a></li>
-        <li><a href="#Introduction">Introduction</a></li>
-        <li><a href="#Professor">Professor</a></li>
-        <li><a href="#members">Members</a></li>
-        <li><a href="#Equipment">Equipment</a></li>
+        <li><a onClick={() => setOpen(!open)}  href="#">Home</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#LabDirector">Lab Director</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#Introduction">Introduction</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#Professor">Professor</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#members">Members</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#Equipment">Equipment</a></li>
       </ul>
     </nav>
   );

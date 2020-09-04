@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-
 import Hamburger from './components/Hamburger'
 import HomePage from './components/HomePage1';
 import { LabDirector } from './components/LabDirector';
