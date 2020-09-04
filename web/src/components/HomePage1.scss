@@ -1,11 +1,6 @@
 html{
     scroll-behavior: smooth;
 }
-// :target::before{
-//     content: "";
-//     display: block;
-//     height: 5em;
-// }
 
 .top{
     position: fixed;
@@ -74,7 +69,7 @@ html{
     .Home{
         flex:2;
         margin-left: 10%;
-        
+        padding-top: 3%;
         .text{
             z-index: 1;
             display: grid;

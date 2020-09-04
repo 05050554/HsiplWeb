@@ -1,4 +1,5 @@
 .Research_Posters{
+    padding-top: 5%;
     //margin-top: -25rem;
     width: 100%;
     height: 100%;
@@ -41,6 +42,9 @@
 } 
 
 @media screen and(max-width:413px){
+    .Research_Posters{
+        padding-top: 10%;
+    }
     .Research_Posters .Title{
         font-size: 1.4rem;
     }

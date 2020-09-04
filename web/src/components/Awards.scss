@@ -1,4 +1,5 @@
 .Awards{
+    padding-top: 5%;
     //margin-top: -25rem;
     width: 100%;
     height: 100%;
@@ -78,6 +79,9 @@
     }
 }
 @media screen and(max-width:400px){
+    .Awards{
+        padding-top: 15%;
+    }
     .Awards .Title{
         font-size: 1.1rem;
     }

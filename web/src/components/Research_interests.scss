@@ -1,4 +1,5 @@
 .Research_interests{
+    padding-top: 5%;
     width: 100%;
     height: 100%;
     overflow: hidden; 
@@ -62,6 +63,7 @@
                 height: 100%;
                 width: 100%;
             }
+
         }
         
         #content_1516{
@@ -87,6 +89,9 @@
 }
 
 @media screen and(max-width:413px){
+    .Research_interests{
+        padding-top: 14%;
+    }
     .Research_interests .Title{
         font-size: 2.25rem;
     }
@@ -95,3 +100,7 @@
     }
 
 }
+
+
+
+
