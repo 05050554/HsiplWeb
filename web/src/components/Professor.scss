@@ -2,125 +2,168 @@
     padding-top: 5%;
     width: 100%;
     height: 100%;
-    display: inline-flex;
-    justify-content: space-around;
+    display: grid;
     //background-color: powderblue;
     overflow: hidden;
     background:no-repeat;
     background-size: cover;
     background-position-y: 40%;
     background-image: url('../img/Professor/Professor_bg.jpg');
+    .content{
+        display: inline-flex;
+        justify-content: space-around;
 
-    .Pic{
-        display: grid;
-        flex: 1;
-        align-items: center;
-
-        span{
-            font-family: Oswald ;
-            letter-spacing: 0.2rem;
-            font-size: 3rem;
-            font-weight: bold;
+        .Pic{
+            display: grid;
+            flex: 1;
             align-items: center;
-            margin-left: 7%;
-        }
 
-        img{
-            margin: 0% 20% 5% 20%;
-            align-items: center;
-            border-radius: 25%;
-            border:solid white 0.5rem;
-
-        }
-          
-    }
-
-    .Info{
-        display: grid;
-        flex: 2;
-        align-items: center;
-        margin: 2.5% 10% 2.5% 2.5%;
-        justify-items: first baseline;
-        
-        .Name{
-            display: inline-flex;
-            
-            
             span{
-                text-align: left;
                 font-family: Oswald ;
                 letter-spacing: 0.2rem;
-                font-size: 2rem;
+                font-size: 3rem;
+                font-weight: bold;
                 align-items: center;
-                margin-bottom: 2.5%;
-                white-space: nowrap;
-                margin-right: 5%;
+                margin-left: 7%;
+            }
+
+            img{
+                margin: 0% 20% 5% 20%;
+                align-items: center;
+                border-radius: 25%;
+                border:solid white 0.5rem;
                 
             }
             
         }
 
-        span{
-
-            align-self: center;
-            display: inline-flex;
-            justify-content: start;
-            font-size: 1.5rem;
-            line-height: 3rem;
-            //font-family: Oswald;
-            text-align: left;
-
-        }
-
-        .Mail{
-            display: inline-flex;
-            margin-top:2%;
-            img{
-                width:7%;
-                height:auto;
-                align-self: center;
-                margin-right: 3%;
+        .Info{
+            display: grid;
+            flex: 2;
+            align-items: center;
+            margin: 2.5% 10% 2.5% 2.5%;
+            justify-items: first baseline;
+            
+            .Name{
+                display: inline-flex;
+                
+                
+                span{
+                    text-align: left;
+                    font-family: Oswald ;
+                    letter-spacing: 0.2rem;
+                    font-size: 2rem;
+                    align-items: center;
+                    margin-bottom: 2.5%;
+                    white-space: nowrap;
+                    margin-right: 5%;
+                    
+                }
+                
             }
 
             span{
 
+                align-self: center;
+                display: inline-flex;
+                justify-content: start;
+                font-size: 1.5rem;
+                line-height: 3rem;
+                //font-family: Oswald;
                 text-align: left;
+
+            }
+
+            .Mail{
+                display: inline-flex;
+                margin-top:2%;
+                img{
+                    width:7%;
+                    height:auto;
+                    align-self: center;
+                    margin-right: 3%;
+                }
+
+                span{
+
+                    text-align: left;
+                }
+            }
+
+
+            .Phone{
+                display: inline-flex;
+
+                img{
+                    width:6%;
+                    height:auto;
+                    align-self: center;
+                    margin-right: 3%;
+                }
+                .Number{
+                    flex:3;
+                    white-space: nowrap;
+                }
+
+                .Btn-more{
+                    width: fit-content;
+                    text-decoration: none;
+                    //flex:1;
+                    //margin-right: 20%;
+                    background-color: rgb(155, 176, 192);
+                    font-family: Oswald ;
+                    font-size: 1.2rem;
+                    border-radius: 10%;
+                    text-align: center;
+                    vertical-align: middle;
+                    padding:1% 2%;
+                    margin:5% 0%
+                    
+                }
+        
+                .Btn-more:hover{
+                    background-color: lightcoral;
+                }
             }
         }
+    }
 
+    .Journal{
+        display: grid;
+        justify-self: center;
+        width: 90%;
+        background-color: white;
+        box-shadow: 2px 2px 5px gray;
+        margin-bottom:5%;
+        text-align: left;
 
-        .Phone{
-            display: inline-flex;
+        h1{
+            font-size: 1.5rem;
+            font-weight: bold;
+            margin-left: 3rem;
+        }
 
-            img{
-                width:6%;
-                height:auto;
-                align-self: center;
-                margin-right: 3%;
-            }
-            .Number{
-                flex:3;
-                white-space: nowrap;
-            }
-
-            .Btn-more{
-                width: fit-content;
-                text-decoration: none;
-                //flex:1;
-                //margin-right: 20%;
-                background-color: rgb(155, 176, 192);
-                font-family: Oswald ;
-                font-size: 1.2rem;
-                border-radius: 10%;
-                text-align: center;
-                vertical-align: middle;
-                padding:1% 2%;
-                margin:5% 0%
+        ul{
+            font-family: Signika;
+            font-size: 1.2rem;
+            //list-style-position:inside ;
+            list-style-type: decimal ;
+            margin-left: 1.5rem;
+            margin-right: 4rem;
+            li{
+                
+                padding:1%;
+                color: #28475D;
+                border-bottom:solid 1px gray;
                 
             }
-    
-            .Btn-more:hover{
-                background-color: lightcoral;
+            .blod{
+                font-weight: bold;
+            }
+
+            a{
+                //text-decoration: none;
+                color: #28475D;
             }
         }
     }
@@ -132,9 +175,9 @@
     }
 }
 
-@media screen and(max-width:850px){
+@media screen and(max-width:900px){
 
-    .Professor{
+    .Professor .content{
 
         display: grid;
 
