@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import "./Hamburger.scss";
+import "./HamburgerLM.scss";
 import logo from "../img/LOGO/LOGO_1.png";
 
 
 
-const Hamburger = () => {
+const HamburgerLM = () => {
   const [open, setOpen] = useState(false);
 
   return (
@@ -21,15 +21,13 @@ const Hamburger = () => {
       )}
  
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><a onClick={() => setOpen(!open)}  href="#">Home</a></li>
-        <li><a onClick={() => setOpen(!open)} href="#LabDirector">Lab Director</a></li>
-        <li><a onClick={() => setOpen(!open)} href="#Introduction">Introduction</a></li>
-        <li><a onClick={() => setOpen(!open)} href="#Professor">Professor</a></li>
-        <li><a onClick={() => setOpen(!open)} href="#members">Members</a></li>
-        <li><a onClick={() => setOpen(!open)} href="#Equipment">Equipment</a></li>
+        <li><a onClick={() => setOpen(!open)}  href="self.location='HomePage.js'">Back To Home</a></li>
+        <li><a onClick={() => setOpen(!open)}  href="#Research_interests">Research interests</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#Research_Posters">Research Posters</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#Honor and Awards">Honor and Awards</a></li>
       </ul>
     </nav>
   );
 };
 
-export default Hamburger;
+export default HamburgerLM;

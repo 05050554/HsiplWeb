@@ -5,9 +5,31 @@ import img1 from '../img/Research interests/Research interests_圖一.png'
 import img2 from '../img/Research interests/Research interests_圖二.png'
 import img3 from '../img/Research interests/工地圖.png'
 
+
+import logo from "../img/LOGO/LOGO_1.png";
+
 const Research_interests = () => {
     return (
-        <div className="Research_interests">
+        <>
+        <div className="top" >
+            <img className="logo" src={logo} ></img>
+            <div className="mark">Hsipl</div>
+        
+
+            <div className="list">
+                <ul>
+                    <li><a id="p1" href="self.location='HomePage.js'" style={{ color: "black" }}>Back To Home</a></li>
+                    <li><a id="p1" href='#Research_interests'  style={{ color: "black" }}>Research Interests</a></li>
+                    <li><a id="p1" href='#Research_Posters' style={{ color: "black" }}>Research Posters</a></li>
+                    <li><a id="p1" href='#Honor and Awards' style={{ color: "black" }}>Honor and Awards</a></li>
+
+                </ul>
+            </div>
+        </div>
+
+
+
+        <div className="Research_interests" id="Research_interests">
             <h1 className="Title">Research interests</h1>
             <span>My main research has been focused on designing and developing algorithms for 
                 multi/hyperspectral image and medical image processing, specifically for image classification, 
@@ -84,6 +106,7 @@ const Research_interests = () => {
             
             
         </div>
+        </>
     )
 }
 

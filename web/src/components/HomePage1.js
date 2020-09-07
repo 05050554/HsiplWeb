@@ -17,6 +17,7 @@ const HomePage1 = () => {
 
                 <div className="list">
                     <ul>
+                        <li><a id="p1" href='#'  style={{ color: "black" }}>Home</a></li>
                         <li><a id="p1" href='#LabDirector'  style={{ color: "black" }}>Lab Director</a></li>
                         <li><a id="p1" href='#Introduction' style={{ color: "black" }}>Introduction</a></li>
                         <li><a id="p1" href='#Professor' style={{ color: "black" }}>Professor</a></li>

@@ -12,7 +12,7 @@ import Application from "../img/Research_Posters/Application.png"
 import helper from "../img/Research_Posters/helper.png"
 const Research_Posters = () => {
     return (
-        <div className="Research_Posters">
+        <div className="Research_Posters" id="Research_Posters">
             <div className="Title">
                 <h1>Research Posters</h1>
             </div>
