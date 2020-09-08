@@ -29,10 +29,10 @@
                 z-index: 2;
                 display: grid;
                 justify-items: center;
-                
+                border-radius: 1rem 1rem 0% 0%;
                 img{
                     width: 50%;
-                    
+                    padding:10%;
                     
                 }
                 h{                
@@ -49,11 +49,11 @@
                 transform: translateY(-80%);
                 background-color: #ffffff;
                 transform: scale(0);
-
+                border-radius: 0% 0% 1rem 1rem ;
                 p{
                     
                     color: #000000;
-                    padding: 1%;
+                    padding: 5%;
                 }
             }
             
@@ -62,7 +62,7 @@
                 transition: all 1s;
                 transform: translateY(0%);
                 background-color: slateblue;
-
+                border-radius: 5% 5% 0% 0%;
             }
                 
             .Icon:hover +.Content {
@@ -87,8 +87,10 @@
                 transform: translateY(30%);
                 z-index: 2;
                 //background-color: rgba($color: #000000, $alpha: 0.9);
+                border-radius: 1rem 1rem 0% 0%;
                 img{
                     width: 50%;
+                    padding:10%;
                 }
                 h{
                     margin:5% 0%;
@@ -105,9 +107,11 @@
                 z-index: 1;
                 background-color: #ffffff;
                 transform: scale(0);
+                border-radius: 0% 0% 1rem 1rem ;
+                
                 p{
                     color: #000000;
-                    padding: 1%;
+                    padding: 5%;
                 }
                 
             }
@@ -115,6 +119,7 @@
                 transform: translateY(0%);
                 transition: all 1s;
                 background-color: slateblue;
+                
             }
             .Icon:hover  +.Content{
                 transition: all 1s;
@@ -133,9 +138,10 @@
                 transform: translateY(30%);
                 z-index: 2;
                 //background-color: rgba($color:#000000, $alpha: 0.9);
-                
+                border-radius: 1rem 1rem 0% 0%;
                 img{
                     width: 50%;
+                    padding:10%;
                 }
                 h{
                     margin:5% 0%;
@@ -150,9 +156,10 @@
                 z-index: 1; 
                 background-color: #ffffff;
                 transform: scale(0);
+                border-radius: 0% 0% 1rem 1rem ;
                 p{
                     color: #000000;
-                    padding: 1%;
+                    padding: 5%;
                 }
 
             }
@@ -161,10 +168,12 @@
                 transform: translateY(0%);
                 transition: all 1s;
                 background-color: slateblue;
+                
             }
             .Icon:hover +.Content{
                 transform: translateY(0%);
                 transition: all 1s;
+                
             }
         }
     }
@@ -178,5 +187,42 @@
 
         display: grid;
         padding: 10%;
+        .Hsipl {
+            .Icon{
+                transform: translateY(0%);
+                background-color: slateblue;
+                
+            }
+            .Content{
+                transform: scale(1);
+                transform: translateY(0%);
+            }
+
+        }
+        .App {
+            .Icon{
+                transform: translateY(0%);
+                background-color: slateblue;
+
+            }
+            .Content{
+                transform: scale(1);
+                transform: translateY(0%);
+            }
+
+        }
+        .Web {
+            .Icon{
+                transform: translateY(0%);
+                background-color: slateblue;
+
+            }
+            .Content{
+                transform: scale(1);
+                transform: translateY(0%);
+
+            }
+
+        }
     }
 }
