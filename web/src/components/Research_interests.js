@@ -4,7 +4,12 @@ import leaf from '../img/Research interests/新生葉偵測結果示意圖.png'
 import img1 from '../img/Research interests/Research interests_圖一.png'
 import img2 from '../img/Research interests/Research interests_圖二.png'
 import img3 from '../img/Research interests/工地圖.png'
-
+import life1 from '../img/Photos of life/2017-6-30口試聚餐.jpg'
+import life2 from '../img/Photos of life/2018畢業口試聚餐.jpg'
+import life3 from '../img/Photos of life/2018實驗室聚餐.jpg'
+import life4 from '../img/Photos of life/109504.jpg'
+import life5 from '../img/Photos of life/291816.jpg'
+ 
 
 import logo from "../img/LOGO/LOGO_1.png";
 
@@ -15,7 +20,6 @@ const Research_interests = () => {
             <img className="logo" src={logo} ></img>
             <div className="mark">Hsipl</div>
         
-
             <div className="list">
                 <ul>
                     <li><a id="p1" href="self.location='HomePage.js'" style={{ color: "black" }}>Back To Home</a></li>
@@ -27,7 +31,30 @@ const Research_interests = () => {
             </div>
         </div>
 
-
+        <div className="slider">
+            <div className="slider_container">          
+                    <div >
+                        <img id="life" src={life1}  />
+                        <span className="info">2017-6-30口試聚餐</span>
+                    </div>
+                    <div >
+                        <img id="life" src={life2}  />
+                        <span className="info">2018畢業口試聚餐</span>
+                    </div>
+                    <div>
+                        <img id="life" src={life3}  />
+                        <span className="info">2018實驗室聚餐</span>
+                    </div>
+                    <div >
+                        <img id="life" src={life4}  />
+                        <span className="info">109504</span>
+                    </div>
+                    <div >
+                        <img id="life" src={life5} alt="pure css3 slider" />
+                        <span className="info">291816交流會</span>
+                    </div>            
+            </div>
+        </div>
 
         <div className="Research_interests" id="Research_interests">
             <h1 className="Title">Research interests</h1>
