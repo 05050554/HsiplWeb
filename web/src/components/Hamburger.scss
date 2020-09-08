@@ -3,7 +3,7 @@
   height: 10vh;
   position: relative;
   left: 1rem;
-  top: -0.3rem;
+  // top: -0.3rem;
 }
 .navbar {
     display: flex;
@@ -126,6 +126,19 @@
       font-size: 1.8em;
     }
   }
+
+  @media (max-width: 415px) {
+    .navbar h2{
+      margin-top: 2.2rem;
+  }
+    .navbar .logo1{
+        margin-top: 0.8rem;
+    }
+    .navbar ul li a {
+      font-size: 1.8em;
+    }
+  }
+
   @keyframes open {
     0% {
       left: -200px;
