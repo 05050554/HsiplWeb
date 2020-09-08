@@ -25,6 +25,8 @@
                 font-weight: bold;
                 align-items: center;
                 margin-left: 7%;
+                display: grid;
+                align-items: center;
             }
 
             img{
@@ -32,7 +34,8 @@
                 align-items: center;
                 border-radius: 25%;
                 border:solid white 0.5rem;
-                
+                display: grid;
+                align-items: center;
             }
             
         }
@@ -129,34 +132,50 @@
     }
 
     .Journal{
-        display: grid;
+        
         justify-self: center;
         width: 90%;
         background-color: white;
         box-shadow: 2px 2px 5px gray;
         margin-bottom:5%;
         text-align: left;
+        list-style-type: decimal ;
 
         h1{
             font-size: 1.5rem;
             font-weight: bold;
             margin-left: 3rem;
+            margin-bottom:0rem;
         }
 
-        ul{
+        .styles_kPagination__1qVvD ul{
             font-family: Signika;
-            font-size: 1.2rem;
-            //list-style-position:inside ;
-            list-style-type: decimal ;
-            margin-left: 1.5rem;
-            margin-right: 4rem;
+            //font-size: 1.2rem;
+            
+            //float: right;
+            display: flex;
+            justify-content: center;
+            //margin-right: 2rem;
             li{
-                
-                padding:1%;
-                color: #28475D;
-                border-bottom:solid 1px gray;
-                
+                height: .5rem;
+                width: .5rem;
+                margin:1rem .5rem;
+                padding:.5rem .1rem;
+                float: left;
+
             }
+            
+        }
+
+        
+        li{
+            font-family: Signika, sans-serif;
+            //list-style-position:outside ;
+            margin:0rem 2.5rem;
+            padding:1rem;
+            color: #28475D;
+            border-bottom:solid 1px gray;
+            font-weight: lighter;
             .blod{
                 font-weight: bold;
             }
@@ -183,9 +202,7 @@
 
         
 
-        .Pic span{
-            margin:5% 0%;
-        }
+        
         
 
         .Info{
@@ -246,7 +263,7 @@
 @media screen and(max-width:450px){
 
     .Professor{
-
+        
         display: grid;
         justify-items: center;
     
@@ -315,4 +332,13 @@
     
     }
  
+}
+
+@media screen and(max-width:400px){
+    .Professor .content{
+        margin-left: -1rem;
+    }
+    .Professor .Journal{
+        margin-left: -1.3rem;
+    }
 }
