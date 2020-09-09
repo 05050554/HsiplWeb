@@ -1,0 +1,23 @@
+.Footer{
+    padding: 5% 0%;
+    width: 100%;
+    height: 100%;
+    //display: grid;
+    background-color: darkslateblue;;
+    overflow: hidden;
+    //background:no-repeat;
+    //background-size: cover;
+    //background-image: url('../img/21.jpg');
+    opacity: 80%;
+    .content{
+        
+        display:flex;
+        justify-content: center;
+        span{
+            line-height: 2rem;
+            //text-align: left;
+            color: white;
+        }
+    }
+
+}

@@ -1,21 +1,21 @@
 .Professor{
     padding-top: 5%;
     width: 100%;
-    height: 100%;
+    //height: 100%;
     display: grid;
     //background-color: powderblue;
     overflow: hidden;
     background:no-repeat;
     background-size: cover;
     background-position-y: 40%;
-    background-image: url('../img/Professor/Professor_bg.jpg');
+    background-image: url('../img/Professor/Professor_bg1.jpg');
     .content{
         display: inline-flex;
         justify-content: space-around;
 
         .Pic{
             display: grid;
-            flex: 1;
+            flex: 2;
             align-items: center;
 
             span{
@@ -27,6 +27,7 @@
                 margin-left: 7%;
                 display: grid;
                 align-items: center;
+                padding:2% 0%;
             }
 
             img{
@@ -42,7 +43,7 @@
 
         .Info{
             display: grid;
-            flex: 2;
+            flex: 3;
             align-items: center;
             margin: 2.5% 10% 2.5% 2.5%;
             justify-items: first baseline;
@@ -104,28 +105,35 @@
                     margin-right: 3%;
                 }
                 .Number{
-                    flex:3;
+                    flex:1;
                     white-space: nowrap;
                 }
 
                 .Btn-more{
+                    //flex:1;
+                    display: grid;
                     width: fit-content;
                     text-decoration: none;
                     //flex:1;
                     //margin-right: 20%;
-                    background-color: rgb(155, 176, 192);
+                    //background-color: rgb(155, 176, 192);
                     font-family: Oswald ;
-                    font-size: 1.2rem;
-                    border-radius: 10%;
-                    text-align: center;
-                    vertical-align: middle;
+                    font-size: 1.5rem;
+                    //border-radius: 10%;
+                    text-align: left;
+                    //vertical-align: middle;
+                    align-self: center;
                     padding:1% 2%;
-                    margin:5% 0%
-                    
+                    //margin:5% 0%
+                    letter-spacing: 0.1rem;
+                    border-bottom-style: double ;
+                    font-style: oblique;
                 }
         
                 .Btn-more:hover{
-                    background-color: lightcoral;
+                    //background-color: lightcoral;
+                    font-size: 2rem;
+                    letter-spacing: 0.2rem;
                 }
             }
         }
@@ -140,7 +148,7 @@
         margin-bottom:5%;
         text-align: left;
         list-style-type: decimal ;
-
+        
         h1{
             font-size: 1.5rem;
             font-weight: bold;
@@ -148,46 +156,53 @@
             margin-bottom:0rem;
         }
 
-        .styles_kPagination__1qVvD ul{
-            font-family: Signika;
-            //font-size: 1.2rem;
+        .styles_kPagination__1qVvD{
             
-            //float: right;
-            display: flex;
-            justify-content: center;
-            //margin-right: 2rem;
-            li{
-                height: .5rem;
-                width: .5rem;
-                margin:1rem .5rem;
-                padding:.5rem .1rem;
-                float: left;
-
+            ul{
+                font-family: Signika;
+                //font-size: 1.2rem;
+                //height: 5rem;
+                align-items: center;
+                //float: right;
+                display: flex;
+                justify-content: center;
+                //margin-right: 2rem;
+                li{
+                    height: .5rem;
+                    width: .5rem;
+                    margin:1rem .5rem;
+                    padding:.5rem .1rem;
+                    float: left;
+                    //transition: all 1s;
+                }
+                
             }
-            
-        }
 
+            .styles_kPaginationListItemVertical__q-2s5{
+                
+                li{
+                    font-family: Signika, sans-serif;
+                    //list-style-position:outside ;
+                    margin:0% 5%;
+                    padding:10px 5px;
+                    color: #28475D;
+                    border-bottom:solid 1px gray;
+                    font-weight: lighter;
+                    .blod{
+                        font-weight: bold;
+                    }
         
-        li{
-            font-family: Signika, sans-serif;
-            //list-style-position:outside ;
-            margin:0rem 2.5rem;
-            padding:1rem;
-            color: #28475D;
-            border-bottom:solid 1px gray;
-            font-weight: lighter;
-            .blod{
-                font-weight: bold;
-            }
-
-            a{
-                //text-decoration: none;
-                color: #28475D;
+                    a{
+                        //text-decoration: none;
+                        color: #28475D;
+                    }
+                }
             }
         }
     }
     
 }
+
 @media screen and(max-width:1200px){
     .Professor{
         padding-top: 13%;
@@ -197,14 +212,7 @@
 @media screen and(max-width:900px){
 
     .Professor .content{
-
         display: grid;
-
-        
-
-        
-        
-
         .Info{
             margin:5%;
             justify-items: center;

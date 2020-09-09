@@ -31,7 +31,7 @@ const Professor = () => {
                         <span className="Number">(work) +886-5-5342601 ext 4514
                             <br></br>(lab) +886-5-5342601 ext 4598
                         </span>
-                        <a className="Btn-more" href="/" style={{ color: "black" }}>More</a>
+                        <a className="Btn-more" href="/" style={{ color: "black" }}>→ detail</a>
                     </div>
                 </div>
             </div>
@@ -51,6 +51,7 @@ const Professor = () => {
                 ></List> */}
 
                 <PaginationList
+                    fixHeight={true}
                     data={data}
                     pageSize={6}
                     renderItem={item => (
@@ -58,6 +59,7 @@ const Professor = () => {
                             <span><span>{item.content1}</span><span className="blod">{item.blod}</span><span>{item.content2}</span>
                             <a href={item.link} target="_blank">{item.title}</a></span><span>{item.content3}</span>
                         </List.Item>
+                        
                     )}
                 />
             </div>
