@@ -24,19 +24,20 @@
                 font-size: 3rem;
                 font-weight: bold;
                 align-items: center;
-                margin-left: 7%;
+                //margin-left: 7%;
                 display: grid;
                 align-items: center;
                 padding:2% 0%;
             }
 
             img{
-                margin: 0% 20% 5% 20%;
+                //margin: 0% 20% 5% 20%;
                 align-items: center;
+
                 border-radius: 25%;
                 border:solid white 0.5rem;
                 display: grid;
-                align-items: center;
+                justify-self: center;
             }
             
         }
@@ -342,7 +343,7 @@
  
 }
 
-@media screen and(max-width:400px){
+@media screen and(max-width:320px){
     .Professor .content{
         margin-left: -1rem;
     }

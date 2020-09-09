@@ -12,7 +12,7 @@ const HomePage1 = () => {
         <>
             <div className="top" >
                 <img className="logo" src={logo} ></img>
-                <div className="mark">Hsipl</div>
+                {/* <div className="mark">Hsipl</div> */}
                 
 
                 <div className="list">
