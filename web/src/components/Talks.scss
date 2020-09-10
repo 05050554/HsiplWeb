@@ -1,0 +1,65 @@
+.Talks{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    display: grid;
+    //border-bottom: solid 0.1rem gray;
+    //background-color: lightblue;
+    .Title{
+        font-family: Signika, sans-serif;
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 5%;
+        //justify-self: start;
+    }
+    .List{
+        //background-color: lightblue;
+        //width: 100%;
+        //display: grid;
+        //justify-self: center;
+        padding:5rem;
+        .accodion{
+            background-color: rgb(219, 219, 219);
+            //border:solid 1px black;
+            //justify-self: center;
+            
+            .item{
+                //background-color: white;
+                border:solid 1px gray;
+                
+                .react-sanfona-item-title {
+                    padding:1rem 2rem;
+                }
+                .content{
+                
+                    background-color: white;
+                    border-top:solid 1px gray;
+                    //padding:3%;
+
+                    table {
+                        
+                        table-layout: auto;
+                        width: 100%;
+                        //border:solid 1px gray;
+                        column-rule-style: solid 1px gray;
+                        tr{
+                            //padding:1%;
+                            //border:solid 1px gray;
+                            background-color: rgb(219, 219, 219);
+                        }
+                        td{
+                            background-color: white;
+                            //border-bottom:solid 1px gray;s
+                            padding:2%;
+                            text-align: center;
+                        }
+                    }
+
+                }
+            }
+            
+        }
+    }
+    
+}

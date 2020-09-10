@@ -26,12 +26,13 @@
                 align-items: center;
                 //margin-left: 7%;
                 display: grid;
-                align-items: center;
+                justify-items: center;
                 padding:2% 0%;
+                text-align: center;
             }
 
             img{
-                //margin: 0% 20% 5% 20%;
+                margin-bottom: 5%;;
                 align-items: center;
 
                 border-radius: 25%;
@@ -129,6 +130,7 @@
                     letter-spacing: 0.1rem;
                     border-bottom-style: double ;
                     font-style: oblique;
+                    color:black;
                 }
         
                 .Btn-more:hover{
@@ -140,7 +142,7 @@
         }
     }
 
-    .Journal{
+    .article{
         
         justify-self: center;
         width: 90%;
@@ -148,57 +150,68 @@
         box-shadow: 2px 2px 5px gray;
         margin-bottom:5%;
         text-align: left;
-        list-style-type: decimal ;
-        
-        h1{
-            font-size: 1.5rem;
-            font-weight: bold;
-            margin-left: 3rem;
-            margin-bottom:0rem;
+        .ant-list-header{
+            //border-bottom:solid 1px gray;
+            margin :0% 5%;
+            padding:1% 0%;
+            h1{
+                margin-bottom:0rem;
+                font-size: 2rem;
+                font-weight: bold;
+                
+            }    
         }
-
-        .styles_kPagination__1qVvD{
-            
-            ul{
-                font-family: Signika;
-                //font-size: 1.2rem;
-                //height: 5rem;
-                align-items: center;
-                //float: right;
-                display: flex;
-                justify-content: center;
-                //margin-right: 2rem;
-                li{
-                    height: .5rem;
-                    width: .5rem;
-                    margin:1rem .5rem;
-                    padding:.5rem .1rem;
-                    float: left;
-                    //transition: all 1s;
-                }
-                
-            }
-
-            .styles_kPaginationListItemVertical__q-2s5{
-                
-                li{
-                    font-family: Signika, sans-serif;
-                    //list-style-position:outside ;
-                    margin:0% 5%;
-                    padding:10px 5px;
-                    color: #28475D;
-                    border-bottom:solid 1px gray;
-                    font-weight: lighter;
-                    .blod{
-                        font-weight: bold;
-                    }
         
-                    a{
-                        //text-decoration: none;
-                        color: #28475D;
-                    }
+        .ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:first-child {
+            border-top: 1px solid gray;
+        }
+        
+        .ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:last-child {
+            border-bottom: 1px solid gray;
+        }
+            
+        .ant-list-items{
+            //height: 45rem;
+            list-style-type: decimal ;
+            font-family: Signika;
+            font-size: 1.2rem;
+            // align-items: center;
+            // justify-content: center;
+            // justify-items: center;
+            //border-bottom:solid 1px gray;
+            .ant-list-item{
+                font-family: Signika, sans-serif;
+                //list-style-position:outside ;
+                margin:0% 5%;
+                //padding:10px 5px;
+                color: #28475D;
+                border-bottom:solid 1px gray;
+                //font-weight: lighter;
+                .blod{
+                    font-weight: bold;
                 }
+    
+                a{
+                    text-decoration: underline;
+                    color: #28475D;
+                }
+                
             }
+            
+            
+        }
+        
+        .ant-pagination{
+            text-align: center;
+            
+            li{
+                margin:0% 1%;
+                //border-bottom:solid 0px #d9d9d9;
+                
+            }
+
+            
+            
         }
     }
     
