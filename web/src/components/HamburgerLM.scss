@@ -37,10 +37,10 @@
     .navbar ul li {
       width: 90%;
       height: 5%;
-      padding: 1.5em;
+      padding: 2em;
       display: flex;
       flex-direction: column;
-  
+    
   
     }
     .navbar ul li a {
@@ -90,14 +90,13 @@
         position: fixed;
         display: flex;
         flex-direction: column;
-        padding: 0px;
-        left: -0.8px;
+        padding: 3px;
+        left: 0px;
         // margin-top: 1rem;
-        top: -1em;
+        top: 0em;
         height: 100%;
         width: 100vw;
         text-align: center;
-        
         background-color: rgba(240, 240, 240, 1);
         animation: open 0.5s ease;
 
