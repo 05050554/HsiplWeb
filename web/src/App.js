@@ -16,13 +16,10 @@ import Research_interests from './components/Research_interests'
 import Research_Posters from './components/Research_Posters'
 import Awards from './components/Awards'
 
+import Talks from './components/Talks'
 
 import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link
-} from "react-router-dom";
+  BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 function App() {
   return (
@@ -35,6 +32,11 @@ function App() {
           <Awards/>
         </Route>
       
+        <Route exact path="/ProfessorDetail">
+          <Professor></Professor>
+          <Talks/>
+
+        </Route>
 
         <div className="App">
           <Hamburger/>

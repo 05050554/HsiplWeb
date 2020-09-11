@@ -5,6 +5,9 @@ import Mail_img from "../img/Professor/Mail_img.png"
 import Call_img from "../img/Professor/Call_img.png"
 import { List, Typography, Divider, Table } from 'antd';
 import PaginationList from 'react-pagination-list';
+import {
+    BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+
 
 
 const Professor = () => {
@@ -31,26 +34,30 @@ const Professor = () => {
                         <span className="Number">(work) +886-5-5342601 ext 4514
                             <br></br>(lab) +886-5-5342601 ext 4598
                         </span>
-                        <a className="Btn-more" href="/" style={{ color: "black" }}>→ detail</a>
+                        <Link className="Btn-more" to="/ProfessorDetail">→ detail</Link>
                     </div>
                 </div>
             </div>
             
-            <div className="Journal">
-                <h1 className="">Journal articles</h1>
-                {/* <List
+            <div className="article">
+                {/* <h1 className="">Journal articles</h1> */}
+                <List
+                    header={<h1 className="">Journal articles</h1>}
                     
+                    itemLayout={"horizontal"}
+                    bordered={true}
+                    pagination={{pageSize:6}}
                     dataSource={data}
                     renderItem={item => (
-                    <List.Item>
+                    <List.Item >
                         <span><span>{item.content1}</span><span className="blod">{item.blod}</span><span>{item.content2}</span>
-                        <a href={item.link} target="_blank">{item.title}</a></span><span>{item.content3}</span>
+                        <a href={item.link} target="_blank">{item.title}</a><span>{item.content3}</span></span>
                     </List.Item>
                     
                 )}
-                ></List> */}
+                ></List>
 
-                <PaginationList
+                {/* <PaginationList
                     fixHeight={true}
                     data={data}
                     pageSize={6}
@@ -61,7 +68,7 @@ const Professor = () => {
                         </List.Item>
                         
                     )}
-                />
+                /> */}
             </div>
             
         </div>
