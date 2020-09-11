@@ -9,7 +9,7 @@ const HamburgerLM = () => {
 
   return (
     <nav className="navbar">
-      <img className="logo1" src={logo} ></img>
+      <a href="HomePage"><img className="logo1" src={logo}></img></a>
       <h2>HSIPL</h2>
       {open === false ? (
         <i onClick={() => setOpen(!open)} className="fas fa-bars fa-2x ham"></i>

@@ -4,6 +4,7 @@
     position: relative;
     left: 1rem;
     top: -0.3rem;
+    z-index: 11;
   }
   .navbar {
       display: flex;
@@ -99,7 +100,8 @@
         
         background-color: rgba(240, 240, 240, 1);
         animation: open 0.5s ease;
-        
+
+
       }
       .navbar .close {
         display: none;

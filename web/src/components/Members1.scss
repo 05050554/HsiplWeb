@@ -1,9 +1,9 @@
-
 .members{
     padding-top: 5%;
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     overflow: hidden;
+    
     
     .master2{
         text-align: left;
@@ -11,6 +11,7 @@
         font-family: 'Oswald', sans-serif;
         font-size: 1.5rem;
         background-color: lightblue;
+        
     }
 
     .Title{
@@ -21,91 +22,242 @@
         
     }
 
-    .masterpic{
+
+
+    /*碩二*/
+    .picborder
+    {
+        box-sizing: border-box;
+        width: auto;
+        height: auto;
+        overflow: auto;
+        padding-bottom: 5rem;
         display: flex;
-        justify-content: center;
-        padding:2% 0%;
-        flex-wrap: wrap;
-        //margin-top:-20vh;
-        .pic{
-            margin-top: -20vh;
-            padding: 2%;
-            display:grid;
-            justify-content: center;
-            width: 40vh;
-            
-            img{
-                width: 100%;
-                align-self: end;
+
+        .arrow1{
+            font-size: 80px;
+            align-self: center;
+            margin-top: 5rem;
+        }
+        .masterpic{
+            display: inline-flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+
+            .pic{
+                margin-top: -4rem;
+                padding-left: 40px;
+                padding-right: 50px;
+                display:grid;
+            #firstpic{
+                padding-left: -2rem;
             }
+                img{
+                    width: 300px;
+                    height: 300px;
+                }
 
-            .detail{
-                display: grid;
-                align-self: center;
-                font-family: 'Noto Sans TC', sans-serif;
-                width: 80%;
-                height: 20vh;
-                background-color: white;
-                transform: scale(.1);
-                visibility: hidden;
-                transition: .8s;
-                justify-content: center;
-                position: relative;
-                top: 34vh;
-                // left: 2rem;
-                align-self: end;
-                text-align: center;
-                justify-self: center;
 
-                padding: 10% 0%;
-                span{
+
+                .detail{
                     display: grid;
-                    align-items: center;
-                    //font-size: 2rem;
-                }
-                .mail{
-                    display:flex;
-                    align-items: stretch;
-                    a{
-                        padding-right: 2%;
+                    align-self: center;
+                    font-family: 'Noto Sans TC', sans-serif;
+                    width: 80%;
+                    height: 20vh;
+                    background-color: white;
+                    transform: scale(.1);
+                    visibility: hidden;
+                    transition: .8s;
+                    justify-content: center;
+                    position: relative;
+                    top: 30vh;
+                    align-self: end;
+                    text-align: center;
+                    justify-self: center;
+
+                    padding: 10% 0%;
+
+                    span{
+                        display: grid;
+                        align-items: center;
+                        //font-size: 2rem;
                     }
+                    .mail{
+                        display:flex;
+                        align-items: stretch;
+                        a{
+                            padding-right: 2%;
+                        }
+                    }
+
                 }
+            }
+        }
+        
+        .pic:hover .detail{
+            transform: scale(1);
+            visibility: visible;
+            //height: 20vh;
+        }
+    
+        .detail2 {
+            visibility: hidden;
+            font-size: 1em;
+            background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+        }
+        .detail2 p{
+            margin-top: -0.4rem;
+        }
+        @media (max-width: 450px){
+            .masterpic .pic{
+            // padding-left: 1%;
+            margin-top: -7rem;
+            padding-right: 40px;
+            padding-left: 25px;
+            }
+            .masterpic1 .pic1{
+                padding-right: 100px;
+            }
+            .masterpic .pic img{
+                width: 250px;
+                height: 250px;
+            }
+            .masterpic .pic .detail{
+                
+                visibility: hidden;
+                // display: none;
+            }
+           
+            .masterpic .pic .detail2{
+                visibility: visible;
+                margin-bottom: 3rem;
                 
             }
         }
-    }
-    .pic:hover .detail{
-        transform: scale(1);
-        visibility: visible;
-        //height: 20vh;
-    }
-
-    .detail2 {
-        visibility: hidden;
-        font-size: 1em;
-        background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
-    }
-    .detail2 p{
-        margin-top: -0.4rem;
-    }
-    // .mail{
-    //     margin-right: 0rem;
-    // }
-    // .mail1{
-    //     position: relative;
-    //     top: 12.2rem;
-    //     right: 1rem;    
-    // }
-
-    @media (max-width: 450px){
-        .masterpic .pic .detail{
-            
-            visibility: hidden;
+        @media (max-width: 350px){
+            .masterpic .pic{
+                margin-top: -7rem;
+                padding-left: 0px;
+            }
         }
-        .masterpic .pic .detail2{
+
+}
+
+/*碩一*/
+.picborder1{
+    box-sizing: border-box;
+    height: auto;
+    overflow: hidden;
+    padding-bottom: 5rem;
+    display: flex;
+
+    .arrow{
+        font-size: 80px;
+        align-self: center;
+        margin-top: 5rem;
+    }
+
+
+     .masterpic1{
+
+            flex-wrap: nowrap;
+            overflow: hidden;
+            padding-right: 3rem;
+            display: inline-flex;
+
+            .pic1{
+                padding-right: 50px;
+                padding-left: 30px;
+                display:grid;
+                margin-top: -4rem;
+
+                img{
+                    width: 300px;
+                    height: 300px;
+ 
+                    
+                }
+        
+                .detail3{
+                    display: grid;
+                    align-self: center;
+                    font-family: 'Noto Sans TC', sans-serif;
+                    width: 80%;
+                    height: 20vh;
+                    background-color: white;
+                    transform: scale(.1);
+                    visibility: hidden;
+                    transition: .8s;
+                    justify-content: center;
+                    position: relative;
+                    top: 30vh;
+                    // left: 2rem;
+                    align-self: end;
+                    text-align: center;
+                    justify-self: center;
+        
+                    padding: 10% 0%;
+                    span{
+                        display: grid;
+                        align-items: center;
+                        //font-size: 2rem;
+                    }
+                    .mail3{
+                        display:flex;
+                        align-items: stretch;
+                        a{
+                            padding-right: 2%;
+                        }
+                    }
+                       
+                }
+            }
+        }
+        .pic1:hover .detail3{
+            transform: scale(1);
             visibility: visible;
-            margin-bottom: 3rem;
-            
+            //height: 20vh;
+        }
+    
+        .detail4 {
+            visibility: hidden;
+            font-size: 1em;
+            background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+        
+        }
+        .detail4 p{
+            margin-top: -0.4rem;
+        }
+        @media (max-width: 450px){
+            .masterpic1 .pic1{
+                margin-top: -8rem;
+
+            }
+            .masterpic1 .pic1 img{
+                width: 250px;
+                height: 250px;
+            }
+            .masterpic1 .pic1 .detail3{
+                
+                visibility: hidden;
+            }
+            .masterpic1 .pic1 .detail4{
+                visibility: visible;
+                margin-bottom: 3rem;
+                margin-top: 0rem;
+                
+            }
+
+        }
+
+        @media (max-width: 350px){
+            .masterpic1 .pic1{
+                margin-top: -8rem;
+                padding-left: 0px;
+                // padding-right: 5px;
+            }
         }
     }
-}  
+}
+

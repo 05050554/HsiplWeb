@@ -13,6 +13,7 @@ html{
     z-index: 999;
 
     .logo{
+        
         position: fixed;
         display: flex;
         justify-content: flex-end;
@@ -160,6 +161,31 @@ html{
     }
 
     
+}
+
+.button-border
+{
+    // z-index: 11;
+    // -webkit-transform: translateZ(0);
+    .top-button{
+        background-color: burlywood;
+        z-index: 10;
+        // width: 4%;
+        // height: 8%;
+        border-style: solid;
+        position: fixed;
+        bottom: 18vh;
+        right: 1vw;
+        top: 75vh;
+        border-radius: 1em;
+        // max-width: 4%;
+        // max-height: 8%;    
+        text-decoration: none;  
+    }
+    #p2{
+        text-decoration: none;
+        color: black;
+    }
 }
 
 @media screen and(max-width:1440px){

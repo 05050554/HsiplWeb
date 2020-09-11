@@ -11,7 +11,8 @@ const HomePage1 = () => {
     return (
         <>
             <div className="top" >
-                <img className="logo" src={logo} ></img>
+                <a href="#"><img className="logo" src={logo}></img></a> 
+                {/* <img className="logo" src={logo} ></img> */}
                 {/* <div className="mark">Hsipl</div> */}
                 
 
@@ -44,7 +45,12 @@ const HomePage1 = () => {
                 <img src={homepagepic} alt="homepagepic img"></img>
                 
             </div>
-
+            <div  className="button-border">
+                <button  type="button" className="top-button"><a id="p2" href="#" >
+                <i class="fas fa-chevron-up"></i>
+                <span><br></br>top</span>
+                </a></button>
+            </div>
         </>
         
     )
