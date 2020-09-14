@@ -272,8 +272,23 @@
                     margin-right: 0%;
                 }
                 .Btn-more{
-                   justify-self: center;
-                   //margin:5% 0%;
+                    width: fit-content;
+                    text-decoration: none;
+                    //flex:1;
+                    //margin-right: 20%;
+                    background-color: rgb(155, 176, 192);
+                    font-family: Oswald ;
+                    font-size: 1.2rem;
+                    border-radius: 10%;
+                    text-align: center;
+                    vertical-align: middle;
+                    padding:1% 2%;
+                    margin:5% 0%
+                    //border: 8px solid black;
+                }
+        
+                .Btn-more:hover{
+                    background-color: lightcoral;
                 }
             }
         }
