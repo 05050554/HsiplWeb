@@ -16,6 +16,7 @@ import Research_interests from './components/Research_interests'
 import Research_Posters from './components/Research_Posters'
 import Awards from './components/Awards'
 
+import Projects from './components/Projects'
 import Talks from './components/Talks'
 
 import {
@@ -34,6 +35,7 @@ function App() {
       
         <Route exact path="/ProfessorDetail">
           <Professor></Professor>
+          <Projects/>
           <Talks/>
 
         </Route>
