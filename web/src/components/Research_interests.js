@@ -4,12 +4,19 @@ import leaf from '../img/Research interests/新生葉偵測結果示意圖.png'
 import img1 from '../img/Research interests/Research interests_圖一.png'
 import img2 from '../img/Research interests/Research interests_圖二.png'
 import img3 from '../img/Research interests/工地圖.png'
-import life1 from '../img/Photos of life/2017-6-30口試聚餐.jpg'
-import life2 from '../img/Photos of life/2018畢業口試聚餐.jpg'
-import life3 from '../img/Photos of life/2018實驗室聚餐.jpg'
-import life4 from '../img/Photos of life/109504.jpg'
-import life5 from '../img/Photos of life/291816.jpg'
+import life1 from '../img/Photos of life/2017-6-30口試聚餐改.jpg'
+import life2 from '../img/Photos of life/2018畢業口試聚餐改.jpg'
+import life3 from '../img/Photos of life/2018實驗室聚餐改.jpg'
+import life4 from '../img/Photos of life/109504改.jpg'
+import life5 from '../img/Photos of life/img5.jpg'
+import life6 from '../img/Photos of life/S__1335453改.jpg'
+import life7 from '../img/Photos of life/畢業照2020_06_03改.jpg'
+import life8 from '../img/Photos of life/畢業照2020_06_03(2)改.jpg'
+import life9 from '../img/Photos of life/S__21143570改.jpg'
+import { BackTop } from 'antd';
+import { Carousel } from 'antd';
  
+import 'antd/dist/antd.css';
 
 import logo from "../img/LOGO/LOGO_1.png";
 
@@ -23,7 +30,7 @@ const Research_interests = () => {
             <div className="list">
                 <ul>
                     <li><a id="p1" href="HomePage" style={{ color: "black" }}>Back To Home</a></li>
-                    <li><a id="p1" href='#Research_interests'  style={{ color: "black" }}>Research Interests</a></li>
+                    <li><a id="p1" href="#Research_interests"  style={{ color: "black" }}>Research Interests</a></li>
                     <li><a id="p1" href='#Research_Posters' style={{ color: "black" }}>Research Posters</a></li>
                     <li><a id="p1" href='#Honor and Awards' style={{ color: "black" }}>Honor and Awards</a></li>
 
@@ -31,35 +38,42 @@ const Research_interests = () => {
             </div>
         </div>
 
-        <div className="slider">
-            <div className="slider_container">          
-                    <div >
-                        <img id="life" src={life1}  />
-                        <span className="info">2017-6-30口試聚餐</span>
-                    </div>
-                    <div >
-                        <img id="life" src={life2}  />
-                        <span className="info">2018畢業口試聚餐</span>
-                    </div>
-                    <div>
-                        <img id="life" src={life3}  />
-                        <span className="info">2018實驗室聚餐</span>
-                    </div>
-                    <div >
-                        <img id="life" src={life4}  />
-                        <span className="info">109504</span>
-                    </div>
-                    <div >
-                        <img id="life" src={life5} alt="pure css3 slider" />
-                        <span className="info">291816交流會</span>
-                    </div>            
+        <Carousel autoplay>
+            <div>
+                <img id="life" src={life1}  alt="life1" />
             </div>
-        </div>
-        <div  className="button-borderM">
-                <button  type="button" className="top-buttonM"><a id="p3" href="#" >
-                <i class="fas fa-chevron-up"></i>
-                <span><br></br>top</span>
-                </a></button>
+            <div>
+            <   img id="life" src={life2}  alt="life2" />
+            </div>
+            <div>
+                <img id="life" src={life3}  alt="life3" />
+            </div>
+            <div>
+                <img id="life" src={life4}  alt="life4" />
+            </div>
+            <div>
+                <img id="life" src={life5} alt="life5" />
+            </div>
+            <div>
+                <img id="life" src={life6} alt="life6" />
+            </div>
+            <div>
+                <img id="life" src={life7} alt="life7" />
+            </div>
+            <div>
+                <img id="life" src={life8} alt="life8" />
+            </div>
+            <div>
+                <img id="life" src={life9} alt="life9" />
+            </div>
+            
+        </Carousel>
+
+            <div>
+            <BackTop>
+                <i class="fas fa-chevron-up"> </i>
+                <div className="top_button">TOP</div>
+            </BackTop>
             </div>
 
         <div className="Research_interests" id="Research_interests">
@@ -84,7 +98,7 @@ const Research_interests = () => {
                         製程分析技術 PAT（Process Analytical Technology）與工業4.0領域，對民生用品與工業快篩檢測技術發掘更多市場商機，
                         目前成功技術轉移金額20萬與產學合作金額140萬元，未來也會持續與五鈴光學共同合作開發新技術在智慧農業與智慧製造的產業升級。
                     </span>
-                    <span><img src={img1}></img></span>
+                    <span><img src={img1} alt="img1"></img></span>
                 </div>
                 
             </div>
@@ -95,14 +109,14 @@ const Research_interests = () => {
                     <span>與諾錡有限公司合作開發行動版高光譜資料收集系統此系統整合資料庫、雲端演算法、APP、物聯網、大數據等技術，
                         可即時彙整並處理高光譜訊號，整合數據資訊提供使用者在高光譜資料蒐集的數位化與智慧化。
                     </span>
-                    <span><img src={img2}></img></span>
+                    <span><img src={img2} alt="img2"></img></span>
                 </div>
                 <div className="content">
                     <span>與坤眾科技股份有限公司開發道路挖掘監視系統，可於道路挖掘當下錄影存證，也試驗於道路挖掘透過攝影建置傾斜攝影建模，
                         所得的模型可成為道路挖掘之地底管線的現況紀錄，提供日後補正與量測使用，透過影像辨識技術，其辨識成果將協助提升施工品質或竣工文件品質。
                         目前成功技術轉移金額5萬與產學合作金額35萬元。
                     </span>
-                    <span><img src={img3}></img></span>
+                    <span><img src={img3} alt="img3"></img></span>
                 </div>
             </div>
 
@@ -113,7 +127,7 @@ const Research_interests = () => {
                     <span>研發智慧森林新生葉偵測新技術發表三篇論文於遙測領域SCI期刊 : 
                         有效量化新生葉芽數量，此項新技術為環境監控與全球暖化議題提供重要訊息與幫助。
                     </span>
-                    <span><img src={leaf}></img></span>
+                    <span><img src={leaf} alt="leaf"></img></span>
                 </div>
                 
             </div>

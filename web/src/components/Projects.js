@@ -5,7 +5,7 @@ import 'antd/dist/antd.css';
 
 const Projects = () => {
     return (
-        <div className="Projects">
+        <div className="Projects" id="Projects">
             <h1 className="Title">Grant Support and Projects</h1>
             <div className="List">
                 <Table dataSource={data} bordered  columns={columns} pagination={false} />

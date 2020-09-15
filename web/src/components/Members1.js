@@ -25,7 +25,7 @@ const Members1 = () => {
         // document.getElementById("masterpic").scrollLeft -=340;
         document.getElementById("masterpic").scrollBy ({
             top: 0,
-            left: -320,
+            left: -330,
             behavior: 'smooth'
         })
     
@@ -36,7 +36,7 @@ const Members1 = () => {
         // document.getElementById("masterpic").scrollLeft += 330;
         document.getElementById("masterpic").scrollBy ({
             top: 0,
-            left: +320,
+            left: +330,
             behavior: 'smooth'
         })
     };
@@ -85,13 +85,13 @@ const Members1 = () => {
                     <div className="pic" id="firstpic">
                         <div className="detail" id="firstdetail">
                             <span>Members<br />Developer</span>
-                            <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img  className="img" id="firstimg" src={girl1} ></img>
+                        <img  className="img" id="firstimg" src={girl1} alt="girl1"></img>
 
                         <div className="detail2" id="firstdetail2">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -100,12 +100,12 @@ const Members1 = () => {
                     <div className="pic">
                         <div className="detail">
                             <span>Members<br />Developer</span>
-                            <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl2} ></img>
+                        <img src={girl2} alt="girl2"></img>
                         <div className="detail2">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -113,12 +113,12 @@ const Members1 = () => {
                     <div className="pic">
                         <div className="detail">
                             <span>Members<br />Developer</span>
-                            <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl3} ></img>
+                        <img src={girl3} alt="girl3"></img>
                         <div className="detail2">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -126,12 +126,12 @@ const Members1 = () => {
                     <div className="pic">
                         <div className="detail">
                             <span>Members<br />Developer</span>
-                            <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl4} ></img>
+                        <img src={girl4} alt="girl4"></img>
                         <div className="detail2">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -139,12 +139,12 @@ const Members1 = () => {
                     <div className="pic">
                         <div className="detail">
                             <span>Members<br />Developer</span>
-                            <span className="mail"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl4} ></img>
+                        <img src={girl4} alt="girl4"></img>
                         <div className="detail2">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -174,13 +174,13 @@ const Members1 = () => {
                     {/* <button id="slide" type="button">Slide right</button> */}
                         <div id="firstdetail" className="detail3">
                             <span>Members<br />Developer</span>
-                            <span className="mail3"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail3"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img id="firstpicture" src={girl1} ></img>
+                        <img id="firstpicture" src={girl1} alt="girl1"></img>
 
                         <div id="firstdetail2"  className="detail4">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail4"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -189,12 +189,12 @@ const Members1 = () => {
                     <div className="pic1">
                         <div className="detail3">
                             <span>Members<br />Developer</span>
-                            <span className="mail3"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail3"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl2} ></img>
+                        <img src={girl2} alt="girl2"></img>
                         <div className="detail4">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail4"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -202,12 +202,12 @@ const Members1 = () => {
                     <div className="pic1">
                         <div className="detail3">
                             <span>Members<br />Developer</span>
-                            <span className="mail3"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail3"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl3} ></img>
+                        <img src={girl3} alt="girl3"></img>
                         <div className="detail4">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail4"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -215,12 +215,12 @@ const Members1 = () => {
                     <div className="pic1">
                         <div className="detail3">
                             <span>Members<br />Developer</span>
-                            <span className="mail3"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail3"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl4} ></img>
+                        <img src={girl4} alt="girl4"></img>
                         <div className="detail4">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail4"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -228,12 +228,12 @@ const Members1 = () => {
                     <div className="pic1">
                         <div className="detail3">
                             <span>Members<br />Developer</span>
-                            <span className="mail3"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail3"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl4} ></img>
+                        <img src={girl4} alt="girl4"></img>
                         <div className="detail4">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail4"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>
@@ -241,12 +241,12 @@ const Members1 = () => {
                     <div className="pic1">
                         <div className="detail3">
                             <span>Members<br />Developer</span>
-                            <span className="mail3"><a href="#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
+                            <span className="mail3"><a href="/#"><i class="fas fa-envelope mail1"></i></a>abcdefg@gmail.com</span>
                         </div>
-                        <img src={girl4} ></img>
+                        <img src={girl4} alt="girl4"></img>
                         <div className="detail4">
                             <p3>Members<br /><span>Developer<br /></span>
-                                <a href="#"><i class="fas fa-envelope mail4"></i></a>
+                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
                                 <p>abcdefg@gmail.com</p>
                             </p3>
                         </div>

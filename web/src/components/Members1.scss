@@ -109,12 +109,16 @@
         .detail2 p{
             margin-top: -0.4rem;
         }
+
+
+
         @media (max-width: 450px){
             .masterpic .pic{
             // padding-left: 1%;
             margin-top: -7rem;
             padding-right: 40px;
             padding-left: 25px;
+            margin-left: 20px;
             }
             .masterpic1 .pic1{
                 padding-right: 100px;
@@ -122,6 +126,7 @@
             .masterpic .pic img{
                 width: 250px;
                 height: 250px;
+                margin-left: 0px;
             }
             .masterpic .pic .detail{
                 
@@ -135,10 +140,26 @@
                 
             }
         }
-        @media (max-width: 350px){
+        @media (max-width: 375px){
             .masterpic .pic{
-                margin-top: -7rem;
+                padding-right: 50px;
+                margin-top: -5rem;
+                padding-left: 8px;
+            }
+        }
+
+        @media (max-width: 320px){
+
+            .masterpic .pic img{
+                width: 220px;
+                height: 220px;
+                // margin-left: 0px;
+            }
+            .masterpic .pic{
+                padding-right: 90px;
+                // margin-top: -5rem;
                 padding-left: 0px;
+                // padding-right: 5px;
             }
         }
 
@@ -232,11 +253,14 @@
         @media (max-width: 450px){
             .masterpic1 .pic1{
                 margin-top: -8rem;
-
+                padding-right: 40px;
+                padding-left: 25px;
+                margin-left: 20px;
             }
             .masterpic1 .pic1 img{
                 width: 250px;
                 height: 250px;
+                margin-left: 0px;
             }
             .masterpic1 .pic1 .detail3{
                 
@@ -251,9 +275,26 @@
 
         }
 
-        @media (max-width: 350px){
+        @media (max-width: 375px){
+
             .masterpic1 .pic1{
-                margin-top: -8rem;
+                padding-right: 50px;
+                margin-top: -5rem;
+                padding-left: 10px;
+                // padding-right: 5px;
+            }
+        }
+
+        @media (max-width: 320px){
+
+            .masterpic1 .pic1 img{
+                width: 220px;
+                height: 220px;
+                // margin-left: 0px;
+            }
+            .masterpic1 .pic1{
+                padding-right: 90px;
+                // margin-top: -5rem;
                 padding-left: 0px;
                 // padding-right: 5px;
             }
