@@ -20,11 +20,13 @@ import HamburgerDT from './components/HamburgerDT'
 import Projects from './components/Projects'
 import Talks from './components/Talks'
 
-import {
-  BrowserRouter as Router,Switch,Route} from "react-router-dom";
+
+
+import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
 
 function App() {
   return (
+    
     <Router>
       <Switch>
         <Route exact path="/LearnMore">
@@ -43,6 +45,7 @@ function App() {
         </Route>
 
         <div className="App">
+         
           <Hamburger/>
           <HomePage></HomePage>
           <LabDirector></LabDirector>
@@ -51,11 +54,13 @@ function App() {
           <Members></Members>
           <Equipment></Equipment>
           <Footer/>
+          
         </div>
       </Switch>
     </Router>
-    
+ 
   );
 }
+
 
 export default App;

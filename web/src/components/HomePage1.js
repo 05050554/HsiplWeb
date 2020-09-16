@@ -3,14 +3,15 @@ import "./HomePage1.scss";
 import homepagepic from "../assets/images/homepage.svg";
 import logo from "../img/LOGO/LOGO_1.png";
 import { BackTop } from 'antd';
-
-
 import {
     BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+
+
 
 const HomePage1 = () => {
     return (
         <>
+
             <div className="top" id="HomePage">
                 <a href="#"><img className="logo" src={logo}></img></a> 
 
