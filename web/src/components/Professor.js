@@ -3,10 +3,8 @@ import "./Professor.scss"
 import Professor_img from "../img/Professor/Professor_img.jpg"
 import Mail_img from "../img/Professor/Mail_img.png"
 import Call_img from "../img/Professor/Call_img.png"
-import { List, Typography, Divider, Table } from 'antd';
-import PaginationList from 'react-pagination-list';
-import {
-    BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import { List } from 'antd';
+import {Link} from "react-router-dom";
 
 
 
@@ -16,7 +14,7 @@ const Professor = () => {
             <div className="content">
                 <div className="Pic">
                     <span>Professor</span>
-                    <img src={Professor_img} width={'60%'} height={'auto'} ></img>
+                    <img src={Professor_img} width={'60%'} height={'auto'} alt="Professor_img"/>
                 </div>
                 <div className="Info">
                     <div className="Name">
@@ -40,10 +38,8 @@ const Professor = () => {
             </div>
             
             <div className="article">
-                {/* <h1 className="">Journal articles</h1> */}
                 <List
                     header={<h1 className="">Journal articles</h1>}
-                    
                     itemLayout={"horizontal"}
                     bordered={true}
                     pagination={{pageSize:6}}
@@ -53,22 +49,8 @@ const Professor = () => {
                         <span><span>{item.content1}</span><span className="blod">{item.blod}</span><span>{item.content2}</span>
                         <a href={item.link} target="_blank">{item.title}</a><span>{item.content3}</span></span>
                     </List.Item>
-                    
                 )}
                 ></List>
-
-                {/* <PaginationList
-                    fixHeight={true}
-                    data={data}
-                    pageSize={6}
-                    renderItem={item => (
-                        <List.Item >
-                            <span><span>{item.content1}</span><span className="blod">{item.blod}</span><span>{item.content2}</span>
-                            <a href={item.link} target="_blank">{item.title}</a></span><span>{item.content3}</span>
-                        </List.Item>
-                        
-                    )}
-                /> */}
             </div>
             
         </div>
