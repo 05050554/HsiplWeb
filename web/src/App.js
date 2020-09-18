@@ -16,15 +16,18 @@ import Research_interests from './components/Research_interests'
 import Research_Posters from './components/Research_Posters'
 import Awards from './components/Awards'
 
-import {Projects ,Talks,Service,Conference} from './components/Professor_Details'
-// import Talks from './components/Talks'
+import { Projects, Talks, Service, Conference } from './components/Professor_Details'
+import Professor1 from './components/Professor1';
+import HamburgerDT from './components/HamburgerDT'
 
-import {
-  BrowserRouter as Router, Switch, Route
-} from "react-router-dom";
+
+
+
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 function App() {
   return (
+
     <Router>
       <Switch>
         <Route exact path="/LearnMore">
@@ -35,7 +38,8 @@ function App() {
         </Route>
 
         <Route exact path="/ProfessorDetail">
-          <Professor></Professor>
+          <HamburgerDT />
+          <Professor1 />
           <Projects />
           <Talks />
           <Service />
@@ -45,20 +49,20 @@ function App() {
 
         <Route exact path="/">
           {/* <div className="App"> */}
-            <Hamburger />
-            <HomePage></HomePage>
-            <LabDirector></LabDirector>
-            <Introduction></Introduction>
-            <Professor></Professor>
-            <Members></Members>
-            <Equipment></Equipment>
-            <Footer />
+          <Hamburger />
+          <HomePage></HomePage>
+          <LabDirector></LabDirector>
+          <Introduction></Introduction>
+          <Professor></Professor>
+          <Members></Members>
+          <Equipment></Equipment>
+          <Footer />
           {/* </div> */}
         </Route>
       </Switch>
     </Router>
-
   );
 }
+
 
 export default App;

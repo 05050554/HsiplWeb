@@ -7,7 +7,7 @@ const { Panel } = Collapse;
 
 const Talks = () => {
   return (
-    <div className="Talks">
+    <div className="Talks" id="Talks">
       <h1 className="Title">Talks</h1>
       <div className="List">
         <Collapse defaultActiveKey={['1']} >

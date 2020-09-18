@@ -9,7 +9,7 @@ const HamburgerLM = () => {
 
   return (
     <nav className="navbar">
-      <a href="HomePage"><img className="logo1" src={logo}></img></a>
+      <a href="HomePage"><img className="logo1" src={logo} alt="logo"/></a>
       <h2>HSIPL</h2>
       {open === false ? (
         <i onClick={() => setOpen(!open)} className="fas fa-bars fa-2x ham"></i>
@@ -21,9 +21,9 @@ const HamburgerLM = () => {
       )}
  
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><a onClick={() => setOpen(!open)}  href="self.location='HomePage.js'">Back To Home</a></li>
-        <li><a onClick={() => setOpen(!open)}  href="#Research_interests">Research interests</a></li>
-        <li><a onClick={() => setOpen(!open)} href="#Research_Posters">Research Posters</a></li>
+        <li><a onClick={() => setOpen(!open)}  href="HomePage">Home</a></li>
+        <li><a onClick={() => setOpen(!open)}  href="#Research_interests">Interests</a></li>
+        <li><a onClick={() => setOpen(!open)} href="#Research_Posters">Posters</a></li>
         <li><a onClick={() => setOpen(!open)} href="#Honor and Awards">Honor and Awards</a></li>
       </ul>
     </nav>

@@ -1,0 +1,140 @@
+.logo1{
+    width: 15vw;
+    height: 10vh;
+    position: relative;
+    left: 1rem;
+    top: -0.3rem;
+    z-index: 11;
+  }
+  .navbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100vw;
+      height: 10vh;
+      top: -0.5rem;
+      position: fixed;
+      z-index: 9;
+      background-color: ivory;
+    }
+    .navbar h2 {
+      position: fixed;
+      display: flex;
+      justify-content: center;
+      width: 100vw;
+      top: -2.3rem;
+      font-size: 3em;
+      font-family: Oregano;
+    }
+    .navbar .nav {
+      display: flex;
+    }
+    .navbar ul{
+      display: flex;
+      justify-content: center;
+    }
+  
+    .navbar ul li {
+      width: 90%;
+      height: 5%;
+      padding: 2em;
+      display: flex;
+      flex-direction: column;
+    
+  
+    }
+    .navbar ul li a {
+      font-size: 2em;
+      color: black;
+      font-family: 'Russo One', sans-serif;
+      text-decoration: none;
+    }
+    
+    .ham {
+      // display: none;
+      width: 95%;
+      position: fixed;
+      display: flex;
+      justify-content: flex-end;
+      z-index: 10;
+    }
+  
+    @media (max-width: 1920px) {
+      .logo1{
+        visibility: hidden;
+      }
+      .navbar .nav {
+        display: none;
+      }
+    }
+  
+  
+    @media (max-width: 1300px) {
+      .navbar .nav {
+        display: none;
+        left: -200px;
+      }
+    }
+  
+    @media (max-width: 1176px) {
+    
+      .navbar .nav {
+        display: none;
+        left: -200px;
+      }
+      .ham {
+        display: flex;
+      }
+    
+      .navbar .open {
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        padding: 3px;
+        left: 0px;
+        // margin-top: 1rem;
+        top: 0em;
+        height: 100%;
+        width: 100vw;
+        text-align: center;
+        background-color: rgba(240, 240, 240, 1);
+        animation: open 0.5s ease;
+
+
+      }
+      .navbar .close {
+        display: none;
+      }
+  
+    }
+  
+    @media (max-width: 1024px){
+      .logo1{
+        visibility:visible ;
+      }
+    }
+  
+    @media (max-width: 800px) {
+      
+      .navbar ul li a {
+        font-size: 2em;
+      }
+    }
+    @media (max-width: 500px) {
+      // .navbar h2{
+      //     margin-top: 0rem;
+      // }
+      .navbar ul li a {
+        font-size: 1.8em;
+      }
+    }
+    @keyframes open {
+      0% {
+        left: -200px;
+      }
+    
+      100% {
+        left: 0px;
+      }
+    }
+    
