@@ -1,0 +1,108 @@
+.Projects{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    .Title{
+        font-family: Signika, sans-serif;
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .List{
+        padding: 1% 5%;
+        Table{
+            th{
+                background-color: rgb(221, 221, 221);
+                word-break: keep-all;
+            }
+            td{
+                word-break: normal;
+            }
+        }
+    } 
+}
+
+.Talks{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    display: grid;
+    .Title{
+        font-family: Signika, sans-serif;
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .List{
+        padding: 1% 5%;
+        table {
+            th{
+                background-color: rgb(221, 221, 221);
+                word-break: keep-all;
+            }
+        }
+    }
+}
+
+.Service{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    display: grid;
+    .Title{
+        font-family: Signika, sans-serif;
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .List{
+        padding: 1% 5%;
+        .panel{
+            background-color: rgb(212, 211, 211);
+            table {
+                th{
+                    text-align: center;
+                    background-color: rgb(255, 255, 255);
+                }
+                td{
+                    text-align: center;
+                }
+            }
+        }
+    }
+    
+}
+
+.Conference{
+    padding-top: 5%;
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    .Title{
+        font-family: Signika, sans-serif;
+        font-size: 3rem;
+        text-align: left;
+        margin-left: 5%;
+    }
+    .List{
+        padding: 1% 5%;
+        Table{
+            th{
+                background-color: rgb(221, 221, 221);
+                word-break: keep-all;
+            }
+            td{
+                word-break: normal;
+            }
+        }
+
+        h2{
+            font-family: Signika, sans-serif;
+            font-size: 1.8rem;
+            padding-left: 1%;
+        }
+    } 
+}

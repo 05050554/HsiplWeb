@@ -2,10 +2,7 @@ import React from "react";
 import "./HomePage1.scss";
 import homepagepic from "../assets/images/homepage.svg";
 import logo from "../img/LOGO/LOGO_1.png";
-
-
-import {
-    BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 
 const HomePage1 = () => {
     return (
@@ -36,7 +33,7 @@ const HomePage1 = () => {
                         <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
                         <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
                         <h2 className="more">
-                            <Link id="lm" to="/LearnMore">Learn more</Link><span className="circle2"></span></h2>
+                            <Link id="lm" to="/LearnMore" sc>Learn more</Link><span className="circle2"></span></h2>
                         <span className="circle3"></span>
                     </div>
 

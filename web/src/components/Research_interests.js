@@ -9,7 +9,7 @@ import life2 from '../img/Photos of life/2018畢業口試聚餐.jpg'
 import life3 from '../img/Photos of life/2018實驗室聚餐.jpg'
 import life4 from '../img/Photos of life/109504.jpg'
 import life5 from '../img/Photos of life/291816.jpg'
- 
+import {Link} from "react-router-dom";
 
 import logo from "../img/LOGO/LOGO_1.png";
 
@@ -22,7 +22,7 @@ const Research_interests = () => {
         
             <div className="list">
                 <ul>
-                    <li><a id="p1" href="HomePage" style={{ color: "black" }}>Back To Home</a></li>
+                    <li><Link id="p1" to="/">Back To Home</Link></li>
                     <li><a id="p1" href='#Research_interests'  style={{ color: "black" }}>Research Interests</a></li>
                     <li><a id="p1" href='#Research_Posters' style={{ color: "black" }}>Research Posters</a></li>
                     <li><a id="p1" href='#Honor and Awards' style={{ color: "black" }}>Honor and Awards</a></li>
