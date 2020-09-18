@@ -2,13 +2,8 @@ import React from "react";
 import "./HomePage1.scss";
 import homepagepic from "../assets/images/homepage.svg";
 import logo from "../img/LOGO/LOGO_1.png";
-<<<<<<< HEAD
-import {Link} from "react-router-dom";
-=======
 import { BackTop } from 'antd';
-import {
-    BrowserRouter as Router,Switch,Route,Link} from "react-router-dom";
->>>>>>> c0f371b06539d3fef349308e5c2dddbd0c545775
+import {Link} from "react-router-dom";
 
 
 
