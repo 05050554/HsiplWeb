@@ -5,22 +5,26 @@ html{
 .top{
     position: fixed;
     top: 0;
-    background-color: ivory;
+    // background-color: ivory;
+    // background-color: ivory;
+    background-color: #2f64a2;
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    height: 8%;
+    height: 10vh;
     z-index: 999;
 
     .logo{
         
         position: fixed;
         display: flex;
-        justify-content: flex-end;
-        top: -1vh;
+        //justify-content: flex-end;
+        // top: -1vh;
         left: 1vw;
-        width: 7vw;
+        width: auto;
         height: 10vh;
+        margin-top: -0.3rem;
+        //justify-items: center;
     }
 
     // .mark{
@@ -36,22 +40,27 @@ html{
     
     // }
 
-    .list ul li{
+    .list ul{
+         margin-bottom: 0;
+        li{
         display: inline;
         margin: 3ex;
         
         
+        
     } 
-    
+}
     .list{
         padding: 2vh 1vw;
-        
+        align-self: center;
     } 
     
     #p1{
         text-decoration: none;
-        font-family: Oswald;
-        font-size: 1.7em;
+        //font-family: Oswald;
+        font-size: 1.5em;
+        color: white;
+        //letter-spacing: 0.1rem;
     }
     
 }
@@ -98,8 +107,10 @@ html{
                 color: #2961B5;
                 letter-spacing: 0.02em;
                 //white-space: nowrap;
+                margin-bottom: 40px;
             }
             h2{
+                
                 font-size:2rem;
                 line-height: 2.8rem;
                 text-align: left;
@@ -118,6 +129,7 @@ html{
                 display: flex;
                 
                 #lm{
+                    margin-top: 30px;
                     width: 13rem;
                     height: 20%;
                     letter-spacing: 0.05em;

@@ -37,7 +37,6 @@
         .arrow1{
             font-size: 80px;
             align-self: center;
-            // margin-top: 0rem;
         }
         .masterpic{
             display: inline-flex;
@@ -46,17 +45,14 @@
 
             .pic{
                 margin-top: -4rem;
-                padding-left: 40px;
-                padding-right: 50px;
                 display:grid;
-            // #firstpic{
-            //     padding-left: -2rem;
-            // }
+
+
+
                 img{
                     width: 270px;
                     height: 360px;
-                    // width: 300px;
-                    // height: 300px;
+
                 }
 
 
@@ -86,31 +82,41 @@
                         font-weight: bold;
                     }
 
-                    // span{
-                    //     display: grid;
-                    //     align-items: center;
-                    //     //font-size: 2rem;
-                    // }
-                    // .mail{
-                    //     display:flex;
-                    //     align-items: stretch;
-                    //     a{
-                    //         padding-right: 2%;
-                    //     }
-                    // }
 
                 }
+            }
+            #firstpic{
+                padding-left: 30px;
+                padding-right: 60px;
+            }
+            #secondpic{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #thirdpic{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #fourthpic{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #lastpic{
+                padding-left: 60px;
+                padding-right: 30px;
             }
         }
         
         .pic:hover .detail{
             transform: scale(1);
             visibility: visible;
-            //height: 20vh;
+
         }
     
         .detail2 {
             visibility: hidden;
+            
+            text-align: center;
             font-size: 1em;
             background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
             h4{
@@ -126,24 +132,16 @@
 
         @media (max-width: 450px){
             .masterpic .pic{
-            // padding-left: 1%;
             margin-top: -7rem;
-            padding-right: 40px;
             padding-left: 35px;
-            //margin-left: 20px;
             }
-            .masterpic1 .pic1{
-                padding-right: 100px;
-            }
+
             .masterpic .pic img{
-                //width: 240px;
-                //height: 320px;
                 margin-left: 0px;
             }
-            .masterpic .pic .detail{
-                
+
+            .masterpic .pic .detail{        
                 visibility: hidden;
-                // display: none;
             }
            
             .masterpic .pic .detail2{
@@ -151,12 +149,61 @@
                 margin-bottom: 3rem;
                 
             }
+            .masterpic {
+                #firstpic  {
+                    padding-right: 50px;
+                    // padding-left: 10px;
+                }
+                #secondpic{
+                    padding-left: 85px;
+                    padding-right: 90px;
+                }
+                #thirdpic{
+                    padding-left: 40px;
+                    padding-right: 70px;
+                }
+                #fourthpic{
+                    padding-left: 60px;
+                    padding-right: 70px;
+                    
+                }
+                #lastpic{
+                    padding-left: 60px;
+                    padding-right: 30px;
+                    
+                }
+
+            }
+
         }
         @media (max-width: 375px){
             .masterpic .pic{
                 padding-right: 50px;
                 margin-top: -7rem;
                 padding-left: 12px;
+ 
+            }
+            .masterpic {
+                #firstpic  {
+                    padding-left: 13px;
+                    padding-right: 65px;
+                }
+                #secondpic{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #thirdpic{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #fourthpic{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #lastpic{
+                    padding-left: 65px;
+                    padding-right: 13px;
+                }
             }
         }
 
@@ -165,13 +212,28 @@
             .masterpic .pic img{
                 width: 210px;
                 height: 280px;
-                // margin-left: 0px;
             }
-            .masterpic .pic{
-                padding-right: 90px;
-                // margin-top: -5rem;
-                padding-left: 15px;
-                // padding-right: 5px;
+            .masterpic {
+                #firstpic  {
+                    padding-left: 18px;
+                    padding-right: 100px; 
+                }
+                #secondpic{
+                    padding-left: 90px;
+                    padding-right: 90px;
+                }
+                #thirdpic{
+                    padding-left: 100px;
+                    padding-right: 100px;
+                }
+                #fourthpic{
+                    padding-left: 90px;
+                    padding-right: 130px;
+                }
+                #lastpic{
+                    padding-left: 60px;
+                    padding-right: 10px;
+                }
             }
         }
 
@@ -250,6 +312,30 @@
                        
                 }
             }
+            #firstpic1{
+                padding-left: 30px;
+                padding-right: 60px;
+            }
+            #secondpic1{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #thirdpic1{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #fourthpic1{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #fifthpic1{
+                padding-left: 60px;
+                padding-right: 60px;
+            }
+            #lastpic1{
+                padding-left: 60px;
+                padding-right: 30px;
+            }    
         }
         .pic1:hover .detail3{
             transform: scale(1);
@@ -260,6 +346,7 @@
         .detail4 {
             visibility: hidden;
             font-size: 1em;
+            text-align: center;
             background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
         
         }
@@ -288,7 +375,34 @@
                 margin-top: 0rem;
                 
             }
+            .masterpic1 {
+                #firstpic1  {
+                    padding-right: 50px;
+                     //padding-left: 10px;
+                }
+                #secondpic1{
+                    padding-left: 80px;
+                    padding-right: 90px;
+                }
+                #thirdpic1{
+                    padding-left: 40px;
+                    padding-right: 70px;
+                }
+                #fourthpic1{
+                    padding-left: 60px;
+                    padding-right: 70px;
+                }
+                #fifthpic1{
+                    padding-left: 60px;
+                    padding-right: 70px;
+                }
+                #lastpic{
+                    padding-left: 60px;
+                    padding-right: 30px;
+                    
+                }
 
+            }
         }
 
         @media (max-width: 375px){
@@ -298,6 +412,32 @@
                 margin-top: -5rem;
                 padding-left: 12px;
                 // padding-right: 5px;
+            }
+            .masterpic1 {
+                #firstpic1  {
+                    padding-left: 13px;
+                    padding-right: 65px;
+                }
+                #secondpic1{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #thirdpic1{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #fourthpic1{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #fifthpic1{
+                    padding-left: 65px;
+                    padding-right: 65px;
+                }
+                #lastpic1{
+                    padding-left: 65px;
+                    padding-right: 13px;
+                }
             }
         }
 
@@ -313,6 +453,32 @@
                 // margin-top: -5rem;
                 padding-left: 15px;
                 // padding-right: 5px;
+            }
+            .masterpic1 {
+                #firstpic1  {
+                    padding-left: 18px;
+                    padding-right: 100px; 
+                }
+                #secondpic1{
+                    padding-left: 90px;
+                    padding-right: 90px;
+                }
+                #thirdpic1{
+                    padding-left: 100px;
+                    padding-right: 100px;
+                }
+                #fourthpic1{
+                    padding-left: 90px;
+                    padding-right: 130px;
+                }
+                #fifthpic1{
+                    padding-left: 60px;
+                    padding-right: 130px;
+                }
+                #lastpic1{
+                    padding-left: 60px;
+                    padding-right: 10px;
+                }
             }
         }
     }
