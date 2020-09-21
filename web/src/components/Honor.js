@@ -1,31 +1,31 @@
 import React from 'react'
-import "./Awards.scss";
-import img2020 from "../img/Awards/2020.jpg"
-import img20191204 from "../img/Awards/2019-1204.jpg"
-import img20191108 from "../img/Awards/2019-1108.jpg"
-import img20191031 from "../img/Awards/2019-1031.jpg"
-import img20191031_1 from "../img/Awards/2019-1031-1.jpg"
-import img20190713 from "../img/Awards/2019-0713.png"
-import img20181212 from "../img/Awards/2018-1212.png"
-import img20181212_1 from "../img/Awards/2018-1212-1.png"
-import img20181123 from "../img/Awards/2018-1123.png"
-import img20181123_1 from "../img/Awards/2018-1123-1.png"
-import img20180628 from "../img/Awards/2018-0628.png"
-import img2017 from "../img/Awards/2017.jpg"
-import img20170624 from "../img/Awards/2017-0624.jpg"
-import img20170513 from "../img/Awards/2017-0513.jpg"
-import img20170426 from "../img/Awards/2017-0426.jpg"
-import img20170329 from "../img/Awards/2017-0329.jpg"
-import img201703 from "../img/Awards/2017-03.jpeg"
-import img20161215 from "../img/Awards/2016-1215.jpg"
-import img20161214 from "../img/Awards/2016-1214.jpeg"
-import img20160426 from "../img/Awards/2016-0426.jpg"
-import img20151216 from "../img/Awards/2015-1216.jpg"
-import img20151120 from "../img/Awards/2015-1120.jpg"
-import img20151105 from "../img/Awards/2015-1105.jpg"
-const Awards = () => {
+import "./Honor.scss";
+import img2020 from "../img/Honor/2020.jpg"
+import img20191204 from "../img/Honor/2019-1204.jpg"
+import img20191108 from "../img/Honor/2019-1108.jpg"
+import img20191031 from "../img/Honor/2019-1031.jpg"
+import img20191031_1 from "../img/Honor/2019-1031-1.jpg"
+import img20190713 from "../img/Honor/2019-0713.png"
+import img20181212 from "../img/Honor/2018-1212.png"
+import img20181212_1 from "../img/Honor/2018-1212-1.png"
+import img20181123 from "../img/Honor/2018-1123.png"
+import img20181123_1 from "../img/Honor/2018-1123-1.png"
+import img20180628 from "../img/Honor/2018-0628.png"
+import img2017 from "../img/Honor/2017.jpg"
+import img20170624 from "../img/Honor/2017-0624.jpg"
+import img20170513 from "../img/Honor/2017-0513.jpg"
+import img20170426 from "../img/Honor/2017-0426.jpg"
+import img20170329 from "../img/Honor/2017-0329.jpg"
+import img201703 from "../img/Honor/2017-03.jpeg"
+import img20161215 from "../img/Honor/2016-1215.jpg"
+import img20161214 from "../img/Honor/2016-1214.jpeg"
+import img20160426 from "../img/Honor/2016-0426.jpg"
+import img20151216 from "../img/Honor/2015-1216.jpg"
+import img20151120 from "../img/Honor/2015-1120.jpg"
+import img20151105 from "../img/Honor/2015-1105.jpg"
+const Honor = () => {
     return (
-        <div className="Awards" id="Honor and Awards">
+        <div className="Honor" id="Honor and Awards">
             <div className="Title">
                 <h1>Honor and Awards</h1>
             </div>
@@ -46,8 +46,8 @@ const Awards = () => {
                     <h1>2019-11/08</h1>
                     <img src={img20191108} alt="img20191108"></img>
                     <h3>本實驗室獲政大大學報採訪與報導​，華視新聞台轉發<br></br>主題：<span className="name">蟲蛀咖啡豆外觀難辨 高光譜提升檢測品質</span>
-                        <br></br>連結：<a target="_blank" href='https://news.cts.com.tw/unews/campus/201911/201911081980476.html'>華視新聞台</a>，
-                        <a target="_blank" href='https://unews.nccu.edu.tw/unews/%ef%bc%88f%ef%bc%89%e9%81%8b%e7%94%a8%e9%ab%98%e5%85%89%e8%ad%9c%e5%bd%b1%e5%83%8f%e6%99%ba%e6%85%a7%e8%be%a8%e8%ad%98%e6%8a%80%e8%a1%93%e6%96%bc%e5%92%96%e5%95%a1%e8%b1%86%e7%91%95%e7%96%b5%e6%aa%a2/'>政大大學報</a></h3>
+                        <br></br>連結：<a target="_blank" rel="noopener noreferrer" href='https://news.cts.com.tw/unews/campus/201911/201911081980476.html' >華視新聞台</a>，
+                        <a target="_blank" rel="noopener noreferrer" href='https://unews.nccu.edu.tw/unews/%ef%bc%88f%ef%bc%89%e9%81%8b%e7%94%a8%e9%ab%98%e5%85%89%e8%ad%9c%e5%bd%b1%e5%83%8f%e6%99%ba%e6%85%a7%e8%be%a8%e8%ad%98%e6%8a%80%e8%a1%93%e6%96%bc%e5%92%96%e5%95%a1%e8%b1%86%e7%91%95%e7%96%b5%e6%aa%a2/'>政大大學報</a></h3>
                 </div>
                 <div className="Item">   
                     <h1>2019-10/31</h1>
@@ -159,4 +159,4 @@ const Awards = () => {
     )
 }
 
-export default Awards;
+export default Honor;
