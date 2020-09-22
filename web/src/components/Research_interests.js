@@ -32,8 +32,6 @@ const Research_interests = () => {
                 <ul>
                     <li><Link id="p1" to="/" style={{ color: "black" }}>Back To Home</Link></li>
                     <li><a id="p1" href='#Research_interests'  style={{ color: "black" }}>Research Interests</a></li>
-                    <li><a id="p1" href="HomePage" style={{ color: "black" }}>Back To Home</a></li>
-                    <li><a id="p1" href="#Research_interests"  style={{ color: "black" }}>Research Interests</a></li>
                     <li><a id="p1" href='#Research_Posters' style={{ color: "black" }}>Research Posters</a></li>
                     <li><a id="p1" href='#Honor and Awards' style={{ color: "black" }}>Honor and Awards</a></li>
 

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./Hamburger.scss";
 import logo from "../img/LOGO/LOGO_1.png";
-
+import {Link} from "react-router-dom";
 
 
 const Hamburger = () => {
@@ -21,7 +21,7 @@ const Hamburger = () => {
       )}
  
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><a onClick={() => setOpen(!open)}  href="/#">Home</a></li>
+        <li><Link onClick={() => setOpen(!open)}  to="/">Home</Link></li>
         <li><a onClick={() => setOpen(!open)} href="/#LabDirector">Lab Director</a></li>
         <li><a onClick={() => setOpen(!open)} href="/#Introduction">Introduction</a></li>
         <li><a onClick={() => setOpen(!open)} href="/#Professor">Professor</a></li>

@@ -14,7 +14,7 @@ const Professor = () => {
     return (
         <>
             <div className="top" >
-                <a href="HomePage"><img className="logo" src={logo}></img></a>
+            <Link id="p1" to="/" ><img className="logo" src={logo}></img></Link> 
 
                 <div className="list">
                     <ul>
