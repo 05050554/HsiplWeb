@@ -9,9 +9,10 @@ const { TabPane } = Tabs;
 
 
 export const Projects = () => {
+    
     return (
-        <div className="Projects">
-            <h1 className="Title">Grant Support and Projects</h1>
+        <div className="Projects" id="Projects">
+            <h1 className="Title" >Grant Support and Projects</h1>
             <div className="List">
                 <Table dataSource={Projects_data} bordered columns={Projects_columns} pagination={false} />
             </div>
@@ -21,7 +22,7 @@ export const Projects = () => {
 
 export const Talks = () => {
     return (
-        <div className="Talks">
+        <div className="Talks" id="Talks">
             <h1 className="Title">Talks</h1>
             <div className="List">
                 <Table dataSource={Talks_data} bordered columns={Talks_columns} pagination={false} />
@@ -32,7 +33,7 @@ export const Talks = () => {
 
 export const Service = () => {
     return (
-        <div className="Service">
+        <div className="Service" id="Service">
             <h1 className="Title">Service</h1>
             <div className="List">
                 <Collapse defaultActiveKey={['1']} >
@@ -73,7 +74,7 @@ export const Service = () => {
 
 export const Conference = () => {
     return (
-        <div className="Conference">
+        <div className="Conference" id="Conference">
             <h1 className="Title">Conference</h1>
             <div className="List" >
                 <Table dataSource={Conference_data} bordered={true} columns={Conference_columns} pagination={{ pageSize: 10 }} />
@@ -88,7 +89,7 @@ export const Conference = () => {
 
 export const Awards = () => {
     return (
-        <div className="Awards">
+        <div className="Awards" id="Awards">
             <h1 className="Title">Awards</h1>
             <div className="List" >
                 <Tabs defaultActiveKey="1" >

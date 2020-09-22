@@ -11,7 +11,7 @@
       align-items: center;
       justify-content: space-between;
       width: 100vw;
-      height: 10vh;
+      height: 9vh;
       top: -0.5rem;
       position: fixed;
       z-index: 9;
@@ -114,8 +114,15 @@
       }
     }
   
-    @media (max-width: 800px) {
-      
+    @media (max-width: 770px) {
+      .navbar{
+        height: 12vh;
+      }
+      h2{
+        margin-top: 2rem;
+        height: 12vh;
+        padding-top: 1.5rem;
+      }
       .navbar ul li a {
         font-size: 2em;
       }
@@ -124,10 +131,34 @@
       // .navbar h2{
       //     margin-top: 0rem;
       // }
+      h2{
+        // margin-top: 0rem;
+        height: 11.2vh;
+        padding-top: 0.8rem;
+      }
       .navbar ul li a {
         font-size: 1.8em;
       }
+
     }
+
+    @media (max-width: 375px){
+      .navbar{
+        height: 10vh;
+      }
+      h2{
+        height: 10vh;
+        padding-top: 0rem;
+      }
+    }
+
+
+    @media (max-width: 320px){
+      .navbar{
+        height: 11vh;
+      }
+    }
+
     @keyframes open {
       0% {
         left: -200px;
