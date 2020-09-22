@@ -32,7 +32,7 @@ const Professor = () => {
                         <span className="Number">(work) +886-5-5342601 ext 4514
                             <br></br>(lab) +886-5-5342601 ext 4598
                         </span>
-                        <Link className="Btn-more" to="/ProfessorDetail">→ detail</Link>
+                        <Link className="Btn-more" to="/ProfessorDetail" rel="noopener noreferrer">→ detail</Link>
                     </div>
                 </div>
             </div>
@@ -47,7 +47,7 @@ const Professor = () => {
                     renderItem={item => (
                     <List.Item >
                         <span><span>{item.content1}</span><span className="blod">{item.blod}</span><span>{item.content2}</span>
-                        <a href={item.link} target="_blank">{item.title}</a><span>{item.content3}</span></span>
+                        <a href={item.link} target="_blank" rel="noopener noreferrer">{item.title}</a><span>{item.content3}</span></span>
                     </List.Item>
                 )}
                 ></List>

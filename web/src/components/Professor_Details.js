@@ -1,8 +1,10 @@
-import React, { Children } from 'react'
+import React from 'react'
 import "./Professor_Details.scss"
-import { Table, Collapse, List, Pagination } from 'antd';
+import { Table, Collapse, List, Tabs } from 'antd';
 import 'antd/dist/antd.css';
+
 const { Panel } = Collapse;
+const { TabPane } = Tabs;
 
 
 
@@ -74,13 +76,46 @@ export const Conference = () => {
         <div className="Conference">
             <h1 className="Title">Conference</h1>
             <div className="List" >
-                <Table dataSource={Conference_data} bordered={true} columns={Conference_columns} pagination={{ pageSize: 10}} />
+                <Table dataSource={Conference_data} bordered={true} columns={Conference_columns} pagination={{ pageSize: 10 }} />
                 <h2>Conference Proceeding Abstract</h2>
-                <Table dataSource={Conference_data2}  bordered={true} columns={Conference_columns} pagination={false} />
+                <Table dataSource={Conference_data2} bordered={true} columns={Conference_columns} pagination={false} />
             </div >
 
         </div>
 
+    );
+}
+
+export const Awards = () => {
+    return (
+        <div className="Awards">
+            <h1 className="Title">Awards</h1>
+            <div className="List" >
+                <Tabs defaultActiveKey="1" >
+                    <TabPane tab={2020} key="1">
+                        <Table dataSource={Awards_data.slice(0, 3)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab={2019} key="2">
+                        <Table dataSource={Awards_data.slice(3, 13)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab="2018" key="3">
+                        <Table dataSource={Awards_data.slice(13, 22)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab="2017" key="4">
+                        <Table dataSource={Awards_data.slice(22, 33)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab="2016" key="5">
+                        <Table dataSource={Awards_data.slice(33, 40)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab="2015" key="6">
+                        <Table dataSource={Awards_data.slice(40, 50)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab="2014" key="7">
+                        <Table dataSource={Awards_data.slice(50)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                </Tabs>
+            </div >
+        </div>
     );
 }
 
@@ -190,10 +225,10 @@ const Conference_columns = [
     {
         title: ' ', dataIndex: 'event',
         render: (text, record) => {
-            if (record.link == '') {
+            if (record.link === '') {
                 return <a style={{ color: 'black' }} >{text}</a>
             } else {
-                return <a href={record.link} target="_blank">{text}</a>
+                return <a href={record.link} target="_blank" rel="noopener noreferrer">{text}</a>
             }
         }
     }
@@ -377,4 +412,70 @@ const Conference_data2 = [
         date: '2012', link: '',
         event: 'Mackenzie CF, Stansbury L, Hu P, Hess J, Chang CI, Chen S, MS, Miller C, Dupuis K, Dubose J,and the ONPOINT Investigator Group Gender , “Age effects of pre-hospital vital signs predictions of massive transfusion,” Proceedings of the American Medical Informatics Association AMIA-0146-A201',
     },
+]
+
+const Awards_columns = [
+    { title: '時間', dataIndex: 'year' },
+    { title: '地點/項目', dataIndex: 'data' },
+    { title: '獎項', dataIndex: 'award' }
+]
+
+const Awards_data = [
+    { year: '2020', data: '科技部109年度', award: '特殊優秀人才獎', key: '1' },
+    { year: '2020', data: '指導研究生許寓鈞同學榮獲2020 SPIE Optics + Photonics Career Summit Officer Travel Grant', award: '2500 美金', key: '1' },
+    { year: '2020', data: '指導研究生徐仕勳同學榮獲SPIE Photonics Europe 2020 Travel Grant Award', award: '1500 美金', key: '1' },
+
+    { year: '2019', data: '科技部108年度', award: '特殊優秀人才獎' },
+    { year: '2019', data: '2nd IEEE International Conference on Knowledge Innovation and Invention', award: '最佳論文獎' },
+    { year: '2019', data: '雲科智慧生活創新應用競賽', award: '最佳商品化獎' },
+    { year: '2019', data: '雲科智慧生活創新應用競賽', award: '佳作' },
+    { year: '2019', data: '2019年實務專題競賽暨成果發表觀摩會', award: '第三名' },
+    { year: '2019', data: '指導研究生李冠杰同學榮獲SPIE Optics + Photonics 2019 Travel Grant Award', award: '1500美金' },
+    { year: '2019', data: '指導研究生練周典同學榮獲IEEE ICKII 2019 BEST PAPER AWARD', award: '最佳論文獎' },
+    { year: '2019', data: '指導研究生邱明豐同學、鄭友智同學榮獲2019雲科智慧生活創新應用競賽', award: '最佳商品化獎' },
+    { year: '2019', data: '指導研究生歐承學同學、許寓鈞同學榮獲2019雲科智慧生活創新應用競賽', award: '佳作' },
+    { year: '2019', data: '指導專題生朱育承、張晴凱同學榮獲2019年實務專題競賽', award: '第三名' },
+
+    { year: '2018', data: '雲科大智慧城市創意應用競賽', award: '銅獎' },
+    { year: '2018', data: '雲科大智慧城市創意應用競賽', award: '佳作' },
+    { year: '2018', data: '實務專題競賽暨成果發表觀摩會', award: '佳作' },
+    { year: '2018', data: '指導研究生高哲元榮獲SPIE Photonics Europe 2018 Travel Grant Award', award: '2150美金' },
+    { year: '2018', data: '指導研究生陳彥中、練周典同學榮獲2018 NCWIA', award: '最佳論文獎' },
+    { year: '2018', data: '指導專題生林宣昂、李政瑩同學榮獲2018雲科大智慧城市創意應用競賽', award: '銅獎' },
+    { year: '2018', data: '指導專題生張城溥、蕭富鴻同學榮獲2018雲科大智慧城市創意應用競賽', award: '佳作' },
+    { year: '2018', data: '指導研究生林宣昂、李政瑩同學榮獲2018年實務專題競賽暨成果發表觀摩會', award: '最佳人氣獎' },
+    { year: '2018', data: '指導研究生林宣昂、李政瑩同學榮獲2018年實務專題競賽暨成果發表觀摩會', award: '佳作' },
+
+    { year: '2017', data: '中華民國電腦學會', award: '傑出青年學者獎' },
+    { year: '2017', data: '國立雲林科技大學', award: '研發績優新人獎' },
+    { year: '2017', data: '數位生活科技演討會', award: '優秀論文獎' },
+    { year: '2017', data: 'IEEE ICASI Best Conference Paper Award', award: '最佳論文獎' },
+    { year: '2017', data: '指導研究生陳宥廷獲得 2017 美律獎助學金', award: '12 萬元' },
+    { year: '2017', data: '指導研究生陳彥中榮獲 SPIE Optics + Photonics 2017 Travel Grant Award', award: '2200 美金' },
+    { year: '2017', data: '指導研究生莊尚儒同學榮獲 DIGI+Talent 跨域數位人才加速躍升計畫 - DIGI+ 數位新星', award: '一星大賞' },
+    { year: '2017', data: '指導研究生簡澤宇同學榮獲 2017 數位生活科技研討會', award: '優秀論文獎' },
+    { year: '2017', data: '指導研究生莊尚儒同學榮獲雲林縣 106 年度', award: '大專優秀青年' },
+    { year: '2017', data: '指導研究生戴嘉輝同學榮獲 2017 IEEE ICASI', award: '最佳論文獎' },
+    { year: '2017', data: '指導研究生莊尚儒同學榮獲青年救國團106年度', award: '大專優秀青年' },
+
+    { year: '2016', data: 'International Computer Symposium (ICS)', award: '最佳論文獎' },
+    { year: '2016', data: '中區技專校院校際聯盟 2016 年研發成果網路聯合發表會', award: '優等' },
+    { year: '2016', data: '國立雲林科技大學 105 學年度實務專題競賽', award: '佳作' },
+    { year: '2016', data: '指導研究生簡澤宇榮獲 SPIE Optics + Photonics 2016 Travel Grant Award', award: '2500 美金' },
+    { year: '2016', data: '指導研究生張瀚文獲得 International Computer Symposium (ICS) 2016', award: '最佳論文獎' },
+    { year: '2016', data: '指導專題生黃柏允、黃捷楷、蔡傑翰、蕭勝榮、戴暉又同學獲得中區技專 校院校際聯盟 2016 年研發成果網路聯合發表會', award: '優等' },
+    { year: '2016', data: '指導專題生戴暉又、黃柏允榮獲雲科大 105 學年度實務專題競賽 (作品:雲科美食地圖)', award: '佳作' },
+
+    { year: '2015', data: 'KAGIS Fall Conference & International Symposium', award: '最佳論文獎' },
+    { year: '2015', data: '中區技專校院校際聯盟 2015 年研發成果網路聯合發表會', award: '佳作' },
+    { year: '2015', data: '國立雲林科技大學創客競賽 YunMaker Competition', award: '優等獎' },
+    { year: '2015', data: '國立雲林科技大學 104 學年度實務專題競賽', award: '佳作' },
+    { year: '2015', data: '指導研究生林力瀚獲得 2015 KAGIS Fall Conference & International Symposium on GIS', award: '最佳論文獎' },
+    { year: '2015', data: '指導並帶領何達睿、詹振宏、陳彥霖同學參加 2015 年國際學校程式設計競賽 ISSC', award: '亞軍' },
+    { year: '2015', data: '指導專題生郭家禎通過科技部核定 104 年度', award: '大專學生研究計畫' },
+    { year: '2015', data: '指導專題生莊尚儒、郭家禎榮獲中區技專校院校際聯盟 2015 年研發成果網路聯合發表會', award: '佳作' },
+    { year: '2015', data: '指導專題生廖聖傑、許景翔榮獲 2015 雲科大創客競賽 YunMaker Competition (作品: 高光普影像處理 GUI 設計)', award: '優等獎' },
+    { year: '2015', data: '指導專題生莊尚儒、郭家禎榮獲雲科大 104 學年度實務專題競賽 (作品: 校園導覽 APP)', award: '佳作' },
+
+    { year: '2014', data: 'International Computer Symposium (ICS)', award: '最佳論文獎' },
 ]

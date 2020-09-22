@@ -171,99 +171,28 @@
                     //background-color: rgb(155, 176, 192);
                     font-family: Oswald ;
                     font-size: 1.5rem;
-                    //border-radius: 10%;
+                    border-radius: 10% / 30%;
                     text-align: left;
                     //vertical-align: middle;
                     align-self: center;
                     padding:1% 2%;
                     //margin:5% 0%
                     letter-spacing: 0.1rem;
-                    border-bottom-style: double ;
+                    border: solid 1px;
                     font-style: oblique;
                     color:black;
                 }
         
                 .Btn-more:hover{
-                    //background-color: lightcoral;
-                    font-size: 2rem;
+                    background-color: lightcoral;
+                    font-size: 1.5rem;
                     letter-spacing: 0.2rem;
                 }
             }
         }
     }
 
-    .article{
-        
-        justify-self: center;
-        width: 90%;
-        background-color: white;
-        box-shadow: 2px 2px 5px gray;
-        margin-bottom:5%;
-        text-align: left;
-        .ant-list-header{
-            //border-bottom:solid 1px gray;
-            margin :0% 5%;
-            padding:1% 0%;
-            h1{
-                margin-bottom:0rem;
-                font-size: 2rem;
-                font-weight: bold;
-                
-            }    
-        }
-        
-        .ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:first-child {
-            border-top: 1px solid gray;
-        }
-        
-        .ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:last-child {
-            border-bottom: 1px solid gray;
-        }
-            
-        .ant-list-items{
-            //height: 45rem;
-            list-style-type: decimal ;
-            font-family: Signika;
-            font-size: 1.2rem;
-            // align-items: center;
-            // justify-content: center;
-            // justify-items: center;
-            //border-bottom:solid 1px gray;
-            .ant-list-item{
-                font-family: Signika, sans-serif;
-                //list-style-position:outside ;
-                margin:0% 5%;
-                //padding:10px 5px;
-                color: #28475D;
-                border-bottom:solid 1px gray;
-                //font-weight: lighter;
-                .blod{
-                    font-weight: bold;
-                }
     
-                a{
-                    text-decoration: underline;
-                    color: #28475D;
-                }
-                
-            }
-            
-            
-        }
-        
-        .ant-pagination{
-            text-align: center;
-            
-            li{
-                margin:0% 1%;
-                //border-bottom:solid 0px #d9d9d9;
-                
-            }
-
-            
-            
-        }
-    }
     
 }
 
@@ -329,7 +258,7 @@
                     background-color: rgb(155, 176, 192);
                     font-family: Oswald ;
                     font-size: 1.2rem;
-                    border-radius: 10%;
+                    border-radius: 10% / 30%;
                     text-align: center;
                     vertical-align: middle;
                     padding:1% 2%;
@@ -337,9 +266,7 @@
                     //border: 8px solid black;
                 }
         
-                .Btn-more:hover{
-                    background-color: lightcoral;
-                }
+                
             }
         }
     
@@ -409,11 +336,13 @@
                 .Btn-more{
                    justify-self: center;
                    //margin:5% 0%;
+                   border-radius: 10% / 30%;
                 }
 
                 span{
                     font-size: 1.2rem;
                 }
+                
             }
         }
     

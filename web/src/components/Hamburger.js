@@ -9,7 +9,7 @@ const Hamburger = () => {
 
   return (
     <nav className="navbar">
-      <a href="#"><img className="logo1" src={logo} alt="logo"/></a>
+      <a href="#" rel="noopener noreferrer"><img className="logo1" src={logo} alt="logo"/></a>
       <h2>HSIPL</h2>
       {open === false ? (
         <i onClick={() => setOpen(!open)} className="fas fa-bars fa-2x ham"></i>
