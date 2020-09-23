@@ -5,11 +5,26 @@ import logo from "../img/LOGO/LOGO_1.png";
 import { BackTop } from 'antd';
 import {Link} from "react-router-dom";
 
+// window.location.reload("HomePage1")
+// window.location.reload(true);
+// location.reload([true])  
+// function refresh()
+// {
+// history.go(0);
+// }
+// setTimeout(refresh(),1000);
+// window.location.reload(true)
+
+// window.location.href=document.referrer
 
 
 const HomePage1 = () => {
     return (
         <>
+        
+            {/* <head>
+            <meta http-equiv="refresh" content="2"/>
+            </head> */}
             
             <div className="top" id="HomePage">
                 <Link  to="/"><img className="logo" src={logo}></img></Link> 
