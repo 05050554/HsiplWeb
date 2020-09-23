@@ -5,12 +5,12 @@ import logo from "../img/LOGO/LOGO_1.png";
 import Mail_img from "../img/Professor/Mail_img.png"
 import Call_img from "../img/Professor/Call_img.png"
 import { BackTop } from 'antd';
-import 'antd/dist/antd.css';
+// import 'antd/dist/antd.css';
 import { Link } from "react-router-dom";
 
 
 
-const Professor = () => {
+const Professor1 = () => {
     return (
         <>
             <div className="top" >
@@ -27,7 +27,7 @@ const Professor = () => {
                     </ul>
                 </div>
             </div>
-            <div className="Professor" id="Professor">
+            <div className="Professor1" id="Professor">
                 <div className="content">
                     <div className="Pic">
                         <span>Professor</span>
@@ -66,4 +66,4 @@ const Professor = () => {
     )
 }
 
-export default Professor;
+export default Professor1;

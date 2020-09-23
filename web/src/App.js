@@ -39,6 +39,7 @@ function App() {
             <Research_interests />
             <Research_Posters />
             <Honor />
+            <Footer />
           </ScrollToTop>
         </Route>
 
