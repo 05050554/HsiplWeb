@@ -34,7 +34,7 @@
             img{
                 margin-bottom: 5%;;
                 align-items: center;
-
+                margin-left: 0;
                 border-radius: 25%;
                 border:solid white 0.5rem;
                 display: grid;
@@ -279,17 +279,16 @@
                     background-color: rgb(155, 176, 192);
                     font-family: Oswald ;
                     font-size: 1.2rem;
-                    border-radius: 10%;
+                    border-radius: 10% / 30%;
                     text-align: center;
                     vertical-align: middle;
                     padding:1% 2%;
-                    margin:5% 0%
-                    //border: 8px solid black;
+                    margin:5% 0%;
+                    border-style: none;
+                    // border:none;
                 }
         
-                .Btn-more:hover{
-                    background-color: lightcoral;
-                }
+                
             }
         }
     
@@ -371,11 +370,13 @@
  
 }
 
-@media screen and(max-width:320px){
+@media screen and(max-width:321px){
     .Professor .content{
         margin-left: -1rem;
+        
     }
-    .Professor .Journal{
+    .Professor .article{
         margin-left: -1.3rem;
+        width: 80%;
     }
 }
