@@ -10,13 +10,13 @@ import {Link} from "react-router-dom";
 const HomePage1 = () => {
     return (
         <>
-
+            
             <div className="top" id="HomePage">
-                <a href="#"><img className="logo" src={logo}></img></a> 
+                <Link  to="/"><img className="logo" src={logo}></img></Link> 
 
                 <div className="list">
                     <ul>
-                        <li><a id="p1" href="/#"   >Home</a></li>
+                        <li><Link id="p1" to="/" >Home</Link></li>
                         <li><a id="p1" href='/#LabDirector'   >Lab Director</a></li>
                         <li><a id="p1" href='/#Introduction'  >Introduction</a></li>
                         <li><a id="p1" href='/#Professor'  >Professor</a></li>

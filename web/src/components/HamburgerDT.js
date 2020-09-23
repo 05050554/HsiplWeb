@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./HamburgerDT.scss";
 import logo from "../img/LOGO/LOGO_1.png";
-
+import {Link} from "react-router-dom";
 
 
 const HamburgerDT = () => {
@@ -9,7 +9,7 @@ const HamburgerDT = () => {
 
   return (
     <nav className="navbar">
-      <a href="HomePage"><img className="logo1" src={logo} alt="logo"/></a>
+      <Link  to="/" ><img className="logo1" src={logo}></img></Link> 
       <h2>HSIPL</h2>
       {open === false ? (
         <i onClick={() => setOpen(!open)} className="fas fa-bars fa-2x ham"></i>
@@ -21,7 +21,7 @@ const HamburgerDT = () => {
       )}
  
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><a onClick={() => setOpen(!open)}  href="HomePage">Home</a></li>
+        <li><Link onClick={() => setOpen(!open)}  to="/">Home</Link></li>
         <li><a onClick={() => setOpen(!open)}  href="#Projects">Projects</a></li>
         <li><a onClick={() => setOpen(!open)} href="#Talks">Talks</a></li>
         <li><a onClick={() => setOpen(!open)} href="#Service">Service</a></li>

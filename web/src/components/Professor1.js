@@ -14,16 +14,16 @@ const Professor1 = () => {
     return (
         <>
             <div className="top" >
-                <a href="HomePage"><img className="logo" src={logo}></img></a>
+            <Link id="p1" to="/" ><img className="logo" src={logo}></img></Link> 
 
                 <div className="list">
                     <ul>
-                        <li><Link id="p1" to="/" style={{ color: "black" }}>Back To Home</Link></li>
-                        <li><a id="p1" href='#Projects' style={{ color: "black" }}>Projects</a></li>
-                        <li><a id="p1" href='#Talks' style={{ color: "black" }}>Talks</a></li>
-                        <li><a id="p1" href='#Service' style={{ color: "black" }}>Service</a></li>
-                        <li><a id="p1" href='#Conference' style={{ color: "black" }}>Conference</a></li>
-                        <li><a id="p1" href='#Awards' style={{ color: "black" }}>Awards</a></li>
+                        <li><Link id="p1" to="/" >Back To Home</Link></li>
+                        <li><a id="p1" href='#Projects' >Projects</a></li>
+                        <li><a id="p1" href='#Talks'>Talks</a></li>
+                        <li><a id="p1" href='#Service' >Service</a></li>
+                        <li><a id="p1" href='#Conference' >Conference</a></li>
+                        <li><a id="p1" href='#Awards' >Awards</a></li>
                     </ul>
                 </div>
             </div>
