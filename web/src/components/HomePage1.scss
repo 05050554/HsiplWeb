@@ -131,7 +131,7 @@ html{
                 #lm{
                     margin-top: 30px;
                     width: 13rem;
-                    height: 20%;
+                    height: 4rem;
                     letter-spacing: 0.05em;
                     background-color: #8498E0;
                     display: grid;
@@ -181,6 +181,13 @@ html{
     border-radius: 1em;
     background-color: coral; 
 }
+
+.top_button{
+    padding-top: 0.5rem;
+}
+// .top_button{
+//     padding-top: -15rem;
+// }
 
 // .top_button {
 //     color: white;  

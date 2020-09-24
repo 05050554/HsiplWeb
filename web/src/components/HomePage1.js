@@ -4,6 +4,7 @@ import homepagepic from "../assets/images/homepage.svg";
 import logo from "../img/LOGO/LOGO_1.png";
 import { BackTop } from 'antd';
 import {Link} from "react-router-dom";
+import 'antd/dist/antd.css';
 
 // window.location.reload("HomePage1")
 // window.location.reload(true);
@@ -16,7 +17,17 @@ import {Link} from "react-router-dom";
 // window.location.reload(true)
 
 // window.location.href=document.referrer
+// const style = {
+//     height: 40,
+//     width: 40,
+//     lineHeight: '40px',
+//     borderRadius: 4,
+//     backgroundColor: '#1088e9',
+//     color: '#fff',
+//     textAlign: 'center',
+//     fontSize: 14,
 
+//   }
 
 const HomePage1 = () => {
     return (
@@ -49,7 +60,7 @@ const HomePage1 = () => {
                         <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
                         <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
                         <h2 className="more">
-                            <Link id="lm" to="/LearnMore" sc>Learn more</Link><span className="circle2"></span></h2>
+                            <Link id="lm" to="/LearnMore" >Learn more</Link><span className="circle2"></span></h2>
                         <span className="circle3"></span>
                     </div>
 
@@ -65,9 +76,9 @@ const HomePage1 = () => {
                 </a></button>
             </div> */}
             <div>
-            <BackTop>
-                <i class="fas fa-chevron-up"> </i>
-                <div className="top_button">TOP</div>
+            <BackTop >
+                <i class="fas fa-chevron-up" ><div className="top_button"> TOP</div></i>
+                
             </BackTop>
             </div>
         </>

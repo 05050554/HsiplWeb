@@ -27,6 +27,7 @@
     /*碩二*/
     .picborder
     {
+        
         box-sizing: border-box;
         width: auto;
         height: auto;
@@ -34,6 +35,7 @@
         padding-bottom: 5rem;
         display: flex;
 
+        // width: 50%;
         .arrow1{
             font-size: 80px;
             align-self: center;
@@ -42,17 +44,22 @@
             display: inline-flex;
             flex-wrap: nowrap;
             overflow: hidden;
+            width: 90%;
+            margin:auto;
 
             .pic{
                 margin-top: -4rem;
                 display:grid;
-
+                
 
 
                 img{
-                    width: 270px;
+                    
+                    display:grid;
+                    margin: auto;
+                    width: 280px;
                     height: 360px;
-
+                    
                 }
 
 
@@ -62,16 +69,18 @@
                     display: grid;
                     align-self: center;
                     font-family: 'Noto Sans TC', sans-serif;
-                    width: 80%;
-                    height: 20vh;
+                    width:220px;
+                    height: 25vh;
                     background-color: white;
                     transform: scale(.1);
                     visibility: hidden;
                     transition: .8s;
                     justify-content: center;
                     position: relative;
-                    top: 27vh;
-                    align-self: end;
+                    top: 30vh;
+                    //left: 9.5vw;
+                    margin:auto;
+                    //align-self: end;
                     text-align: center;
                     justify-self: center;
 
@@ -85,26 +94,26 @@
 
                 }
             }
-            #firstpic{
-                padding-left: 30px;
-                padding-right: 60px;
-            }
-            #secondpic{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #thirdpic{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #fourthpic{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #lastpic{
-                padding-left: 60px;
-                padding-right: 30px;
-            }
+            // #firstpic{
+            //     padding-left: 30px;
+            //     padding-right: 60px;
+            // }
+            // #secondpic{
+            //     padding-left: 60px;
+            //     padding-right: 60px;
+            // }
+            // #thirdpic{
+            //     padding-left: 60px;
+            //     padding-right: 60px;
+            // }
+            // #fourthpic{
+            //     padding-left: 60px;
+            //     padding-right: 60px;
+            // }
+            // #lastpic{
+            //     padding-left: 60px;
+            //     padding-right: 30px;
+            // }
         }
         
         .pic:hover .detail{
@@ -133,11 +142,17 @@
         @media (max-width: 450px){
             .masterpic .pic{
             margin-top: -7rem;
-            padding-left: 35px;
+            padding-left: 0px;
             }
 
+
+
             .masterpic .pic img{
-                margin-left: 0px;
+                // padding-right: 0px;
+                width: 240px;
+                height: 320px;
+                
+       
             }
 
             .masterpic .pic .detail{        
@@ -147,33 +162,35 @@
             .masterpic .pic .detail2{
                 visibility: visible;
                 margin-bottom: 3rem;
+                width: 240px;
+                margin-left: 2.3rem;
                 
             }
-            .masterpic {
-                #firstpic  {
-                    padding-right: 50px;
-                    // padding-left: 10px;
-                }
-                #secondpic{
-                    padding-left: 85px;
-                    padding-right: 90px;
-                }
-                #thirdpic{
-                    padding-left: 40px;
-                    padding-right: 70px;
-                }
-                #fourthpic{
-                    padding-left: 60px;
-                    padding-right: 70px;
+            // .masterpic {
+            //     #firstpic  {
+            //         padding-right: 50px;
+            //         // padding-left: 10px;
+            //     }
+            //     #secondpic{
+            //         padding-left: 85px;
+            //         padding-right: 90px;
+            //     }
+            //     #thirdpic{
+            //         padding-left: 40px;
+            //         padding-right: 70px;
+            //     }
+            //     #fourthpic{
+            //         padding-left: 60px;
+            //         padding-right: 70px;
                     
-                }
-                #lastpic{
-                    padding-left: 60px;
-                    padding-right: 30px;
+            //     }
+            //     #lastpic{
+            //         padding-left: 60px;
+            //         padding-right: 30px;
                     
-                }
+            //     }
 
-            }
+            // }
 
         }
         @media (max-width: 375px){
@@ -183,27 +200,39 @@
                 padding-left: 12px;
  
             }
-            .masterpic {
-                #firstpic  {
-                    padding-left: 13px;
-                    padding-right: 65px;
-                }
-                #secondpic{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #thirdpic{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #fourthpic{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #lastpic{
-                    padding-left: 65px;
-                    padding-right: 13px;
-                }
+            // .masterpic {
+            //     #firstpic  {
+            //         padding-left: 13px;
+            //         padding-right: 65px;
+            //     }
+            //     #secondpic{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #thirdpic{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #fourthpic{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #lastpic{
+            //         padding-left: 65px;
+            //         padding-right: 13px;
+            //     }
+            // }
+            .masterpic .pic{
+                // margin-bottom: 10rem;
+                padding-right:20px ;
+                padding-left:20px ;
+            }
+            .masterpic .pic .detail2{
+                visibility: visible;
+                margin-bottom: 3rem;
+                width: 240px;
+                margin-left: 0rem;
+                
             }
         }
 
@@ -213,28 +242,40 @@
                 width: 210px;
                 height: 280px;
             }
-            .masterpic {
-                #firstpic  {
-                    padding-left: 18px;
-                    padding-right: 100px; 
-                }
-                #secondpic{
-                    padding-left: 90px;
-                    padding-right: 90px;
-                }
-                #thirdpic{
-                    padding-left: 100px;
-                    padding-right: 100px;
-                }
-                #fourthpic{
-                    padding-left: 90px;
-                    padding-right: 130px;
-                }
-                #lastpic{
-                    padding-left: 60px;
-                    padding-right: 10px;
-                }
+
+            .masterpic .pic{
+                // margin-bottom: 10rem;
+                padding-right:0px ;
+                padding-left:0px ;
             }
+
+            .masterpic .pic .detail2{
+                width: 210px;
+                margin-left: 0.3rem;
+            }
+            // .mast
+            // .masterpic {
+            //     #firstpic  {
+            //         padding-left: 18px;
+            //         padding-right: 100px; 
+            //     }
+            //     #secondpic{
+            //         padding-left: 90px;
+            //         padding-right: 90px;
+            //     }
+            //     #thirdpic{
+            //         padding-left: 100px;
+            //         padding-right: 100px;
+            //     }
+            //     #fourthpic{
+            //         padding-left: 90px;
+            //         padding-right: 130px;
+            //     }
+            //     #lastpic{
+            //         padding-left: 60px;
+            //         padding-right: 10px;
+            //     }
+            // }
         }
 
 }
@@ -242,6 +283,7 @@
 /*碩一*/
 .picborder1{
     box-sizing: border-box;
+    width: auto;
     height: auto;
     overflow: hidden;
     padding-bottom: 5rem;
@@ -258,17 +300,21 @@
 
             flex-wrap: nowrap;
             overflow: hidden;
-            padding-right: 3rem;
+            // padding-right: 3rem;
             display: inline-flex;
+            width: 90%;
+            margin:auto;
 
             .pic1{
-                padding-right: 50px;
-                padding-left: 30px;
+                // padding-right: 50px;
+                // padding-left: 30px;
                 display:grid;
                 margin-top: -4rem;
 
                 img{
-                    width: 270px;
+                    display:grid;
+                    margin: auto;
+                    width: 280px;
                     height: 360px;
  
                     
@@ -278,16 +324,17 @@
                     display: grid;
                     align-self: center;
                     font-family: 'Noto Sans TC', sans-serif;
-                    width: 80%;
-                    height: 20vh;
+                    width: 40%;
+                    height: 25vh;
                     background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
                     transform: scale(.1);
                     visibility: hidden;
                     transition: .8s;
                     justify-content: center;
                     position: relative;
-                    top: 27vh;
-                    // left: 2rem;
+                    top: 30vh;
+                    // left: 9.5vw;
+                    margin: auto;
                     align-self: end;
                     text-align: center;
                     justify-self: center;
@@ -312,30 +359,30 @@
                        
                 }
             }
-            #firstpic1{
-                padding-left: 30px;
-                padding-right: 60px;
-            }
-            #secondpic1{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #thirdpic1{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #fourthpic1{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #fifthpic1{
-                padding-left: 60px;
-                padding-right: 60px;
-            }
-            #lastpic1{
-                padding-left: 60px;
-                padding-right: 30px;
-            }    
+            // #firstpic1{
+                
+            //     padding-top: 20px;
+            // }
+        //     #secondpic1{
+        //         padding-left: 60px;
+        //         padding-right: 60px;
+        //     }
+        //     #thirdpic1{
+        //         padding-left: 60px;
+        //         padding-right: 60px;
+        //     }
+        //     #fourthpic1{
+        //         padding-left: 60px;
+        //         padding-right: 60px;
+        //     }
+        //     #fifthpic1{
+        //         padding-left: 60px;
+        //         padding-right: 60px;
+        //     }
+        //     #lastpic1{
+        //         padding-left: 60px;
+        //         padding-right: 30px;
+        //     }    
         }
         .pic1:hover .detail3{
             transform: scale(1);
@@ -355,15 +402,18 @@
         }
         @media (max-width: 450px){
             .masterpic1 .pic1{
-                margin-top: -8rem;
-                padding-right: 40px;
-                padding-left: 35px;
+                // margin-top: -8rem;
+                // padding-right: 40px;
+                // padding-left: 35px;
+
+                margin-top: -7rem;
+                padding-left: 0px;
                 // margin-left: 20px;
             }
             .masterpic1 .pic1 img{
-                // width: 240px;
-                // height: 320px;
-                margin-left: 0px;
+                width: 240px;
+                height: 320px;
+                // margin-left: 0px;
             }
             .masterpic1 .pic1 .detail3{
                 
@@ -372,72 +422,85 @@
             .masterpic1 .pic1 .detail4{
                 visibility: visible;
                 margin-bottom: 3rem;
-                margin-top: 0rem;
+                width: 240px;
+                margin-left: 2.3rem;
                 
             }
-            .masterpic1 {
-                #firstpic1  {
-                    padding-right: 50px;
-                     //padding-left: 10px;
-                }
-                #secondpic1{
-                    padding-left: 80px;
-                    padding-right: 90px;
-                }
-                #thirdpic1{
-                    padding-left: 40px;
-                    padding-right: 70px;
-                }
-                #fourthpic1{
-                    padding-left: 60px;
-                    padding-right: 70px;
-                }
-                #fifthpic1{
-                    padding-left: 60px;
-                    padding-right: 70px;
-                }
-                #lastpic{
-                    padding-left: 60px;
-                    padding-right: 30px;
+            // .masterpic1 {
+            //     #firstpic1  {
+            //         padding-right: 50px;
+            //          //padding-left: 10px;
+            //     }
+            //     #secondpic1{
+            //         padding-left: 80px;
+            //         padding-right: 90px;
+            //     }
+            //     #thirdpic1{
+            //         padding-left: 40px;
+            //         padding-right: 70px;
+            //     }
+            //     #fourthpic1{
+            //         padding-left: 60px;
+            //         padding-right: 70px;
+            //     }
+            //     #fifthpic1{
+            //         padding-left: 60px;
+            //         padding-right: 70px;
+            //     }
+            //     #lastpic{
+            //         padding-left: 60px;
+            //         padding-right: 30px;
                     
-                }
+            //     }
 
-            }
+            //}
         }
 
         @media (max-width: 375px){
 
             .masterpic1 .pic1{
                 padding-right: 50px;
-                margin-top: -5rem;
+                margin-top: -7rem;
                 padding-left: 12px;
                 // padding-right: 5px;
             }
-            .masterpic1 {
-                #firstpic1  {
-                    padding-left: 13px;
-                    padding-right: 65px;
-                }
-                #secondpic1{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #thirdpic1{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #fourthpic1{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #fifthpic1{
-                    padding-left: 65px;
-                    padding-right: 65px;
-                }
-                #lastpic1{
-                    padding-left: 65px;
-                    padding-right: 13px;
-                }
+            // .masterpic1 {
+            //     #firstpic1  {
+            //         padding-left: 13px;
+            //         padding-right: 65px;
+            //     }
+            //     #secondpic1{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #thirdpic1{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #fourthpic1{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #fifthpic1{
+            //         padding-left: 65px;
+            //         padding-right: 65px;
+            //     }
+            //     #lastpic1{
+            //         padding-left: 65px;
+            //         padding-right: 13px;
+            //     }
+            // }
+            .masterpic1 .pic1{
+                // margin-bottom: 10rem;
+                padding-right:20px ;
+                padding-left:20px ;
+            }
+            .masterpic1 .pic1 .detail4{
+                visibility: visible;
+                margin-bottom: 3rem;
+                width: 240px;
+                margin-left: 0rem;
+                
             }
         }
 
@@ -449,37 +512,39 @@
                 // margin-left: 0px;
             }
             .masterpic1 .pic1{
-                padding-right: 90px;
-                // margin-top: -5rem;
-                padding-left: 15px;
-                // padding-right: 5px;
+                padding-right:0px ;
+                padding-left:0px ;
             }
-            .masterpic1 {
-                #firstpic1  {
-                    padding-left: 18px;
-                    padding-right: 100px; 
-                }
-                #secondpic1{
-                    padding-left: 90px;
-                    padding-right: 90px;
-                }
-                #thirdpic1{
-                    padding-left: 100px;
-                    padding-right: 100px;
-                }
-                #fourthpic1{
-                    padding-left: 90px;
-                    padding-right: 130px;
-                }
-                #fifthpic1{
-                    padding-left: 60px;
-                    padding-right: 130px;
-                }
-                #lastpic1{
-                    padding-left: 60px;
-                    padding-right: 10px;
-                }
+            .masterpic1 .pic1 .detail4{
+                width: 210px;
+                margin-left: 0.3rem;
             }
+            // .masterpic1 {
+            //     #firstpic1  {
+            //         padding-left: 18px;
+            //         padding-right: 100px; 
+            //     }
+            //     #secondpic1{
+            //         padding-left: 90px;
+            //         padding-right: 90px;
+            //     }
+            //     #thirdpic1{
+            //         padding-left: 100px;
+            //         padding-right: 100px;
+            //     }
+            //     #fourthpic1{
+            //         padding-left: 90px;
+            //         padding-right: 130px;
+            //     }
+            //     #fifthpic1{
+            //         padding-left: 60px;
+            //         padding-right: 130px;
+            //     }
+            //     #lastpic1{
+            //         padding-left: 60px;
+            //         padding-right: 10px;
+            //     }
+            // }
         }
     }
 }

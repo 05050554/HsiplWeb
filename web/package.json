@@ -13,7 +13,9 @@
     "react-elastic-carousel": "^0.7.5",
     "react-router-dom": "^5.2.0",
     "react-scripts": "^3.4.3",
+    "react-slick": "^0.27.11",
     "scss": "^0.2.4",
+    "slick-carousel": "^1.8.1",
     "swiper": "^6.2.0"
   },
   "scripts": {
