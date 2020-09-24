@@ -9,74 +9,107 @@ import FENG from "../img/members/S__7741515.jpg"
 import XUN from "../img/members/2591aw-1.jpg"
 import ZHI from "../img/members/14122121.jpg"
 import TI from "../img/members/S__7741513改.jpg"
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
+// import React, { Component } from "react";
+import Slider from "react-slick";
 
 
-
-
-// var elmnt = document.getElementById("members");
-
-// elmnt.scrollTop = 1000;
-
-// window.scrollTo(0,-1000)
-
-// const button = document.getElementById('slide');
-
-// button.onclick = function () {
-//   document.getElementById('container').scrollLeft += 20;
-// };
 
 
 const Members1 = () => {
-    window.onload=function(){
-    const buttonlf = document.getElementById("slide");
-    buttonlf.onclick=function(){
-        // document.getElementById("masterpic").scrollLeft -=340;
-        document.getElementById("masterpic").scrollBy ({
-            top: 0,
-            left: -400,
-            behavior: 'smooth'
-        })
+
+//     window.onload=function(){
+//          const buttonrt = document.getElementById("slide1");
+//     buttonrt.onclick=function(){
+//             // document.getElementById("masterpic").scrollLeft += 330;
+//         document.getElementById("masterpic").scrollBy ({
+//             top: 0,
+//             left: +400,
+//             behavior: 'smooth'
+//         })
+//     };
+
+
+
+
+//     const buttonlf = document.getElementById("slide");
+//     buttonlf.onclick=function(){
+//         // document.getElementById("masterpic").scrollLeft -=340;
+//         document.getElementById("masterpic").scrollBy ({
+//             top: 0,
+//             left: -400,
+//             behavior: 'smooth'
+//         })
     
-    };
+//     };
 
-    const buttonrt = document.getElementById("slide1");
-    buttonrt.onclick=function(){
-        // document.getElementById("masterpic").scrollLeft += 330;
-        document.getElementById("masterpic").scrollBy ({
-            top: 0,
-            left: +400,
-            behavior: 'smooth'
-        })
-    };
     
-    const buttonlf1 = document.getElementById("slide2");
-    buttonlf1.onclick=function(){
-        // document.getElementById("masterpic1").scrollLeft -= 330;
-        document.getElementById("masterpic1").scrollBy ({
-            top: 0,
-            left: -400,
-            behavior: 'smooth'
-        })
-    };
 
-    const buttonrt1 = document.getElementById("slide3");
-    buttonrt1.onclick=function(){
-        // document.getElementById("masterpic1").scrollLeft += 330;
-        document.getElementById("masterpic1").scrollBy ({
-            top: 0,
-            left: +400,
-            behavior: 'smooth'
-        })
-    };
 
-}
+//     const buttonlf1 = document.getElementById("slide2");
+//     buttonlf1.onclick=function(){
+//         // document.getElementById("masterpic1").scrollLeft -= 330;
+//         document.getElementById("masterpic1").scrollBy ({
+//             top: 0,
+//             left: -400,
+//             behavior: 'smooth'
+//         })
+//     };
 
-// function slide(){
-//     var elmnt = document.getElementById("masterpic1");
-//     elmnt.scrollLeft += 50;
-//     elmnt.scrollTop +=50;
+//     const buttonrt1 = document.getElementById("slide3");
+//     buttonrt1.onclick=function(){
+//         // document.getElementById("masterpic1").scrollLeft += 330;
+//         document.getElementById("masterpic1").scrollBy ({
+//             top: 0,
+//             left: +400,
+//             behavior: 'smooth'
+//         })
+//     };
 
 // }
+
+const settings = {
+    dots: false,
+    infinite: false,
+    speed: 500,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+        
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            // initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+    
+  };
+
+  const teststy ={
+      slidesToShow:2,
+      slidesToScroll:1
+  }
+function Arrow(props) {
+    let className = props.type === "next" ? "nextArrow" : "prevArrow";
+    className += " arrow";
+    const char = props.type === "next" ? <i class="fas fa-chevron-circle-right" style={{fontSize:"50px",alignSelf:"center"}}></i> : <i class="fas fa-chevron-circle-left" style={{fontSize:"50px"}}></i>;
+    return (
+      <span style={{alignSelf:"center"}} className={className} onClick={props.onClick}>
+        {char}
+      </span>
+    );
+  }
 
     return (
         
@@ -88,15 +121,17 @@ const Members1 = () => {
                 <h2>碩士二年級</h2>
             </div>
             <div className="picborder" id="picborder">
-            <span className="arrow1"><i id="slide"  class="fas fa-angle-left" ></i></span>
-                <div className="masterpic" id="masterpic">
+            {/* <span className="arrow1"><i id="slide"  class="fas fa-angle-left" ></i></span> */}
+            
+                <Slider className="masterpic" id="masterpic" {...settings} nextArrow={<Arrow type="next" />}
+        prevArrow={<Arrow type="prev" />}>
                     <div className="pic" id="firstpic">
                         <div className="detail" id="firstdetail">
                             <h3>徐仕勳</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>M10817039@yuntech.edu.tw</p>
                         </div>
-                        <img  className="img" id="firstimg" src={XUN} alt="XUN"></img>
+                        <img  className="img" id="firstimg"  src={XUN} alt="XUN"></img>
 
                         <div className="detail2" id="firstdetail2">
                             <p3><h4>徐仕勳</h4><span>研究方向 :  影像處理<br /></span>
@@ -165,8 +200,9 @@ const Members1 = () => {
                         </div>
                     </div>
 
-                </div>
-                <span className="arrow1"><i id="slide1"  class="fas fa-angle-right" ></i></span>
+                </Slider>
+                
+                {/* <span className="arrow1"><i id="slide1"  class="fas fa-angle-right" ></i></span> */}
             </div>
 
             {/* <button  id="slide" type="button">Slide left</button>    */}
@@ -180,9 +216,10 @@ const Members1 = () => {
             </div>
             
             <div className="picborder1" id="picborder1">
-            <span className="arrow"><i id="slide2"  class="fas fa-angle-left "></i></span>    
-
-                <div className="masterpic1" id="masterpic1">
+            {/* <span className="arrow"><i id="slide2"  class="fas fa-angle-left "></i></span>     */}
+               
+                < Slider className="masterpic1" id="masterpic1" {...settings} nextArrow={<Arrow type="next" />}
+        prevArrow={<Arrow type="prev" />}>
                 
                     <div className="pic1" id="firstpic1">
                     
@@ -274,8 +311,9 @@ const Members1 = () => {
                             </p3>
                         </div>
                     </div>
-                </div>
-                <span className="arrow"><i id="slide3"  class="fas fa-angle-right" ></i></span>
+                </ Slider>
+               
+                {/* <span className="arrow"><i id="slide3"  class="fas fa-angle-right" ></i></span> */}
             </div>
             
                 
