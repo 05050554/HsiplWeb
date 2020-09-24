@@ -4,9 +4,10 @@
     width: 100%;
     height: 100%;
     background-size: cover;
-    //background-image: url('../img/LabDirector/Lab_bg.jpg');
+    background-image: url('../img/LabDirector/Frame.svg');
+    //opacity: 0.5;
     // background-color:#9999CC;
-    background-color:#485cc7;
+    background-color:#000000;
 
     .Background{
         max-width: 100%;
@@ -30,7 +31,9 @@
                 z-index: 2;
                 display: grid;
                 justify-items: center;
-                border-radius: 1rem 1rem 0% 0%;
+                border-radius: 1rem 1rem 1rem 1rem;
+                box-shadow: 5px 5px 7px 7px rgba(0, 0, 0, 0.3);
+                background-color: #526a8a;
                 img{
                     width: 50%;
                     padding:10%;
@@ -45,10 +48,10 @@
             }
 
             .Content{
-                
+                font-size: 1rem;
                 z-index: 1;
                 transform: translateY(-80%);
-                background-color: #ffffff;
+                background-color: #d9f3ff;
                 transform: scale(0);
                 border-radius: 0% 0% 1rem 1rem ;
                 p{
@@ -62,7 +65,7 @@
             .Icon:hover{
                 transition: all 1s;
                 transform: translateY(0%);
-                background-color: slateblue;
+                background-image: linear-gradient(-225deg, #CBBACC 0%, #2580B3 100%);
                 border-radius: 5% 5% 0% 0%;
             }
                 
@@ -88,7 +91,8 @@
                 transform: translateY(30%);
                 z-index: 2;
                 //background-color: rgba($color: #000000, $alpha: 0.9);
-                border-radius: 1rem 1rem 0% 0%;
+                border-radius: 1rem 1rem 1rem 1rem;
+                box-shadow: 5px 5px 7px 7px rgba(0, 0, 0, 0.3);
                 img{
                     width: 50%;
                     padding:10%;
@@ -103,13 +107,13 @@
             }
             
             .Content{
-                
+                font-size: 1rem;
                 transform: translateY(-80%);
                 z-index: 1;
                 background-color: #ffffff;
                 transform: scale(0);
                 border-radius: 0% 0% 1rem 1rem ;
-                
+                background-color: #d9f3ff;
                 p{
                     color: #000000;
                     padding: 5%;
@@ -119,8 +123,8 @@
             .Icon:hover{
                 transform: translateY(0%);
                 transition: all 1s;
-                background-color: slateblue;
-                
+                background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%);
+                border-radius: 5% 5% 0% 0%;
             }
             .Icon:hover  +.Content{
                 transition: all 1s;
@@ -139,7 +143,8 @@
                 transform: translateY(30%);
                 z-index: 2;
                 //background-color: rgba($color:#000000, $alpha: 0.9);
-                border-radius: 1rem 1rem 0% 0%;
+                border-radius: 1rem 1rem 1rem 1rem;
+                box-shadow: 5px 5px 7px 7px rgba(0, 0, 0, 0.3);
                 img{
                     width: 50%;
                     padding:10%;
@@ -153,11 +158,13 @@
                 }
             }
             .Content{
+                font-size: 1rem;
                 transform: translateY(-80%);
                 z-index: 1; 
                 background-color: #ffffff;
                 transform: scale(0);
                 border-radius: 0% 0% 1rem 1rem ;
+                background-color: #d9f3ff;
                 p{
                     color: #000000;
                     padding: 5%;
@@ -168,8 +175,8 @@
             .Icon:hover{
                 transform: translateY(0%);
                 transition: all 1s;
-                background-color: slateblue;
-                
+                background-color: #2f64a2;
+                border-radius: 5% 5% 0% 0%;
             }
             .Icon:hover +.Content{
                 transform: translateY(0%);

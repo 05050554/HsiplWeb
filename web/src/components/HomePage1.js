@@ -1,6 +1,6 @@
 import React from "react";
 import "./HomePage1.scss";
-import homepagepic from "../assets/images/homepage.svg";
+import homepagepic from "../assets/images/background1.svg";
 import logo from "../img/LOGO/LOGO_1.png";
 import { BackTop } from 'antd';
 import {Link} from "react-router-dom";
@@ -50,7 +50,7 @@ const HomePage1 = () => {
                 </a></button>
             </div> */}
             <div>
-            <BackTop>
+            <BackTop duration={100}>
                 <i class="fas fa-chevron-up"> </i>
                 <div className="top_button">TOP</div>
             </BackTop>
