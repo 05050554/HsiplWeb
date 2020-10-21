@@ -56,10 +56,9 @@ const Professor1 = () => {
 
             </div>
             <div>
-                <BackTop>
-                    <i class="fas fa-chevron-up"> </i>
-                    <div className="top_button">TOP</div>
-                </BackTop>
+            <BackTop>
+            <i class="fas fa-chevron-up" ><div className="top_button"> TOP</div></i>
+            </BackTop>
             </div>
 
         </>

@@ -74,8 +74,7 @@ const Research_interests = () => {
 
             <div>
             <BackTop>
-                <i class="fas fa-chevron-up"> </i>
-                <div className="top_button">TOP</div>
+            <i class="fas fa-chevron-up" ><div className="top_button"> TOP</div></i>
             </BackTop>
             </div>
 
@@ -95,19 +94,21 @@ const Research_interests = () => {
             </span>
 
             <div className="Article">
+
                 <div className="content">
+                <span><img src={img1} alt="img1"></img></span>
                     <span>除研算法的研發外，陳士煜老師也致力推廣高光譜的應用面並與產業界結合，目前與五鈴光學合作以「手持式近紅外和拉曼光譜儀」
                         為工具，結合手機、APP應用程式、演算法與資料庫，進行水果、穀物、塑料、藥品、膚質、液態等快篩檢測，同時可依需求調整而應用於
                         製程分析技術 PAT（Process Analytical Technology）與工業4.0領域，對民生用品與工業快篩檢測技術發掘更多市場商機，
                         目前成功技術轉移金額20萬與產學合作金額140萬元，未來也會持續與五鈴光學共同合作開發新技術在智慧農業與智慧製造的產業升級。
                     </span>
-                    <span><img src={img1} alt="img1"></img></span>
+                    
                 </div>
                 
             </div>
 
             <div className="Article">
-                <h1>2020年</h1>
+                {/*<h1>2020年</h1> */}
                 <div className="content">
                     <span>與諾錡有限公司合作開發行動版高光譜資料收集系統此系統整合資料庫、雲端演算法、APP、物聯網、大數據等技術，
                         可即時彙整並處理高光譜訊號，整合數據資訊提供使用者在高光譜資料蒐集的數位化與智慧化。
@@ -115,16 +116,17 @@ const Research_interests = () => {
                     <span><img src={img2} alt="img2"></img></span>
                 </div>
                 <div className="content">
+                <span><img src={img3} alt="img3"></img></span>
                     <span>與坤眾科技股份有限公司開發道路挖掘監視系統，可於道路挖掘當下錄影存證，也試驗於道路挖掘透過攝影建置傾斜攝影建模，
                         所得的模型可成為道路挖掘之地底管線的現況紀錄，提供日後補正與量測使用，透過影像辨識技術，其辨識成果將協助提升施工品質或竣工文件品質。
                         目前成功技術轉移金額5萬與產學合作金額35萬元。
                     </span>
-                    <span><img src={img3} alt="img3"></img></span>
+                    
                 </div>
             </div>
 
             <div className="Article" id="article_leaf">
-                <h1>2018-2019年</h1>
+                {/* <h1>2018-2019年</h1> */}
                 <div className="content">
                     
                     <span>研發智慧森林新生葉偵測新技術發表三篇論文於遙測領域SCI期刊 : 
@@ -137,7 +139,7 @@ const Research_interests = () => {
 
 
             <div className="Article">
-                <h1>2015-2016年</h1>
+                {/* <h1>2015-2016年</h1> */}
                 <div className="content"  id="content_1516">
                     <span>2015年發展滑動視窗異物偵測技術(Anomaly Detection Usin Causal Sliding Windows)，此項新技術對未來發展即時系統以及
                         即時訊號傳輸將有創新性突破。

@@ -4,6 +4,7 @@
   position: relative;
   left: 1rem;
   // top: -0.3rem;
+  margin: auto;
 }
 .navbar {
     display: flex;
@@ -14,16 +15,17 @@
     position: fixed;
     z-index: 9;
     // background-color: #2f64a2;
-    
+    background-color   : #0c5497a1;
   }
   .navbar h2 {
     position: fixed;
     display: flex;
     justify-content: center;
     width: 100vw;
-    top: -2.3rem;
+    //top: 2.3rem;
+    margin: auto;
     font-size: 3em;
-    background-color: #2f64a2;
+    //background-color: #2f64a2;
     color:white;
     font-family: Oregano;
   }
@@ -67,6 +69,9 @@
     }
     .navbar .nav {
       display: none;
+    }
+    .navbar{
+      visibility: hidden;
     }
   }
 
@@ -114,6 +119,12 @@
     .logo1{
       visibility:visible ;
     }
+    .navbar {
+      margin-top:0;
+      
+      visibility: visible;
+      
+    }
   }
 
   @media (max-width: 800px) {
@@ -133,7 +144,7 @@
 
   @media (max-width: 415px) {
     .navbar h2{
-      margin-top: 2.2rem;
+      margin: auto;
   }
     .navbar .logo1{
         margin-top: 0.8rem;

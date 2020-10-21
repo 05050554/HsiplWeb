@@ -1,382 +1,400 @@
-.Professor{
-    padding-top: 5%;
-    width: 100%;
-    //height: 100%;
-    display: grid;
-    //background-color: powderblue;
-    overflow: hidden;
-    background:no-repeat;
-    background-size: cover;
-    background-position-y: 40%;
-    background-image: url('../img/Professor/Professor_bg1.jpg');
-    .content{
-        display: inline-flex;
-        justify-content: space-around;
+.Professor {
+  padding-top: 5%;
+  width: 100%;
+  //height: 100%;
+  display: grid;
+  //background-color: powderblue;
+  overflow: hidden;
+  // background:no-repeat;
+  // background-size: cover;
+  // background-position-y: 40%;
+  // background-image: url('../img/Professor/Professor_bg1.jpg');
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e2e2e2 100%);
 
-        .Pic{
-            display: grid;
-            flex: 2;
-            align-items: center;
+  //background-image: linear-gradient(-225deg, #8c9cc2 0%, #87A7D9 50%, #DEF3F8 100%);
+  .content {
+    display: inline-flex;
+    justify-content: space-around;
 
-            span{
-                font-family: Oswald ;
-                letter-spacing: 0.2rem;
-                font-size: 3rem;
-                font-weight: bold;
-                align-items: center;
-                //margin-left: 7%;
-                display: grid;
-                justify-items: center;
-                padding:2% 0%;
-                text-align: center;
-            }
+    .Pic {
+      display: grid;
+      flex: 2;
+      align-items: center;
 
-            img{
-                margin-bottom: 5%;;
-                align-items: center;
-                margin-left: 0;
-                border-radius: 25%;
-                border:solid white 0.5rem;
-                display: grid;
-                justify-self: center;
-            }
-            
-        }
-
-        .Info{
-            display: grid;
-            flex: 3;
-            align-items: center;
-            margin: 2.5% 10% 2.5% 2.5%;
-            justify-items: first baseline;
-            
-            .Name{
-                display: inline-flex;
-                
-                
-                span{
-                    text-align: left;
-                    font-family: Oswald ;
-                    letter-spacing: 0.2rem;
-                    font-size: 2rem;
-                    align-items: center;
-                    margin-bottom: 2.5%;
-                    white-space: nowrap;
-                    margin-right: 5%;
-                    
-                }
-                
-            }
-
-            span{
-
-                align-self: center;
-                display: inline-flex;
-                justify-content: start;
-                font-size: 1.5rem;
-                line-height: 3rem;
-                //font-family: Oswald;
-                text-align: left;
-
-            }
-
-            .Mail{
-                display: inline-flex;
-                margin-top:2%;
-                img{
-                    width:7%;
-                    height:auto;
-                    align-self: center;
-                    margin-right: 3%;
-                }
-
-                span{
-
-                    text-align: left;
-                }
-            }
-
-
-            .Phone{
-                display: inline-flex;
-
-                img{
-                    width:6%;
-                    height:auto;
-                    align-self: center;
-                    margin-right: 3%;
-                }
-                .Number{
-                    flex:1;
-                    white-space: nowrap;
-                }
-
-                .Btn-more{
-                    //flex:1;
-                    display: grid;
-                    width: fit-content;
-                    text-decoration: none;
-                    //flex:1;
-                    //margin-right: 20%;
-                    //background-color: rgb(155, 176, 192);
-                    font-family: Oswald ;
-                    font-size: 1.5rem;
-                    //border-radius: 10%;
-                    text-align: left;
-                    //vertical-align: middle;
-                    align-self: center;
-                    padding:1% 2%;
-                    //margin:5% 0%
-                    letter-spacing: 0.1rem;
-                    border-bottom-style: double ;
-                    font-style: oblique;
-                    color:black;
-                }
-        
-                .Btn-more:hover{
-                    //background-color: lightcoral;
-                    font-size: 2rem;
-                    letter-spacing: 0.2rem;
-                }
-            }
-        }
-    }
-
-    .article{
-        
-        justify-self: center;
-        width: 90%;
-        background-color: white;
-        box-shadow: 2px 2px 5px gray;
-        margin-bottom:5%;
-        text-align: left;
-        .ant-list-header{
-            //border-bottom:solid 1px gray;
-            margin :0% 5%;
-            padding:1% 0%;
-            h1{
-                margin-bottom:0rem;
-                font-size: 2rem;
-                font-weight: bold;
-                
-            }    
-        }
-        
-        .ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:first-child {
-            border-top: 1px solid gray;
-        }
-        
-        .ant-list-split.ant-list-something-after-last-item .ant-spin-container > .ant-list-items > .ant-list-item:last-child {
-            border-bottom: 1px solid gray;
-        }
-            
-        .ant-list-items{
-            //height: 45rem;
-            list-style-type: decimal ;
-            font-family: Signika;
-            font-size: 1.2rem;
-            // align-items: center;
-            // justify-content: center;
-            // justify-items: center;
-            //border-bottom:solid 1px gray;
-            .ant-list-item{
-                font-family: Signika, sans-serif;
-                //list-style-position:outside ;
-                margin:0% 5%;
-                //padding:10px 5px;
-                color: #28475D;
-                border-bottom:solid 1px gray;
-                //font-weight: lighter;
-                .blod{
-                    font-weight: bold;
-                }
-    
-                a{
-                    text-decoration: underline;
-                    color: #28475D;
-                }
-                
-            }
-            
-            
-        }
-        
-        .ant-pagination{
-            text-align: center;
-            
-            li{
-                margin:0% 1%;
-                //border-bottom:solid 0px #d9d9d9;
-                
-            }
-
-            
-            
-        }
-    }
-    
-}
-
-@media screen and(max-width:1200px){
-    .Professor{
-        padding-top: 13%;
-    }
-}
-
-@media screen and(max-width:900px){
-
-    .Professor .content{
-        display: grid;
-        .Info{
-            margin:5%;
-            justify-items: center;
-            .Name{
-                width: 100%;
-                display: grid;
-                justify-items: center;
-                //align-self: left;
-                margin: 1% 0% 1% 0%;
-                border-bottom: 0.1rem solid  gray;
-                span{
-                    margin-right: 0%;
-                }
-                
-            }
-            span{
-                text-align: center;
-                margin: 1% 0% 1% 0%;
-                //font-size: 1rem;
-            }
-
-            .Mail{
-                width: 100%;
-                display: grid;
-                justify-items: center;
-                border-top: 0.1rem solid  gray;
-                border-bottom: 0.1rem solid  gray;
-                img{
-                    justify-self: center;
-                    margin-top: 2.5%;
-                    margin-right: 0%;
-                }
-            }
-
-            .Phone{
-                width: 100%;
-                display: grid;
-                justify-items: center;
-                img{
-                    width: 7%;
-                    justify-self: center;
-                    margin-top: 2.5%;
-                    margin-right: 0%;
-                }
-                .Btn-more{
-                    width: fit-content;
-                    text-decoration: none;
-                    //flex:1;
-                    //margin-right: 20%;
-                    background-color: rgb(155, 176, 192);
-                    font-family: Oswald ;
-                    font-size: 1.2rem;
-                    border-radius: 10% / 30%;
-                    text-align: center;
-                    vertical-align: middle;
-                    padding:1% 2%;
-                    margin:5% 0%;
-                    border-style: none;
-                    // border:none;
-                }
-        
-                
-            }
-        }
-    
-    }
- 
-}
-
-@media screen and(max-width:450px){
-
-    .Professor{
-        
+      span {
+        font-family: Oswald;
+        letter-spacing: 0.2rem;
+        font-size: 3rem;
+        font-weight: bold;
+        align-items: center;
+        //margin-left: 7%;
         display: grid;
         justify-items: center;
-    
-        .Pic span{
-            margin:5% 0%;
-        }
-        
+        padding: 2% 0%;
+        text-align: center;
+      }
 
-        .Info{
-            margin:5%;
-            justify-items: center;
-            .Name{
-                width: 100%;
-                display: grid;
-                justify-items: center;
-                //align-self: left;
-                margin: 1% 0% 1% 0%;
-                border-bottom: 0.1rem solid  gray;
-
-                span{
-                    margin-right: 0%;
-                }
-            }
-            span{
-                text-align: center;
-                margin: 1% 0% 1% 0%;
-                font-size: 1.2rem;
-            }
-
-            .Mail{
-                width: 100%;
-                display: grid;
-                justify-items: center;
-                border-top: 0.1rem solid  gray;
-                border-bottom: 0.1rem solid  gray;
-                img{
-                    justify-self: center;
-                    margin-top: 5%;
-                    margin-right: 0%;
-                }
-                span{
-                    font-size: 1.2rem;
-                }
-            }
-
-            .Phone{
-                width: 100%;
-                display: grid;
-                justify-items: center;
-                
-                img{
-                    justify-self: center;
-                    margin-top: 5%;
-                    margin-right: 0%;
-                }
-                .Btn-more{
-                   justify-self: center;
-                   //margin:5% 0%;
-                }
-
-                span{
-                    font-size: 1.2rem;
-                }
-            }
-        }
-    
+      img {
+        margin-bottom: 5%;
+        align-items: center;
+        margin-left: 0;
+        border-radius: 25%;
+        border: solid white 0.5rem;
+        display: grid;
+        justify-self: center;
+      }
     }
- 
+
+    .Info {
+      display: grid;
+      flex: 3;
+      align-items: center;
+      margin: 2.5% 10% 2.5% 2.5%;
+      justify-items: first baseline;
+
+      .Name {
+        display: inline-flex;
+
+        span {
+          text-align: left;
+          font-family: Oswald;
+          letter-spacing: 0.2rem;
+          font-size: 2rem;
+          align-items: center;
+          margin-bottom: 2%;
+          white-space: nowrap;
+          margin-right: 5%;
+          margin-top: 0%;
+        }
+      }
+
+      span {
+        align-self: center;
+        display: inline-flex;
+        justify-content: start;
+        font-size: 1.5rem;
+        line-height: 2.2rem;
+        //font-family: Oswald;
+        text-align: left;
+
+        
+      }
+
+      .Mail {
+        display: inline-flex;
+        margin-top: 2%;
+
+        img {
+          width: 7%;
+          height: auto;
+          align-self: center;
+          margin-right: 3%;
+        }
+
+        span {
+          text-align: left;
+        }
+      }
+
+      .Phone {
+        display: inline-flex;
+
+        img {
+          width: 6%;
+          height: auto;
+          align-self: center;
+          margin-right: 3%;
+        }
+
+        .Number {
+          flex: 1;
+          white-space: nowrap;
+        }
+
+        .Btn-more {
+          //flex:1;
+          display: grid;
+          width: fit-content;
+          text-decoration: none;
+          //flex:1;
+          //margin-right: 20%;
+          //background-color: rgb(155, 176, 192);
+          font-family: Oswald;
+          font-size: 1.5rem;
+          border-radius: 10% /25%;
+          text-align: left;
+          //vertical-align: middle;
+          align-self: center;
+          padding: 1% 2%;
+          //margin:5% 0%
+          letter-spacing: 0.1rem;
+          // border-bottom-style: double ;
+          // font-style: oblique;
+          color: black;
+          border:rgb(151, 151, 148) solid 1px;
+          background-color:#ecf2f5;
+          transition: 0.5s;
+          background-size: 200% auto;
+          
+        }
+
+        .Btn-more:hover {
+          // font-size: 2rem;
+          // letter-spacing: 0.2rem;
+          background-color: rgba(0, 0, 0, 0.384);
+          background-position: right center;
+          color: rgb(255, 255, 255);
+          //border: rgba(0, 0, 0, 0.363) solid 1px;
+        }
+      }
+    }
+  }
+
+  .article {
+    justify-self: center;
+    width: 90%;
+    background-color: white;
+    box-shadow: 2px 2px 5px gray;
+    margin-bottom: 5%;
+    text-align: left;
+
+    .ant-list-header {
+      //border-bottom:solid 1px gray;
+      margin: 0% 5%;
+      padding: 1% 0%;
+
+      h1 {
+        margin-bottom: 0rem;
+        font-size: 2rem;
+        font-weight: bold;
+      }
+    }
+
+    .ant-list-split.ant-list-something-after-last-item
+      .ant-spin-container
+      > .ant-list-items
+      > .ant-list-item:first-child {
+      border-top: 1px solid gray;
+    }
+
+    .ant-list-split.ant-list-something-after-last-item
+      .ant-spin-container
+      > .ant-list-items
+      > .ant-list-item:last-child {
+      border-bottom: 1px solid gray;
+    }
+
+    .ant-list-items {
+      //height: 45rem;
+      list-style-type: decimal;
+      font-family: Signika;
+      font-size: 1.2rem;
+
+      // align-items: center;
+      // justify-content: center;
+      // justify-items: center;
+      //border-bottom:solid 1px gray;
+      .ant-list-item {
+        font-family: Signika, sans-serif;
+        //list-style-position:outside ;
+        margin: 0% 5%;
+        //padding:10px 5px;
+        color: #28475d;
+        border-bottom: solid 1px gray;
+
+        //font-weight: lighter;
+        .blod {
+          font-weight: bold;
+        }
+
+        a {
+          text-decoration: underline;
+          color: #28475d;
+        }
+      }
+    }
+
+    .ant-pagination {
+      text-align: center;
+
+      li {
+        margin: 0% 1%;
+        //border-bottom:solid 0px #d9d9d9;
+      }
+    }
+  }
 }
 
-@media screen and(max-width:321px){
-    .Professor .content{
-        margin-left: -1rem;
-        
+@media screen and(max-width:1200px) {
+  .Professor {
+    padding-top: 13%;
+  }
+}
+
+@media screen and(max-width:900px) {
+  .Professor .content {
+    display: grid;
+
+    .Info {
+      margin: 5%;
+      justify-items: center;
+
+      .Name {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        //align-self: left;
+        margin: 1% 0% 1% 0%;
+        border-bottom: 0.1rem solid gray;
+
+        span {
+          margin-right: 0%;
+        }
+      }
+
+      span {
+        text-align: center;
+        margin: 2% 0% 2% 0%;
+        //font-size: 1rem;
+      }
+
+      .Mail {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        border-top: 0.1rem solid gray;
+        border-bottom: 0.1rem solid gray;
+
+        img {
+          justify-self: center;
+          margin-top: 2.5%;
+          margin-right: 0%;
+        }
+      }
+
+      .Phone {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+
+        img {
+          width: 7%;
+          justify-self: center;
+          margin-top: 2.5%;
+          margin-right: 0%;
+        }
+
+        .Btn-more {
+          //width: fit-content;
+          text-decoration: none;
+          //flex:1;
+          //margin-right: 20%;
+          //background-color: rgb(155, 176, 192);
+          font-family: Oswald;
+          font-size: 1.2rem;
+          border-radius: 10% / 30%;
+          text-align: center;
+          vertical-align: middle;
+          padding: 1% 2%;
+          margin: 5% 0%;
+          border-style: none;
+          //border    : solid 1px gray;
+          background-color: rgba(25, 25, 25, 0.3);
+          background-image: none;
+          span {
+            //z-index: -1;
+
+            color: white;
+          }
+
+          // border:none;
+        }
+      }
     }
-    .Professor .article{
-        margin-left: -1.3rem;
-        width: 80%;
+  }
+}
+
+@media screen and(max-width:450px) {
+  .Professor {
+    display: grid;
+    justify-items: center;
+
+    .Pic span {
+      margin: 5% 0%;
     }
+
+    .Info {
+      margin: 5%;
+      justify-items: center;
+
+      .Name {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        //align-self: left;
+        margin: 1% 0% 1% 0%;
+        border-bottom: 0.1rem solid gray;
+
+        span {
+          margin-right: 0%;
+        }
+      }
+
+      span {
+        text-align: center;
+        margin: 2% 0% 2% 0%;
+        font-size: 1.2rem;
+      }
+
+      .Mail {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+        border-top: 0.1rem solid gray;
+        border-bottom: 0.1rem solid gray;
+
+        img {
+          justify-self: center;
+          margin-top: 5%;
+          margin-right: 0%;
+        }
+
+        span {
+          font-size: 1.2rem;
+        }
+      }
+
+      .Phone {
+        width: 100%;
+        display: grid;
+        justify-items: center;
+
+        img {
+          justify-self: center;
+          margin-top: 5%;
+          margin-right: 0%;
+        }
+
+        .Btn-more {
+          justify-self: center;
+          //margin:5% 0%;
+        }
+
+        span {
+          font-size: 1.2rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and(max-width:321px) {
+  .Professor .content {
+    margin-left: -1rem;
+  }
+
+  .Professor .article {
+    margin-left: -1.3rem;
+    width: 80%;
+  }
 }

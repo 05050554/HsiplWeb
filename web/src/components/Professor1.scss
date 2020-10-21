@@ -53,10 +53,15 @@
     }
     
     .ant-back-top{
+        position: absolute;
+        right: 0;
+        width: 45px;
+        height: 45px;
         line-height: 40px;
-        border-radius: 1em;
-        background-color: coral; 
-       
+        border-radius: 50%;
+        background-color:#204091;
+        color: white;
+        text-align: center;
     }
 
     .content{

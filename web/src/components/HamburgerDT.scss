@@ -15,14 +15,16 @@
       top: -0.5rem;
       position: fixed;
       z-index: 9;
-      background-color: ivory;
+      //background-color: ivory;
+      background-color   : #0c5497a1;
     }
     .navbar h2 {
       position: fixed;
       display: flex;
       justify-content: center;
       width: 100vw;
-      top: -2.3rem;
+      margin: auto;
+      //top: -2.3rem;
       font-size: 3em;
       font-family: Oregano;
     }
@@ -65,6 +67,9 @@
       }
       .navbar .nav {
         display: none;
+      }
+      .navbar{
+        visibility: hidden;
       }
     }
   
@@ -112,6 +117,9 @@
       .logo1{
         visibility:visible ;
       }
+      .navbar{
+        visibility: visible;
+      }
     }
   
     @media (max-width: 770px) {
@@ -119,9 +127,10 @@
         height: 12vh;
       }
       h2{
-        margin-top: 2rem;
-        height: 12vh;
-        padding-top: 1.5rem;
+        // margin-top: 2rem;
+        // height: 12vh;
+        // padding-top: 1.5rem;
+        margin: auto;
       }
       .navbar ul li a {
         font-size: 2em;
@@ -133,8 +142,9 @@
       // }
       h2{
         // margin-top: 0rem;
-        height: 11.2vh;
-        padding-top: 0.8rem;
+        // height: 11.2vh;
+        // padding-top: 0.8rem;
+        margin: auto;
       }
       .navbar ul li a {
         font-size: 1.8em;
@@ -147,8 +157,9 @@
         height: 10vh;
       }
       h2{
-        height: 10vh;
-        padding-top: 0rem;
+        // height: 10vh;
+        // padding-top: 0rem;
+        margin: auto;
       }
     }
 

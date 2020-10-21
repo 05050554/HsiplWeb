@@ -6,6 +6,8 @@
     display: grid;
     align-items: center;
     //border-bottom: solid 0.1rem gray;
+    background-color   : #2d3a4b;
+    color: white;
     .Title{
         font-family: Signika, sans-serif;
         font-size: 3rem;
@@ -23,7 +25,7 @@
 
     .Ch{
         font-family: 'Noto Sans TC', sans-serif;
-        border-bottom: solid 0.1rem gray;
+        //border-bottom: solid 0.1rem gray;
         padding:1% 1%;
     }
 
@@ -34,7 +36,7 @@
         //width: 80%;
         padding:0% 5%;
         //margin-bottom:3%;
-        border-bottom: solid 0.1rem gray;
+        //border-bottom: solid 0.1rem gray;
         
         h1{
             font-size:2rem;
@@ -67,6 +69,7 @@
         }
         
         #content_1516{
+            border-top: gray solid 1px;
             span{
                 align-self: start;
             }
@@ -114,12 +117,20 @@
 
 
 .ant-back-top{
+    
+    right: 20px;
+    width: 45px;
+    height: 45px;
     line-height: 40px;
-    border-radius: 1em;
-    background-color: coral; 
+    border-radius: 50%;
+    background-color:#204091;
+    color: white;
     text-align: center;
 }
 
+.slick-dots{
+    width: auto;
+}
 
 // .slider_container:hover div { /*暫停效果*/
 //     -webkit-animation-play-state: paused;
@@ -144,6 +155,10 @@
 
 
 @media screen and(max-width:1024px){
+    // .slick-dots{
+    //     width: auto;
+    // }
+
     .Research_interests .Title{
         font-size: 2.5rem;
     }

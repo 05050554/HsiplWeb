@@ -78,7 +78,7 @@ const settings = {
     responsive: [
         
         {
-          breakpoint: 800,
+          breakpoint: 1200,
           settings: {
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -86,7 +86,7 @@ const settings = {
           }
         },
         {
-          breakpoint: 480,
+          breakpoint: 800,
           settings: {
             slidesToShow: 1,
             slidesToScroll: 1
@@ -103,7 +103,7 @@ const settings = {
 function Arrow(props) {
     let className = props.type === "next" ? "nextArrow" : "prevArrow";
     className += " arrow";
-    const char = props.type === "next" ? <i class="fas fa-chevron-circle-right" style={{fontSize:"50px",alignSelf:"center"}}></i> : <i class="fas fa-chevron-circle-left" style={{fontSize:"50px"}}></i>;
+    const char = props.type === "next" ? <i class="fas fa-chevron-circle-right" style={{alignSelf:"center"}}></i> : <i class="fas fa-chevron-circle-left" style={{alignSelf:"center"}}></i>;
     return (
       <span style={{alignSelf:"center"}} className={className} onClick={props.onClick}>
         {char}
@@ -126,77 +126,87 @@ function Arrow(props) {
                 <Slider className="masterpic" id="masterpic" {...settings} nextArrow={<Arrow type="next" />}
         prevArrow={<Arrow type="prev" />}>
                     <div className="pic" id="firstpic">
-                        <div className="detail" id="firstdetail">
+                        {/* <div className="detail" id="firstdetail">
                             <h3>徐仕勳</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>M10817039@yuntech.edu.tw</p>
-                        </div>
+                        </div> */}
                         <img  className="img" id="firstimg"  src={XUN} alt="XUN"></img>
 
                         <div className="detail2" id="firstdetail2">
-                            <p3><h4>徐仕勳</h4><span>研究方向 :  影像處理<br /></span>
+                        <h4>徐仕勳</h4>
+                        <span>研究方向 :  影像處理</span>
+                            <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <p>M10817039@yuntech.edu.tw</p>
-                            </p3>
+                                <span>M10817039@yuntech.edu.tw</span>
+                            </div>
                         </div>
                     </div>
 
                     <div className="pic" id="secondpic">
 
-                        <div className="detail" >
+                        {/* <div className="detail" >
                             <h3>邱明豐</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>M10817046@yuntech.edu.tw</p>
-                        </div>
+                        </div> */}
 
                         <img src={FENG} alt="FENG"></img>
                         <div className="detail2">
-                            <p3><h4>邱明豐</h4><span>研究方向 :  影像處理<br /></span>
+                        <h4>邱明豐​</h4>
+                        <span>研究方向 :  影像處理</span>
+                            <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <p>M10817046@yuntech.edu.tw</p>
-                            </p3>
+                                <span>M10817046@yuntech.edu.tw</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic" id="thirdpic">
-                        <div className="detail" >
+                        {/* <div className="detail" >
                             <h3>鄭友智</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>M10817038@yuntech.edu.tw</p>
-                        </div>
+                        </div> */}
                         <img src={ZHI} alt="ZHI"></img>
                         <div className="detail2">
-                            <p3><h4>鄭友智</h4><span>研究方向 :  影像處理<br /></span>
+                        <h4>鄭友智​</h4>
+                        <span>研究方向 :  影像處理</span>
+                            <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <p>M10817038@yuntech.edu.tw</p>
-                            </p3>
+                                <span>M10817038@yuntech.edu.tw</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic" id="fourthpic">
-                        <div className="detail">
+                        {/* <div className="detail">
                             <h3>鄭才毅</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>M10817024@yuntech.edu.tw</p>
-                        </div>
+                        </div> */}
                         <img src={TI} alt="TI"></img>
                         <div className="detail2">
-                            <p3><h4>鄭才毅</h4><span>研究方向 :  影像處理<br /></span>
+                        <h4>鄭才毅</h4>
+                        <span>研究方向 :  影像處理</span>
+                            <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <p>M10817024@yuntech.edu.tw</p>
-                            </p3>
+                                <span>M10817024@yuntech.edu.tw</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic" id="lastpic">
-                        <div className="detail">
+                        {/* <div className="detail">
                             <h3>許寓鈞</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>M10817021@yuntech.edu.tw</p>
-                        </div>
+                        </div> */}
                         <img src={JUN} alt="JUN"></img>
                         <div className="detail2">
-                            <p3><h4>許寓鈞</h4><span>研究方向 :  影像處理<br /></span>
+                        <h4>許寓鈞</h4>
+                        <span>研究方向 :  影像處理</span>
+                            <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <p>M10817021@yuntech.edu.tw</p>
-                            </p3>
+                                <span>M10817021@yuntech.edu.tw</span>
+                            </div>
                         </div>
                     </div>
 
@@ -224,91 +234,101 @@ function Arrow(props) {
                     <div className="pic1" id="firstpic1">
                     
                     {/* <button id="slide" type="button">Slide right</button> */}
-                        <div id="firstdetail" className="detail3">
+                        {/* <div id="firstdetail" className="detail3">
                             <h3>Members</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
-                        </div>
+                        </div> */}
                         <img id="firstpicture" src={girl1} alt="girl1"></img>
 
                         <div id="firstdetail2"  className="detail4">
-
-                            <p3><h4>Members</h4><span>研究方向 :  影像處理<br /></span>
+                            <h4>Members</h4>
+                            <span>研究方向 :  影像處理</span>
+                            <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <p>abcdefg@gmail.com</p>
-                            </p3>
-
+                                <span>abcdefg@gmail.com</span>
+                            </div>
                         </div>
                     </div>
 
                     <div className="pic1" id="secondpic1">
-                        <div className="detail3">
+                        {/* <div className="detail3">
                             <h3>Members</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
-                        </div>
+                        </div> */}
                         <img src={girl2} alt="girl2"></img>
                         <div className="detail4">
-                            <p3><h4>Members</h4><span>研究方向 :  影像處理<br /></span>
-                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
-                                <p>abcdefg@gmail.com</p>
-                            </p3>
+                        <h4>Members</h4>
+                            <span>研究方向 :  影像處理</span>
+                            <div className="Email">
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                                <span>abcdefg@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic1" id="thirdpic1">
-                        <div className="detail3">
+                        {/* <div className="detail3">
                             <h3>Members</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
-                        </div>
+                        </div> */}
                         <img src={girl3} alt="girl3"></img>
                         <div className="detail4">
-                            <p3><h4>Members</h4><span>研究方向 :  影像處理<br /></span>
-                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
-                                <p>abcdefg@gmail.com</p>
-                            </p3>
+                        <h4>Members</h4>
+                            <span>研究方向 :  影像處理</span>
+                            <div className="Email">
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                                <span>abcdefg@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic1" id="fourthpic1">
-                        <div className="detail3">
+                        {/* <div className="detail3">
                             <h3>Members</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
-                        </div>
+                        </div> */}
                         <img src={girl4} alt="girl4"></img>
                         <div className="detail4">
-                            <p3><h4>Members</h4><span>研究方向 :  影像處理<br /></span>
-                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
-                                <p>abcdefg@gmail.com</p>
-                            </p3>
+                        <h4>Members</h4>
+                            <span>研究方向 :  影像處理</span>
+                            <div className="Email">
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                                <span>abcdefg@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic1" id="fifthpic1">
-                    <div className="detail3">
+                    {/* <div className="detail3">
                             <h3>Members</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
-                        </div>
+                        </div> */}
                         <img src={girl4} alt="girl4"></img>
                         <div className="detail4">
-                            <p3><h4>Members</h4><span>研究方向 :  影像處理<br /></span>
-                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
-                                <p>abcdefg@gmail.com</p>
-                            </p3>
+                        <h4>Members</h4>
+                            <span>研究方向 :  影像處理</span>
+                            <div className="Email">
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                                <span>abcdefg@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                     <div className="pic1" id="lastpic1">
-                        <div className="detail3">
+                        {/* <div className="detail3">
                             <h3>Members</h3><span>研究方向 :  影像處理</span>
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
-                        </div>
+                        </div> */}
                         <img src={girl4} alt="girl4"></img>
                         <div className="detail4">
-                            <p3><h4>Members</h4><span>研究方向 :  影像處理<br /></span>
-                                <a href="/#"><i class="fas fa-envelope mail4"></i></a>
-                                <p>abcdefg@gmail.com</p>
-                            </p3>
+                        <h4>Members</h4>
+                            <span>研究方向 :  影像處理</span>
+                            <div className="Email">
+                                <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                                <span>abcdefg@gmail.com</span>
+                            </div>
                         </div>
                     </div>
                 </ Slider>
