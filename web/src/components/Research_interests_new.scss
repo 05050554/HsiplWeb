@@ -1,0 +1,222 @@
+.Research_interests {
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: grid;
+  align-items: center;
+  //border-bottom: solid 0.1rem gray;
+  //background-color   : #2d3a4b;
+  background: no-repeat;
+  background-size: cover;
+  background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+  color: white;
+  .Title {
+    font-family: Signika, sans-serif;
+    font-size: 3rem;
+    text-align: left;
+    margin-left: 5%;
+    color: white;
+  }
+  span {
+    font-family: Signika, sans-serif;
+    font-size: 1.2rem;
+    margin: 0% 5%;
+    text-align: left;
+    //font-weight: bold;
+    padding: 2% 1%;
+  }
+
+  .Ch {
+    font-family: "Noto Sans TC", sans-serif;
+    //border-bottom: solid 0.1rem gray;
+    padding: 1% 1%;
+  }
+
+  // .Article{
+  //     margin:0% 5%;
+  //     display: grid;
+  //     height: 100%;
+  //     //width: 80%;
+  //     padding:0% 5%;
+  //     //margin-bottom:3%;
+  //     //border-bottom: solid 0.1rem gray;
+
+  //     h1{
+  //         font-size:2rem;
+  //         margin:0% 2.5%;
+  //         padding:2% 1%;
+  //         font-weight: bold;
+  //         font-family: 'Noto Sans TC', sans-serif;
+  //         text-align: left;
+  //     }
+  //     .content{
+  //         height: 100%;
+  //         width: 100%;
+  //         display: inline-flex;
+  //         justify-content: center;
+  //         align-items: center;
+  //         margin:0%;
+  //         span{
+  //             align-self: center;
+  //             flex:1;
+  //             margin:0% 2.5%;
+  //             font-family: 'Noto Sans TC', sans-serif;
+  //         }
+  //         img{
+  //             flex:1;
+  //             //width: 50%;
+  //             height: 100%;
+  //             width: 100%;
+  //         }
+
+  //     }
+
+  //     #content_1516{
+  //         border-top: gray solid 1px;
+  //         span{
+  //             align-self: start;
+  //         }
+  //     }
+
+  // }
+
+  .article {
+    display: flex;
+    justify-content: center;
+    padding: 2% 0%;
+    flex-wrap: wrap;
+    .Item {
+      padding: 2%;
+      display: grid;
+      justify-content: center;
+      justify-items: center;
+      width: 50vh;
+      background-color: rgb(156, 142, 136);
+      margin: 1% 1%;
+      //border-radius: 5%;
+      h1 {
+        font-family: Signika, sans-serif;
+        align-self: center;
+      }
+
+      img {
+        //width: 100%;
+        align-self: center;
+        height: 30vh;
+      }
+
+      h3 {
+        //justify-self: center;
+        align-self: center;
+        font-family: "Noto Sans TC", sans-serif;
+        text-align: left;
+        font-size: 1.11rem;
+        font-weight: lighter;
+      }
+    }
+  }
+}
+
+.button-borderM {
+  .top-buttonM {
+    z-index: 10;
+    // width: 4%;
+    // height: 8%;
+    border-style: solid;
+    position: fixed;
+    bottom: 18vh;
+    right: 1vw;
+    top: 75vh;
+    border-radius: 1em;
+    // max-width: 4%;
+    // max-height: 8%;
+    text-decoration: none;
+  }
+  #p3 {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#life {
+  // padding-top: 6rem;
+  margin: auto;
+}
+.ant-carousel .slick-dots li {
+  background-color: black;
+}
+.ant-carousel {
+  background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+}
+
+.ant-back-top {
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #204091;
+  color: white;
+  text-align: center;
+}
+
+.slick-dots {
+  width: auto;
+}
+
+// .slider_container:hover div { /*暫停效果*/
+//     -webkit-animation-play-state: paused;
+//             animation-play-state: paused;
+// }
+
+@media screen and(max-width:1150px) {
+  #life {
+    margin-top: 8rem;
+    width: 80%;
+  }
+  .slick-dots .slick-dots-bottom {
+    margin-top: 5rem;
+    color: coral;
+  }
+}
+
+@media screen and(max-width:1024px) {
+  // .slick-dots{
+  //     width: auto;
+  // }
+
+  .Research_interests .Title {
+    font-size: 2.5rem;
+  }
+  img {
+    margin-left: -1rem;
+  }
+
+  .Research_interests .Article {
+    .content {
+      display: grid;
+    }
+  }
+}
+
+@media screen and(max-width:770px) {
+  .Research_interests {
+    padding-top: 14%;
+  }
+}
+
+@media screen and(max-width:415px) {
+  .Research_interests .Title {
+    font-size: 2.25rem;
+  }
+  .Research_interests .ch {
+    width: 90%;
+  }
+}
+
+@media screen and(max-width:376px) {
+}
+
+@media screen and(max-width:321px) {
+}

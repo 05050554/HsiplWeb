@@ -12,7 +12,7 @@ import Equipment from './components/Equipment';
 import Footer from './components/Footer';
 
 
-import Research_interests from './components/Research_interests'
+import Research_interests from './components/Research_interests_new'
 import Research_Posters from './components/Research_Posters'
 import Honor from './components/Honor'
 

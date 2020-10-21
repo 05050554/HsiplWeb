@@ -1,9 +1,11 @@
 import React from 'react'
 import "./Members1.scss";
-import girl1 from "../img/members/girl1.jpg"
-import girl2 from "../img/members/girl2.jpg"
-import girl3 from "../img/members/girl3.jpg"
-import girl4 from "../img/members/girl4.jpg"
+import WEI from "../img/members/M10917009.jpg"
+import YEE from "../img/members/M10917016.jpg"
+import HONG from "../img/members/M10917030.jpg"
+import HAN from "../img/members/M10917042.jpg"
+import GI from "../img/members/M10917044改.jpg"
+import YUN from "../img/members/M10917048.jpg"
 import JUN from "../img/members/134316.jpg"
 import FENG from "../img/members/S__7741515.jpg"
 import XUN from "../img/members/2591aw-1.jpg"
@@ -239,14 +241,14 @@ function Arrow(props) {
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
                         </div> */}
-                        <img id="firstpicture" src={girl1} alt="girl1"></img>
+                        <img id="firstpicture" src={WEI} alt="WEI"></img>
 
                         <div id="firstdetail2"  className="detail4">
-                            <h4>Members</h4>
+                            <h4>鄒學緯</h4>
                             <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>abcdefg@gmail.com</span>
+                                <span>M10917009@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
@@ -257,13 +259,13 @@ function Arrow(props) {
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
                         </div> */}
-                        <img src={girl2} alt="girl2"></img>
+                        <img src={YEE} alt="YEE"></img>
                         <div className="detail4">
-                        <h4>Members</h4>
+                        <h4>柯祉伊</h4>
                             <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>abcdefg@gmail.com</span>
+                                <span>M10917016@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
@@ -273,13 +275,13 @@ function Arrow(props) {
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
                         </div> */}
-                        <img src={girl3} alt="girl3"></img>
+                        <img src={HONG} alt="HONG"></img>
                         <div className="detail4">
-                        <h4>Members</h4>
+                        <h4>張瑞鴻</h4>
                             <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>abcdefg@gmail.com</span>
+                                <span>M10917030@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
@@ -289,13 +291,13 @@ function Arrow(props) {
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
                         </div> */}
-                        <img src={girl4} alt="girl4"></img>
+                        <img src={HAN} alt="HAN"></img>
                         <div className="detail4">
-                        <h4>Members</h4>
+                        <h4>楊宗翰</h4>
                             <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>abcdefg@gmail.com</span>
+                                <span>M10917042@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
@@ -305,13 +307,13 @@ function Arrow(props) {
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
                         </div> */}
-                        <img src={girl4} alt="girl4"></img>
+                        <img src={GI} alt="GI"></img>
                         <div className="detail4">
-                        <h4>Members</h4>
+                        <h4>蔡逢記</h4>
                             <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>abcdefg@gmail.com</span>
+                                <span>M10917044@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
@@ -321,13 +323,13 @@ function Arrow(props) {
                             <a href="/#"><i class="fas fa-envelope mail1"></i></a>
                             <p>abcdefg@gmail.com</p>
                         </div> */}
-                        <img src={girl4} alt="girl4"></img>
+                        <img src={YUN} alt="YUN"></img>
                         <div className="detail4">
-                        <h4>Members</h4>
+                        <h4>王美雲</h4>
                             <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>abcdefg@gmail.com</span>
+                                <span>M10917048@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
