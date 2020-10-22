@@ -96,8 +96,10 @@
       margin: 1% 1%;
       //border-radius: 5%;
       h1 {
-        font-family: Signika, sans-serif;
+        font-family: "Noto Sans TC", sans-serif;
         align-self: center;
+        font-size: 25px;
+        
       }
 
       img {
@@ -113,6 +115,7 @@
         text-align: left;
         font-size: 1.11rem;
         font-weight: lighter;
+        padding: 5px;
       }
     }
   }
@@ -145,9 +148,17 @@
 }
 .ant-carousel .slick-dots li {
   background-color: black;
+
 }
 .ant-carousel {
   background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+  .slick-dots {
+    width: auto;
+    z-index: 1;
+  }
+  
+    
+  
 }
 
 .ant-back-top {
@@ -161,9 +172,9 @@
   text-align: center;
 }
 
-.slick-dots {
-  width: auto;
-}
+
+
+
 
 // .slider_container:hover div { /*暫停效果*/
 //     -webkit-animation-play-state: paused;
