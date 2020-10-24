@@ -52,13 +52,13 @@ const Honor = () => {
                 <div className="Item">   
                     <h1>2019-10/31</h1>
                     <img src={img20191031} alt="img20191031"></img>
-                    <h3>本實驗室歐承學同學、許寓鈞同學榮獲<br></br>2019雲科智慧生活創新應用競賽<span className="red">佳作</span><br></br>　</h3>
+                    <h3>本實驗室歐承學同學、許寓鈞同學榮獲<br></br>2019雲科智慧生活創新應用競賽<span className="red">佳作</span><br></br></h3>
                 </div>
                 <div className="Item">   
                     <h1>2019-10/31</h1>
                     <img src={img20191031_1} alt="img20191031_1"></img>
-                    <h3>本實驗室專題生張晴凱、朱育承榮獲2019年專題競賽暨成果發表觀摩會<span className="red">第三名</span><br></br>
-                        題目：<span className="name">臺灣好所在</span></h3>
+                    <h3>本實驗室王津澤同學、邱明豐同學、鄭友智同學榮獲2019雲科智慧生活創新應用競賽<span className="red">最佳商品化獎</span><br></br>
+                        </h3>
                 </div>
                 <div className="Item">   
                     <h1>2019-07/13</h1>

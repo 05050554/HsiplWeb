@@ -34,7 +34,7 @@ export const LabDirector = () => {
                         <h>Web<br/>Development</h>
                     </div>
                     <div className="Content">
-                        <p>We e develop the design and function implementation of web pages.
+                        <p>We develop the design and function implementation of web pages.
                         </p>
                     </div>
                     
