@@ -57,10 +57,10 @@ const HomePage1 = () => {
                 <div className="Home">
                     <div className="text" >
                         <span className="circle1"></span> {/* 問題2 */}
-                        <h1 className="title">Hyperspectral Imaging System</h1> {/* 問題1 */}
-                        <h2 className="content">Learn more about <br /> hyperspectral imaging system</h2>
-                        <h2 className="more">
-                            <Link id="lm" to="/LearnMore" >Learn more</Link><span className="circle2"></span></h2>
+                        <h1 className="title">Hyperspectral Signal and Image Processing Laboratory</h1> {/* 問題1 */}
+                        <h3 className="content" id="content">Learn more about <br /> hyperspectral imaging system</h3>
+                        <h3 className="more">
+                            <Link id="lm" to="/LearnMore" >Learn more</Link><span className="circle2"></span></h3>
                         <span className="circle3"></span>
                     </div>
 

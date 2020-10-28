@@ -8,6 +8,7 @@
     //margin-top     : -10%;
     //background-image: linear-gradient(to bottom,  #f5f7f8 0%,#ebedee 100%);
     //background-color   : #2d3a4b;
+    background-color   : #2d3a4b;
 
     .content {
         flex        : 1;
@@ -17,6 +18,7 @@
         justify-self: stretch;
         flex-wrap   : wrap;
 
+        color: white;
         video {
             margin: 5% 0%;
             //padding: 5% 0%;
@@ -33,13 +35,14 @@
 
         span {
             h1 {
+                color: white;
                 text-align    : center;
                 padding-bottom: 5%;
                 //margin : auto;
                 font-family   : 'Oswald', sans-serif;
                 font-size     : 3rem;
                 letter-spacing: 0.2rem;
-                font-weight   : bolder;
+                //font-weight   : bolder;
             }
 
             font-size    : 1.5rem;

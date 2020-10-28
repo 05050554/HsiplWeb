@@ -84,7 +84,7 @@ html {
     .text {
       z-index: 1;
       display: grid;
-      width: 100%;
+      width: 80%;
 
       .circle1 {
         margin-left: 5%;
@@ -111,7 +111,7 @@ html {
         margin-bottom: 40px;
       }
 
-      h2 {
+      .content {
         margin-top: 50px;
         font-size: 2rem;
         line-height: 2.8rem;
@@ -176,6 +176,7 @@ html {
 
         margin: -11rem 10rem 8rem -8rem;
         visibility: hidden;
+        
       }
     }
   }
@@ -240,18 +241,18 @@ html {
 
   .HomePic img {
     margin: 0rem -5rem 0rem 0rem;
-    width: 70%;
+    width: 90%;
   }
 
-  h1 {
-    white-space: nowrap;
-  }
+  // h1 {
+  //   // white-space: nowrap;
+  // }
 }
 
 @media screen and(max-width:1280px) {
   .HomePic img {
     margin: 0rem -5rem 0rem 0rem;
-    width: 60%;
+    width: 80%;
   }
 }
 
@@ -293,7 +294,7 @@ html {
   }
 
   .HomePic .Home {
-    margin-top: 15%;
+    //margin-top: 15%;
 
     .text {
       width: 60%;
@@ -305,6 +306,7 @@ html {
       .content {
         margin-top: 0;
         padding-top: 0;
+        margin-bottom: 16px;
       }
 
       .more {
@@ -314,13 +316,14 @@ html {
         }
 
         #lm {
-          margin-top: 0%;
+          margin-top: 50px;
         }
       }
 
       .circle3 {
         margin: -11rem 0rem 2rem -5rem;
-        //visibility: hidden;
+        visibility: hidden;
+        // display: none;
       }
     }
   }
@@ -345,10 +348,10 @@ html {
           margin-right: -5%;
         }
 
-        #lm {
-          margin-top: 0;
-          margin-left: -5%;
-        }
+        // #lm {
+        //   margin-top: 50px;
+        //   //margin-left: -5%;
+        // }
       }
 
       .circle3 {
@@ -380,17 +383,16 @@ html {
       white-space: normal;
     }
 
-    .more {
-      justify-self: center;
-
-      .circle2 {
-        display: none;
-      }
-      #lm {
-        margin-top: 0;
-        margin-left: -5%;
-      }
-    }
+    // .more {
+      
+    //   // .circle2 {
+    //   //   // display: none;
+    //   // }
+    //   #lm {
+    //     margin-top: 50px;
+    //     //margin-left: -5%;
+    //   }
+    // }
   }
 }
 
@@ -421,6 +423,16 @@ html {
       margin-top: 5rem;
       margin-bottom: -10rem;
     }
+    .more {
+      // justify-self: left;
+      #lm {
+        font-size: 30px;
+        width: 10rem;
+        margin-top: 50px;
+        // margin-left: 0%;
+        // align-self: left;
+      }
+    }
   }
 }
 
@@ -440,19 +452,14 @@ html {
       font-size: 1.6rem;
       white-space: normal;
       line-height: 2rem;
+      
     }
 
     .more {
-      justify-self: center;
-      // #lm{
-
-      //     width: 9rem;
-      //     font-size: 1.6rem;
-      //     line-height: 3rem;
-      // }
       #lm {
-        margin-top: 0;
-        margin-left: -5%;
+
+        margin-left: 30px;
+
       }
     }
 
