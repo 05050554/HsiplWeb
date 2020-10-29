@@ -32,7 +32,7 @@
       // display: grid;
       color: white;
       text-align: center;
-      padding-bottom: 5%;
+      padding-top: 5%;
       // margin-left: 900px;
       // margin-top: 500px;
       font-family: "Oswald", sans-serif;
@@ -273,11 +273,18 @@
     //background-color   : #2d3a4b;
     background-color: #2d3a4b;
 
+    .red{
+      height: 100px;
+      background-color:#2d3a4b;
+      font-size: 1.7rem;
+      color:red;
+      padding-left: 3rem;
+    }
     .content {
       flex: 1;
       display: flex;
       position: relative;
-      margin: 0% 5% 5% 5%;
+      margin: 0% 5% 0% 5%;
       justify-self: stretch;
       flex-wrap: wrap;
 

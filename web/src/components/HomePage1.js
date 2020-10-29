@@ -43,8 +43,8 @@ const HomePage1 = () => {
                 <div className="list">
                     <ul>
                         
-                        <li><a id="p1" href='/#LabDirector'   >Lab Director</a></li>
-                        <li><a id="p1" href='/#Introduction'  >Introduction</a></li>
+                        <li><a id="p1" href='/#LabDirector'   >About HSIPL</a></li>
+                        {/* <li><a id="p1" href='/#Introduction'  >Introduction</a></li> */}
                         <li><a id="p1" href='/#Professor'  >Professor</a></li>
                         <li><a id="p1" href='/#members'  >Members</a></li>
                         <li><a id="p1" href='/#Equipment'  >Equipment</a></li>

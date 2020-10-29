@@ -4,7 +4,7 @@ import './App.css';
 import Hamburger from './components/Hamburger'
 import HamburgerLM from './components/HamburgerLM'
 import HomePage from './components/HomePage1';
-import { LabDirector } from './components/LabDirector';
+import { About_HSIPL } from './components/About_HSIPL';
 import Introduction from './components/Introduction';
 import Professor from './components/Professor';
 import Members from './components/Members1';
@@ -61,7 +61,7 @@ function App() {
           <ScrollToTop>
             <Hamburger />
             <HomePage></HomePage>
-            <LabDirector></LabDirector>
+            <About_HSIPL></About_HSIPL>
             {/* <Introduction></Introduction> */}
             <Professor></Professor>
             <Members></Members>

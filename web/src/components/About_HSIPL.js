@@ -1,16 +1,16 @@
 import React from "react";
-import "./LabDirector.scss";
+import "./About_HSIPL.scss";
 import camera from "../img/LabDirector/camera.png";
 import app from "../img/LabDirector/mobile.png";
 import web from "../img/LabDirector/web.png";
 
-export const LabDirector = () => {
+export const About_HSIPL = () => {
   return (
     <>
       <div className="LabDirector" id="LabDirector">
-        <div className="Background">
-          <span className="title">About HSIPL</span>
-          <div className="Hsipl">
+        <div className="Background" >
+          <span className="title" >About HSIPL</span>
+          <div className="Hsipl" >
             <div className="Icon">
               <img src={camera} href="#" alt="camera"></img>
               <h>
@@ -87,8 +87,10 @@ export const LabDirector = () => {
                 various research topics for multi or hyperspectral applications.
               </p>
             </div>
+            
           </div>
-        </div>
+            <div className="red"><p>希望找指導教授之學生請注意: Email請註明正取或備取名次，並附上個人基本資料履歷(包含熟悉之語言、曾做過之專題題目等)以及成績單，謝謝。</p></div>
+          </div>
       </div>
     </>
   );
