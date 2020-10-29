@@ -8,9 +8,9 @@ export const LabDirector = () => {
   return (
     <>
       <div className="LabDirector" id="LabDirector">
-        <div className="Background">
-          <span className="title">About HSIPL</span>
-          <div className="Hsipl">
+        <div className="Background" >
+          <span className="title" >About HSIPL</span>
+          <div className="Hsipl" >
             <div className="Icon">
               <img src={camera} href="#" alt="camera"></img>
               <h>

@@ -21,9 +21,9 @@ const Hamburger = () => {
       )}
  
       <ul className={open === false ? "nav close" : "nav open"}>
-        <li><Link onClick={() => setOpen(!open)}  to="/">Home</Link></li>
-        <li><a onClick={() => setOpen(!open)} href="/#LabDirector">Lab Director</a></li>
-        <li><a onClick={() => setOpen(!open)} href="/#Introduction">Introduction</a></li>
+        <li><a onClick={() => setOpen(!open)}  href="/">Home</a></li>
+        <li><a onClick={() => setOpen(!open)} href="/#LabDirector">About HSIPL</a></li>
+        {/* <li><a onClick={() => setOpen(!open)} href="/#Introduction">Introduction</a></li> */}
         <li><a onClick={() => setOpen(!open)} href="/#Professor">Professor</a></li>
         <li><a onClick={() => setOpen(!open)} href="/#members">Members</a></li>
         <li><a onClick={() => setOpen(!open)} href="/#Equipment">Equipment</a></li>
