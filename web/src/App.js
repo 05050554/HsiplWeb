@@ -62,7 +62,7 @@ function App() {
             <Hamburger />
             <HomePage></HomePage>
             <LabDirector></LabDirector>
-            <Introduction></Introduction>
+            {/* <Introduction></Introduction> */}
             <Professor></Professor>
             <Members></Members>
             <Equipment></Equipment>

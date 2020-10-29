@@ -11,9 +11,10 @@
     background-color   : #2d3a4b;
 
     .content {
+    
         flex        : 1;
         display     : flex;
-
+        position: relative;
         margin      : 0% 5% 5% 5%;
         justify-self: stretch;
         flex-wrap   : wrap;
@@ -33,18 +34,7 @@
             
         }
 
-        span {
-            h1 {
-                color: white;
-                text-align    : center;
-                padding-bottom: 5%;
-                //margin : auto;
-                font-family   : 'Oswald', sans-serif;
-                font-size     : 3rem;
-                letter-spacing: 0.2rem;
-                //font-weight   : bolder;
-            }
-
+        .about {
             font-size    : 1.5rem;
             line-height  : 3rem;
             //font-family: Oswald;
@@ -52,6 +42,22 @@
             flex         :1;
             margin       : 0% 1%;
             align-self   : center;
+        }
+        .title {
+            z-index: 1;
+            position: absolute;
+            // display: grid;
+            color: white;
+            text-align    : center;
+            padding-bottom: 5%;
+            margin-left: 1300px;
+            margin-top: -90px;
+            font-family   : 'Oswald', sans-serif;
+            font-size     : 3rem;
+            letter-spacing: 0.2rem;
+            //font-weight   : bolder;
+            transform: rotateZ(90deg);
+            white-space: nowrap;
         }
 
     }

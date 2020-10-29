@@ -98,10 +98,10 @@ const settings = {
     
   };
 
-  const teststy ={
-      slidesToShow:2,
-      slidesToScroll:1
-  }
+//   const teststy ={
+//       slidesToShow:2,
+//       slidesToScroll:1
+//   }
 function Arrow(props) {
     let className = props.type === "next" ? "nextArrow" : "prevArrow";
     className += " arrow";

@@ -38,7 +38,7 @@ const HomePage1 = () => {
             </head> */}
             
             <div className="top" id="HomePage">
-                <Link  to="/"><img className="logo" src={logo}></img></Link> 
+                <a href="/"><img className="logo" src={logo}></img> </a>
 
                 <div className="list">
                     <ul>
