@@ -231,3 +231,244 @@
 
 @media screen and(max-width:321px) {
 }
+
+
+
+/*alumnus*/
+
+.members_Al{
+  padding-top: 5%;
+  width: auto;
+  height: auto;
+  overflow: hidden;
+  background-color: #f5f7f8;
+  
+  
+  
+  .master2_Al{
+      text-align: left;
+      margin: 0% 7%;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.5rem;
+      //background-color: rgb(0, 47, 122);
+      
+      
+      h2{
+          color:black;
+          border-bottom: solid 2px rgb(0, 47, 122);
+          margin-bottom: 0;
+      }
+
+  }
+
+  .Title_Al{
+      text-align: left;
+      margin: 0% 5%;
+      font-family: 'Oswald', sans-serif;
+      font-size: 1.8rem;
+      //border-bottom: solid 2px rgb(0, 47, 122);
+  }
+  /*alumnus*/
+  .picborder_Al
+  {
+      
+      box-sizing: border-box;
+      width: auto;
+      height: auto;
+      overflow: auto;
+      //padding-bottom: 5rem;
+      display: flex;
+
+      // width: 50%;
+      .arrow{
+          font-size: 50px;
+          align-self: center;
+          
+      }
+      .masterpic_Al{
+          display: inline-flex;
+          flex-wrap: nowrap;
+          overflow: hidden;
+          width: 90%;
+          margin:auto;
+          //background-color:white;
+
+          .pic_Al{
+              //margin-top: -4rem;
+              padding: 15% 0%;
+              display:grid;
+              
+
+
+              img{
+                  
+                  display:grid;
+                  margin: auto;
+                  width: 240px;
+                  height: 320px;
+                  
+              }
+
+
+
+              .detail_Al{
+                  display: none;
+                  background-image: linear-gradient(120deg, #e0c3fc 0%, #8ec5fc 100%);
+                  display: grid;
+                  align-self: center;
+                  font-family: 'Noto Sans TC', sans-serif;
+                  width:220px;
+                  height: 25vh;
+                  background-color: white;
+                  transform: scale(.1);
+                  visibility: hidden;
+                  transition: .8s;
+                  justify-content: center;
+                  position: relative;
+                  top: 30vh;
+                  //left: 9.5vw;
+                  margin:auto;
+                  //align-self: end;
+                  text-align: center;
+                  justify-self: center;
+
+                  padding: 10% 0%;
+
+                  h3{
+                      font-size: 2em;
+                      font-weight: bold;
+                  }
+
+
+              }
+          }
+
+      }
+
+  
+      .detail2_Al {
+          // visibility: hidden;
+          width: 240px;
+          height: 280px;
+          // margin-left: 8rem;
+          margin:  auto;
+          text-align: center;
+          font-size: 1em;
+          // background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+          background-color: rgb(224, 238, 234);
+          display: grid;
+
+          h4{
+            padding-top: 5%;
+              font-size: 2em;
+              font-weight: bold;
+          }
+          .Al_content{
+            text-align: left;
+            padding:0% 10% 2% 10%;
+          span{
+                // padding:0% 10% 2% 10%;
+                text-align: left;
+                // padding: 1% 5%;
+                
+              }
+          }
+          .Email_Al{
+              display: inline-flex;
+              // padding: 2% 0% 5% 0%;
+              padding-bottom: 10%;
+              // vertical-align: text-bottom;
+              align-items: flex-end;
+              a{
+                  padding: 0% 6%;
+                  height: auto;
+              }
+          }
+          .ant-descriptions-item-label{
+            color:#30588b;
+            font-weight: bold;
+          }
+      }
+      // .detail2_Al p{
+          
+      //   padding-right: 10%;
+      // }
+
+
+
+      @media (max-width: 450px){
+          .masterpic_Al .pic_Al{
+          //margin-top: -7rem;
+          padding-left: 0px;
+          }
+
+
+
+          .masterpic_Al .pic_Al img{
+              // padding-right: 0px;
+              width: 240px;
+              height: 320px;
+              
+     
+          }
+
+          .masterpic_Al .pic_Al .detail_Al{        
+              visibility: hidden;
+          }
+         
+          .masterpic_Al .pic_Al .detail2_Al{
+              visibility: visible;
+              margin-bottom: 3rem;
+              width: 240px;
+              margin-left: 1rem;
+              
+          }
+
+
+      }
+      @media (max-width: 376px){
+          .masterpic_Al .pic_Al{
+              padding-right: 50px;
+              //margin-top: -7rem;
+              padding-left: 8px;
+
+          }
+
+          .masterpic_Al .pic_Al .detail2_Al{
+              visibility: visible;
+              margin-bottom: 3rem;
+              width: 240px;
+              // margin-right: 2px;
+              margin-left: 0rem;
+              
+          }
+          .arrow{
+              font-size: 40px;
+
+          }
+      }
+
+      @media (max-width: 320px){
+
+          .masterpic_Al .pic_Al img{
+              width: 180px;
+              height: 270px;
+          }
+
+          .masterpic_Al .pic_Al{
+              // margin-bottom: 10rem;
+              padding-right:0px ;
+              padding-left:0px ;
+          }
+
+          .masterpic_Al .pic_Al .detail2_Al{
+              width: 180px;
+              margin-left: 0.9rem;
+              .Email_Al{
+                  display: grid;
+              }
+          }
+
+      }
+    }
+}
