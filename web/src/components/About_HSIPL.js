@@ -65,7 +65,7 @@ export const About_HSIPL = () => {
         </div>
         <span className="title1">About HSIPL</span>
         <div className="Introduction" id="Introduction">
-          <div className="content">
+          <div className="content_AH">
             <video muted autoPlay controls>
               <source
                 src={
