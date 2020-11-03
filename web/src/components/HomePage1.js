@@ -77,17 +77,17 @@ const HomePage1 = () => {
               </a>
             </li>
             <li>
-              <Link id="p1" to="/LearnMore/Alumnus" Component={Alumnus} >
+              <Link id="p1" to="/LearnMore" >
                 Alumnus
               </Link>
             </li>
             <li>
-              <Link id="p1" to='/LearnMore/Research_Posters'  Component={Research_Posters} >
+              <Link id="p1" to='/LearnMore'   >
                 Research Posters
               </Link>
             </li>
             <li>
-              <Link id="p1" to="/LearnMore/Equipment">
+              <Link id="p1" to="/LearnMore">
                 Equipment
               </Link>
             </li>
