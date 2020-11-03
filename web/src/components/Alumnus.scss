@@ -1,0 +1,74 @@
+
+
+.button-borderM {
+  .top-buttonM {
+    z-index: 10;
+    // width: 4%;
+    // height: 8%;
+    border-style: solid;
+    position: fixed;
+    bottom: 18vh;
+    right: 1vw;
+    top: 75vh;
+    border-radius: 1em;
+    // max-width: 4%;
+    // max-height: 8%;
+    text-decoration: none;
+  }
+  #p3 {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+#life {
+  // padding-top: 6rem;
+  margin: auto;
+}
+.ant-carousel .slick-dots li {
+  background-color: black;
+
+}
+.ant-carousel {
+  background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+  .slick-dots {
+    width: auto;
+    z-index: 1;
+  }
+  
+    
+  
+}
+
+.ant-back-top {
+  right: 20px;
+  width: 45px;
+  height: 45px;
+  line-height: 40px;
+  border-radius: 50%;
+  background-color: #204091;
+  color: white;
+  text-align: center;
+}
+
+
+
+
+
+// .slider_container:hover div { /*暫停效果*/
+//     -webkit-animation-play-state: paused;
+//             animation-play-state: paused;
+// }
+
+@media screen and(max-width:1150px) {
+  #life {
+    margin-top: 8rem;
+    width: 80%;
+  }
+  .slick-dots .slick-dots-bottom {
+    margin-top: 5rem;
+    color: coral;
+  }
+}
+
+

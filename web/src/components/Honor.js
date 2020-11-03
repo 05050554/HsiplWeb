@@ -25,7 +25,7 @@ import img20151120 from "../img/Honor/2015-1120.jpg"
 import img20151105 from "../img/Honor/2015-1105.jpg"
 const Honor = () => {
     return (
-        <div className="Honor" id="Honor and Awards">
+        <div className="Honor" id="Honor_and_Awards">
             <div className="Title">
                 <h1>Honor and Awards</h1>
             </div>

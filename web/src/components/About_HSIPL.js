@@ -8,9 +8,9 @@ export const About_HSIPL = () => {
   return (
     <>
       <div className="LabDirector" id="LabDirector">
-        <div className="Background" >
-          <span className="title" >About HSIPL</span>
-          <div className="Hsipl" >
+        <div className="Background">
+          <span className="title">About HSIPL</span>
+          <div className="Hsipl">
             <div className="Icon">
               <img src={camera} href="#" alt="camera"></img>
               <h>
@@ -21,9 +21,9 @@ export const About_HSIPL = () => {
             </div>
             <div className="Content">
               <p>
-                We dedicated to design and develop algorithms for
-                multi or hyperspectral, specifically for image classification, and
-                target detection.
+                We dedicated to design and develop algorithms for multi or
+                hyperspectral, specifically for image classification, and target
+                detection.
               </p>
             </div>
           </div>
@@ -37,9 +37,10 @@ export const About_HSIPL = () => {
               </h>
             </div>
             <div className="Content">
-            <span>specifically for for image amd classification, and </span>
+              <span>specifically for for image amd classification, and </span>
               <p>
-                We develop the design and function implementation of mobile application.
+                We develop the design and function implementation of mobile
+                application.
               </p>
               {/* <span>specifically for for image amd classification, and </span> */}
             </div>
@@ -54,15 +55,13 @@ export const About_HSIPL = () => {
               </h>
             </div>
             <div className="Content">
-            <span>specifically for for image amd classification, and </span>
+              <span>specifically for for image amd classification, and </span>
               <p>
                 We develop the design and function implementation of web pages.
                 {/* <span>specifically for for image amd classification, and </span> */}
               </p>
             </div>
-           
           </div>
-          
         </div>
         <span className="title1">About HSIPL</span>
         <div className="Introduction" id="Introduction">
@@ -87,10 +86,14 @@ export const About_HSIPL = () => {
                 various research topics for multi or hyperspectral applications.
               </p>
             </div>
-            
           </div>
-            <div className="red"><p>希望找指導教授之學生請注意: Email請註明正取或備取名次，並附上個人基本資料履歷(包含熟悉之語言、曾做過之專題題目等)以及成績單，謝謝。</p></div>
+          <div className="red">
+            <span>
+              希望找指導教授之學生請注意:
+              Email請註明正取或備取名次，並附上個人基本資料履歷(包含熟悉之語言、曾做過之專題題目等)以及成績單，謝謝。
+            </span>
           </div>
+        </div>
       </div>
     </>
   );
