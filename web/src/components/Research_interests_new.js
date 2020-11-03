@@ -21,6 +21,9 @@ import life6 from "../img/Photos of life/S__1335453改.jpg";
 import life7 from "../img/Photos of life/畢業照2020_06_03改.jpg";
 import life8 from "../img/Photos of life/畢業照2020_06_03(2)改.jpg";
 import life9 from "../img/Photos of life/S__21143570改.jpg";
+import life10 from "../img/Photos of life/2020.9月聚餐-改.jpg";
+
+
 import { BackTop } from "antd";
 import { Carousel } from "antd";
 import "antd/dist/antd.css";
@@ -156,6 +159,9 @@ const Research_interests_new = () => {
         </div>
         <div>
           <img id="life" src={life9} alt="life9" />
+        </div>
+        <div>
+          <img id="life" src={life10} alt="life10" />
         </div>
       </Carousel>
 

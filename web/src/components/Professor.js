@@ -11,7 +11,7 @@ const Professor = () => {
     <div className="Professor" id="Professor">
       <div className="content">
         <div className="Pic">
-          <span>Professor</span>
+          <span>Lab Director</span>
           <img
             src={Professor_img}
             width={"60%"}
