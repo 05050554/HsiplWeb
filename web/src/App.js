@@ -3,16 +3,17 @@ import './App.css';
 
 import Hamburger from './components/Hamburger'
 import HamburgerLM from './components/HamburgerLM'
-import HomePage from './components/HomePage1';
+import HomePage1 from './components/HomePage1';
 import { About_HSIPL } from './components/About_HSIPL';
-import Introduction from './components/Introduction';
+// import Introduction from './components/Introduction';
 import Professor from './components/Professor';
 import Members from './components/Members1';
 import Equipment from './components/Equipment';
 import Footer from './components/Footer';
+import Research_interests from './components/Research_interests'
 
 
-import Research_interests from './components/Research_interests_new'
+import Alumnus from './components/Alumnus'
 import Research_Posters from './components/Research_Posters'
 import Honor from './components/Honor'
 
@@ -33,14 +34,14 @@ function App() {
 
     <Router>
       <Switch>
-        <Route exact path="/LearnMore" >
-          <ScrollToTop>
+        <Route exact path='/LearnMore'  >
+          {/* <ScrollToTop> */}
             <HamburgerLM />
-            <Research_interests />
+            <Alumnus />
             <Research_Posters />
-            <Honor />
+            <Equipment></Equipment>
             <Footer />
-          </ScrollToTop>
+          {/* </ScrollToTop> */}
         </Route>
 
         <Route exact path="/ProfessorDetail" >
@@ -60,12 +61,13 @@ function App() {
           {/* <div className="App"> */}
           <ScrollToTop>
             <Hamburger />
-            <HomePage></HomePage>
+            <HomePage1></HomePage1>
             <About_HSIPL></About_HSIPL>
             {/* <Introduction></Introduction> */}
             <Professor></Professor>
             <Members></Members>
-            <Equipment></Equipment>
+            <Research_interests />
+            <Honor />
             <Footer />
             {/* </div> */}
           </ScrollToTop>

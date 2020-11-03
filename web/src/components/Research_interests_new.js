@@ -1,16 +1,15 @@
 import React from "react";
 import "./Research_interests_new.scss";
-import leaf from "../img/Research interests/leaf.png";
-import img1 from "../img/Research interests/Research interests_圖一.png";
-import img2 from "../img/Research interests/Research interests_圖二.png";
-import img3 from "../img/Research interests/工地圖.png";
-import img4 from "../img/Research interests/工地圖1.png";
-import peanuts from "../img/Research interests/peanuts.png";
-import flowers from "../img/Research interests/flowers.png";
-import leather from "../img/Research interests/leather.png";
-import meat from "../img/Research interests/meat.png";
-import mango from "../img/Research interests/mango.png";
-import coffee from "../img/Research interests/coffee.png";
+// import leaf from "../img/Research interests/leaf.png";
+// import img1 from "../img/Research interests/Research interests_圖一.png";
+// import img2 from "../img/Research interests/Research interests_圖二.png";
+// import img4 from "../img/Research interests/工地圖1.png";
+// import peanuts from "../img/Research interests/peanuts.png";
+// import flowers from "../img/Research interests/flowers.png";
+// import leather from "../img/Research interests/leather.png";
+// import meat from "../img/Research interests/meat.png";
+// import mango from "../img/Research interests/mango.png";
+// import coffee from "../img/Research interests/coffee.png";
 import { Link } from "react-router-dom";
 import life1 from "../img/Photos of life/2017-6-30口試聚餐改.jpg";
 import life2 from "../img/Photos of life/2018畢業口試聚餐改.jpg";
@@ -414,7 +413,7 @@ const Research_interests_new = () => {
 
 
 
-      <div className="Research_interests" id="Research_interests">
+      {/* <div className="Research_interests" id="Research_interests">
         <h1 className="Title">Research interests</h1>
         <span>
           My main research has been focused on designing and developing
@@ -523,8 +522,8 @@ const Research_interests_new = () => {
             </h3>
           </div>
         </div>
-      </div>
-      </div>
+      </div>*/}
+      </div> 
     </>
   );
 };

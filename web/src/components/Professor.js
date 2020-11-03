@@ -2,7 +2,7 @@ import React from "react";
 import "./Professor.scss";
 import Professor_img from "../img/Professor/Professor_img.jpg";
 import Mail_img from "../img/Professor/Mail_img.png";
-import Call_img from "../img/Professor/Call_img.png";
+import Call_img from "../img/Professor/Call_img1.png";
 import { List, Table, Divider } from "antd";
 import { Link } from "react-router-dom";
 
@@ -33,8 +33,9 @@ const Professor = () => {
             <span>sychen@yuntech.edu.tw</span>
           </div>
           <div className="Phone">
-            <img src={Call_img} alt="Call_img"></img>
+            
             <span className="Number">
+              <img src={Call_img} alt="Call_img"></img>
               (work) +886-5-5342601 ext 4514
               <br></br>(lab) +886-5-5342601 ext 4598
             </span>
