@@ -5,7 +5,7 @@ import Hamburger from './components/Hamburger'
 import HamburgerLM from './components/HamburgerLM'
 import HomePage1 from './components/HomePage1';
 import { About_HSIPL } from './components/About_HSIPL';
-import Introduction from './components/Introduction';
+// import Introduction from './components/Introduction';
 import Professor from './components/Professor';
 import Members from './components/Members1';
 import Equipment from './components/Equipment';
@@ -34,7 +34,7 @@ function App() {
 
     <Router>
       <Switch>
-        <Route exact path='/LearnMore/:id' component={Alumnus,Research_Posters,Equipment} >
+        <Route exact path='/LearnMore'  >
           {/* <ScrollToTop> */}
             <HamburgerLM />
             <Alumnus />
