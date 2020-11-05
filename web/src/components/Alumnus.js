@@ -99,31 +99,32 @@ const Alumnus = () => {
 
   return (
     <>
-      <div className="top">
-        <Link id="p1" to="/">
-          <img className="logo" src={logo}></img>
-        </Link>
+      <div className="top_Al">
+
         {/* <div className="mark">Hsipl</div> */}
 
-        <div className="list">
+        <div className="list_Al">
+        <Link id="p1_Al" to="/">
+          <img className="logo_Al" src={logo}></img>
+        </Link>
           <ul>
             <li>
-              <Link id="p1" to="/" >
+              <Link id="p1_Al" to="/" >
                 Back To Home
               </Link>
             </li>
             <li>
-              <a id="p1" href="#Alumnus">
+              <a id="p1_Al" href="#Alumnus">
                 Alumnus
               </a>
             </li>
             <li>
-              <a id="p1" href="#Research_Posters">
+              <a id="p1_Al" href="#Research_Posters">
               Research Posters
               </a>
             </li>
             <li>
-              <a id="p1" href="#Equipment">
+              <a id="p1_Al" href="#Equipment">
                 Equipment
               </a>
             </li>
