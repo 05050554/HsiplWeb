@@ -13,17 +13,17 @@ import { Link } from "react-router-dom";
 const Professor1 = () => {
     return (
         <>
-            <div className="top" >
-            <Link id="p1" to="/" ><img className="logo" src={logo}></img></Link> 
-
-                <div className="list">
+            <div className="top_P" >
+            
+                <div className="list_P">
+                <Link id="p1_P" to="/" ><img className="logo_P" src={logo}></img></Link> 
                     <ul>
-                        <li><Link id="p1" to="/" >Back To Home</Link></li>
-                        <li><a id="p1" href='#Projects' >Projects</a></li>
-                        <li><a id="p1" href='#Talks'>Talks</a></li>
-                        <li><a id="p1" href='#Service' >Service</a></li>
-                        <li><a id="p1" href='#Conference' >Conference</a></li>
-                        <li><a id="p1" href='#Awards' >Awards</a></li>
+                        <li><Link id="p1_P" to="/" >Back To Home</Link></li>
+                        <li><a id="p1_P" href='#Projects' >Projects</a></li>
+                        <li><a id="p1_P" href='#Talks'>Talks</a></li>
+                        <li><a id="p1_P" href='#Service' >Service</a></li>
+                        <li><a id="p1_P" href='#Conference' >Conference</a></li>
+                        <li><a id="p1_P" href='#Awards' >Awards</a></li>
                     </ul>
                 </div>
             </div>

@@ -43,51 +43,52 @@ const HomePage1 = () => {
             <meta http-equiv="refresh" content="2"/>
             </head> */}
 
-      <div className="top" id="HomePage">
-        <a href="/">
-          <img className="logo" src={logo}></img>{" "}
-        </a>
+      <div className="top_HP" id="HomePage">
 
-        <div className="list">
+
+        <div className="list_HP">
+            <a href="/">
+                  <img className="logo_HP" src={logo}></img>
+            </a>
           <ul>
             <li>
-              <a id="p1" href="/#LabDirector">
+              <a id="p1_HP" href="/#LabDirector">
                 About HSIPL
               </a>
             </li>
             {/* <li><a id="p1" href='/#Introduction'  >Introduction</a></li> */}
             <li>
-              <a id="p1" href="/#Professor">
+              <a id="p1_HP" href="/#Professor">
                 Professor
               </a>
             </li>
             <li>
-              <a id="p1" href="/#members">
+              <a id="p1_HP" href="/#members">
                 Members
               </a>
             </li>
             <li>
-              <a id="p1" href="#Research_interests">
-                Research Interests
+              <a id="p1_HP" href="#Research_interests">
+                Research
               </a>
             </li>
             <li>
-              <a id="p1" href="#Honor_and_Awards">
-                Honor and Awards
+              <a id="p1_HP" href="#Honor_and_Awards">
+                Awards
               </a>
             </li>
             <li>
-              <Link id="p1" to="/LearnMore" >
+              <Link id="p1_HP" to="/LearnMore" >
                 Alumnus
               </Link>
             </li>
             <li>
-              <Link id="p1" to='/LearnMore'   >
-                Research Posters
+              <Link id="p1_HP" to='/LearnMore'   >
+                Posters
               </Link>
             </li>
             <li>
-              <Link id="p1" to="/LearnMore">
+              <Link id="p1_HP" to="/LearnMore">
                 Equipment
               </Link>
             </li>
@@ -115,8 +116,8 @@ const HomePage1 = () => {
             <span className="circle3"></span>
           </div>
         </div>
-
         <img src={homepagepic} alt="homepagepic img"></img>
+        
       </div>
       {/* <div  className="button-border">
                 <button  type="button" className="top-button"><a id="p2" href="/#" >

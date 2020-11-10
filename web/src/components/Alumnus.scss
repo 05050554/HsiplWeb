@@ -1,125 +1,53 @@
-// .Research_interests {
-//   padding-top: 5%;
-//   width: 100%;
-//   height: 100%;
-//   overflow: hidden;
-//   display: grid;
-//   align-items: center;
-//   //border-bottom: solid 0.1rem gray;
-//   //background-color   : #2d3a4b;
-//   background: no-repeat;
-//   background-size: cover;
-//   background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-//   color: white;
-//   .Title {
-//     font-family: Signika, sans-serif;
-//     font-size: 3rem;
-//     text-align: left;
-//     margin-left: 5%;
-//     color: white;
-//   }
-//   span {
-//     font-family: Signika, sans-serif;
-//     font-size: 1.2rem;
-//     margin: 0% 5%;
-//     text-align: left;
-//     //font-weight: bold;
-//     padding: 2% 1%;
-//   }
+.top_Al {
+  position: fixed;
+  top: 0;
+  background-color: rgba(23, 39, 68, 0);
+  background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
 
-//   .Ch {
-//     font-family: "Noto Sans TC", sans-serif;
-//     //border-bottom: solid 0.1rem gray;
-//     padding: 1% 1%;
-//   }
+  display: flex;
+  width: 100%;
+  z-index: 999;
 
-  // .Article{
-  //     margin:0% 5%;
-  //     display: grid;
-  //     height: 100%;
-  //     //width: 80%;
-  //     padding:0% 5%;
-  //     //margin-bottom:3%;
-  //     //border-bottom: solid 0.1rem gray;
 
-  //     h1{
-  //         font-size:2rem;
-  //         margin:0% 2.5%;
-  //         padding:2% 1%;
-  //         font-weight: bold;
-  //         font-family: 'Noto Sans TC', sans-serif;
-  //         text-align: left;
-  //     }
-  //     .content{
-  //         height: 100%;
-  //         width: 100%;
-  //         display: inline-flex;
-  //         justify-content: center;
-  //         align-items: center;
-  //         margin:0%;
-  //         span{
-  //             align-self: center;
-  //             flex:1;
-  //             margin:0% 2.5%;
-  //             font-family: 'Noto Sans TC', sans-serif;
-  //         }
-  //         img{
-  //             flex:1;
-  //             //width: 50%;
-  //             height: 100%;
-  //             width: 100%;
-  //         }
+  .list_Al{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    .logo_Al {
+      height: 10vh;
+      padding: 0% 0% 5% 2%;
+    }
+    ul {
+      text-align: end;
+      width: 90%;
+      margin: auto;
+      
+    li {
+      
+      // margin-left: 10%;
+      // margin-left: 250px;
+      padding: 0% 3%;
+      display: inline-flex;
+       
+    }
+   }
+  }
 
-  //     }
 
-  //     #content_1516{
-  //         border-top: gray solid 1px;
-  //         span{
-  //             align-self: start;
-  //         }
-  //     }
+  #p1_Al {
+    // padding-left: 10px;
+    text-decoration: none;
+    //font-family: Oswald;
+    font-size: 1.5em;
+    color: white;
+  }
+}
+@media screen and(max-width:1024px) {
+  .top_Al {
+    display: none;
+  }
+}  
 
-  // }
-
-//   .article {
-//     display: flex;
-//     justify-content: center;
-//     padding: 2% 0%;
-//     flex-wrap: wrap;
-//     .Item {
-//       padding: 2%;
-//       display: grid;
-//       justify-content: center;
-//       justify-items: center;
-//       width: 50vh;
-//       background-color: rgb(156, 142, 136);
-//       margin: 1% 1%;
-//       //border-radius: 5%;
-//       h1 {
-//         font-family: "Noto Sans TC", sans-serif;
-//         align-self: center;
-//         font-size: 25px;
-        
-//       }
-
-//       img {
-//         //width: 100%;
-//         align-self: center;
-//         height: 30vh;
-//       }
-
-//       h3 {
-//         //justify-self: center;
-//         align-self: center;
-//         font-family: "Noto Sans TC", sans-serif;
-//         text-align: left;
-//         font-size: 1.11rem;
-//         font-weight: lighter;
-//         padding: 5px;
-//       }
-//     }
-//   }
-// }
 
 .button-borderM {
   .top-buttonM {
