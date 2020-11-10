@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Honor.scss";
 import img2020 from "../img/Honor/2020.jpg"
+import img20201103 from "../img/Honor/2020-1103.jpg"
 import img20191204 from "../img/Honor/2019-1204.jpg"
 import img20191108 from "../img/Honor/2019-1108.jpg"
 import img20191031 from "../img/Honor/2019-1031.jpg"
@@ -35,6 +36,14 @@ const Honor = () => {
                     <img src={img2020} alt="img2020"></img>
                     <h3><span className="red">本實驗室陳士煜教師通過科計部3年期優秀年輕學者計畫</span><br></br>
                         補助計畫題目：<span className="name">應用高光譜影像辨識技術發展智慧新農業以提升農產品質管理為例</span></h3>
+                </div>
+                <div className="Item">   
+                    <h1>2020-11/03</h1>
+                    <img src={img20201103} alt="img20201103"></img>
+                    <h3>本實驗室鄭才毅、鄭友智、鄒學緯、王美雲 參與2020雲創盃智慧生活創意應用競賽 決賽入選<br/>
+                        題目：<span className="name">高光譜花生瑕疵檢測分類</span>
+                        <br/>新聞採訪：<a target="_blank" href="https://youtu.be/6qvTLNq84AU?t=87">雲創盃創新競賽</a></h3>
+                        
                 </div>
                 <div className="Item">   
                     <h1>2019-12/04</h1>
