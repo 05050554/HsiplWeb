@@ -10,6 +10,7 @@ import hand from "../img/Research_Posters/hand.png"
 import yuntech from "../img/Research_Posters/yuntech.png"
 import Application from "../img/Research_Posters/Application.png"
 import helper from "../img/Research_Posters/helper.png"
+import Smart_check from "../img/Research_Posters/Smart_check.jpg"
 
 
 
@@ -65,6 +66,10 @@ const Research_Posters = () => {
                 <div className="Item">
                     <h3>雲科小幫手海報</h3>
                     <img src={helper} id='img' alt="helper" ></img>
+                </div>
+                <div className="Item">
+                    <h3>智慧辨識之智慧檢測</h3>
+                    <img src={Smart_check} id='img' alt="helper" ></img>
                 </div>
             </div>
 
