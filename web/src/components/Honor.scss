@@ -1,89 +1,216 @@
-.Honor{
+.honor{
     padding-top: 5%;
-    //margin-top: -25rem;
-    width: 100%;
-    height: 100%;
-    /*background-size: cover;
-    background-image: url('../img/.jpg');*/
+    width: auto;
+    height: auto;
     overflow: hidden;
-    background-color: #f5f7f8;
+    background-color:  #2d3a4b;
     
-    .Title{
+    
+    
+    .master2{
         text-align: left;
-        margin-left: 5%;
-        font-family: Signika, sans-serif;
-        font-size: 1.8rem;
+        margin: 0% 7%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.5rem;
+        //background-color: rgb(0, 47, 122);
         
+        
+        h2{
+            color: white;
+            border-bottom: solid 2px rgb(0, 47, 122);
+            margin-bottom: 0;
+        }
+
     }
 
-    .Posters{
+    .Title_Honor{
+        text-align: left;
+        margin: 0% 5%;
+        font-family: 'Oswald', sans-serif;
+        font-size: 1.8rem;
+        h1{
+            color: white;
+        }
+        //border-bottom: solid 2px rgb(0, 47, 122);
+    }
+
+
+
+  
+    .picborder
+    {
+        
+        box-sizing: border-box;
+        width: auto;
+        height: auto;
+        overflow: auto;
+        //padding-bottom: 5rem;
         display: flex;
-        justify-content: center;
-        padding:2% 0%;
-        flex-wrap: wrap;
-        .Item{
-            padding: 2%;
-            display:grid;
-            justify-content: center;
-            justify-items: center;
-            width: 50vh;
-            background-color: silver;
-            margin:1% 1%;
-            //border-radius: 5%;
-            h1{
-                font-family: Signika, sans-serif;
-                align-self: center;
-            }
+
+        // width: 50%;
+        .arrow{
+            font-size: 50px;
+            align-self: center;
             
-            img{
-                //width: 100%;
-                align-self: center;
-                height: 30vh;
+        }
+        .H_A_div{
+            display: inline-flex;
+            flex-wrap: nowrap;
+            overflow: hidden;
+            // width: 95%;
+            margin:auto;
+            //background-color:white;
+
+            .pic_hon{
+                //margin-top: -4rem;
+                padding: 15% 5%;
+            
+                display:grid;
+                // background-color: rgb(224, 238, 234);
+                
+                .all{
+                    background-color:rgb(224, 238, 234);
+                    padding-top: 5%;
+                    .big_pic{
+                        // height: 30vh;
+                        width: 25vw;
+                    }
+                }
+
+                img{
+                    
+                    display:grid;
+                    margin: auto;
+                    // width: 350px;
+                    height: 330px;
+                    
+                }
+
+
+
+                
             }
 
-            #img20170329{
-                align-self: center;
-                height: 30vh;
+        }
+
+
+    
+        .detail_hon {
+            // visibility: hidden;
+            // width: 350px;
+            height: 200px;
+            // margin-left: 8rem;
+            margin:  auto;
+            text-align: center;
+            font-size: 1em;
+            // background-image: linear-gradient(to right, #92fe9d 0%, #00c9ff 100%);
+            background-color: rgb(224, 238, 234);
+            h4{
+                font-size: 2em;
+                font-weight: bold;
+            }
+            .Email{
+                display: inline-flex;
+                padding: 2% 0% 5% 0%;
+                a{
+                    padding: 0% 2%;
+                }  
             }
             h3{
-                //justify-self: center;
-                align-self: center;
-                font-family: 'Noto Sans TC', sans-serif;
-                text-align: left;
                 font-size: 1.11rem;
-                font-weight: lighter;
+                padding:0 5% ;
                 .red{
                     color: #ce3213;
                     font-size: 1.2rem;
-                    align-self: center;
                 }
-                .name{
-                    font-size: 1.2rem;
-                    color: #324158;
-                    align-self: center;
-                }
-                a{
-                    color: #ce3213;
-                    align-self: center;
-                    font-size: 1.2rem;
-                }
+            
+            }
+            a{
+                color: #ce3213;
+                align-self: center;
+                font-size: 1.2rem;
             }
         }
-    }
-    
+        .detail_hon p{
+            padding-bottom: 2%;
+        }
 
-}  
 
-@media screen and(max-width:520px){
-    .Honor .Title{
-        font-size: 1.5rem;
-    }
+
+        @media (max-width: 450px){
+            .H_A_div .pic_hon{
+            //margin-top: -7rem;
+            padding-left: 0px;
+            }
+
+
+
+            .H_A_div .pic_hon img{
+                // padding-right: 0px;
+                width: 240px;
+                height: 320px;
+                
+       
+            }
+
+            .H_A_div .pic_hon .detail{        
+                visibility: hidden;
+            }
+           
+            .H_A_div .pic_hon .detail_hon{
+                visibility: visible;
+                margin-bottom: 3rem;
+                width: 240px;
+                margin-left: 1rem;
+                
+            }
+
+        }
+        @media (max-width: 376px){
+            .H_A_div .pic_hon{
+                padding-right: 50px;
+                //margin-top: -7rem;
+                padding-left: 8px;
+ 
+            }
+
+            .H_A_div .pic_hon .detail_hon{
+                visibility: visible;
+                margin-bottom: 3rem;
+                width: 240px;
+                // margin-right: 2px;
+                margin-left: 0rem;
+                
+            }
+            .arrow{
+                font-size: 40px;
+
+            }
+        }
+
+        @media (max-width: 320px){
+
+            .H_A_div .pic_hon img{
+                width: 180px;
+                height: 270px;
+            }
+
+            .H_A_div .pic_hon{
+                // margin-bottom: 10rem;
+                padding-right:0px ;
+                padding-left:0px ;
+            }
+
+            .H_A_div .pic_hon .detail2{
+                width: 180px;
+                margin-left: 0.9rem;
+                .Email{
+                    display: grid;
+                }
+            }
+
+        }
+
 }
-@media screen and(max-width:400px){
-    .Honor{
-        padding-top: 15%;
-    }
-    .Honor .Title{
-        font-size: 1.1rem;
-    }
+
 }

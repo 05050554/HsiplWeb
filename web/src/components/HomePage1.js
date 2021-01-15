@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./HomePage1.scss";
-import homepagepic from "../assets/images/bg.svg";
+import homepagepic from "../assets/images/bg3.svg";
 import logo from "../img/LOGO/LOGO_1.png";
 import { BackTop } from "antd";
 import { Link } from "react-router-dom";
@@ -8,6 +8,7 @@ import "antd/dist/antd.css";
 import Alumnus from "./Alumnus";
 import Research_Posters from "./Research_Posters";
 import Item from "antd/lib/list/Item";
+
 
 // window.location.reload("HomePage1")
 // window.location.reload(true);
