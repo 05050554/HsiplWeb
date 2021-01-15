@@ -13,7 +13,6 @@ import ZHI from "../img/members/14122121.jpg"
 import TI from "../img/members/S__7741513改.jpg"
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-// import React, { Component } from "react";
 import Slider from "react-slick";
 
 
