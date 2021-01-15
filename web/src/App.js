@@ -25,6 +25,7 @@ import HamburgerDT from './components/HamburgerDT'
 
 import ScrollToTop from './components/ScrollToTop';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import News from './components/News';
 
 
 
@@ -67,6 +68,7 @@ function App() {
             <Professor></Professor>
             <Members></Members>
             <Research_interests />
+            <News></News>
             <Honor />
             <Footer />
             {/* </div> */}

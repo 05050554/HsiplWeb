@@ -73,6 +73,11 @@ const HomePage1 = () => {
               </a>
             </li>
             <li>
+              <a id="p1_HP" href="#News">
+                News
+              </a>
+            </li>
+            <li>
               <a id="p1_HP" href="#Honor_and_Awards">
                 Awards
               </a>
