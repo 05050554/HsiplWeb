@@ -39,7 +39,7 @@
   .navbar_HP ul li {
     width: 90%;
     height: 5%;
-    padding: 1.5em;
+    padding: 0.2em;
     display: flex;
     flex-direction: column;
 
@@ -164,7 +164,7 @@
     }
   }
 
-  @media (max-width: 415px) {
+  @media (max-width: 414px) {
     .navbar_HP h2{
       margin: auto;
   }
@@ -173,21 +173,21 @@
     }
     .navbar_HP ul li a {
       font-size: 1.7em;
-      padding-bottom: 20px;
+      padding-bottom: 25px;
     }
     .navbar_HP .open{
-      padding: 30px;
+      padding: 25px;
     }
   }
 
   @media (max-width: 330px){
     .navbar_HP .open{
       padding: 10px;
-      font-size: 0.9em;
+      font-size: 0.5em;
     }
     .navbar_HP ul li a {
       font-size: 1.7em;
-      padding-bottom: 35px;
+      padding-bottom: 25px;
     }
   }
 
