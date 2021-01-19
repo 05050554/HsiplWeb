@@ -157,16 +157,16 @@
        
             }
 
-            .H_A_div .pic_hon .detail{        
+            .H_A_div .pic_hon .detail_hon{        
                 visibility: hidden;
             }
            
             .H_A_div .pic_hon .detail_hon{
                 visibility: visible;
                 margin-bottom: 3rem;
-                width: 240px;
+                // width: 220px;
                 margin-left: 1rem;
-                
+                height: 275px;
             }
 
         }

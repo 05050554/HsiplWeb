@@ -29,13 +29,13 @@ const Professor = () => {
           </span>
           <span>National Yunlin University of Science and Technology</span>
           <div className="Mail">
-            <img src={Mail_img} alt="Mail_img"></img>
+            <img className="Mail_img" src={Mail_img} alt="Mail_img"></img>
             <span>sychen@yuntech.edu.tw</span>
           </div>
           <div className="Phone">
             
             <span className="Number">
-              <img src={Call_img} alt="Call_img"></img>
+              <img className="Call_img" src={Call_img} alt="Call_img"></img>
               (work) +886-5-5342601 ext 4514
               <br></br>(lab) +886-5-5342601 ext 4598
             </span>
