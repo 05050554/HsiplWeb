@@ -29,7 +29,7 @@ const Hamburger = () => {
           <li><a onClick={() => setOpen(!open)} href="/#members">Members</a></li>
           <li><a onClick={() => setOpen(!open)} href="/#Research_interests">Research</a></li>
           <li><a onClick={() => setOpen(!open)} href="/#News">News</a></li>
-          <li><a onClick={() => setOpen(!open)} href="/#Honor_and_Awards">Awards</a></li>
+          <li><a onClick={() => setOpen(!open)} href="/#honor">Awards</a></li>
           <li><Link onClick={() => setOpen(!open)}  to="/LearnMore">Alumnus</Link></li>
           <li><Link onClick={() => setOpen(!open)}  to="/LearnMore">Posters</Link></li>
           <li><Link onClick={() => setOpen(!open)}  to="/LearnMore">Equipment</Link></li>

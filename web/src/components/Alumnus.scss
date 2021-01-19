@@ -220,20 +220,28 @@
           width: 90%;
           margin:auto;
           //background-color:white;
+          
 
           .pic_Al{
               //margin-top: -4rem;
-              padding: 15% 0%;
+              padding: 15% 10%;
               display:grid;
               
-
+              .card_bk{
+                background-color: rgb(224, 238, 234);
+               
+              }
+ 
 
               img{
                   
                   display:grid;
                   margin: auto;
-                  width: 240px;
-                  height: 320px;
+                  // width: 240px;
+                  // height: 320px;
+                  max-width: 240px;
+                  max-height: 220px;
+
                   
               }
 

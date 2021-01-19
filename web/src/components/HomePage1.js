@@ -79,7 +79,7 @@ const HomePage1 = () => {
               </a>
             </li>
             <li>
-              <a id="p1_HP" href="#Honor_and_Awards">
+              <a id="p1_HP" href="#honor">
                 Awards
               </a>
             </li>

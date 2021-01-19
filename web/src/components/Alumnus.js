@@ -185,7 +185,7 @@ const Alumnus = () => {
                 <Slider className="masterpic_Al" id="masterpic_Al" {...settings} nextArrow={<Arrow type="next" />}
         prevArrow={<Arrow type="prev" />}>
                     <div className="pic_Al" id="firstpic_Al">
-
+                    <div className="card_bk">
                         <img  className="img_Al" id="firstimg_Al"  src={CHUN} alt="CHUN"></img>
 
                         <div className="detail2_Al" id="firstdetail2_Al">
@@ -201,10 +201,11 @@ const Alumnus = () => {
                                 <span>M10317006@yuntech.edu.tw</span>
                             </div>
                         </div>
+                        </div>
                     </div>
 
                     <div className="pic_Al" id="secondpic_Al">
-
+                    <div className="card_bk">
                         <img src={HAN} alt="HAN"></img>
                         <div className="detail2_Al">
                         <h4>林力瀚​</h4>
@@ -219,9 +220,11 @@ const Alumnus = () => {
                                 <span>M10317032@yuntech.edu.tw</span>
                             </div>
                         </div>
+                        </div>
                     </div>
                     <div className="pic_Al" id="thirdpic_Al">
-
+                    <div className="card_bk">
+                        <div className="card_bk">
                         <img src={HUI} alt="HUI"></img>
                         <div className="detail2_Al">
                         <h4>戴嘉輝</h4>
@@ -236,9 +239,11 @@ const Alumnus = () => {
                                 <span>M10417038@yuntech.edu.tw</span>
                             </div>
                         </div>
+                        </div>
+                        </div>
                     </div>
                     <div className="pic_Al" id="fourthpic_Al">
-
+                    <div className="card_bk">
                         <img src={MING} alt="MING"></img>
                         <div className="detail2_Al">
                         <h4>楊富名</h4>
@@ -253,9 +258,10 @@ const Alumnus = () => {
                                 <span>M10417036@yuntech.edu.tw</span>
                             </div>
                         </div>
+                        </div>
                     </div>
                     <div className="pic_Al" id="lastpic_Al">
-
+                    <div className="card_bk">
                         <img src={YU} alt="YU"></img>
                         <div className="detail2_Al">
                         <h4>簡澤宇</h4>
@@ -270,9 +276,11 @@ const Alumnus = () => {
                                 <span>M10417028@yuntech.edu.tw</span>
                             </div>
                         </div>
+                        </div>
                     </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                       <img src={ZHONG} alt="ZHONG"></img>
                       <div className="detail2_Al">
                       <h4>陳彥中​</h4>
@@ -287,9 +295,11 @@ const Alumnus = () => {
                               <span>M10517008@yuntech.edu.tw</span>
                           </div>
                     </div>
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                     <img src={RU} alt="RU"></img>
                     <div className="detail2_Al">
                     <h4>莊尚儒</h4>
@@ -304,9 +314,11 @@ const Alumnus = () => {
                           <span>M10517016@yuntech.edu.tw</span>
                         </div>
                     </div> 
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                       <img src={YUAN} alt="YUAN"></img>
                       <div className="detail2_Al">
                       <h4>高哲元</h4>
@@ -321,9 +333,11 @@ const Alumnus = () => {
                               <span>M10617003@yuntech.edu.tw</span>
                           </div>
                     </div>
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                     <img src={DIAN} alt="DIAN"></img>
                     <div className="detail2_Al">
                     <h4>練周典</h4>
@@ -338,9 +352,11 @@ const Alumnus = () => {
                           <span>M10617013@yuntech.edu.tw</span>
                         </div>
                     </div> 
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                     <img src={CHENG} alt="CHENG"></img>
                     <div className="detail2_Al">
                     <h4>張育誠</h4>
@@ -355,9 +371,11 @@ const Alumnus = () => {
                           <span>M10517002@yuntech.edu.tw</span>
                         </div>
                     </div> 
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                     <img src={JIE} alt="JIE"></img>
                     <div className="detail2_Al">
                     <h4>李冠杰​</h4>
@@ -372,9 +390,11 @@ const Alumnus = () => {
                           <span>M10717003@yuntech.edu.tw</span>
                         </div>
                     </div> 
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                     <img src={OU} alt="OU"></img>
                     <div className="detail2_Al">
                     <h4>歐承學</h4>
@@ -389,9 +409,11 @@ const Alumnus = () => {
                           <span>M10717033@yuntech.edu.tw</span>
                         </div>
                     </div> 
+                    </div>
                   </div>
 
                   <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
                     <img src={LONG} alt="LONG"></img>
                     <div className="detail2_Al">
                     <h4>楊雯隆</h4>
@@ -406,6 +428,7 @@ const Alumnus = () => {
                           <span>M10717038@yuntech.edu.tw</span>
                         </div>
                     </div> 
+                    </div>
                   </div>
 
                 </Slider>
