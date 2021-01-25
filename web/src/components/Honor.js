@@ -126,7 +126,7 @@ const Honer = () => {
                 題目：<span className="name">高光譜花生瑕疵檢測分類</span>
                 <br />
                 新聞採訪：
-                <a target="_blank" href="https://youtu.be/6qvTLNq84AU?t=87">
+                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/6qvTLNq84AU?t=87">
                   雲創盃創新競賽
                 </a>
               </h3>
