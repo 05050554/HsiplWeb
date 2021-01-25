@@ -12,7 +12,7 @@ import mango from "../img/Research interests/mango.png";
 import coffee from "../img/Research interests/coffee.png";
  
 import 'antd/dist/antd.css';
-
+import Zmage from "react-zmage";
 
 
 
@@ -44,7 +44,7 @@ const Research_interests = () => {
         <div className="article">
           <div className="Item">
             <h1>智慧農業與智慧製造</h1>
-            <img src={img1} alt="img1"></img>
+            <img src={img1} alt="img1" onClick={()=>Zmage.browsing({src:img1,backdrop:" hsla(0, 0%, 38%, 0.911)"})} ></img>
             <h3>
                 除演算法的研發外，陳士煜老師也致力推廣高光譜的應用面並與產業界結合，目前與五鈴光學合作以「手持式近紅外和拉曼光譜儀」
                 為工具，結合手機、APP應用程式、演算法與資料庫，進行水果、穀物、塑料、藥品、膚質、液態等快篩檢測，同時可依需求調整而應用於
@@ -55,7 +55,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>行動版高光譜資料收集系統</h1>
-            <img src={img2} alt="img2"></img>
+            <img src={img2} alt="img2" onClick={()=>Zmage.browsing({src:img2,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               與諾錡有限公司合作開發行動版高光譜資料收集系統此系統整合資料庫、雲端演算法、APP、物聯網、大數據等技術，
               可即時彙整並處理高光譜訊號，整合數據資訊提供使用者在高光譜資料蒐集的數位化與智慧化。
@@ -72,7 +72,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>智慧森林新生葉偵測技術</h1>
-            <img src={leaf} alt="leaf"></img>
+            <img src={leaf} alt="leaf" onClick={()=>Zmage.browsing({src:leaf,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               研發智慧森林新生葉偵測新技術發表三篇論文於遙測領域SCI期刊 :
               有效量化新生葉芽數量，此項新技術為環境監控與全球暖化議題提供重要訊息與幫助。
@@ -80,7 +80,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>咖啡瑕疵豆檢測</h1>
-            <img src={coffee} alt="coffee"></img>
+            <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               實際品質：前三排品質良好，後三排品質不良
               預測品質：綠色為好豆選中，紅色為好豆沒選中，藍色為壞豆選中，黃色為壞豆沒選中
@@ -89,7 +89,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>花生品質檢測</h1>
-            <img src={peanuts} alt="peanuts"></img>
+            <img src={peanuts} alt="peanuts" onClick={()=>Zmage.browsing({src:peanuts,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               實際品質：前三排品質良好，後三排品質不良
               預測品質：米色品質良好，洋紅色品質不良 預測結果約在85~90%
@@ -97,7 +97,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>皮革瑕疵檢測</h1>
-            <img src={leather} alt="leather"></img>
+            <img src={leather} alt="leather" onClick={()=>Zmage.browsing({src:leather,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               實際品質：左邊為烙印瑕疵，右邊為爛珠面 預測品質：
               紅色為選中瑕疵點，黃色為未選中瑕疵點 藍色為非瑕疵卻選為瑕疵點
@@ -106,14 +106,14 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>漢堡肉排異物檢測</h1>
-            <img src={meat} alt="meat"></img>
+            <img src={meat} alt="meat" onClick={()=>Zmage.browsing({src:meat,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               漢堡排在生產過程中，在少數的情況下會參雜一些異物(如頭髮、塑膠片、沒有煮熟的肉塊)，因此使用影像檢測技術檢測異物。
             </h3>
           </div>
           <div className="Item">
             <h1>蝴蝶蘭疫病檢測</h1>
-            <img src={flowers} alt="flowers"></img>
+            <img src={flowers} alt="flowers" onClick={()=>Zmage.browsing({src:flowers,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               實際品質：左邊為有病毒之植株，右邊為健康植株 預測品質：
               紅色為含有病毒，綠色為無病毒 預測結果約在71~75%
@@ -121,7 +121,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>芒果受傷區域檢測</h1>
-            <img src={mango} alt="mango"></img>
+            <img src={mango} alt="mango" onClick={()=>Zmage.browsing({src:mango,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               上圖為原始高光譜圖在第150波段下的影像<br/>
               下圖為經過SAM演算法找到的瑕疵區域

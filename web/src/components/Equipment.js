@@ -4,6 +4,9 @@ import FX10 from "../img/Equipments/FX10.png"
 import FX17 from "../img/Equipments/FX17.png"
 import Sky from "../img/Equipments/sky.png"
 import Portable from "../img/Equipments/Portable.png"
+import Zmage from "react-zmage";
+import FX10_In from "../img/Equipments/FX10-2.png"
+import FX17_In from "../img/Equipments/FX17-2.png"
 
 
 const Equipment = () => {
@@ -15,7 +18,7 @@ const Equipment = () => {
             <div className="Item">
                 <div className="card">
                     <div className="Icon">
-                        <img src={FX10} alt="FX10"></img>
+                        <img src={FX10} alt="FX10" onClick={()=>Zmage.browsing({src:FX10_In})}></img>
                         <h5>Hyperspectral Camera FX10</h5>
                     </div>
                     <div className="Content">
@@ -26,7 +29,7 @@ const Equipment = () => {
                 </div>
                 <div className="card">
                     <div className="Icon">
-                        <img src={FX17} alt="FX17"></img>
+                        <img src={FX17} alt="FX17" onClick={()=>Zmage.browsing({src:FX17_In})}></img>
                         <h5>Hyperspectral Camera FX17</h5>
                     </div>
                     <div className="Content">

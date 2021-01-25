@@ -77,17 +77,27 @@
                         max-width: 80%;
                         max-height: 330px;
                     }
+                    img{
+                    
+                        display:grid;
+                        margin: auto;
+                        // width: 350px;
+                        max-width: 80%;
+                        height: 330px;
+                        
+                    }
                 }
 
-                img{
-                    
-                    display:grid;
-                    margin: auto;
-                    // width: 350px;
-                    max-width: 80%;
-                    height: 330px;
-                    
+                .openPic{
+                    // display: flex;
+                    // align-items: center;
+                    // justify-content: center;
+                    width: 70%;
+                  img{
+                    width: 70%;
+                  }
                 }
+
 
 
 
