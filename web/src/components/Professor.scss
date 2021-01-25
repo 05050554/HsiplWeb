@@ -101,7 +101,6 @@
         // justify-content: space-between;
 
         .Number {
-          
           .Call_img {
             // width: 6%;
             //height: auto;
@@ -114,7 +113,7 @@
 
         .Btn-more {
           // margin-right: 0;
-          flex:1;
+          flex: 1;
           // display: grid;
           width: fit-content;
           text-decoration: none;
@@ -137,7 +136,6 @@
           border: rgb(151, 151, 148) solid 1px;
           background-color: #ecf2f5;
           transition: 0.5s;
-          
         }
 
         .Btn-more:hover {
@@ -465,18 +463,32 @@
 }
 
 @media screen and(max-width:410px) {
-  .Professor .Education {
-    width: 80%;
+  .Professor .Education Table {
+    font-size: 13px;
+    width: 100%;
   }
 }
 
 @media screen and(max-width:321px) {
-  .Professor .content {
-    margin-left: -1rem;
-  }
+  // .Professor .content {
+  //   // margin-left: 0rem;
+  // }
 
   .Professor .article {
     margin-left: -1.3rem;
     width: 80%;
+  }
+  .Professor .Education {
+    Table {
+      .ant-table-cell{
+            padding: 5px;
+            font-size: 10px;
+          }
+
+      td {
+        padding: 5px;
+        font-size: 10px;
+      }
+    }
   }
 }

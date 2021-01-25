@@ -1,8 +1,8 @@
-import React from 'react'
-import './Research_interests.scss'
+import React from "react";
+import "./Research_interests.scss";
 import leaf from "../img/Research interests/leaf.png";
-import img1 from '../img/Research interests/Research interests_圖一.png'
-import img2 from '../img/Research interests/Research interests_圖二.png'
+import img1 from "../img/Research interests/Research interests_圖一.png";
+import img2 from "../img/Research interests/Research interests_圖二.png";
 import img4 from "../img/Research interests/工地圖1.png";
 import peanuts from "../img/Research interests/peanuts.png";
 import flowers from "../img/Research interests/flowers.png";
@@ -14,7 +14,9 @@ import coffee from "../img/Research interests/coffee.png";
 import 'antd/dist/antd.css';
 import Zmage from "react-zmage";
 
+import roadmp4 from "../img/Research interests/road.mp4";
 
+import "antd/dist/antd.css";
 
 const Research_interests = () => {
     return (
@@ -63,7 +65,13 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>道路施工檢測系統</h1>
-            <img src={img4} alt="img3"></img>
+            <video muted autoPlay controls width="90%">
+            <source
+              src={roadmp4}
+              type="video/mp4"
+
+            />
+          </video>
             <h3>
               與坤眾科技股份有限公司開發道路挖掘監視系統，可於道路挖掘當下錄影存證，也試驗於道路挖掘透過攝影建置傾斜攝影建模，
               所得的模型可成為道路挖掘之地底管線的現況紀錄，提供日後補正與量測使用，透過影像辨識技術，其辨識成果將協助提升施工品質或竣工文件品質。
@@ -129,7 +137,8 @@ const Research_interests = () => {
           </div>
         </div>
       </div>
-    )
-}
+
+  );
+};
 
 export default Research_interests;

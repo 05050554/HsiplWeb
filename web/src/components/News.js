@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "./News.scss";
 import img_IRIS2021 from "../img/News/IRIS20210122.jpg";
 import img_20201201 from "../img/News/20201201.jpg";
@@ -8,8 +8,30 @@ import img_AI20191017 from "../img/News/AI20191017.jpg";
 import img_IRSI20190528 from "../img/News/IRIS20190528.jpg";
 import img_professor2018 from "../img/News/professor2018.jpg";
 import img_yuntech2017 from "../img/News/yuntech2017.jpg";
+import Zmage from "react-zmage";
 
 const News = () => {
+  const [open, setOpen] = useState({
+    pic1: false,
+    pic2: false,
+  });
+
+  const handleOpen = () => {
+    const { name, value } = open;
+    setOpen((prevData) => ({
+      ...prevData,
+      [name]: true,
+    }));
+  };
+
+  const handleClose = () => {
+    const { name, value } = open;
+    setOpen((prevData) => ({
+      ...prevData,
+      [name]: value,
+    }));
+  };
+
   return (
     <div className="News" id="News">
       <div className="Title">
@@ -18,21 +40,42 @@ const News = () => {
       <div className="allItems">
         <div className="Item">
           <h1>2021/01/22</h1>
-          <img src={img_IRIS2021} alt="2021智慧辨識之智慧檢測產業論壇"></img>
+          <img
+            src={img_IRIS2021}
+            alt="2021智慧辨識之智慧檢測產業論壇"
+            onClick={() => Zmage.browsing({ src: img_IRIS2021 })}
+          />
           <h3>
-            <span className="red">智慧化加檢測力，開創品管勝利方程式</span>
+            <br />
+            恭喜!
+            <br />
+            <span className="red">
+              智慧辨識之智慧檢測產業論壇，活動圓滿成功
+            </span>
             <br />
             本實驗室陳士煜教師演講主題 : 智慧自動化高光譜瑕疵檢測技術。
             <br />
+            新聞報導：
+            <a
+              href="https://news.sina.com.tw/article/20210122/37459306.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              「業界出題
+              雲科解題」之創新實踐雲科大AI辨識之智慧檢測產業論壇驚艷各界
+            </a>
           </h3>
         </div>
+
+
         <div className="Item">
           <h1>2020/12/01</h1>
           <img
             src={img_20201201}
             alt="109年度宗倬章社會公益研究中心成果發表會"
             id="img20201201"
-          ></img>
+            onClick={() => Zmage.browsing({ src: img_20201201 })}
+          />
           <h3>
             恭喜!
             <br />
@@ -46,9 +89,11 @@ const News = () => {
             實驗室全體同仁 敬賀!
           </h3>
         </div>
+
+
         <div className="Item">
           <h1>2020/01/16</h1>
-          <img src={img_20200116} alt="產業瀏覽器，攻略一網打盡"></img>
+          <img src={img_20200116} alt="產業瀏覽器，攻略一網打盡 " onClick={() => Zmage.browsing({ src:img_20200116})}></img>
           <h3>
             <br />
             恭喜!
@@ -60,9 +105,11 @@ const News = () => {
             實驗室全體同仁 敬賀!
           </h3>
         </div>
+
+
         <div className="Item">
           <h1>2020</h1>
-          <img src={img_3years} alt="img20201103"></img>
+          <img src={img_3years} alt="img20201103" onClick={() => Zmage.browsing({ src:img_3years})}></img>
           <h3>
             恭喜!
             <br />
@@ -75,9 +122,11 @@ const News = () => {
             實驗室全體同仁 敬賀!
           </h3>
         </div>
+        
+
         <div className="Item">
           <h1>2019/10/17</h1>
-          <img src={img_AI20191017} alt="img20191204"></img>
+          <img src={img_AI20191017} alt="img20191204"  onClick={() => Zmage.browsing({ src:img_AI20191017})}></img>
           <h3>
             恭喜!
             <br />
@@ -90,9 +139,11 @@ const News = () => {
             實驗室全體同仁 敬賀!
           </h3>
         </div>
+
+
         <div className="Item">
           <h1>2019/05/28</h1>
-          <img src={img_IRSI20190528} alt="img_IRSI20190528"></img>
+          <img src={img_IRSI20190528} alt="img_IRSI20190528" onClick={() => Zmage.browsing({ src:img_IRSI20190528})}></img>
           <h3>
             <br />
             恭喜!
@@ -106,9 +157,10 @@ const News = () => {
             實驗室全體同仁 敬賀!
           </h3>
         </div>
+
         <div className="Item">
           <h1>2018</h1>
-          <img src={img_professor2018} alt="榮陞副教授"></img>
+          <img src={img_professor2018} alt="榮陞副教授" onClick={() => Zmage.browsing({ src:img_professor2018})}></img>
           <h3>
             <br />
             恭喜!
@@ -118,11 +170,13 @@ const News = () => {
             實驗室全體同仁 敬賀!
           </h3>
         </div>
+
         <div className="Item">
           <h1>2017</h1>
           <img
             src={img_yuntech2017}
             alt="獲選為雲林科技大學106年度研發績優新人教授獎"
+            onClick={() => Zmage.browsing({ src:img_yuntech2017})}
           ></img>
           <h3>
             <br />

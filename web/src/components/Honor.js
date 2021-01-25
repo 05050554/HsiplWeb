@@ -121,31 +121,22 @@ const Honer = () => {
           prevArrow={<Arrow type="prev" />}
         >
           <div className="pic_hon" id="secondpic">
-            <div className="all">
-              <img
-                // onClick={handleOpen}
-                src={img20201103}
-                alt="img20201103"
-                onClick={()=>Zmage.browsing({src:img20201103})}
-              >
-
-              </img>
-
-
-              <div className="detail_hon">
-                <h4>2020-11/03​</h4>
-                <h3>
-                  本實驗室鄭才毅、鄭友智、鄒學緯、王美雲
-                  參與2020雲創盃智慧生活創意應用競賽 決賽入選
-                  <br />
-                  題目：<span className="name">高光譜花生瑕疵檢測分類</span>
-                  <br />
-                  新聞採訪：
-                  <a target="_blank" href="https://youtu.be/6qvTLNq84AU?t=87">
-                    雲創盃創新競賽
-                  </a>
-                </h3>
-              </div>
+              <div className="all">
+            <img src={img20201103} alt="img20201103"  onClick={()=>Zmage.browsing({src:img20201103})}></img>
+            <div className="detail_hon">
+              <h4>2020-11/03​</h4>
+              <h3>
+                本實驗室鄭才毅、鄭友智、鄒學緯、王美雲
+                參與2020雲創盃智慧生活創意應用競賽 決賽入選
+                <br /> 
+                題目：<span className="name">高光譜花生瑕疵檢測分類</span>
+                <br />
+                新聞採訪：
+                <a target="_blank" rel="noopener noreferrer" href="https://youtu.be/6qvTLNq84AU?t=87">
+                  雲創盃創新競賽
+                </a>
+              </h3>
+            </div>
             </div>
           </div>
           <div className="pic_hon" id="thirdpic">
