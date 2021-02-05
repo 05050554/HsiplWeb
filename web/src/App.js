@@ -65,10 +65,10 @@ function App() {
             <HomePage1></HomePage1>
             <About_HSIPL></About_HSIPL>
             {/* <Introduction></Introduction> */}
+            <News></News>
             <Professor></Professor>
             <Members></Members>
             <Research_interests />
-            <News></News>
             <Honor />
             <Footer />
             {/* </div> */}

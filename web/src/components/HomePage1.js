@@ -9,7 +9,6 @@ import Alumnus from "./Alumnus";
 import Research_Posters from "./Research_Posters";
 import Item from "antd/lib/list/Item";
 
-
 // window.location.reload("HomePage1")
 // window.location.reload(true);
 // location.reload([true])
@@ -33,24 +32,18 @@ import Item from "antd/lib/list/Item";
 
 //   }
 
-
 const HomePage1 = () => {
-
   return (
-    
-
     <>
       {/* <head>
             <meta http-equiv="refresh" content="2"/>
             </head> */}
 
       <div className="top_HP" id="HomePage">
-
-
         <div className="list_HP">
-            <a href="/">
-                  <img className="logo_HP" src={logo}></img>
-            </a>
+          <a href="/">
+            <img className="logo_HP" src={logo}></img>
+          </a>
           <ul>
             <li>
               <a id="p1_HP" href="/#LabDirector">
@@ -58,6 +51,11 @@ const HomePage1 = () => {
               </a>
             </li>
             {/* <li><a id="p1" href='/#Introduction'  >Introduction</a></li> */}
+            <li>
+              <a id="p1_HP" href="#News">
+                News
+              </a>
+            </li>
             <li>
               <a id="p1_HP" href="/#Professor">
                 Professor
@@ -73,23 +71,19 @@ const HomePage1 = () => {
                 Research
               </a>
             </li>
-            <li>
-              <a id="p1_HP" href="#News">
-                News
-              </a>
-            </li>
+
             <li>
               <a id="p1_HP" href="#honor">
                 Awards
               </a>
             </li>
             <li>
-              <Link id="p1_HP" to="/LearnMore" >
+              <Link id="p1_HP" to="/LearnMore">
                 Alumnus
               </Link>
             </li>
             <li>
-              <Link id="p1_HP" to='/LearnMore'   >
+              <Link id="p1_HP" to="/LearnMore">
                 Posters
               </Link>
             </li>
@@ -123,7 +117,6 @@ const HomePage1 = () => {
           </div>
         </div>
         <img src={homepagepic} alt="homepagepic img"></img>
-        
       </div>
       {/* <div  className="button-border">
                 <button  type="button" className="top-button"><a id="p2" href="/#" >
@@ -140,7 +133,6 @@ const HomePage1 = () => {
       </div>
     </>
   );
-  
 };
 
-export default HomePage1
+export default HomePage1;
