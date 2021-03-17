@@ -156,6 +156,17 @@ const Experience_columns = [
 
 const data = [
   {
+    blod: "Chen, Shih-Yu;",
+    content1: "",
+    content2: " Lin, Chinsu; Li, Guan-Jie; Hsu, Yu-Chun; Liu, Keng-Hao. 2021.",
+
+    link: "https://www.mdpi.com/1424-8220/21/6/2077",
+    title:
+      "Hybrid Deep Learning Models with Sparse Enhancement Technique for Detection of Newly Grown Tree Leaves ",
+    content3:
+      " Sensors 21, no. 6: 2077. ",
+  },
+  {
     blod: "Shih-Yu Chen,",
     content1: "",
     content2: " Chuan-Yu Chang, Cheng-Syue OU and Chou-Tien Lien (2020, Jul). ",
