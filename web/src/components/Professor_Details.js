@@ -50,7 +50,7 @@ export const Service = () => {
                         <Table dataSource={Service_data.slice(5, 6)} bordered columns={Service_columns2} pagination={false} />
                     </Panel>
                     <Panel className="panel" header={'議程委員'} key="5">
-                        <Table dataSource={Service_data.slice(6, 23)} bordered columns={Service_columns2} pagination={false} />
+                        <Table dataSource={Service_data.slice(6, 24)} bordered columns={Service_columns2} pagination={false} />
                     </Panel>
                     <Panel className="panel" header={'議程主持人'} key="6">
                         <Table dataSource={Service_data.slice(23, 31)} bordered columns={Service_columns3} pagination={false} />
@@ -93,26 +93,29 @@ export const Awards = () => {
             <h1 className="Title">Awards</h1>
             <div className="List" >
                 <Tabs defaultActiveKey="1" >
-                    <TabPane tab={2020} key="1">
-                        <Table dataSource={Awards_data.slice(0, 3)} bordered={true} columns={Awards_columns} pagination={false} />
+                <TabPane tab={2021} key="1">
+                        <Table dataSource={Awards_data.slice(0, 1)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
-                    <TabPane tab={2019} key="2">
-                        <Table dataSource={Awards_data.slice(3, 13)} bordered={true} columns={Awards_columns} pagination={false} />
+                    <TabPane tab={2020} key="2">
+                        <Table dataSource={Awards_data.slice(1, 6)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
-                    <TabPane tab="2018" key="3">
-                        <Table dataSource={Awards_data.slice(13, 22)} bordered={true} columns={Awards_columns} pagination={false} />
+                    <TabPane tab={2019} key="3">
+                        <Table dataSource={Awards_data.slice(6, 16)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
-                    <TabPane tab="2017" key="4">
-                        <Table dataSource={Awards_data.slice(22, 33)} bordered={true} columns={Awards_columns} pagination={false} />
+                    <TabPane tab="2018" key="4">
+                        <Table dataSource={Awards_data.slice(16, 25)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
-                    <TabPane tab="2016" key="5">
-                        <Table dataSource={Awards_data.slice(33, 40)} bordered={true} columns={Awards_columns} pagination={false} />
+                    <TabPane tab="2017" key="5">
+                        <Table dataSource={Awards_data.slice(25, 36)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
-                    <TabPane tab="2015" key="6">
-                        <Table dataSource={Awards_data.slice(40, 50)} bordered={true} columns={Awards_columns} pagination={false} />
+                    <TabPane tab="2016" key="6">
+                        <Table dataSource={Awards_data.slice(36, 43)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
-                    <TabPane tab="2014" key="7">
-                        <Table dataSource={Awards_data.slice(50)} bordered={true} columns={Awards_columns} pagination={false} />
+                    <TabPane tab="2015" key="7">
+                        <Table dataSource={Awards_data.slice(43, 57)} bordered={true} columns={Awards_columns} pagination={false} />
+                    </TabPane>
+                    <TabPane tab="2014" key="8">
+                        <Table dataSource={Awards_data.slice(57)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
                 </Tabs>
             </div >
@@ -196,6 +199,7 @@ const Service_data = [
     { date: 'Nov. 14-15, 2019', event: 'National Computer Symposium 2019, Kinmen County', key: '5' },
     { date: '2020', event: 'CVGIP 第33屆電腦視覺、圖學與影像處理研討會', key: '5' },
     { date: 'Sep. 24-26, 2020', event: 'The Sixth IEEE International Conference on Multimedia Big Data, New Delhi', key: '5' },
+    { date: '2021', event: 'CVGIP 2021第34屆電腦視覺、圖學與影像處理研討會', key: '5' },
     { date: 'Aug. 21-23 , 2017', place: '杉 林溪', event: 'CVGIP 2017 第 30 屆電腦視覺、圖學與影像處理研討會特別議程主席', key: '6' },
     { date: 'April. 20-24, 2015', place: 'Baltimore', event: '2015 SPIE DSS Conference on Satellite Data Compression', key: '6' },
     { date: 'Aug. 17-19, 2015', place: 'Yilan, Taiwan', event: 'CVGIP 2015 第二十八屆電腦視覺、圖學與影像處理研討會特別議程主席', key: '6' },
@@ -422,6 +426,10 @@ const Awards_columns = [
 ]
 
 const Awards_data = [
+    { year: '2021', data: '指導專題生歐俊毅 ,張哲維 ,康峻瑋同學參加教育部人工智慧競賽-AI CUP 2021醫病訊息決策與對話語料分析競賽', award: '前標'},
+
+    { year: '2020', data: '雲科大109年度', award: '教師免評鑑榮譽'},
+    { year: '2020', data: '科技部109年度', award: '特殊優秀人才獎勵'},
     { year: '2020', data: '科技部109年度', award: '特殊優秀人才獎', key: '1' },
     { year: '2020', data: '指導研究生許寓鈞同學榮獲2020 SPIE Optics + Photonics Career Summit Officer Travel Grant', award: '2500 美金', key: '1' },
     { year: '2020', data: '指導研究生徐仕勳同學榮獲SPIE Photonics Europe 2020 Travel Grant Award', award: '1500 美金', key: '1' },
