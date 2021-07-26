@@ -40,6 +40,9 @@ const Professor1 = () => {
                         </div>
                         <span>Department of Computer Science and Information Engineering</span>
                         <span>National Yunlin University of Science and Technology</span>
+                        <br></br>
+                        <span style={{fontSize:'1.25rem'}}>成立 SPIE National Yuntech Univ. Chapter 分會並擔任指導老師</span>
+                        <span style={{fontSize:'1.25rem'}}>成立雲科大高光譜遙測工程科技中心，並聘請遙測領域學術大師 Chien-I Chang 擔任講座教授與主持人共同領導研究團隊發展高光譜遙測技術</span>
                         <div className="Mail">
                             <img src={Mail_img} alt="Mail_img"></img>
                             <span >sychen@yuntech.edu.tw</span>
@@ -47,8 +50,7 @@ const Professor1 = () => {
                         <div className="Phone">
                             <img src={Call_img} alt="Call_img"></img>
                             <span className="Number">(work) +886-5-5342601 ext 4514
-                            <br></br>(lab) +886-5-5342601 ext 4598
-                        </span>
+                            <br></br>(lab) +886-5-5342601 ext 4598</span>
                             <a className="Btn-more" href={'https://scholar.google.com/citations?user=0LxRRawAAAAJ&hl=zh-TW'} target="_blank" rel="noopener noreferrer" >Google Scholar</a>
                         </div>
                     </div>

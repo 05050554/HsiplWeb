@@ -3,7 +3,7 @@ import "./News.scss";
 import img_IRIS2021 from "../img/News/IRIS20210122.jpg";
 import img_20201201 from "../img/News/20201201.jpg";
 import img_20200116 from "../img/News/20200116.jpg";
-import img_3years from "../img/News/3years.jpg";
+import img_3years from "../img/News/3years.png";
 import img_AI20191017 from "../img/News/AI20191017.jpg";
 import img_IRSI20190528 from "../img/News/IRIS20190528.jpg";
 import img_professor2018 from "../img/News/professor2018.jpg";
@@ -113,9 +113,9 @@ const News = () => {
           <h3>
             恭喜!
             <br />
-            <span className="red">通過科計部3年期優秀年輕學者計畫</span>
+            <span className="red">通過科技部3年期優秀年輕學者計畫</span>
             <br />
-            本實驗室陳士煜教師通過科計部3年期優秀年輕學者計畫
+            本實驗室陳士煜教師通過科技部3年期優秀年輕學者計畫
             <br />
             補助計畫題目：應用高光譜影像辨識技術發展智慧新農業以提升農產品質管理為例
             <br />

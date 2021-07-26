@@ -53,10 +53,19 @@ export const Service = () => {
                         <Table dataSource={Service_data.slice(6, 24)} bordered columns={Service_columns2} pagination={false} />
                     </Panel>
                     <Panel className="panel" header={'議程主持人'} key="6">
-                        <Table dataSource={Service_data.slice(23, 31)} bordered columns={Service_columns3} pagination={false} />
+                        <Table dataSource={Service_data.slice(24, 34)} bordered columns={Service_columns3} pagination={false} />
                     </Panel>
-                    <Panel className="panel" header={'Reviewers'} key="7">
-                        <List dataSource={Service_data.slice(31, 46)}
+                    <Panel className="panel" header={'學術委員'} key="7">
+                    <List dataSource={Service_data.slice(34,35)}
+                            renderItem={item => (
+                                <List.Item>
+                                    {item.list}
+                                </List.Item>
+                            )}
+                        />
+                    </Panel>
+                    <Panel className="panel" header={'Reviewers'} key="8">
+                        <List dataSource={Service_data.slice(35)}
                             renderItem={item => (
                                 <List.Item>
                                     {item.list}
@@ -112,15 +121,19 @@ export const Awards = () => {
                         <Table dataSource={Awards_data.slice(36, 43)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
                     <TabPane tab="2015" key="7">
-                        <Table dataSource={Awards_data.slice(43, 57)} bordered={true} columns={Awards_columns} pagination={false} />
+                        <Table dataSource={Awards_data.slice(43, 53)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
                     <TabPane tab="2014" key="8">
-                        <Table dataSource={Awards_data.slice(57)} bordered={true} columns={Awards_columns} pagination={false} />
+                        <Table dataSource={Awards_data.slice(53)} bordered={true} columns={Awards_columns} pagination={false} />
                     </TabPane>
                 </Tabs>
             </div >
         </div>
+
+
+
     );
+
 }
 
 const Projects_columns = [
@@ -177,37 +190,48 @@ const Service_columns3 = [
 
 const Service_data = [
     { date: 'Oct. 13-16, 2017', place: 'Xian, China', event: 'Keynote speaker, International Workshops on Optoeletronic Perception (IWOP2017)', key: '1' },
+
     { date: 'Aug. 21-23, 2017', event: 'CVGIP 2017第30屆電腦視覺、圖學與影像處理研討會特別議程主席, 杉林溪', key: '2' },
     { date: '2018', event: 'NCWIA-2018第8屆網路智能應用研討會', key: '2' },
     { date: '2019', event: 'NCWIA-2019第9屆網路智能應用研討會', key: '2' },
+
     { date: '2020', event: 'NCWIA-2020第10屆網路智能應用研討會', key: '3' },
+
     { date: 'Dec. 12-14, 2014', event: 'International Computer Symposium (ICS), Tunghai University, Taichung, Taiwan on December', key: '4' },
+
     { date: 'Nov. 20-24, 2016', event: 'The 13th Asian Conference on Computer Vision (ACCV’16), Taipei', key: '5' },
+    { date: 'Apr. 20-22, 2016', event: 'IEEE BigMM 2016 The Second IEEE International Conference on Multimedia Big Data, Taipei, April 20-22, 2016', key: '5' },
+    { date: '2017', event: 'CVGIP 2017 第30屆電腦視覺、圖學與影像處理研討會會議程主持人, 杉林溪', key: '5' },
     { date: 'Dec. 11-13, 2017', event: 'The 19th IEEE International Symposium on Multimedia (ISM2017), Taichung', key: '5' },
     { date: 'Dec. 14-15, 2017', event: 'National Computer Symposium 2017, Hualien County', key: '5' },
-    { date: 'Apr. 20-22, 2016', event: 'IEEE BigMM 2016 The Second IEEE International Conference on Multimedia Big Data, Taipei, April 20-22, 2016', key: '5' },
-    { date: 'Dec. 12-14, 2018', event: 'International Computer Symposium (ICS), Yulin', key: '5' },
-    { date: '2018', event: 'CVGIP 第31屆電腦視覺、圖學與影像處理研討會, 關子嶺', key: '5' },
-    { date: '2017', event: 'CVGIP 第30屆電腦視覺、圖學與影像處理研討會會議程主持人, 杉林溪', key: '5' },
-    { date: '2018', event: '第8屆網路智能應用研討會NCWIA-2018', key: '5' },
+    { date: '2018', event: 'CVGIP 2018 第31屆電腦視覺、圖學與影像處理研討會, 關子嶺', key: '5' },
+    { date: '2018', event: 'NCWIA-2018 第8屆網路智能應用研討會', key: '5' },
     { date: '2018', event: '4th IEEE International Conference on Multimedia Big Data (BigMM)', key: '5' },
+    { date: 'Dec. 12-14, 2018', event: 'International Computer Symposium (ICS), Yulin', key: '5' },
     { date: '2019', event: '5th IEEE International Conference on Multimedia Big Data (BigMM)', key: '5' },
-    { date: '2019', event: '第9屆網路智能應用研討會NCWIA-2019', key: '5' },
-    { date: '2019', event: 'CVGIP 第32屆電腦視覺、圖學與影像處理研討會, 台東', key: '5' },
+    { date: '2019', event: 'NCWIA-2019 第9屆網路智能應用研討會', key: '5' },
     { date: 'Dec. 10-12, 2018', event: 'The 20th IEEE International Symposium on Multimedia (ISM2018), Taichung', key: '5' },
-    { date: 'Dec. 9-11, 2019', event: 'The 21th IEEE International Symposium on Multimedia (ISM2019), San Diego', key: '5' },
+    { date: '2019', event: 'CVGIP 2019 第32屆電腦視覺、圖學與影像處理研討會, 台東', key: '5' },
     { date: 'Nov. 14-15, 2019', event: 'National Computer Symposium 2019, Kinmen County', key: '5' },
-    { date: '2020', event: 'CVGIP 第33屆電腦視覺、圖學與影像處理研討會', key: '5' },
+    { date: 'Dec. 9-11, 2019', event: 'The 21th IEEE International Symposium on Multimedia (ISM2019), San Diego, USA', key: '5' },
+    { date: '2020', event: 'CVGIP 2020 第33屆電腦視覺、圖學與影像處理研討會', key: '5' },
     { date: 'Sep. 24-26, 2020', event: 'The Sixth IEEE International Conference on Multimedia Big Data, New Delhi', key: '5' },
-    { date: '2021', event: 'CVGIP 2021第34屆電腦視覺、圖學與影像處理研討會', key: '5' },
-    { date: 'Aug. 21-23 , 2017', place: '杉 林溪', event: 'CVGIP 2017 第 30 屆電腦視覺、圖學與影像處理研討會特別議程主席', key: '6' },
+    { date: '2021', event: 'CVGIP 2021 第34屆電腦視覺、圖學與影像處理研討會', key: '5' },
+
+    { date: 'Dec. 12-14, 2014', place: 'Tunghai University, Taichung, Taiwan', event: 'International Computer Symposium (ICS)', key: '6' },
+    { date: 'Dec. 26-27, 2014', place: 'Taichung, Taiwan', event: '台中榮總醫學影像量化研究中心學術研討會', key: '6' },
     { date: 'April. 20-24, 2015', place: 'Baltimore', event: '2015 SPIE DSS Conference on Satellite Data Compression', key: '6' },
     { date: 'Aug. 17-19, 2015', place: 'Yilan, Taiwan', event: 'CVGIP 2015 第二十八屆電腦視覺、圖學與影像處理研討會特別議程主席', key: '6' },
     { date: 'Nov. 5 - 7, 2015', place: 'Busan, Republic of Korea', event: '2015 KAGIS Fall Conference & International Symposium on GIS', key: '6' },
-    { date: 'Dec. 12-14, 2014', place: 'Tunghai University, Taichung, Taiwan', event: 'International Computer Symposium (ICS)', key: '6' },
-    { date: 'Dec. 26-27, 2014', place: 'Taichung, Taiwan', event: '台中榮總醫學影像量化研究中心學術研討會', key: '6' },
-    { date: '2018', place: '關子嶺', event: 'CVGIP 2018第31屆電腦視覺、圖學與影像處理研討會議程主持人', key: '6' },
-    { date: '2019', place: '台東', event: 'CVGIP 2019第32屆電腦視覺、圖學與影像處理研討會', key: '6' },
+    { date: 'Aug. 21-23 , 2017', place: '杉林溪', event: 'CVGIP 2017 第30屆電腦視覺、圖學與影像處理研討會議程主持人', key: '6' },
+    { date: '2018', place: '關子嶺', event: 'CVGIP 2018 第31屆電腦視覺、圖學與影像處理研討會議程主持人', key: '6' },
+    { date: '2019', place: '台東', event: 'CVGIP 2019 第32屆電腦視覺、圖學與影像處理研討會', key: '6' },
+    { date: '2020', place: '新竹', event: 'CVGIP 2020 第33屆電腦視覺、圖學與影像處理研討會', key: '6' },
+    { date: '2021', place: '', event: 'CVGIP 2021 第34屆電腦視覺、圖學與影像處理研討會', key: '6' },
+    
+    { list:'擔任財團法人地球觀測學會學術委員會委員', key: '7' },
+
+    { list: 'GIScience and Remote Sensing'},
     { list: 'IEEE Transactions on Geoscience and Remote Sensing' },
     { list: 'Journal of Marine Science Technology' },
     { list: 'Sensors' },
@@ -483,8 +507,10 @@ const Awards_data = [
     { year: '2015', data: '指導並帶領何達睿、詹振宏、陳彥霖同學參加 2015 年國際學校程式設計競賽 ISSC', award: '亞軍' },
     { year: '2015', data: '指導專題生郭家禎通過科技部核定 104 年度', award: '大專學生研究計畫' },
     { year: '2015', data: '指導專題生莊尚儒、郭家禎榮獲中區技專校院校際聯盟 2015 年研發成果網路聯合發表會', award: '佳作' },
-    { year: '2015', data: '指導專題生廖聖傑、許景翔榮獲 2015 雲科大創客競賽 YunMaker Competition (作品: 高光普影像處理 GUI 設計)', award: '優等獎' },
+    { year: '2015', data: '指導專題生廖聖傑、許景翔榮獲 2015 雲科大創客競賽 YunMaker Competition (作品: 高光譜影像處理 GUI 設計)', award: '優等獎' },
     { year: '2015', data: '指導專題生莊尚儒、郭家禎榮獲雲科大 104 學年度實務專題競賽 (作品: 校園導覽 APP)', award: '佳作' },
 
     { year: '2014', data: 'International Computer Symposium (ICS)', award: '最佳論文獎' },
 ]
+
+
