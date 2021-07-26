@@ -1,9 +1,9 @@
 import React from "react";
 import "./Research_interests.scss";
 import leaf from "../img/Research interests/leaf.png";
-import img1 from "../img/Research interests/Research interests_圖一.png";
-import img2 from "../img/Research interests/Research interests_圖二.png";
-import img4 from "../img/Research interests/吉普斯1.png";
+import light50 from "../img/Research interests/Research interests_圖一.png";
+import norchi from "../img/Research interests/Research interests_圖二.png";
+import gis from "../img/Research interests/吉普斯1.png";
 import peanuts from "../img/Research interests/peanuts.png";
 import flowers from "../img/Research interests/flowers.png";
 import leather from "../img/Research interests/leather.png";
@@ -46,7 +46,7 @@ const Research_interests = () => {
         <div className="article">
           <div className="Item">
             <h1>智慧農業與智慧製造</h1>
-            <img src={img1} alt="img1" onClick={()=>Zmage.browsing({src:img1,backdrop:" hsla(0, 0%, 38%, 0.911)"})} ></img>
+            <img src={light50} alt="light50" onClick={()=>Zmage.browsing({src:light50,backdrop:" hsla(0, 0%, 38%, 0.911)"})} ></img>
             <h3>
                 除演算法的研發外，陳士煜老師也致力推廣高光譜的應用面並與產業界結合，於2018年起與五鈴光學合作以「高光譜影像技術」
                 為工具，結合手機、APP應用程式、演算法與資料庫，進行水果、穀物、塑料、藥品、膚質、液態等快篩檢測，同時可依需求調整而應用於
@@ -56,7 +56,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>行動版高光譜資料收集系統</h1>
-            <img src={img2} alt="img2" onClick={()=>Zmage.browsing({src:img2,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
+            <img src={norchi} alt="norchi" onClick={()=>Zmage.browsing({src:norchi,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               2020年與諾錡有限公司合作開發行動版高光譜資料收集系統此系統整合資料庫、雲端演算法、APP等技術，可即時彙整並處理高光譜訊號，
               目前成功技術轉移金額5萬與產學合作金額20萬元，目前也繼續與該公司合作開發智慧農業相關計畫加速產業升級。
@@ -80,7 +80,7 @@ const Research_interests = () => {
 
           <div className="Item">
             <h1>人工智慧遙測地形圖辨識</h1>
-            <img src={img4} alt="img4" onClick={()=>Zmage.browsing({src:leaf,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
+            <img src={gis} alt="gis" onClick={()=>Zmage.browsing({src:gis,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img>
             <h3>
               2021年與吉普司科技公司合作開發人工智慧遙測地形圖的辨識，以Google衛星影像/農航所影像等更新頻率較快之公開影像來源為根據，透過深度學習技術進行差異化AI比對研究。
             </h3>
