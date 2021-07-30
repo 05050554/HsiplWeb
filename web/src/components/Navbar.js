@@ -53,10 +53,11 @@ const Navbar = () => {
             </li>
 
             <li>
-              <Link id="p1_HP" to="/LearnMore">Equipment</Link>
+              <a id="p1_HP" href="/LearnMore#Equipment">Equipment</a>
                 <ul className="secondNav">
-                  <li><a href="#">Protable</a></li>
-                  <li><a href="#">Linescan</a></li>
+                <li><a href="/LearnMore#Linescan">Linescan</a></li>
+                <li><a href="/LearnMore#Protable">Protable</a></li>
+                  
                 </ul>
             </li>
           </ul>

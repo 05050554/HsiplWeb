@@ -125,9 +125,11 @@ const Alumnus = () => {
               </a>
             </li>
             <li>
-              <a id="p1_Al" href="#Equipment">
-                Equipment
-              </a>
+              <a id="p1_Al" href="#Equipment">Equipment</a>
+              <ul className="secondNav">
+              <li><a href="#Linescan">Linescan</a></li>
+              <li><a href="#Protable">Protable</a></li>
+              </ul>
             </li>
           </ul>
         </div>
@@ -189,10 +191,10 @@ const Alumnus = () => {
 
       <div className="members_Al" id="members_Al">
             <div className="Title_Al" id="Alumnus">
-                <h1>Alumnus</h1>
+                <h1>Master Students</h1>
             </div>
             <div className="master2_Al">
-                <h2>畢業校友</h2>
+                <h2>Alumnus</h2>
             </div>
             <div className="picborder_Al" id="picborder_Al">
             

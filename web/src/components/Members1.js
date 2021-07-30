@@ -121,12 +121,12 @@ function Arrow(props) {
 
     return (
         
-        <div className="members" id="members">
-            <div className="Title">
-                <h1 id="Senior">Members</h1>
+        <div className="members" id ="members">
+            <div className="Title"id="Senior">
+                <h1>Current Students</h1>
             </div>
-            <div className="master2">
-                <h2>碩士二年級</h2>
+            <div className="master2" >
+                <h2>Senior</h2>
             </div>
             <div className="picborder" id="picborder">
             {/* <span className="arrow1"><i id="slide"  class="fas fa-angle-left" ></i></span> */}
@@ -229,8 +229,8 @@ function Arrow(props) {
 
 
 
-            <div className="master2"  id="master2">
-                <h2>碩士一年級</h2>
+            <div className="master2">
+                <h2>Junior</h2>
             </div>
             
             <div className="picborder1">
