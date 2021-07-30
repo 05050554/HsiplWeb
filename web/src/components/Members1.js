@@ -123,7 +123,7 @@ function Arrow(props) {
         
         <div className="members" id="members">
             <div className="Title">
-                <h1>Members</h1>
+                <h1 id="Senior">Members</h1>
             </div>
             <div className="master2">
                 <h2>碩士二年級</h2>
@@ -213,7 +213,7 @@ function Arrow(props) {
                         <span>研究方向 :  影像處理</span>
                             <div className="Email">
                                 <a href="/#"><i class="fas fa-envelope mail"></i></a>
-                                <span>M10817021@yuntech.edu.tw</span>
+                                <span id="Junior">M10817021@yuntech.edu.tw</span>
                             </div>
                         </div>
                     </div>
@@ -229,11 +229,11 @@ function Arrow(props) {
 
 
 
-            <div className="master2">
+            <div className="master2"  id="master2">
                 <h2>碩士一年級</h2>
             </div>
             
-            <div className="picborder1" id="picborder1">
+            <div className="picborder1">
             {/* <span className="arrow"><i id="slide2"  class="fas fa-angle-left "></i></span>     */}
                
                 < Slider className="masterpic1" id="masterpic1" {...settings} nextArrow={<Arrow type="next" />}

@@ -1,15 +1,5 @@
 import React from "react";
 import "./Alumnus.scss";
-// import leaf from "../img/Research interests/leaf.png";
-// import img1 from "../img/Research interests/Research interests_圖一.png";
-// import img2 from "../img/Research interests/Research interests_圖二.png";
-// import img4 from "../img/Research interests/工地圖1.png";
-// import peanuts from "../img/Research interests/peanuts.png";
-// import flowers from "../img/Research interests/flowers.png";
-// import leather from "../img/Research interests/leather.png";
-// import meat from "../img/Research interests/meat.png";
-// import mango from "../img/Research interests/mango.png";
-// import coffee from "../img/Research interests/coffee.png";
 import { Link } from "react-router-dom";
 import life1 from "../img/Photos of life/2017-6-30口試聚餐改.jpg";
 import life2 from "../img/Photos of life/2018畢業口試聚餐改.jpg";
@@ -21,12 +11,15 @@ import life7 from "../img/Photos of life/畢業照2020_06_03改.jpg";
 import life8 from "../img/Photos of life/畢業照2020_06_03(2)改.jpg";
 import life9 from "../img/Photos of life/S__21143570改.jpg";
 import life10 from "../img/Photos of life/2020.9月聚餐-改.jpg";
-
+import life11 from "../img/Photos of life/尾牙.jpg";
+import life12 from "../img/Photos of life/Alumu.jpg";
+import life13 from "../img/Photos of life/iris2020.jpg";
+import life14 from "../img/Photos of life/birth.jpg";
 
 import { BackTop } from "antd";
-import { Carousel } from "antd";
 import "antd/dist/antd.css";
 
+import Slider from "react-slick";
 
 import CHUN from "../img/Alumnus/10616358_820759444612090_23748230943619158_n.jpg"
 import HAN from "../img/Alumnus/10363382_799772786714016_8090633848080665429_n.jpg"
@@ -46,7 +39,7 @@ import { Descriptions } from 'antd';
 
 import "slick-carousel/slick/slick.css"; 
 import "slick-carousel/slick/slick-theme.css";
-import Slider from "react-slick";
+
 
 import logo from "../img/LOGO/LOGO_1.png";
 
@@ -86,6 +79,15 @@ const Alumnus = () => {
     
   };
 
+  const settings_slider = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+
+  };
+
   function Arrow(props) {
     let className = props.type === "next" ? "nextArrow" : "prevArrow";
     className += " arrow";
@@ -97,12 +99,11 @@ const Alumnus = () => {
     );
   }
 
+
   return (
+    
     <>
       <div className="top_Al">
-
-        {/* <div className="mark">Hsipl</div> */}
-
         <div className="list_Al">
         <Link id="p1_Al" to="/">
           <img className="logo_Al" src={logo}></img>
@@ -132,7 +133,20 @@ const Alumnus = () => {
         </div>
       </div>
 
-      <Carousel autoplay>
+      <Slider className="life_Slider" autoplay {...settings_slider} >
+        
+        <div>
+          <img id="life" src={life14} alt="life1" />
+        </div>
+        <div>
+          <img id="life" src={life13} alt="life1" />
+        </div>
+        <div>
+          <img id="life" src={life12} alt="life1" />
+        </div>
+        <div>
+          <img id="life" src={life11} alt="life1" />
+        </div>
         <div>
           <img id="life" src={life1} alt="life1" />
         </div>
@@ -163,7 +177,7 @@ const Alumnus = () => {
         <div>
           <img id="life" src={life10} alt="life10" />
         </div>
-      </Carousel>
+      </Slider>
 
       <div>
         <BackTop>

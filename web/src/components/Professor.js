@@ -47,7 +47,7 @@ const Professor = () => {
               <span>More Info. → </span>
             </Link>
           </div>
-          <div className="resume">
+          <div className="resume"  id="Education">
               <p>陳士煜老師具備高光譜影像、影像辨識、人工智慧等研究與業界實務經驗，指導學生參加國內外競賽獲獎數次，並曾榮獲「科技部優秀年輕學者研究計畫」、「科技部大專校院獎勵特殊優秀人才」、「雲林科技大學研發績優新人獎」與「中華民國電腦學會傑出青年學者獎」等。 近五年執行科技部計畫之研究成果在高光譜遙測影像技術發
                 展上成果豐碩，其相關SCI 期刊論文已有14 篇，尤其發表12篇於遙測相關領域期刊，多數IF都超過3以上，其中2018 發表的ISPRS JOURNAL更是IF高達7.31之期刊。</p>
           </div>
@@ -57,7 +57,7 @@ const Professor = () => {
       <div className="Education">
         <div className="List">
           <h1 className="Title">Education</h1>
-          <Divider />
+          <Divider  id="Experience"/>
           <Table
             dataSource={Education_data}
             bordered
@@ -66,11 +66,11 @@ const Professor = () => {
           />
         </div>
       </div>
-
-      <div className="Experience">
+      
+      <div className="Experience"  >
         <div className="List">
           <h1 className="Title">Research Experience</h1>
-          <Divider />
+          <Divider id="Journal"/>
           <Table
             dataSource={Experience_data}
             bordered

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css';
 
+import Navbar from './components/Navbar';
 import Hamburger from './components/Hamburger'
 import HamburgerLM from './components/HamburgerLM'
 import HomePage1 from './components/HomePage1';
@@ -37,6 +38,7 @@ function App() {
       <Switch>
         <Route exact path='/LearnMore'  >
           {/* <ScrollToTop> */}
+            {/* <Navbar /> */}
             <HamburgerLM />
             <Alumnus />
             <Research_Posters />
@@ -47,6 +49,7 @@ function App() {
 
         <Route exact path="/ProfessorDetail" >
           <ScrollToTop>
+            {/* <Navbar /> */}
             <HamburgerDT />
             <Professor1 />
             <Projects />
@@ -61,6 +64,7 @@ function App() {
         <Route exact path="/">
           {/* <div className="App"> */}
           <ScrollToTop>
+            <Navbar />
             <Hamburger />
             <HomePage1></HomePage1>
             <About_HSIPL></About_HSIPL>

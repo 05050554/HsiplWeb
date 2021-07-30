@@ -11,7 +11,7 @@ html {
   //background-color: #0c5497f3;
   background-color: rgba(23, 39, 68, 0);
   background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-
+  background-size: cover;
   display: flex;
   // justify-content: flex-end;
   width: 100%;
@@ -20,26 +20,14 @@ html {
 
 
 
-  // .mark{
-  //     position: fixed;
-  //     display: flex;
-  //     justify-content: flex-end;
-  //     top: 1.5vh;
-  //     left: 10vw;
-  //     width: 5%;
-  //     height: 5%;
-  //     font-size: 3em;
-  //     font-family: Oregano;
 
-  // }
 
   .list_HP{
     display: flex;
-    // display: inline-flex;
+
     margin: auto;
     width: 100%;
-    // justify-self: end;
-    // flex-direction: row;
+
     .logo_HP {
       height: 10vh;
       padding: 0% 0% 5% 2%;
@@ -48,25 +36,49 @@ html {
       margin: auto;
       text-align: end;
       width: 90%;
-      // width: 90%;
-      // display: inline-flex;
-      // white-space: nowrap;
-      // justify-content: end;
-      // justify-content: flex-end;
-      // padding: 0% 0% ;
-    // justify-content: center;
+     
+      
     li {
        display: inline-flex;
-      // justify-content: end;
-      // margin: 1em;
-      // padding-right: 3%;
-      // justify-content: end;
-      // justify-content: end;
-      // text-align: center;
-      // padding-left: 100px;
-      padding: 0% 2%;
+       position: relative;
+       padding: 2% 2%;
+
+       #p1_HP:hover{
+        color: #d87a00;
+       }
+
+      ul.secondNav{
+        display: none;
+        position: absolute;
+        top: 5vw;
+        left: 1vh;
+        padding: 0;
+        
+        font-size: 1.5em;
+      }
 
     }
+    li:hover{
+      
+      ul.secondNav{
+       
+        display: grid;
+        justify-content: center;
+        text-align: center;
+        background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+        li 
+          a{
+            color: white;
+          }
+          a:hover{
+            color: #d87a00;
+            
+          }
+
+      }
+
+    }
+
    }
   }
 
@@ -214,38 +226,7 @@ html {
   padding-top: 0.5rem;
 }
 
-// .top_button{
-//     padding-top: -15rem;
-// }
 
-// .top_button {
-//     color: white;
-// }
-
-// .button-border
-// {
-//     // z-index: 11;
-//     // -webkit-transform: translateZ(0);
-//     .top-button{
-//         background-color: burlywood;
-//         z-index: 10;
-//         // width: 4%;
-//         // height: 8%;
-//         border-style: solid;
-//         position: fixed;
-//         bottom: 18vh;
-//         right: 1vw;
-//         top: 75vh;
-//         border-radius: 1em;
-//         // max-width: 4%;
-//         // max-height: 8%;
-//         text-decoration: none;
-//     }
-//     #p2{
-//         text-decoration: none;
-//         color: black;
-//     }
-// }
 
 @media screen and(max-width:1440px) {
   .mark {
