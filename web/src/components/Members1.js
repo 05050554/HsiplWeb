@@ -20,56 +20,6 @@ import Slider from "react-slick";
 
 const Members1 = () => {
 
-//     window.onload=function(){
-//          const buttonrt = document.getElementById("slide1");
-//     buttonrt.onclick=function(){
-//             // document.getElementById("masterpic").scrollLeft += 330;
-//         document.getElementById("masterpic").scrollBy ({
-//             top: 0,
-//             left: +400,
-//             behavior: 'smooth'
-//         })
-//     };
-
-
-
-
-//     const buttonlf = document.getElementById("slide");
-//     buttonlf.onclick=function(){
-//         // document.getElementById("masterpic").scrollLeft -=340;
-//         document.getElementById("masterpic").scrollBy ({
-//             top: 0,
-//             left: -400,
-//             behavior: 'smooth'
-//         })
-    
-//     };
-
-    
-
-
-//     const buttonlf1 = document.getElementById("slide2");
-//     buttonlf1.onclick=function(){
-//         // document.getElementById("masterpic1").scrollLeft -= 330;
-//         document.getElementById("masterpic1").scrollBy ({
-//             top: 0,
-//             left: -400,
-//             behavior: 'smooth'
-//         })
-//     };
-
-//     const buttonrt1 = document.getElementById("slide3");
-//     buttonrt1.onclick=function(){
-//         // document.getElementById("masterpic1").scrollLeft += 330;
-//         document.getElementById("masterpic1").scrollBy ({
-//             top: 0,
-//             left: +400,
-//             behavior: 'smooth'
-//         })
-//     };
-
-// }
-
 const settings = {
     dots: false,
     infinite: false,

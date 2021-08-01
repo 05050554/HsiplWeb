@@ -4,7 +4,10 @@ import FX10 from "../img/Equipments/FX10.png"
 import FX17 from "../img/Equipments/FX17.png"
 import Sky from "../img/Equipments/sky.png"
 import Portable from "../img/Equipments/Portable.png"
-import Zmage from "react-zmage";
+// import Zmage from "react-zmage";
+import 'antd/dist/antd.css';
+import { Image } from 'antd';
+
 
 import { Container } from '@material-ui/core';
 
@@ -72,28 +75,36 @@ const Equipment = () => {
 
                 <h3>Hyperspectral Camera - SPECIM FX10</h3>
                 <Container className="container">
-                    <img src={FX10_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX10_1})}></img>
-                    <img src={FX10_2} alt="FX10_2" onClick={()=>Zmage.browsing({src:FX10_2})}></img>
+                    {/* <img src={FX10_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX10_1})}></img> */}
+                    <Image src={FX10_1} alt="FX10_1"/>
+                    {/* <img src={FX10_2} alt="FX10_2" onClick={()=>Zmage.browsing({src:FX10_2})}></img> */}
+                    <Image src={FX10_2} alt="FX10_2"/>
                 </Container>
 
                 <h3>Hyperspectral Camera - SPECIM FX17</h3>
                 <Container className="container">
-                    <img src={FX17_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX17_1})}></img>
-                    <img src={FX17_2} alt="FX17_2" onClick={()=>Zmage.browsing({src:FX17_2})}></img>
+                    {/* <img src={FX17_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX17_1})}></img> */}
+                    <Image src={FX17_1} alt="FX10_1"/>
+                    {/* <img src={FX17_2} alt="FX17_2" onClick={()=>Zmage.browsing({src:FX17_2})}></img> */}
+                    <Image src={FX17_2} alt="FX17_2"/>
                 </Container>
 
                 <h3>Hyperspectral Camera - SnapScan</h3>
                 <Container className="container">
-                    <img src={SnapScan_1} alt="SnapScan_1" onClick={()=>Zmage.browsing({src:SnapScan_1})}></img>
-                    <img src={SnapScan_2} alt="SnapScan_2" onClick={()=>Zmage.browsing({src:SnapScan_2})}></img>
+                    {/* <img src={SnapScan_1} alt="SnapScan_1" onClick={()=>Zmage.browsing({src:SnapScan_1})}></img> */}
+                    <Image src={SnapScan_1} alt="SnapScan_1"/>
+                    {/* <img src={SnapScan_2} alt="SnapScan_2" onClick={()=>Zmage.browsing({src:SnapScan_2})}></img> */}
+                    <Image src={SnapScan_2} alt="SnapScan_2"/>
                 </Container>
 
                 <h2 id="Protable">Protable</h2>
 
                 <h3>Hyperspectral Camera - SnapShot</h3>
                 <Container className="container">
-                    <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img>
-                    <img src={SnapShot_2} alt="SnapShot_2" onClick={()=>Zmage.browsing({src:SnapShot_2})}></img>
+                    {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
+                    <Image src={SnapShot_1} alt="SnapShot_1"/>
+                    {/* <img src={SnapShot_2} alt="SnapShot_2" onClick={()=>Zmage.browsing({src:SnapShot_2})}></img> */}
+                    <Image src={SnapShot_2} alt="SnapShot_2"/>
                 </Container>
 
                 
