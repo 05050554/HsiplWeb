@@ -2,8 +2,12 @@ import React from 'react'
 import "./Equipment.scss";
 import FX10 from "../img/Equipments/FX10.png"
 import FX17 from "../img/Equipments/FX17.png"
-import Sky from "../img/Equipments/sky.png"
-import Portable from "../img/Equipments/Portable.png"
+import SnapScan from "../img/Equipments/SnapScan.png"
+import SnapShot from "../img/Equipments/SnapShot.png"
+import NIR from "../img/Equipments/NIR.png"
+import HP280 from "../img/Equipments/HP280.png"
+// import Sky from "../img/Equipments/sky.png"
+// import Portable from "../img/Equipments/Portable.png"
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
 import { Image } from 'antd';
@@ -19,6 +23,10 @@ import SnapScan_1 from "../img/Equipments/SnapScan-1.png"
 import SnapScan_2 from "../img/Equipments/SnapScan-2.png"
 import SnapShot_1 from "../img/Equipments/SnapShot-1.png"
 import SnapShot_2 from "../img/Equipments/SnapShot-2.png"
+import NIR_G1_1 from "../img/Equipments/NIR_G1.png"
+import NIR_G1_2 from "../img/Equipments/NIR_G1_Info.png"
+import HP280_1 from "../img/Equipments/HP280_1.png"
+import HP280_2 from "../img/Equipments/HP280_2.png"
 
 const Equipment = () => {
     return (
@@ -30,7 +38,7 @@ const Equipment = () => {
                 <div className="card">
                     <div className="Icon">
                         <img src={FX10} alt="FX10"></img>
-                        <h5>Hyperspectral Camera FX10</h5>
+                        <h5>FX10</h5>
                     </div>
                     <div className="Content">
                         {/* <p>Free wavelength selection from 220 bands 
@@ -41,7 +49,7 @@ const Equipment = () => {
                 <div className="card">
                     <div className="Icon">
                         <img src={FX17} alt="FX17"></img>
-                        <h5>Hyperspectral Camera FX17</h5>
+                        <h5>FX17</h5>
                     </div>
                     <div className="Content">
                         {/* <p>Free wavelength selection from 224 bands 
@@ -51,8 +59,8 @@ const Equipment = () => {
                 </div>
                 <div className="card"  >
                     <div className="Icon">
-                        <img src={Sky} alt="Sky" />
-                        <h5>　Go to sky　</h5>
+                        <img src={SnapScan} alt="SnapScan" />
+                        <h5>SnapScan</h5>
                     </div>
                     <div className="Content">
                         {/* <p>Go to sky Go to sky Go to sky Go to sky Go to sky Go to sky Go to sky Go to sky </p> */}
@@ -60,8 +68,26 @@ const Equipment = () => {
                 </div>
                 <div className="card" >
                     <div className="Icon">
-                        <img src={Portable} alt="Portable"></img>
-                        <h5>Portable Device</h5>
+                        <img src={SnapShot} alt="SnapShot"></img>
+                        <h5>SnapShot</h5>
+                    </div>
+                    <div className="Content">
+                        {/* <p>Portable Device Portable Device Portable Device Portable Device  </p> */}
+                    </div>   
+                </div>
+                <div className="card" >
+                    <div className="Icon">
+                        <img src={NIR} alt="NIR"></img>
+                        <h5>NIR-G1</h5>
+                    </div>
+                    <div className="Content">
+                        {/* <p>Portable Device Portable Device Portable Device Portable Device  </p> */}
+                    </div>   
+                </div>
+                <div className="card" >
+                    <div className="Icon">
+                        <img src={HP280} alt="HP280"></img>
+                        <h5>HP280</h5>
                     </div>
                     <div className="Content">
                         {/* <p>Portable Device Portable Device Portable Device Portable Device  </p> */}
@@ -70,10 +96,10 @@ const Equipment = () => {
             </div>
 
 
-            <div className="camera" id="Linescan">
-                <h2>Line Scan</h2>
+            <div className="camera" id="Pushbloom">
+                <h2>Pushbloom</h2>
 
-                <h3>Hyperspectral Camera - SPECIM FX10</h3>
+                <h3>Hyperspectral Camera — SPECIM FX10</h3>
                 <Container className="container">
                     {/* <img src={FX10_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX10_1})}></img> */}
                     <Image src={FX10_1} alt="FX10_1"/>
@@ -81,7 +107,7 @@ const Equipment = () => {
                     <Image src={FX10_2} alt="FX10_2"/>
                 </Container>
 
-                <h3>Hyperspectral Camera - SPECIM FX17</h3>
+                <h3>Hyperspectral Camera — SPECIM FX17</h3>
                 <Container className="container">
                     {/* <img src={FX17_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX17_1})}></img> */}
                     <Image src={FX17_1} alt="FX10_1"/>
@@ -89,7 +115,7 @@ const Equipment = () => {
                     <Image src={FX17_2} alt="FX17_2"/>
                 </Container>
 
-                <h3>Hyperspectral Camera - SnapScan</h3>
+                <h3>Hyperspectral Camera — imec SnapScan</h3>
                 <Container className="container">
                     {/* <img src={SnapScan_1} alt="SnapScan_1" onClick={()=>Zmage.browsing({src:SnapScan_1})}></img> */}
                     <Image src={SnapScan_1} alt="SnapScan_1"/>
@@ -97,9 +123,9 @@ const Equipment = () => {
                     <Image src={SnapScan_2} alt="SnapScan_2"/>
                 </Container>
 
-                <h2 id="Protable">Protable</h2>
+                <h2 id="SnapShot">SnapShot</h2>
 
-                <h3>Hyperspectral Camera - SnapShot</h3>
+                <h3>Hyperspectral Camera — imec SnapShot</h3>
                 <Container className="container">
                     {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
                     <Image src={SnapShot_1} alt="SnapShot_1"/>
@@ -107,7 +133,23 @@ const Equipment = () => {
                     <Image src={SnapShot_2} alt="SnapShot_2"/>
                 </Container>
 
-                
+                <h2 id="Protable">Protable</h2>
+
+                <h3>Near infrared spectrometer — NIRez-G1</h3>
+                <Container className="container">
+                    {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
+                    <Image src={NIR_G1_1} alt="NIR_G1_1"/>
+                    {/* <img src={SnapShot_2} alt="SnapShot_2" onClick={()=>Zmage.browsing({src:SnapShot_2})}></img> */}
+                    <Image src={NIR_G1_2} alt="NIR_G1_2"/>
+                </Container>
+
+                <h3>Handheld snapshot hyperspectral camera — HP-280</h3>
+                <Container className="container">
+                    {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
+                    <Image src={HP280_1} alt="HP280_1"/>
+                    {/* <img src={SnapShot_2} alt="SnapShot_2" onClick={()=>Zmage.browsing({src:SnapShot_2})}></img> */}
+                    <Image src={HP280_2} alt="HP280_2"/>
+                </Container>
             </div>
         </div>
     )
