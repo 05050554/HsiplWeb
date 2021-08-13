@@ -1,79 +1,79 @@
-.top_Al {
-  position: fixed;
-  top: 0;
-  background-color: rgba(23, 39, 68, 0);
-  background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+// .top_Al {
+//   position: fixed;
+//   top: 0;
+//   background-color: rgba(23, 39, 68, 0);
+//   background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
 
-  display: flex;
-  width: 100%;
-  z-index: 999;
+//   display: flex;
+//   width: 100%;
+//   z-index: 999;
 
 
-  .list_Al{
-    display: flex;
-    margin: auto;
-    width: 100%;
-    .logo_Al {
-      height: 10vh;
-      padding: 0% 0% 5% 2%;
-    }
-    ul {
-      text-align: end;
-      width: 90%;
-      margin: auto;
+//   .list_Al{
+//     display: flex;
+//     margin: auto;
+//     width: 100%;
+//     .logo_Al {
+//       height: 10vh;
+//       padding: 0% 0% 5% 2%;
+//     }
+//     ul {
+//       text-align: end;
+//       width: 90%;
+//       margin: auto;
       
-    li {
-      padding: 2% 2%;
-      display: inline-flex;
+//     li {
+//       padding: 2% 2%;
+//       display: inline-flex;
        
 
-      #p1_Al:hover{
-        color: #d87a00;
-       }
+//       #p1_Al:hover{
+//         color: #d87a00;
+//        }
 
-      ul.secondNav{
-        //display: none;
-        position: absolute;
-        top: 5vw;
-        left: 90%;
-        padding: 0;
+//       ul.secondNav{
+//         //display: none;
+//         position: absolute;
+//         top: 5vw;
+//         left: 90%;
+//         padding: 0;
         
-        font-size: 1.5em;
-      }
-    }
-    li:hover{
+//         font-size: 1.5em;
+//       }
+//     }
+//     li:hover{
         
-      ul.secondNav{
-       width: 8%;
-        display: grid;
-        justify-content: center;
-        text-align: center;
-        background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-        li 
-          a{
-            color: white;
-          }
-          a:hover{
-            color: #d87a00;
+//       ul.secondNav{
+//        width: 8%;
+//         display: grid;
+//         justify-content: center;
+//         text-align: center;
+//         background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
+//         li 
+//           a{
+//             color: white;
+//           }
+//           a:hover{
+//             color: #d87a00;
             
-          }
+//           }
 
-      }
+//       }
 
-    }
-   }
-  }
-
-
-  #p1_Al {
-    text-decoration: none;
-    font-size: 1.5em;
-    color: white;
-  }
+//     }
+//    }
+//   }
 
 
+//   #p1_Al {
+//     text-decoration: none;
+//     font-size: 1.5em;
+//     color: white;
+//   }
 
-}
+
+
+// }
 @media screen and(max-width:1024px) {
   .top_Al {
     display: none;
@@ -101,30 +101,7 @@
 
 
 
-.life_Slider{
-  //background-image: url(https://template101386.motopreview.com/mt-demo/101300/101386/mt-content/uploads/2020/05/mt-2019-bg-main.jpg);
-  width: 90%;
-  padding-top: 5.5%;
-  margin: auto;
 
-  .slick-prev:before{
-    font-size: 3rem;
-    color: #e0c3fc;
-    margin: -2.4rem;
-    
-  }
-
-  .slick-next:before{
-    color: #e0c3fc;
-    font-size: 3rem;
-    text-justify: auto;
-
-  }
-  #life {
-    margin: auto;
-    width: 62%;
-  }
-}
 
 
 .slick-arrow {

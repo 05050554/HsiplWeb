@@ -12,50 +12,60 @@ const Navbar = () => {
 
           <ul>
             <li>
+              <a id="p1_HP" href="/">
+                Home
+              </a>
+            </li>
+
+            <li>
               <a id="p1_HP" href="/#LabDirector">
                 About HSIPL
               </a>
             </li>
 
             <li>
-              <a id="p1_HP" href="#News" >
+              <a id="p1_HP" href="/#News" >
                 News
               </a>
             </li>
+            <li>
+              <a id="p1_HP" href="/#honor">Awards</a>
+            </li>
+
             <li ><a id="p1_HP" href="/#Professor">Professor</a>
               <ul  className="secondNav">
-                <li><a href="#Education">Education</a></li>
-                <li><a href="#Experience">Experience</a></li>
-                <li><a href="#Journal">Journal</a></li>
+                <li><a href="/#Education">Education</a></li>
+                <li><a href="/#Experience">Experience</a></li>
+                <li><a href="/#Journal">Publication</a></li>
                 <li><a  href="/ProfessorDetail#Talks">Talks</a></li>
                 <li><a href="/ProfessorDetail#Service">Service</a></li>
                 <li><a href="/ProfessorDetail#Conference">Conference</a></li>
+                <li><a href="/ProfessorDetail#pf_Award">Awards</a></li>
+                <li><a href={'https://scholar.google.com/citations?user=0LxRRawAAAAJ&hl=zh-TW'}>Scholar</a></li>
               </ul>
             </li>
             
             <li><a id="p1_HP" href="/#members">Members</a>
               <ul className="secondNav">
-                  <li><a href="#Senior">Senior</a></li>
-                  <li><a href="#Junior">Junior</a></li>
-                  <li><a href="/LearnMore#Alumnus">Alumnus</a></li>
+                  <li><a href="/#Senior">Senior</a></li>
+                  <li><a href="/#Junior">Junior</a></li>
+                  <li><a href="/#Alumnus">Alumnus</a></li>
               </ul>
             </li>
-            <li><a id="p1_HP" href="#Research_interests">Research</a>
+            <li><a id="p1_HP" href="/LearnMore#Research_interests">Research</a>
               <ul className="secondNav">
-              <li><a href="#Research_interests">Interests</a></li>
+              <li><a href="/LearnMore#Research_interests">Interests</a></li>
               <li><a href="/ProfessorDetail#Projects">Projects</a></li>
               <li><a href="/LearnMore#Research_Posters">Posters</a></li>
               </ul>
             </li>
 
-            <li>
-              <a id="p1_HP" href="#honor">Awards</a>
-            </li>
-
+ 
             <li>
               <a id="p1_HP" href="/LearnMore#Equipment">Equipment</a>
                 <ul className="secondNav">
-                <li><a href="/LearnMore#Linescan">Linescan</a></li>
+                <li><a href="/LearnMore#Pushbloom">Pushbloom</a></li>
+                <li><a href="/LearnMore#SnapShot">SnapShot</a></li>
                 <li><a href="/LearnMore#Protable">Protable</a></li>
                   
                 </ul>

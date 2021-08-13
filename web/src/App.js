@@ -38,9 +38,9 @@ function App() {
       <Switch>
         <Route exact path='/LearnMore'  >
           {/* <ScrollToTop> */}
-            {/* <Navbar /> */}
+            <Navbar />
             <HamburgerLM />
-            <Alumnus />
+            <Research_interests />
             <Research_Posters />
             <Equipment></Equipment>
             <Footer />
@@ -49,7 +49,7 @@ function App() {
 
         <Route exact path="/ProfessorDetail" >
           <ScrollToTop>
-            {/* <Navbar /> */}
+            <Navbar />
             <HamburgerDT />
             <Professor1 />
             <Projects />
@@ -66,14 +66,14 @@ function App() {
           <ScrollToTop>
             <Navbar />
             <Hamburger />
-            <HomePage1></HomePage1>
-            <About_HSIPL></About_HSIPL>
+            <HomePage1 />
+            <About_HSIPL />
             {/* <Introduction></Introduction> */}
-            <News></News>
-            <Professor></Professor>
-            <Members></Members>
-            <Research_interests />
+            <News />
             <Honor />
+            <Professor />
+            <Members />
+            <Alumnus />
             <Footer />
             {/* </div> */}
           </ScrollToTop>

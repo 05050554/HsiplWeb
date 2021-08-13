@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const Professor1 = () => {
     return (
         <>
-            <div className="top_P" >
+            {/* <div className="top_P" >
             
                 <div className="list_P">
                 <Link id="p1_P" to="/" ><img className="logo_P" src={logo}></img></Link> 
@@ -26,7 +26,7 @@ const Professor1 = () => {
                         <li><a id="p1_P" href='#Awards' >Awards</a></li>
                     </ul>
                 </div>
-            </div>
+            </div> */}
             <div className="Professor1" id="Professor">
                 <div className="content">
                     <div className="Pic">

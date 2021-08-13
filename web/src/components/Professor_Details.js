@@ -87,8 +87,8 @@ export const Conference = () => {
             <h1 className="Title">Conference</h1>
             <div className="List" >
                 <Table dataSource={Conference_data} bordered={true} columns={Conference_columns} pagination={{ pageSize: 10 }} />
-                <h2>Conference Proceeding Abstract</h2>
-                <Table dataSource={Conference_data2} bordered={true} columns={Conference_columns} pagination={false} />
+                {/* <h2>Conference Proceeding Abstract</h2>
+                <Table dataSource={Conference_data2} bordered={true} columns={Conference_columns} pagination={false} /> */}
             </div >
 
         </div>
@@ -99,7 +99,7 @@ export const Conference = () => {
 export const Awards = () => {
     return (
         <div className="Awards" id="Awards">
-            <h1 className="Title">Awards</h1>
+            <h1 className="Title" id="pf_Award">Awards</h1>
             <div className="List" >
                 <Tabs defaultActiveKey="1" >
                 <TabPane tab={2021} key="1">
@@ -399,6 +399,10 @@ const Conference_data = [
 
     },
     {
+        date: '2012', link: '',
+        event: 'Mackenzie CF, Stansbury L, Hu P, Hess J, Chang CI, Chen S, MS, Miller C, Dupuis K, Dubose J,and the ONPOINT Investigator Group Gender , “Age effects of pre-hospital vital signs predictions of massive transfusion,” Proceedings of the American Medical Informatics Association AMIA-0146-A201',
+    },
+    {
         date: '2011', link: 'https://drive.google.com/file/d/0B0YDE38rJWb5dVpPejlLdmJhMnM/view',
         event: 'S.-Y. Chen, Y.C. Ouyang and C.-I Chang (2011, Jul). Iterative support vector machine for hyperspectral image classification. IEEE International Geoscience and Remote Sensing Symposium, Vancouver, Canada. 本人為第一作者、通訊作者.',
 
@@ -416,32 +420,32 @@ const Conference_data = [
 
 ]
 
-const Conference_data2 = [
-    {
-        date: '2016', link: '',
-        event: 'Shih-Yu Chen, Chia-Hui Tai, Tse-Yu Chien;"Early Landslide Detection and Warning System Using Remote Sensing Imagery",Oct 15,2016',
-    },
-    {
-        date: '2016', link: '',
-        event: 'Shih-Yu Chen, Chinsu Lin, Fu-Ming Yang, Li-Han Lin;"Extracting Tree Rings form Disc Bitmap Image",Oct 15,2016',
-    },
-    {
-        date: '2013', link: '',
-        event: 'PF Hu, Y Wang, S-Y Chen, L Stansbury, C-I Chang, , J Menaker, M Lissauer, J Pasley, W Chiu, A Anazodo, C Imle, C F Mackenzie and ONPOINT Investigators, “Automated Vital Signs LSI outcome Prediction versus Experts,” Proceedings of Society of Critical Care Medicine (SCCM) congresses Jan 19-23, 2013',
-    },
-    {
-        date: '2013', link: '',
-        event: 'Hu P, Wang Y, Mackenzie C, Chen S, Imle C, Anazodo A, Miller C Chang C and OnPOINT group, “Continuous Pulse Oximetry Photopletysmography waveforms predict Transfusion after Trauma,” Proceedings of 84th Annual Scientific Meeting of the Aerospace Medical Association (AsMA) in Chicago, IL, May 12-16, 2013.',
-    },
-    {
-        date: '2012', link: '',
-        event: 'CF Mackenzie, PF Hu, LG Stansbury, CI Chang, S-Y Chen, R Fang, J Dubose, JR Hess, “Pre-hospital respiratory rate as a predictor of emergent or massive transfusion,” Military Health System Research Symposium, Florida, USA ,August 13-16, 2012',
-    },
-    {
-        date: '2012', link: '',
-        event: 'Mackenzie CF, Stansbury L, Hu P, Hess J, Chang CI, Chen S, MS, Miller C, Dupuis K, Dubose J,and the ONPOINT Investigator Group Gender , “Age effects of pre-hospital vital signs predictions of massive transfusion,” Proceedings of the American Medical Informatics Association AMIA-0146-A201',
-    },
-]
+// const Conference_data2 = [
+//     {
+//         date: '2016', link: '',
+//         event: 'Shih-Yu Chen, Chia-Hui Tai, Tse-Yu Chien;"Early Landslide Detection and Warning System Using Remote Sensing Imagery",Oct 15,2016',
+//     },
+//     {
+//         date: '2016', link: '',
+//         event: 'Shih-Yu Chen, Chinsu Lin, Fu-Ming Yang, Li-Han Lin;"Extracting Tree Rings form Disc Bitmap Image",Oct 15,2016',
+//     },
+//     {
+//         date: '2013', link: '',
+//         event: 'PF Hu, Y Wang, S-Y Chen, L Stansbury, C-I Chang, , J Menaker, M Lissauer, J Pasley, W Chiu, A Anazodo, C Imle, C F Mackenzie and ONPOINT Investigators, “Automated Vital Signs LSI outcome Prediction versus Experts,” Proceedings of Society of Critical Care Medicine (SCCM) congresses Jan 19-23, 2013',
+//     },
+//     {
+//         date: '2013', link: '',
+//         event: 'Hu P, Wang Y, Mackenzie C, Chen S, Imle C, Anazodo A, Miller C Chang C and OnPOINT group, “Continuous Pulse Oximetry Photopletysmography waveforms predict Transfusion after Trauma,” Proceedings of 84th Annual Scientific Meeting of the Aerospace Medical Association (AsMA) in Chicago, IL, May 12-16, 2013.',
+//     },
+//     {
+//         date: '2012', link: '',
+//         event: 'CF Mackenzie, PF Hu, LG Stansbury, CI Chang, S-Y Chen, R Fang, J Dubose, JR Hess, “Pre-hospital respiratory rate as a predictor of emergent or massive transfusion,” Military Health System Research Symposium, Florida, USA ,August 13-16, 2012',
+//     },
+//     {
+//         date: '2012', link: '',
+//         event: 'Mackenzie CF, Stansbury L, Hu P, Hess J, Chang CI, Chen S, MS, Miller C, Dupuis K, Dubose J,and the ONPOINT Investigator Group Gender , “Age effects of pre-hospital vital signs predictions of massive transfusion,” Proceedings of the American Medical Informatics Association AMIA-0146-A201',
+//     },
+// ]
 
 const Awards_columns = [
     { title: '時間', dataIndex: 'year' },

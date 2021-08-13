@@ -123,7 +123,7 @@ const Equipment = () => {
                     <Image src={SnapScan_2} alt="SnapScan_2"/>
                 </Container>
 
-                <h2 id="SnapShot">SnapShot</h2>
+                <h2 className="SnapShot" id="SnapShot">SnapShot</h2>
 
                 <h3>Hyperspectral Camera — imec SnapShot</h3>
                 <Container className="container">
@@ -133,7 +133,7 @@ const Equipment = () => {
                     <Image src={SnapShot_2} alt="SnapShot_2"/>
                 </Container>
 
-                <h2 id="Protable">Protable</h2>
+                <h2 className="Protable" id="Protable">Protable</h2>
 
                 <h3>Near infrared spectrometer — NIRez-G1</h3>
                 <Container className="container">

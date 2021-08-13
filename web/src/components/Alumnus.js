@@ -1,20 +1,20 @@
 import React from "react";
 import "./Alumnus.scss";
-import { Link } from "react-router-dom";
-import life1 from "../img/Photos of life/2017-6-30口試聚餐改.jpg";
-import life2 from "../img/Photos of life/2018畢業口試聚餐改.jpg";
-import life3 from "../img/Photos of life/2018實驗室聚餐改.jpg";
-import life4 from "../img/Photos of life/109504改.jpg";
-import life5 from "../img/Photos of life/img5.jpg";
-import life6 from "../img/Photos of life/S__1335453改.jpg";
-import life7 from "../img/Photos of life/畢業照2020_06_03改.jpg";
-import life8 from "../img/Photos of life/畢業照2020_06_03(2)改.jpg";
-import life9 from "../img/Photos of life/S__21143570改.jpg";
-import life10 from "../img/Photos of life/2020.9月聚餐-改.jpg";
-import life11 from "../img/Photos of life/尾牙.jpg";
-import life12 from "../img/Photos of life/Alumu.jpg";
-import life13 from "../img/Photos of life/iris2020.jpg";
-import life14 from "../img/Photos of life/birth.jpg";
+// import { Link } from "react-router-dom";
+// import life1 from "../img/Photos of life/2017-6-30口試聚餐改.jpg";
+// import life2 from "../img/Photos of life/2018畢業口試聚餐改.jpg";
+// import life3 from "../img/Photos of life/2018實驗室聚餐改.jpg";
+// import life4 from "../img/Photos of life/109504改.jpg";
+// import life5 from "../img/Photos of life/img5.jpg";
+// import life6 from "../img/Photos of life/S__1335453改.jpg";
+// import life7 from "../img/Photos of life/畢業照2020_06_03改.jpg";
+// import life8 from "../img/Photos of life/畢業照2020_06_03(2)改.jpg";
+// import life9 from "../img/Photos of life/S__21143570改.jpg";
+// import life10 from "../img/Photos of life/2020.9月聚餐-改.jpg";
+// import life11 from "../img/Photos of life/尾牙.jpg";
+// import life12 from "../img/Photos of life/Alumu.jpg";
+// import life13 from "../img/Photos of life/iris2020.jpg";
+// import life14 from "../img/Photos of life/birth.jpg";
 
 import { BackTop } from "antd";
 import "antd/dist/antd.css";
@@ -79,14 +79,14 @@ const Alumnus = () => {
     
   };
 
-  const settings_slider = {
-    dots: true,
-    infinite: true,
-    speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
+  // const settings_slider = {
+  //   dots: true,
+  //   infinite: true,
+  //   speed: 500,
+  //   slidesToShow: 1,
+  //   slidesToScroll: 1,
 
-  };
+  // };
 
   function Arrow(props) {
     let className = props.type === "next" ? "nextArrow" : "prevArrow";
@@ -103,7 +103,7 @@ const Alumnus = () => {
   return (
     
     <>
-      <div className="top_Al">
+      {/* <div className="top_Al">
         <div className="list_Al">
         <Link id="p1_Al" to="/">
           <img className="logo_Al" src={logo}></img>
@@ -133,9 +133,9 @@ const Alumnus = () => {
             </li>
           </ul>
         </div>
-      </div>
+      </div> */}
 
-      <Slider className="life_Slider" autoplay {...settings_slider} >
+      {/* <Slider className="life_Slider" autoplay {...settings_slider} >
         
         <div>
           <img id="life" src={life14} alt="life1" />
@@ -179,7 +179,7 @@ const Alumnus = () => {
         <div>
           <img id="life" src={life10} alt="life10" />
         </div>
-      </Slider>
+      </Slider> */}
 
       <div>
         <BackTop>

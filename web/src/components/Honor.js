@@ -244,7 +244,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20190713} alt="img20190713" onClick={()=>Zmage.browsing({src:img20190713})}></img> */}
-              <Image src={img20190713} alt="img20190713"/>
+              <Image src={img20190713} alt="img20190713" className="column_Pic"/>
               <div className="detail_hon">
                 <h4>2019-07/13</h4>
                 <h3>
@@ -286,7 +286,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20181123} alt="img20181123" onClick={()=>Zmage.browsing({src:img20181123})}></img> */}
-              <Image src={img20181123} alt="img20181123"/>
+              <Image src={img20181123} alt="img20181123" className="column_Pic"/>
               <div className="detail_hon">
                 <h1>2018-11/23</h1>
                 <h3>
@@ -300,7 +300,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20181123_1} alt="img20181123_1" onClick={()=>Zmage.browsing({src:img20181123_1})}></img> */}
-              <Image src={img20181123_1} alt="img20181123_1" />
+              <Image src={img20181123_1} alt="img20181123_1" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2018-11/23</h1>
                 <h3>
@@ -314,7 +314,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20180628} alt="img20180628" onClick={()=>Zmage.browsing({src:img20180628})}></img> */}
-              <Image src={img20180628} alt="img20180628" />
+              <Image src={img20180628} alt="img20180628" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2018-06/28</h1>
                 <h3>
@@ -342,7 +342,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20170624} alt="img20170624" onClick={()=>Zmage.browsing({src:img20170624})}></img> */}
-              <Image src={img20170624} alt="img20170624" />
+              <Image src={img20170624} alt="img20170624" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2017-06/24</h1>
                 <h3>
@@ -356,7 +356,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20170513} alt="img20170513" onClick={()=>Zmage.browsing({src:img20170513})}></img> */}
-              <Image src={img20170513} alt="img20170513" />
+              <Image src={img20170513} alt="img20170513" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2017-05/13~05/17</h1>
                 <h3>
@@ -370,7 +370,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20170426} alt="img20170426" onClick={()=>Zmage.browsing({src:img20170426})}></img> */}
-              <Image src={img20170426} alt="img20170426" />
+              <Image src={img20170426} alt="img20170426" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2017-04/26</h1>
                 <h3>
@@ -404,7 +404,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img201703} alt="img201703" onClick={()=>Zmage.browsing({src:img201703})}></img> */}
-              <Image src={img201703} alt="img201703"/>
+              <Image src={img201703} alt="img201703" className="column_Pic"/>
               <div className="detail_hon">
                 <h1>2017-03</h1>
                 <h3>
@@ -446,7 +446,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20160426} alt="img20160426" onClick={()=>Zmage.browsing({src:img20160426})}></img> */}
-              <Image src={img20160426} alt="img20160426" />
+              <Image src={img20160426} alt="img20160426"className="column_Pic"  />
               <div className="detail_hon">
                 <h1>2016-04/26</h1>
                 <h3>
@@ -460,7 +460,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20151216} alt="img20151216" onClick={()=>Zmage.browsing({src:img20151216})}></img> */}
-              <Image src={img20151216} alt="img20151216" />
+              <Image src={img20151216} alt="img20151216" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2015-12/16</h1>
                 <h3>
@@ -474,7 +474,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20151120} alt="img20151120" onClick={()=>Zmage.browsing({src:img20151120})}></img> */}
-              <Image src={img20151120} alt="img20151120" />
+              <Image src={img20151120} alt="img20151120" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2015-11/20</h1>
                 <h3>
@@ -488,7 +488,7 @@ const Honer = () => {
           <div className="pic_hon" id="lastpic">
             <div className="all">
               {/* <img src={img20151105} alt="img20151105" onClick={()=>Zmage.browsing({src:img20151105})}></img> */}
-              <Image src={img20151105} alt="img20151105" />
+              <Image src={img20151105} alt="img20151105" className="column_Pic" />
               <div className="detail_hon">
                 <h1>2015-11/5~11/7</h1>
                 <h3>

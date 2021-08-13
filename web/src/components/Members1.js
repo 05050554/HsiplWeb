@@ -76,7 +76,7 @@ function Arrow(props) {
                 <h1>Current Students</h1>
             </div>
             <div className="master2" >
-                <h2>Senior</h2>
+                <h2>Senior Students</h2>
             </div>
             <div className="picborder" id="picborder">
             {/* <span className="arrow1"><i id="slide"  class="fas fa-angle-left" ></i></span> */}
@@ -180,7 +180,7 @@ function Arrow(props) {
 
 
             <div className="master2">
-                <h2>Junior</h2>
+                <h2>Junior Students</h2>
             </div>
             
             <div className="picborder1">

@@ -3,10 +3,82 @@ import "./About_HSIPL.scss";
 import camera from "../img/LabDirector/camera.png";
 import app from "../img/LabDirector/mobile.png";
 import web from "../img/LabDirector/web.png";
+import life1 from "../img/Photos of life/2017-6-30口試聚餐改.jpg";
+import life2 from "../img/Photos of life/2018畢業口試聚餐改.jpg";
+import life3 from "../img/Photos of life/2018實驗室聚餐改.jpg";
+import life4 from "../img/Photos of life/109504改.jpg";
+import life5 from "../img/Photos of life/img5.jpg";
+import life6 from "../img/Photos of life/S__1335453改.jpg";
+import life7 from "../img/Photos of life/畢業照2020_06_03改.jpg";
+import life8 from "../img/Photos of life/畢業照2020_06_03(2)改.jpg";
+import life9 from "../img/Photos of life/S__21143570改.jpg";
+import life10 from "../img/Photos of life/2020.9月聚餐-改.jpg";
+import life11 from "../img/Photos of life/尾牙.jpg";
+import life12 from "../img/Photos of life/Alumu.jpg";
+import life13 from "../img/Photos of life/iris2020.jpg";
+import life14 from "../img/Photos of life/birth.jpg";
+import "antd/dist/antd.css";
+
+import Slider from "react-slick";
 
 export const About_HSIPL = () => {
+  const settings_slider = {
+    dots: true,
+    infinite: true,
+    speed: 500,
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    
+  };
   return (
     <>
+    <div className="all_life">
+      <Slider className="life_Slider" autoplay {...settings_slider} >
+          
+          <div>
+            <img id="life" src={life14} alt="life1" />
+          </div>
+          <div>
+            <img id="life" src={life13} alt="life1" />
+          </div>
+          <div>
+            <img id="life" src={life12} alt="life1" />
+          </div>
+          <div>
+            <img id="life" src={life11} alt="life1" />
+          </div>
+          <div>
+            <img id="life" src={life1} alt="life1" />
+          </div>
+          <div>
+            <img id="life" src={life2} alt="life2" />
+          </div>
+          <div>
+            <img id="life" src={life3} alt="life3" />
+          </div>
+          <div>
+            <img id="life" src={life4} alt="life4" />
+          </div>
+          <div>
+            <img id="life" src={life5} alt="life5" />
+          </div>
+          <div>
+            <img id="life" src={life6} alt="life6" />
+          </div>
+          <div>
+            <img id="life" src={life7} alt="life7" />
+          </div>
+          <div>
+            <img id="life" src={life8} alt="life8" />
+          </div>
+          <div>
+            <img id="life" src={life9} alt="life9" />
+          </div>
+          <div>
+            <img id="life" src={life10} alt="life10" />
+          </div>
+        </Slider>
+      </div>
       <div className="LabDirector" id="LabDirector">
         <div className="Background">
           <span className="title">About HSIPL</span>
