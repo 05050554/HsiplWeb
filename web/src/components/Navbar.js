@@ -32,16 +32,16 @@ const Navbar = () => {
               <a id="p1_HP" href="/#honor">Awards</a>
             </li>
 
-            <li ><a id="p1_HP" href="/#Professor">Professor</a>
+            <li ><a id="p1_HP" href="/#Professor">Lab Director</a>
               <ul  className="secondNav">
-                <li><a href="/#Education">Education</a></li>
-                <li><a href="/#Experience">Experience</a></li>
-                <li><a href="/#Journal">Publication</a></li>
+                <li><a href="/ProfessorDetail#Education">Education</a></li>
+                <li><a href="/ProfessorDetail#Experience">Experience</a></li>
+                <li><a href="/ProfessorDetail#Journal">Publication</a></li>
                 <li><a  href="/ProfessorDetail#Talks">Talks</a></li>
                 <li><a href="/ProfessorDetail#Service">Service</a></li>
                 <li><a href="/ProfessorDetail#Conference">Conference</a></li>
                 <li><a href="/ProfessorDetail#pf_Award">Awards</a></li>
-                <li><a href={'https://scholar.google.com/citations?user=0LxRRawAAAAJ&hl=zh-TW'}>Scholar</a></li>
+                <li><a href={'https://scholar.google.com/citations?user=0LxRRawAAAAJ&hl=zh-TW'}>Google</a></li>
               </ul>
             </li>
             
@@ -55,8 +55,9 @@ const Navbar = () => {
             <li><a id="p1_HP" href="/LearnMore#Research_interests">Research</a>
               <ul className="secondNav">
               <li><a href="/LearnMore#Research_interests">Interests</a></li>
-              <li><a href="/ProfessorDetail#Projects">Projects</a></li>
               <li><a href="/LearnMore#Research_Posters">Posters</a></li>
+              <li><a href="/LearnMore#Projects">Projects</a></li>
+
               </ul>
             </li>
 

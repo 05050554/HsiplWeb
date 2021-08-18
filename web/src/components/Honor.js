@@ -25,6 +25,7 @@ import img20160426 from "../img/Honor/2016-0426.jpg";
 import img20151216 from "../img/Honor/2015-1216.jpg";
 import img20151120 from "../img/Honor/2015-1120.jpg";
 import img20151105 from "../img/Honor/2015-1105.jpg";
+import img2021AiCup from "../img/Honor/2021_AI_CUP.jpg";
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
 import { Image } from 'antd';
@@ -133,6 +134,23 @@ const Honer = () => {
           <div className="pic_hon" id="secondpic">
               <div className="all">
             {/* <img src={img20201103} alt="img20201103"  onClick={()=>Zmage.browsing({src:img20201103})}></img> */}
+            <Image className="column_Pic" src={img2021AiCup} alt="img2021AiCup"/>
+            <div className="detail_hon">
+              <h4>2021​-7/20</h4>
+              <h3>
+              學生歐俊毅 ,張哲維 ,康峻瑋同學參加教育部人工智慧競賽-AI CUP 2021 -榮獲 前標
+                <br /> 
+                題目：<span className="name">醫病訊息決策與對話語料分析競賽春季賽</span>
+                <br />
+
+              </h3>
+            </div>
+            </div>
+          </div>
+
+          <div className="pic_hon" id="secondpic">
+              <div className="all">
+            {/* <img src={img20201103} alt="img20201103"  onClick={()=>Zmage.browsing({src:img20201103})}></img> */}
             <Image src={img20201103} alt="img20201103"/>
             <div className="detail_hon">
               <h4>2020-11/03​</h4>
@@ -150,6 +168,8 @@ const Honer = () => {
             </div>
             </div>
           </div>
+
+
           <div className="pic_hon" id="thirdpic">
             <div className="all">
               {/* <img src={img20191204} alt="img20191204" onClick={()=>Zmage.browsing({src:img20191204})}></img> */}

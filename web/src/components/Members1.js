@@ -24,10 +24,17 @@ const settings = {
     dots: false,
     infinite: false,
     speed: 500,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     responsive: [
-        
+        {
+            breakpoint: 2000,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 1,
+              // initialSlide: 2
+            }
+          },
         {
           breakpoint: 1200,
           settings: {
@@ -73,22 +80,16 @@ function Arrow(props) {
         
         <div className="members" id ="members">
             <div className="Title"id="Senior">
-                <h1>Current Students</h1>
+                <h1>Current Master Students</h1>
             </div>
             <div className="master2" >
                 <h2>Senior Students</h2>
             </div>
             <div className="picborder" id="picborder">
-            {/* <span className="arrow1"><i id="slide"  class="fas fa-angle-left" ></i></span> */}
             
                 <Slider className="masterpic" id="masterpic" {...settings} nextArrow={<Arrow type="next" />}
         prevArrow={<Arrow type="prev" />}>
                     <div className="pic" id="firstpic">
-                        {/* <div className="detail" id="firstdetail">
-                            <h3>徐仕勳</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>M10817039@yuntech.edu.tw</p>
-                        </div> */}
                         <img  className="img" id="firstimg"  src={XUN} alt="XUN"></img>
 
                         <div className="detail2" id="firstdetail2">
@@ -103,11 +104,6 @@ function Arrow(props) {
 
                     <div className="pic" id="secondpic">
 
-                        {/* <div className="detail" >
-                            <h3>邱明豐</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>M10817046@yuntech.edu.tw</p>
-                        </div> */}
 
                         <img src={FENG} alt="FENG"></img>
                         <div className="detail2">
@@ -120,11 +116,6 @@ function Arrow(props) {
                         </div>
                     </div>
                     <div className="pic" id="thirdpic">
-                        {/* <div className="detail" >
-                            <h3>鄭友智</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>M10817038@yuntech.edu.tw</p>
-                        </div> */}
                         <img src={ZHI} alt="ZHI"></img>
                         <div className="detail2">
                         <h4>鄭友智​</h4>
@@ -136,11 +127,6 @@ function Arrow(props) {
                         </div>
                     </div>
                     <div className="pic" id="fourthpic">
-                        {/* <div className="detail">
-                            <h3>鄭才毅</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>M10817024@yuntech.edu.tw</p>
-                        </div> */}
                         <img src={TI} alt="TI"></img>
                         <div className="detail2">
                         <h4>鄭才毅</h4>
@@ -152,11 +138,6 @@ function Arrow(props) {
                         </div>
                     </div>
                     <div className="pic" id="lastpic">
-                        {/* <div className="detail">
-                            <h3>許寓鈞</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>M10817021@yuntech.edu.tw</p>
-                        </div> */}
                         <img src={JUN} alt="JUN"></img>
                         <div className="detail2">
                         <h4>許寓鈞</h4>
@@ -170,12 +151,7 @@ function Arrow(props) {
 
                 </Slider>
                 
-                {/* <span className="arrow1"><i id="slide1"  class="fas fa-angle-right" ></i></span> */}
             </div>
-
-            {/* <button  id="slide" type="button">Slide left</button>    */}
-            {/* <button  id="slide1" type="button">Slide right</button> */}
-
 
 
 
@@ -184,19 +160,12 @@ function Arrow(props) {
             </div>
             
             <div className="picborder1">
-            {/* <span className="arrow"><i id="slide2"  class="fas fa-angle-left "></i></span>     */}
                
                 < Slider className="masterpic1" id="masterpic1" {...settings} nextArrow={<Arrow type="next" />}
         prevArrow={<Arrow type="prev" />}>
                 
                     <div className="pic1" id="firstpic1">
                     
-                    {/* <button id="slide" type="button">Slide right</button> */}
-                        {/* <div id="firstdetail" className="detail3">
-                            <h3>Members</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>abcdefg@gmail.com</p>
-                        </div> */}
                         <img id="firstpicture" src={WEI} alt="WEI"></img>
 
                         <div id="firstdetail2"  className="detail4">
@@ -210,11 +179,7 @@ function Arrow(props) {
                     </div>
 
                     <div className="pic1" id="secondpic1">
-                        {/* <div className="detail3">
-                            <h3>Members</h3><span>研究方向 :  影像處理</span>
-                            <a href="/#"><i class="fas fa-envelope mail1"></i></a>
-                            <p>abcdefg@gmail.com</p>
-                        </div> */}
+
                         <img src={YEE} alt="YEE"></img>
                         <div className="detail4">
                         <h4>柯祉伊</h4>
