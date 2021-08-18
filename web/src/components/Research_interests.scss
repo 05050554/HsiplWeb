@@ -42,6 +42,7 @@
     justify-content: center;
     padding: 2% 0%;
     flex-wrap: wrap;
+    
     .Item {
       padding: 2%;
       display: grid;
@@ -76,6 +77,32 @@
      
     }
   }
+}
+
+
+.Projects{
+  padding-top: 5%;
+  width: 100%;
+  height: 100%;
+  overflow: hidden; 
+  .Title{
+      font-family: Signika, sans-serif;
+      font-size: 3rem;
+      text-align: left;
+      margin-left: 5%;
+  }
+  .List{
+      padding: 1% 5%;
+      Table{
+          th{
+              background-color: rgb(221, 221, 221);
+              word-break: keep-all;
+          }
+          td{
+              word-break: normal;
+          }
+      }
+  } 
 }
 
 @media screen and(max-width:1024px) {

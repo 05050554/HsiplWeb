@@ -54,7 +54,7 @@ const Professor = () => {
         </div>
       </div>
 
-      <div className="Education">
+      {/* <div className="Education">
         <div className="List">
           <h1 className="Title">Education</h1>
           <Divider  id="Experience"/>
@@ -101,7 +101,8 @@ const Professor = () => {
             </List.Item>
           )}
         ></List>
-      </div>
+      </div> */}
+
     </div>
   );
 };

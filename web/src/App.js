@@ -18,7 +18,9 @@ import Alumnus from './components/Alumnus'
 import Research_Posters from './components/Research_Posters'
 import Honor from './components/Honor'
 
-import { Projects, Talks, Service, Conference, Awards } from './components/Professor_Details'
+import { Talks, Service, Conference, Awards } from './components/Professor_Details'
+
+import { Projects } from './components/Research_interests'
 import Professor1 from './components/Professor1';
 import HamburgerDT from './components/HamburgerDT'
 
@@ -42,7 +44,8 @@ function App() {
             <HamburgerLM />
             <Research_interests />
             <Research_Posters />
-            <Equipment></Equipment>
+            <Projects />
+            <Equipment />
             <Footer />
           {/* </ScrollToTop> */}
         </Route>
@@ -52,7 +55,7 @@ function App() {
             <Navbar />
             <HamburgerDT />
             <Professor1 />
-            <Projects />
+            {/* <Projects /> */}
             <Talks />
             <Service />
             <Conference />
