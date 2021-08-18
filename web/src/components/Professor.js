@@ -80,7 +80,7 @@ const Professor = () => {
         </div>
       </div>
 
-      <div className="article">
+      <div className="Journal">
         <List
           header={<h1 className="">Journal articles</h1>}
           itemLayout={"horizontal"}
