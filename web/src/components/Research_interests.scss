@@ -47,28 +47,31 @@
       display: grid;
       justify-content: center;
       justify-items: center;
-      width: 40vh;
+      width: 20vw;
       background-color: rgb(156, 142, 136);
       margin: 1% 1%;
       //border-radius: 5%;
       h1 {
         font-family: "Noto Sans TC", sans-serif;
-        align-self: center;
+        // align-self: baseline;
         font-size: 25px;
       }
 
-      img {
-        width: 100%;
-        align-self: center;
-        height: 23vh;
-      }
+      // img {
+      //   width: 100%;
+      //   align-self: baseline;
+      //   height: 23vh;
+      // }
 
+      // .ant-image{
+      //   vertical-align: top;
+      // }
 
       h3 {
         //justify-self: center;
         align-self: center;
         font-family: "Noto Sans TC", sans-serif;
-        text-align: left;
+        text-align: justify;
         font-size: 1.11rem;
         font-weight: lighter;
         padding: 5px;

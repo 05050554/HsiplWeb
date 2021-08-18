@@ -49,6 +49,7 @@ const Research_interests = () => {
             <h1>智慧農業與智慧製造</h1>
             {/* <img src={light50} alt="light50" onClick={()=>Zmage.browsing({src:light50,backdrop:" hsla(0, 0%, 38%, 0.911)"})} ></img> */}
             <Image src={light50} alt="light50"/>
+            <br/>
             <h3>
                 除演算法的研發外，陳士煜老師也致力推廣高光譜的應用面並與產業界結合，於2018年起與五鈴光學合作以「高光譜影像技術」
                 為工具，結合手機、APP應用程式、演算法與資料庫，進行快篩檢測，同時可依需求調整而應用於
