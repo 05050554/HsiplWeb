@@ -17,7 +17,6 @@ import life11 from "../img/Photos of life/尾牙.jpg";
 import life12 from "../img/Photos of life/Alumu.jpg";
 import life13 from "../img/Photos of life/iris2020.jpg";
 import life14 from "../img/Photos of life/birth.jpg";
-import life15 from "../img/Photos of life/2021.08.17畢業聚餐.jpeg";
 import "antd/dist/antd.css";
 
 import Slider from "react-slick";
@@ -29,16 +28,11 @@ export const About_HSIPL = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    
   };
   return (
     <>
-    <div className="all_life">
-      <Slider className="life_Slider" autoplay {...settings_slider} >
-          
-          <div>
-            <img id="life" src={life15} alt="life1" />
-          </div>
+      <div className="all_life">
+        <Slider className="life_Slider" autoplay {...settings_slider}>
           <div>
             <img id="life" src={life14} alt="life1" />
           </div>
@@ -84,7 +78,7 @@ export const About_HSIPL = () => {
         </Slider>
       </div>
       <div className="LabDirector" id="LabDirector">
-        <div className="Background">
+        {/* <div className="Background">
           <span className="title">About HSIPL</span>
           <div className="Hsipl">
             <div className="Icon">
@@ -118,7 +112,6 @@ export const About_HSIPL = () => {
                 We develop the design and function implementation of mobile
                 application.
               </p>
-              {/* <span>specifically for for image amd classification, and </span> */}
             </div>
           </div>
           <div className="Web">
@@ -134,11 +127,10 @@ export const About_HSIPL = () => {
               <span>specifically for for image amd classification, and </span>
               <p>
                 We develop the design and function implementation of web pages.
-                {/* <span>specifically for for image amd classification, and </span> */}
               </p>
             </div>
           </div>
-        </div>
+        </div> */}
         <span className="title1">About HSIPL</span>
         <div className="Introduction" id="Introduction">
           <div className="content_AH">
