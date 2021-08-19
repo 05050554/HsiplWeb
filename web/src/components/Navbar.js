@@ -4,7 +4,8 @@ import logo from "../img/LOGO/LOGO_1.png";
 import { Link } from "react-router-dom";
 const Navbar = () => {
     return (
-        <div className="top_HP" id="HomePage">
+    <div className="contain">
+      <div className="top_HP" id="HomePage">
         <div className="list_HP">
           <a href="/">
             <img className="logo_HP" src={logo}></img>
@@ -74,6 +75,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
+    </div>
     )
 }
 
