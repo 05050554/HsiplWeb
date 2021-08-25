@@ -132,17 +132,15 @@ const Honer = () => {
           prevArrow={<Arrow type="prev" />}
         >
           <div className="pic_hon" id="secondpic">
-              <div className="all">
-            {/* <img src={img20201103} alt="img20201103"  onClick={()=>Zmage.browsing({src:img20201103})}></img> */}
+            <div className="all">
+            <h4>2021​-7/20</h4>
             <Image className="column_Pic" src={img2021AiCup} alt="img2021AiCup"/>
             <div className="detail_hon">
-              <h4>2021​-7/20</h4>
               <h3>
               學生歐俊毅 ,張哲維 ,康峻瑋同學參加教育部人工智慧競賽-AI CUP 2021 -榮獲 前標
                 <br /> 
                 題目：<span className="name">醫病訊息決策與對話語料分析競賽春季賽</span>
                 <br />
-
               </h3>
             </div>
             </div>
@@ -150,10 +148,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="secondpic">
               <div className="all">
-            {/* <img src={img20201103} alt="img20201103"  onClick={()=>Zmage.browsing({src:img20201103})}></img> */}
+              <h4>2020-11/03​</h4>
             <Image src={img20201103} alt="img20201103"/>
             <div className="detail_hon">
-              <h4>2020-11/03​</h4>
               <h3>
                 本實驗室鄭才毅、鄭友智、鄒學緯、王美雲
                 參與2020雲創盃智慧生活創意應用競賽 決賽入選
@@ -172,10 +169,10 @@ const Honer = () => {
 
           <div className="pic_hon" id="thirdpic">
             <div className="all">
-              {/* <img src={img20191204} alt="img20191204" onClick={()=>Zmage.browsing({src:img20191204})}></img> */}
+            <h4>2019-12/04​</h4>
               <Image src={img20191204} alt="img20191204"/>
               <div className="detail_hon">
-                <h4>2019-12/04​</h4>
+                
                 <h3>
                   本實驗室專題生張晴凱、朱育承榮獲2019年專題競賽暨成果發表觀摩會
                   <span className="red">第三名</span>
@@ -187,15 +184,9 @@ const Honer = () => {
           </div>
           <div className="pic_hon" id="fourthpic">
             <div className="all">
-              {/* <img
-                className="big_pic"
-                src={img20191108}
-                alt="img20191108"
-                onClick={()=>Zmage.browsing({src:img20191108})}
-              ></img> */}
+            <h4>2019-11/08</h4>
                <Image  className="big_pic" src={img20191108} alt="img20191108"/>
-              <div className="detail_hon">
-                <h4>2019-11/08</h4>
+              <div className="detail_hon"> 
                 <h3>
                   本實驗室獲政大大學報採訪與報導​，華視新聞台轉發<br></br>主題：
                   <span className="name">
@@ -223,15 +214,10 @@ const Honer = () => {
           </div>
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img
-                className="big_pic"
-                src={img20191031}
-                alt="img20191031"
-                onClick={()=>Zmage.browsing({src:img20191031})}
-              ></img> */}
+            <h4>2019-10/31</h4>
               <Image  className="big_pic" src={img20191031} alt="img20191031"/>
               <div className="detail_hon">
-                <h4>2019-10/31</h4>
+                
                 <h3>
                   本實驗室歐承學同學、許寓鈞同學榮獲<br></br>
                   2019雲科智慧生活創新應用競賽<span className="red">佳作</span>
@@ -243,15 +229,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img
-                className="big_pic"
-                src={img20191031_1}
-                alt=" img20191031_1"
-                onClick={()=>Zmage.browsing({src:img20191031_1})}
-              ></img> */}
+            <h4>2019-10/31</h4>
               <Image  className="big_pic" src={img20191031_1} alt=" img20191031_1"/>
               <div className="detail_hon">
-                <h4>2019-10/31</h4>
                 <h3>
                   本實驗室王津澤同學、邱明豐同學、鄭友智同學榮獲2019雲科智慧生活創新應用競賽
                   <span className="red">最佳商品化獎</span>
@@ -263,10 +243,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20190713} alt="img20190713" onClick={()=>Zmage.browsing({src:img20190713})}></img> */}
+            <h4>2019-07/13</h4>
               <Image src={img20190713} alt="img20190713" className="column_Pic"/>
               <div className="detail_hon">
-                <h4>2019-07/13</h4>
                 <h3>
                   本實驗室陳士煜教師與實驗室研究生榮獲 2019 IEEE ICKII{" "}
                   <span className="red">BEST CONFERENCE PAPER AWARD</span>
@@ -277,10 +256,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20181212} alt="img20181212"  onClick={()=>Zmage.browsing({src:img20181212})}></img> */}
+            <h4>2018-12/12</h4>
               <Image src={img20181212} alt="img20181212"/>
               <div className="detail_hon">
-                <h4>2018-12/12</h4>
                 <h3>
                   ​本實驗室林宣昂同學、李政瑩同學榮獲2018年實務專題競賽暨成果發表觀摩會
                   <span className="red">最佳人氣獎!​​</span>
@@ -291,10 +269,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20181212_1} alt="img20181212_1" onClick={()=>Zmage.browsing({src:img20181212_1})}></img> */}
+            <h4>2018-12/12</h4>
               <Image src={img20181212_1} alt="img20181212_1"/>
               <div className="detail_hon">
-                <h1>2018-12/12</h1>
                 <h3>
                   本實驗室林宣昂同學、李政瑩同學榮獲2018年實務專題競賽暨成果發表觀摩會
                   <span className="red">佳作!</span>
@@ -305,10 +282,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20181123} alt="img20181123" onClick={()=>Zmage.browsing({src:img20181123})}></img> */}
+            <h4>2018-11/23</h4>
               <Image src={img20181123} alt="img20181123" className="column_Pic"/>
               <div className="detail_hon">
-                <h1>2018-11/23</h1>
                 <h3>
                   本實驗室陳士煜教師榮獲雲科智慧城市創意應用競賽
                   <span className="red">佳作!</span>
@@ -319,10 +295,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20181123_1} alt="img20181123_1" onClick={()=>Zmage.browsing({src:img20181123_1})}></img> */}
+            <h4>2018-11/23</h4>
               <Image src={img20181123_1} alt="img20181123_1" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2018-11/23</h1>
                 <h3>
                   ​本實驗室陳士煜教師榮獲雲科智慧城市創意應用競賽
                   <span className="red">銅獎!​​</span>
@@ -333,10 +308,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20180628} alt="img20180628" onClick={()=>Zmage.browsing({src:img20180628})}></img> */}
+            <h4>2018-06/28</h4>
               <Image src={img20180628} alt="img20180628" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2018-06/28</h1>
                 <h3>
                   本實驗室陳彥中同學、練周典同學榮獲2018 NCWIA{" "}
                   <span className="red">最佳論文獎</span>
@@ -347,10 +321,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img2017} alt="img2017" onClick={()=>Zmage.browsing({src:img2017})}></img> */}
+            <h4>2017</h4>
               <Image src={img2017} alt="img2017" />
               <div className="detail_hon">
-                <h1>2017</h1>
                 <h3>
                   本實驗室莊尚儒同學榮獲DIGI+Talent 跨域數位人才加速躍升計畫 -
                   DIGI+ 數位新星大賞 　<span className="red">一星大賞</span>
@@ -361,10 +334,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20170624} alt="img20170624" onClick={()=>Zmage.browsing({src:img20170624})}></img> */}
+            <h4>2017-06/24</h4>
               <Image src={img20170624} alt="img20170624" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2017-06/24</h1>
                 <h3>
                   ​本實驗室陳士煜教師指導簡澤宇榮獲2017數位生活科技演討會
                   <span className="red">優秀論文獎​​</span>
@@ -375,10 +347,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20170513} alt="img20170513" onClick={()=>Zmage.browsing({src:img20170513})}></img> */}
+            <h4>2017-05/13~05/17</h4>
               <Image src={img20170513} alt="img20170513" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2017-05/13~05/17</h1>
                 <h3>
                   陳士煜教師榮獲2017 IEEE ICASI{" "}
                   <span className="red">Best Conference Paper Award</span>
@@ -389,10 +360,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20170426} alt="img20170426" onClick={()=>Zmage.browsing({src:img20170426})}></img> */}
+            <h4>2017-04/26</h4>
               <Image src={img20170426} alt="img20170426" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2017-04/26</h1>
                 <h3>
                   本實驗室陳士煜教師指導黃柏允、黃捷楷、蔡傑翰、蕭勝榮、戴暉又同學獲得中區技專校院校際聯盟2016年研發成果網路聯合發表會
                   　<span className="red">優等</span>
@@ -403,16 +373,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img
-                className="big_pic"
-                src={img20170329}
-                alt="img20170329"
-                id="img20170329"
-                onClick={()=>Zmage.browsing({src:img20170329})}
-              ></img> */}
+            <h4>2017-03/29</h4>
               <Image  className="big_pic" src={img20170329} alt="img20170329" id="img20170329"/>
               <div className="detail_hon">
-                <h1>2017-03/29</h1>
                 <h3>
                   本實驗室莊尚儒同學榮獲雲林縣106年度
                   <span className="red">大專優秀青年</span>
@@ -423,10 +386,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img201703} alt="img201703" onClick={()=>Zmage.browsing({src:img201703})}></img> */}
+            <h4>2017-03</h4>
               <Image src={img201703} alt="img201703" className="column_Pic"/>
               <div className="detail_hon">
-                <h1>2017-03</h1>
                 <h3>
                   ​本實驗室莊尚儒同學榮獲雲林縣106年度
                   <span className="red">大專優秀青年</span>
@@ -437,10 +399,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20161215} alt="img20161215"  onClick={()=>Zmage.browsing({src:img20161215})}></img> */}
+            <h4>2016-12/15~12/17</h4>
               <Image src={img20161215} alt="img20161215"/>
               <div className="detail_hon">
-                <h1>2016-12/15~12/17</h1>
                 <h3>
                   本實驗室陳士煜教師共同指導榮獲2016 ICS IEEE{" "}
                   <span className="red">Outstanding Paper Award</span>
@@ -451,10 +412,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20161214} alt="img20161214" onClick={()=>Zmage.browsing({src:img20161214})}></img> */}
+            <h4>2016-12/14</h4>
               <Image src={img20161214} alt="img20161214" />
               <div className="detail_hon">
-                <h1>2016-12/14</h1>
                 <h3>
                   本實驗室陳士煜教師指導戴暉又、黃柏允同學獲得105學年度實務專題競賽
                   <span className="red">佳作</span>
@@ -465,10 +425,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20160426} alt="img20160426" onClick={()=>Zmage.browsing({src:img20160426})}></img> */}
+            <h4>2016-04/26</h4>
               <Image src={img20160426} alt="img20160426"className="column_Pic"  />
               <div className="detail_hon">
-                <h1>2016-04/26</h1>
                 <h3>
                   ​本實驗室陳士煜教師指導莊尚儒、郭家禎同學獲得中區技專校院校際聯盟2015年研發成果網路聯合發表會
                   <span className="red">佳作</span>
@@ -479,10 +438,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20151216} alt="img20151216" onClick={()=>Zmage.browsing({src:img20151216})}></img> */}
+            <h4>2015-12/16</h4>
               <Image src={img20151216} alt="img20151216" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2015-12/16</h1>
                 <h3>
                   本實驗室陳士煜教師指導莊尚儒、郭家禎同學獲得104學年度實務專題競賽
                   <span className="red">佳作</span>
@@ -493,10 +451,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20151120} alt="img20151120" onClick={()=>Zmage.browsing({src:img20151120})}></img> */}
+            <h4>2015-11/20</h4>
               <Image src={img20151120} alt="img20151120" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2015-11/20</h1>
                 <h3>
                   本實驗室陳士煜教師指導許景翔、廖聖傑同學獲得2015創客競賽
                   <span className="red">優選</span>
@@ -507,10 +464,9 @@ const Honer = () => {
 
           <div className="pic_hon" id="lastpic">
             <div className="all">
-              {/* <img src={img20151105} alt="img20151105" onClick={()=>Zmage.browsing({src:img20151105})}></img> */}
+            <h4>2015-11/5~11/7</h4>
               <Image src={img20151105} alt="img20151105" className="column_Pic" />
               <div className="detail_hon">
-                <h1>2015-11/5~11/7</h1>
                 <h3>
                   本實驗室林力瀚同學參加韓國舉辦KAGIS研討會論文 A Modified
                   Watershed Algorithm for LiDAR Image Segmentation得到
