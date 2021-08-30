@@ -66,7 +66,7 @@ const Navbar = () => {
             <li>
               <a id="p1_HP" href="/LearnMore#Equipment">Equipment</a>
                 <ul className="secondNav">
-                <li><a href="/LearnMore#Pushbloom">Pushbloom</a></li>
+                <li><a href="/LearnMore#Pushbloom">Pushbroom</a></li>
                 <li><a href="/LearnMore#SnapShot">SnapShot</a></li>
                 <li><a href="/LearnMore#Protable">Protable</a></li>
                   

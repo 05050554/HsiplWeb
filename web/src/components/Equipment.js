@@ -36,9 +36,12 @@ const Equipment = () => {
             </div>
             <div className="Item">
                 <div className="card">
-                    <div className="Icon">
+                    <div className="Icon"> 
+                        <a href="/LearnMore#FX10" >
                         <img src={FX10} alt="FX10"></img>
+                    
                         <h5>FX10</h5>
+                        </a>
                     </div>
                     <div className="Content">
                         {/* <p>Free wavelength selection from 220 bands 
@@ -48,8 +51,10 @@ const Equipment = () => {
                 </div>
                 <div className="card">
                     <div className="Icon">
+                        <a href="/LearnMore#FX17" >
                         <img src={FX17} alt="FX17"></img>
                         <h5>FX17</h5>
+                        </a>
                     </div>
                     <div className="Content">
                         {/* <p>Free wavelength selection from 224 bands 
@@ -59,8 +64,10 @@ const Equipment = () => {
                 </div>
                 <div className="card"  >
                     <div className="Icon">
+                        <a href="/LearnMore#SnapScan" >
                         <img src={SnapScan} alt="SnapScan" />
                         <h5>SnapScan</h5>
+                        </a>
                     </div>
                     <div className="Content">
                         {/* <p>Go to sky Go to sky Go to sky Go to sky Go to sky Go to sky Go to sky Go to sky </p> */}
@@ -68,8 +75,10 @@ const Equipment = () => {
                 </div>
                 <div className="card" >
                     <div className="Icon">
+                        <a href="/LearnMore#SnapShot" >
                         <img src={SnapShot} alt="SnapShot"></img>
                         <h5>SnapShot</h5>
+                        </a>
                     </div>
                     <div className="Content">
                         {/* <p>Portable Device Portable Device Portable Device Portable Device  </p> */}
@@ -77,8 +86,10 @@ const Equipment = () => {
                 </div>
                 <div className="card" >
                     <div className="Icon">
+                        <a href="/LearnMore#NIR-G1" >
                         <img src={NIR} alt="NIR"></img>
                         <h5>NIR-G1</h5>
+                        </a>
                     </div>
                     <div className="Content">
                         {/* <p>Portable Device Portable Device Portable Device Portable Device  </p> */}
@@ -86,8 +97,10 @@ const Equipment = () => {
                 </div>
                 <div className="card" >
                     <div className="Icon">
+                        <a href="/LearnMore#HP280_1" >
                         <img src={HP280} alt="HP280"></img>
                         <h5>HP280</h5>
+                        </a>
                     </div>
                     <div className="Content">
                         {/* <p>Portable Device Portable Device Portable Device Portable Device  </p> */}
@@ -99,7 +112,7 @@ const Equipment = () => {
             <div className="camera" id="Pushbloom">
                 <h2>Pushbloom</h2>
 
-                <h3>Hyperspectral Camera — SPECIM FX10</h3>
+                <h3 id="FX10">Hyperspectral Camera — SPECIM FX10</h3>
                 <Container className="container">
                     {/* <img src={FX10_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX10_1})}></img> */}
                     <Image src={FX10_1} alt="FX10_1"/>
@@ -107,7 +120,7 @@ const Equipment = () => {
                     <Image src={FX10_2} alt="FX10_2"/>
                 </Container>
 
-                <h3>Hyperspectral Camera — SPECIM FX17</h3>
+                <h3 id="FX17">Hyperspectral Camera — SPECIM FX17</h3>
                 <Container className="container">
                     {/* <img src={FX17_1} alt="FX10_1" onClick={()=>Zmage.browsing({src:FX17_1})}></img> */}
                     <Image src={FX17_1} alt="FX10_1"/>
@@ -115,7 +128,7 @@ const Equipment = () => {
                     <Image src={FX17_2} alt="FX17_2"/>
                 </Container>
 
-                <h3>Hyperspectral Camera — imec SnapScan</h3>
+                <h3 id="SnapScan">Hyperspectral Camera — imec SnapScan</h3>
                 <Container className="container">
                     {/* <img src={SnapScan_1} alt="SnapScan_1" onClick={()=>Zmage.browsing({src:SnapScan_1})}></img> */}
                     <Image src={SnapScan_1} alt="SnapScan_1"/>
@@ -125,7 +138,7 @@ const Equipment = () => {
 
                 <h2 className="SnapShot" id="SnapShot">SnapShot</h2>
 
-                <h3>Hyperspectral Camera — imec SnapShot</h3>
+                <h3 id="SnapShot">Hyperspectral Camera — imec SnapShot</h3>
                 <Container className="container">
                     {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
                     <Image src={SnapShot_1} alt="SnapShot_1"/>
@@ -135,7 +148,7 @@ const Equipment = () => {
 
                 <h2 className="Protable" id="Protable">Protable</h2>
 
-                <h3>Near infrared spectrometer — NIRez-G1</h3>
+                <h3 id="NIR-G1">Near infrared spectrometer — NIRez-G1</h3>
                 <Container className="container">
                     {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
                     <Image src={NIR_G1_1} alt="NIR_G1_1"/>
@@ -143,7 +156,7 @@ const Equipment = () => {
                     <Image src={NIR_G1_2} alt="NIR_G1_2"/>
                 </Container>
 
-                <h3>Handheld snapshot hyperspectral camera — HP-280</h3>
+                <h3 id="HP280_1">Handheld snapshot hyperspectral camera — HP-280</h3>
                 <Container className="container">
                     {/* <img src={SnapShot_1} alt="SnapShot_1" onClick={()=>Zmage.browsing({src:SnapShot_1})}></img> */}
                     <Image src={HP280_1} alt="HP280_1"/>
