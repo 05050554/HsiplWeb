@@ -56,10 +56,10 @@ function App() {
             <HamburgerDT />
             <Professor1 />
             {/* <Projects /> */}
-            <Talks />
-            <Service />
+            {/* <Talks /> */}
+            {/* <Service />
             <Conference />
-            <Awards />
+            <Awards /> */}
             <Footer />
           </ScrollToTop>
         </Route>

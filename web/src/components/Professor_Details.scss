@@ -26,19 +26,28 @@
 // }
 
 .Talks{
-    padding-top: 5%;
+    // padding-top: 5%;
+    // width: 100%;
+    // height: 100%;
+    // overflow: hidden; 
+    // display: grid;
     width: 100%;
     height: 100%;
-    overflow: hidden; 
-    display: grid;
-    .Title{
-        font-family: Signika, sans-serif;
-        font-size: 3rem;
-        text-align: left;
-        margin-left: 5%;
-    }
-    .List{
-        padding: 1% 5%;
+    overflow: hidden;
+    .List {
+      margin: 1% 5%;
+      // background-color: white;
+      padding: 1% 0% 3% 0%;
+      .ant-divider {
+        border-bottom: solid 1px gray;
+      }
+      .Title {
+        // font-family: Signika, sans-serif;
+        // font-size: 3rem;
+        font-size: 2rem;
+        font-weight: bold;
+        margin-bottom: -1%;
+      }
         table {
             th{
                 background-color: rgb(221, 221, 221);

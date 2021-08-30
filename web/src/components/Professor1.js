@@ -5,9 +5,10 @@ import logo from "../img/LOGO/LOGO_1.png";
 import Mail_img from "../img/Professor/Mail_img.png";
 import Call_img from "../img/Professor/Call_img.png";
 import { BackTop } from "antd";
-// import 'antd/dist/antd.css';
+
 import { List, Table, Divider } from "antd";
 import { Link } from "react-router-dom";
+import { Talks, Service, Conference, Awards } from "./Professor_Details";
 
 
 const Professor1 = () => {
@@ -60,10 +61,10 @@ const Professor1 = () => {
           </div>
     </div>
 
-        <div className="Education" id="Education">
+        <div className="part" id="Education">
           <div className="List">
             <h1 className="Title">Education</h1>
-            <Divider id="Experience" />
+            <Divider  />
             <Table
               dataSource={Education_data}
               bordered
@@ -73,10 +74,10 @@ const Professor1 = () => {
           </div>
         </div>
 
-        <div className="Experience">
+        <div id="Experience" className="part">
           <div className="List">
             <h1 className="Title">Research Experience</h1>
-            <Divider id="Journal" />
+            <Divider  />
             <Table
               dataSource={Experience_data}
               bordered
@@ -86,29 +87,36 @@ const Professor1 = () => {
           </div>
         </div>
 
-        <div className="Journal">
-          <List
-            header={<h1 className="">Journal articles</h1>}
-            itemLayout={"horizontal"}
-            bordered={true}
-            pagination={{ pageSize: 6 }}
-            dataSource={data}
-            renderItem={(item) => (
-              <List.Item>
-                <span>
-                  <span>{item.content1}</span>
-                  <span className="blod">{item.blod}</span>
-                  <span>{item.content2}</span>
-                  <a href={item.link} target="_blank" rel="noopener noreferrer">
-                    {item.title}
-                  </a>
-                  <span>{item.content3}</span>
-                </span>
-              </List.Item>
-            )}
-          ></List>
+        <div id="Journal" className="part">
+          <div className="List">
+            <h1 className="Title">Journal Articles</h1>
+            <Divider  />
+            <List className="page_list"
+              // header={<h1 className="">Journal articles</h1>}
+              itemLayout={"horizontal"}
+              bordered={true}
+              pagination={{ pageSize: 6 }}
+              dataSource={data}
+              renderItem={(item) => (
+                <List.Item>
+                  <span>
+                    <span>{item.content1}</span>
+                    <span className="blod">{item.blod}</span>
+                    <span>{item.content2}</span>
+                    <a href={item.link} target="_blank" rel="noopener noreferrer">
+                      {item.title}
+                    </a>
+                    <span>{item.content3}</span>
+                  </span>
+                </List.Item>
+              )}
+            ></List>
+          </div>
         </div>
-
+        <Talks />
+        <Service />
+        <Conference />
+        <Awards />
       </div>
       <div>
         <BackTop>
@@ -117,7 +125,9 @@ const Professor1 = () => {
           </i>
         </BackTop>
       </div>
-    </>
+      
+   </>
+    
   );
 };
 
