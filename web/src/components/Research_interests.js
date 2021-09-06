@@ -18,6 +18,7 @@ import 'antd/dist/antd.css';
 import { Image } from 'antd';
 
 import roadmp4 from "../img/Research interests/road.mp4";
+import coffee_machine from "../img/Research interests/coffee_machine.mp4";
 
 import "antd/dist/antd.css";
 
@@ -72,7 +73,7 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>道路施工檢測系統</h1>
-            <video muted autoPlay controls width="90%">
+            <video muted controls width="90%">
             <source
               src={roadmp4}
               type="video/mp4"
@@ -107,7 +108,14 @@ const Research_interests = () => {
           <div className="Item">
             <h1>咖啡瑕疵豆檢測</h1>
             {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
-            <Image src={coffee} alt="coffee" />
+            {/* <Image src={coffee} alt="coffee" /> */}
+            <video muted controls width="35%">
+            <source
+              src={coffee_machine}
+              type="video/mp4"
+
+            />
+          </video>
             <h3>
               實際品質：前三排品質良好，後三排品質不良
               預測品質：綠色為好豆選中，紅色為好豆沒選中，藍色為壞豆選中，黃色為壞豆沒選中

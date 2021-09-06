@@ -3,11 +3,25 @@ import "./Hamburger.scss";
 import logo from "../img/LOGO/LOGO_1.png";
 import {Link} from "react-router-dom";
 
+import Drawer from '@material-ui/core/Drawer';
+import IconButton from '@material-ui/core/IconButton';
+import Toolbar from '@material-ui/core/Toolbar';
 
 const Hamburger = () => {
   const [open, setOpen] = useState(false);
+  //const [open, setOpen] = useState(false);
+
+  const handleDrawerOpen = () =>{
+    setOpen(true);
+  };
+
+  const handleDrawerClose = () =>{
+    setOpen(false);
+  };
 
   return (
+    
+    
     <div className="contain_Ham">
       <nav className="navbar_HP">
         
@@ -38,7 +52,10 @@ const Hamburger = () => {
         </div>
       </nav>
     </div>
+  // <Toolbar>
+  //   <IconButton className="contain_Ham" onClick={handleDrawerOpen}>HSIPL....</IconButton>
+  // </Toolbar>
   );
 };
-
+  
 export default Hamburger;

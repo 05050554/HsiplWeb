@@ -134,7 +134,7 @@ export const About_HSIPL = () => {
         <span className="title1">About HSIPL</span>
         <div className="Introduction" id="Introduction">
           <div className="content_AH">
-            <video muted autoPlay controls>
+            <video muted controls>
               <source
                 src={
                   "https://video.wixstatic.com/video/096150_1449a5a33d164b1a9b2a81f95b734c82/1080p/mp4/file.mp4"

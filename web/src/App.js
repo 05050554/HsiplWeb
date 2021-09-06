@@ -42,7 +42,6 @@ function App() {
           {/* <ScrollToTop> */}
             <Navbar />
             <HamburgerLM />
-            <Research_interests />
             <Research_Posters />
             <Projects />
             <Equipment />
@@ -75,6 +74,7 @@ function App() {
             <News />
             <Honor />
             <Professor />
+            <Research_interests />
             <Members />
             <Alumnus />
             <Footer />
