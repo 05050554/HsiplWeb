@@ -182,6 +182,17 @@ const Education_columns = [
   
   const data = [
     {
+      blod: "Shih-Yu Chen;",
+      content1: "",
+      content2: " Y. -C. Cheng, W. -L. Yang and M. -Y. Wang, ",
+  
+      link: "https://ieeexplore.ieee.org/document/9536578",
+      title:
+        "Surface Defect Detection of Wet-Blue Leather Using Hyperspectral Imaging",
+      content3:
+        ", in IEEE Access, vol. 9, pp. 127685-127702, 2021, doi: 10.1109/ACCESS.2021.3112133. ",
+    },
+    {
       blod: "Chen, Shih-Yu;",
       content1: "",
       content2: " Lin, Chinsu; Li, Guan-Jie; Hsu, Yu-Chun; Liu, Keng-Hao. 2021.",
