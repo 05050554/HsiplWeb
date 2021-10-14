@@ -1,20 +1,6 @@
 import React from "react";
 import "./Alumnus.scss";
-// import { Link } from "react-router-dom";
-// import life1 from "../img/Photos of life/2017-6-30口試聚餐改.jpg";
-// import life2 from "../img/Photos of life/2018畢業口試聚餐改.jpg";
-// import life3 from "../img/Photos of life/2018實驗室聚餐改.jpg";
-// import life4 from "../img/Photos of life/109504改.jpg";
-// import life5 from "../img/Photos of life/img5.jpg";
-// import life6 from "../img/Photos of life/S__1335453改.jpg";
-// import life7 from "../img/Photos of life/畢業照2020_06_03改.jpg";
-// import life8 from "../img/Photos of life/畢業照2020_06_03(2)改.jpg";
-// import life9 from "../img/Photos of life/S__21143570改.jpg";
-// import life10 from "../img/Photos of life/2020.9月聚餐-改.jpg";
-// import life11 from "../img/Photos of life/尾牙.jpg";
-// import life12 from "../img/Photos of life/Alumu.jpg";
-// import life13 from "../img/Photos of life/iris2020.jpg";
-// import life14 from "../img/Photos of life/birth.jpg";
+
 
 import { BackTop } from "antd";
 import "antd/dist/antd.css";
@@ -34,6 +20,12 @@ import CHENG from "../img/Alumnus/B10117012.jpg"
 import JIE from "../img/Alumnus/28170361_1565896336826751_50997770_o_edited.jpg"
 import OU from "../img/Alumnus/40325558_1807635766017799_4000352030055989248_n.jpg"
 import LONG from "../img/Alumnus/5351545-2.JPG.jpg"
+import JUN from "../img/members/134316.jpg"
+import FENG from "../img/members/S__7741515.jpg"
+import XUN from "../img/members/2591aw-1.jpg"
+import ZHI from "../img/members/14122121.jpg"
+import TI from "../img/members/S__7741513改.jpg"
+
 
 import { Descriptions } from 'antd';
 
@@ -368,6 +360,108 @@ const Alumnus = () => {
                     </div> 
                     </div>
                   </div>
+
+
+                  <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
+                    <img src={JUN} alt="JUN"></img>
+                    <div className="detail2_Al">
+                    <h4>許寓鈞</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">​高光譜影像在智慧農業的應用-以雞蛋及火鶴花與牛肉為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10817021@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+                  <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
+                    <img src={TI} alt="TI"></img>
+                    <div className="detail2_Al">
+                    <h4>鄭才藝</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">​高光譜影像花生瑕疵檢測技術開發</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10817024@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+
+                  <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
+                    <img src={ZHI} alt="ZHI"></img>
+                    <div className="detail2_Al">
+                    <h4>鄭友智</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">​基於高光譜技術對工業製品進行瑕疵檢測-以皮革為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10817038@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+
+                  <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
+                    <img src={XUN} alt="XUN"></img>
+                    <div className="detail2_Al">
+                    <h4>徐仕勳</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">​智慧蛋品質檢測技術</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10817039@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+
+                  <div className="pic_Al" id="fourthpic_Al">
+                  <div className="card_bk">
+                    <img src={FENG} alt="FENG"></img>
+                    <div className="detail2_Al">
+                    <h4>邱明豐</h4>
+                    <div className="Al_content">
+                        <Descriptions column={1}>
+                        <Descriptions.Item label="研究方向 ">高光譜影像處理</Descriptions.Item>
+                        <Descriptions.Item label="論文題目​ ">​即時快照式高光譜影像瑕疵檢測系統-以咖啡豆為例</Descriptions.Item>
+                        </Descriptions>
+                        </div>
+                        <div className="Email_Al">
+                          <a href="/#"><i class="fas fa-envelope mail"></i></a>
+                          <span>M10817046@yuntech.edu.tw</span>
+                        </div>
+                    </div> 
+                    </div>
+                  </div>
+
+
+                  
 
                 </Slider>
               
