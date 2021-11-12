@@ -26,6 +26,8 @@ import img20151216 from "../img/Honor/2015-1216.jpg";
 import img20151120 from "../img/Honor/2015-1120.jpg";
 import img20151105 from "../img/Honor/2015-1105.jpg";
 import img2021AiCup from "../img/Honor/2021_AI_CUP.jpg";
+import img_IEEE_2021OCT from "../img/Honor/2021OCTIEEEBestConferencePaper.jpg";
+import img_HSLCA from "../img/Honor/HyperSLCA.jpg";
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
 import { Image } from 'antd';
@@ -131,6 +133,34 @@ const Honer = () => {
           nextArrow={<Arrow type="next" />}
           prevArrow={<Arrow type="prev" />}
         >
+          <div className="pic_hon" id="secondpic">
+            <div className="all">
+            <h4>2021​-11/10</h4>
+            <Image className="column_Pic" src={img_HSLCA} alt="img20211110HSLCA"/>
+            <div className="detail_hon">
+              <h3>
+              本實驗室陳士煜教師擔任座談會 <span className = "red"> 高光譜影像辨識技術之產品分級與瑕疵篩選應用 </span> 之應用講師
+                <br /> 
+                <br />
+              </h3>
+            </div>
+            </div>
+          </div>
+
+          <div className="pic_hon" id="secondpic">
+            <div className="all">
+            <h4>2021​-7/20</h4>
+            <Image className="column_Pic" src={img_IEEE_2021OCT} alt="imgIEEEECICEB"/>
+            <div className="detail_hon">
+              <h3>
+              本實驗室陳士煜教師與實驗室研究生榮獲 <span className = "red"> 2021 IEEE ECICE Best Conference Paper Award</span>
+                <br /> 
+                <br />
+              </h3>
+            </div>
+            </div>
+          </div>
+
           <div className="pic_hon" id="secondpic">
             <div className="all">
             <h4>2021​-7/20</h4>

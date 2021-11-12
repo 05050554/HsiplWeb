@@ -17,6 +17,9 @@ import life11 from "../img/Photos of life/尾牙.jpg";
 import life12 from "../img/Photos of life/Alumu.jpg";
 import life13 from "../img/Photos of life/iris2020.jpg";
 import life14 from "../img/Photos of life/birth.jpg";
+import life15 from "../img/Photos of life/2021聚餐2.jpg";
+import life16 from "../img/Photos of life/2021聚餐1.jpg";
+
 import "antd/dist/antd.css";
 
 import Slider from "react-slick";
@@ -33,48 +36,71 @@ export const About_HSIPL = () => {
     <>
       <div className="all_life">
         <Slider className="life_Slider" autoplay {...settings_slider}>
+
+          <div>
+            <img id="life" src={life15} alt="life" />
+          </div>
+
+          <div>
+            <img id="life" src={life16} alt="life" />
+          </div>
+
           <div>
             <img id="life" src={life14} alt="life1" />
           </div>
+
           <div>
             <img id="life" src={life13} alt="life1" />
           </div>
+
           <div>
             <img id="life" src={life12} alt="life1" />
           </div>
+          
           <div>
             <img id="life" src={life11} alt="life1" />
           </div>
+          
           <div>
             <img id="life" src={life1} alt="life1" />
           </div>
+          
           <div>
             <img id="life" src={life2} alt="life2" />
           </div>
+          
           <div>
             <img id="life" src={life3} alt="life3" />
           </div>
+          
           <div>
             <img id="life" src={life4} alt="life4" />
           </div>
+          
           <div>
             <img id="life" src={life5} alt="life5" />
           </div>
+          
           <div>
             <img id="life" src={life6} alt="life6" />
           </div>
+          
           <div>
             <img id="life" src={life7} alt="life7" />
           </div>
+          
           <div>
             <img id="life" src={life8} alt="life8" />
           </div>
+          
           <div>
             <img id="life" src={life9} alt="life9" />
           </div>
+          
           <div>
             <img id="life" src={life10} alt="life10" />
           </div>
+        
         </Slider>
       </div>
       <div className="LabDirector" id="LabDirector">
