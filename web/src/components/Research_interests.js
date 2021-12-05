@@ -18,7 +18,9 @@ import 'antd/dist/antd.css';
 import { Image } from 'antd';
 
 import roadmp4 from "../img/Research interests/road.mp4";
-import coffee_machine from "../img/Research interests/coffee_machine.mp4";
+
+//import coffee_machine from "../img/Research interests/coffee_machine.mp4";
+import coffee_machine from "../img/Research interests/new_CoffeeBaen_machine.mp4";
 
 import "antd/dist/antd.css";
 
@@ -109,7 +111,7 @@ const Research_interests = () => {
             <h1>咖啡瑕疵豆檢測</h1>
             {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
             {/* <Image src={coffee} alt="coffee" /> */}
-            <video muted controls width="35%">
+            <video muted controls width="95%">
             <source
               src={coffee_machine}
               type="video/mp4"

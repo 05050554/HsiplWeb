@@ -27,7 +27,9 @@ import img20151120 from "../img/Honor/2015-1120.jpg";
 import img20151105 from "../img/Honor/2015-1105.jpg";
 import img2021AiCup from "../img/Honor/2021_AI_CUP.jpg";
 import img_IEEE_2021OCT from "../img/Honor/2021OCTIEEEBestConferencePaper.jpg";
-import img_HSLCA from "../img/Honor/HyperSLCA.jpg";
+import img_110Topic from "../img/Honor/110Topic_winning.jpg"
+import img_LinDon50 from "../img/Honor/LinDon50.jpg"
+
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
 import { Image } from 'antd';
@@ -135,13 +137,27 @@ const Honer = () => {
         >
           <div className="pic_hon" id="secondpic">
             <div className="all">
-            <h4>2021​-11/10</h4>
-            <Image className="column_Pic" src={img_HSLCA} alt="img20211110HSLCA"/>
+            <h4>2021​-12/01</h4>
+            <Image className="column_Pic" src={img_110Topic} alt="img2021TopicWinning"/>
             <div className="detail_hon">
               <h3>
-              本實驗室陳士煜教師擔任座談會 <span className = "red"> 高光譜影像辨識技術之產品分級與瑕疵篩選應用 </span> 之應用講師
+              本實驗室專題生歐俊毅、張元懷、張哲維 同學 榮獲 <span className = "red">2021實務專題競賽暨成果發表觀摩會  佳作</span>
                 <br /> 
+                題目： 雲科校園花朵辨識
                 <br />
+              </h3>
+            </div>
+            </div>
+          </div>
+
+          <div className="pic_hon" id="secondpic">
+            <div className="all">
+            <h4>2021​-10/07</h4>
+            <Image className="column_Pic" src={img_LinDon50} alt="imgLinDin50"/>
+            <div className="detail_hon">
+              <h3>
+              本實驗室陳士煜教師榮獲<span className = "red">嶺東高級中學創校五十週年傑出校友</span>
+              <br />
               </h3>
             </div>
             </div>

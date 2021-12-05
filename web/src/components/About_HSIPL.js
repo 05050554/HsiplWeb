@@ -20,6 +20,8 @@ import life14 from "../img/Photos of life/birth.jpg";
 import life15 from "../img/Photos of life/2021聚餐2.jpg";
 import life16 from "../img/Photos of life/2021聚餐1.jpg";
 
+import Film_CoffeeMachine from "../img/Photos of life/IRIS_CoffeeBean.mp4"
+
 import "antd/dist/antd.css";
 
 import Slider from "react-slick";
@@ -163,7 +165,11 @@ export const About_HSIPL = () => {
             <video muted controls>
               <source
                 src={
+                  Film_CoffeeMachine
+
+                  /*
                   "https://video.wixstatic.com/video/096150_1449a5a33d164b1a9b2a81f95b734c82/1080p/mp4/file.mp4"
+                  */
                 }
                 type="video/mp4"
               />

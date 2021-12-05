@@ -8,7 +8,8 @@ import img_AI20191017 from "../img/News/AI20191017.jpg";
 import img_IRSI20190528 from "../img/News/IRIS20190528.jpg";
 import img_professor2018 from "../img/News/professor2018.jpg";
 import img_yuntech2017 from "../img/News/yuntech2017.jpg";
-import img_LinDon50 from "../img/News/LinDon50.jpg"
+import img_HyperSLCA from "../img/News/HyperSLCA.jpg"
+import img_IRIS_AOIShow from "../img/News/img_IRIS_AOIShow.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -42,19 +43,26 @@ const News = () => {
         <h1>News</h1>
       </div>
       <div className="allItems">
-      <div className="Item">
-          <h1>2021/10/07</h1>
-          {/* <img
-            src={img_IRIS2021}
-            alt="2021智慧辨識之智慧檢測產業論壇"
-            onClick={() => Zmage.browsing({ src: img_IRIS2021 })}
-          /> */}
-          <Image  src={img_LinDon50} alt="陳士煜副教授獲得嶺東高中50周年傑出校友"/>
+        
+        {/*  新增資訊由此開始  */}
+        
+        <div className="Item">
+          <h1>2021/12/09</h1>
+          <Image  src={img_IRIS_AOIShow} alt="IRIS中心AIO技術展示"/>
           <h3>
             <br />
-            本實驗室陳士煜教師榮獲<span className = "red">嶺東高級中學創校五十週年傑出校友</span>
-            {/* <br />
-            演講主題 : 智慧自動化高光譜瑕疵檢測技術。 */}
+            本實驗室陳士煜教師參與 YunTech智慧辨識產業服務中心<span className = "red">AOI論壇技術展示</span>
+            <br/>
+            參展並發表新品技術 <span className = "red">智慧新農業之即時自動化高光譜瑕疵檢測系統</span>
+          </h3>
+        </div>
+      
+        <div className="Item">
+          <h1>2021/11/10</h1>
+          <Image  src={img_HyperSLCA} alt="陳士煜副教授參與高光譜影像辨識技術之產品分級及瑕疵篩選應用演講"/>
+          <h3>
+            <br />
+            本實驗室陳士煜教師擔任<span className = "red">高光譜影像辨識技術之產品分級及瑕疵篩選應用演講</span> 之講師
           </h3>
         </div>
 
