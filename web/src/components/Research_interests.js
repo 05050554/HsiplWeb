@@ -75,13 +75,8 @@ const Research_interests = () => {
           </div>
           <div className="Item">
             <h1>道路施工檢測系統</h1>
-            <video muted controls width="90%">
-            <source
-              src={roadmp4}
-              type="video/mp4"
-
-            />
-          </video>
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/eVImK2GwWQk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
             <h3>
               2020年與坤眾科技股份有限公司開發道路挖掘監視系統，可於道路挖掘當下錄影存證，也試驗於道路挖掘透過攝影建置傾斜攝影建模，
               所得的模型可成為道路挖掘之地底管線的現況紀錄，提供日後補正與量測使用，透過影像辨識技術，其辨識成果協助提升施工品質或竣工文件品質。
@@ -111,13 +106,9 @@ const Research_interests = () => {
             <h1>咖啡瑕疵豆檢測</h1>
             {/* <img src={coffee} alt="coffee" onClick={()=>Zmage.browsing({src:coffee,backdrop:" hsla(0, 0%, 38%, 0.911)"})}></img> */}
             {/* <Image src={coffee} alt="coffee" /> */}
-            <video muted controls width="95%">
-            <source
-              src={coffee_machine}
-              type="video/mp4"
-
-            />
-          </video>
+            
+            <iframe width="300" height="200" src="https://www.youtube.com/embed/6s82_jf0-Ik" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
             <h3>
               以高光譜技術利用AI深度學習演算法並結合機械手臂，對於深咖啡的品質進行即時性的檢測，其準確率可達94%
             </h3>
