@@ -19,6 +19,8 @@ import life13 from "../img/Photos of life/iris2020.jpg";
 import life14 from "../img/Photos of life/birth.jpg";
 import life15 from "../img/Photos of life/2021聚餐2.jpg";
 import life16 from "../img/Photos of life/2021聚餐1.jpg";
+import life17 from "../img/Photos of life/高雄國際發明展01.jpeg";
+import life18 from "../img/Photos of life/高雄國際發明展02.jpg";
 
 import Film_CoffeeMachine from "../img/Photos of life/IRIS_CoffeeBean.mp4"
 
@@ -38,6 +40,14 @@ export const About_HSIPL = () => {
     <>
       <div className="all_life">
         <Slider className="life_Slider" autoplay {...settings_slider}>
+
+          <div>
+            <img id="life" src={life18} alt="life" />
+          </div>
+
+          <div>
+            <img id="life" src={life17} alt="life" />
+          </div>
 
           <div>
             <img id="life" src={life15} alt="life" />
