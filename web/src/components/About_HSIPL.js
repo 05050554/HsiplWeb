@@ -21,6 +21,8 @@ import life15 from "../img/Photos of life/2021聚餐2.jpg";
 import life16 from "../img/Photos of life/2021聚餐1.jpg";
 import life17 from "../img/Photos of life/高雄國際發明展01.jpeg";
 import life18 from "../img/Photos of life/高雄國際發明展02.jpg";
+import life19 from "../img/Photos of life/2021指導教授慶生.jpg";
+
 
 import Film_CoffeeMachine from "../img/Photos of life/IRIS_CoffeeBean.mp4"
 
@@ -40,6 +42,10 @@ export const About_HSIPL = () => {
     <>
       <div className="all_life">
         <Slider className="life_Slider" autoplay {...settings_slider}>
+
+          <div>
+            <img id="life" src={life19} alt="life" />
+          </div>
 
           <div>
             <img id="life" src={life18} alt="life" />
@@ -172,7 +178,9 @@ export const About_HSIPL = () => {
         <span className="title1">About HSIPL</span>
         <div className="Introduction" id="Introduction">
           <div className="content_AH">
-            <iframe width="1400" height="630" src="https://www.youtube.com/embed/Lh_4Z_jrwvk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div className = "video">
+              <iframe width = "100%" height="630" src="https://www.youtube.com/embed/Lh_4Z_jrwvk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             {/*}
             <video muted controls>
               <source

@@ -142,12 +142,17 @@ const Honer = () => {
             <h4>2021​-12/05</h4>
             <Image className="column_Pic" src={img_HKDGold} alt="KaoShonGoldWard"/>
             <div className="detail_hon">
+              
               <h3>
-              本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學、郝祖德 同學 榮獲<span className = "red">2021 香港國際發明展 金牌</span>
+              本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學、郝祖德 同學 榮獲
+                
+                <span className = "red" >2021 香港國際發明展 金牌</span>
+                
                 <br /> 
                 題目：即時生咖啡豆瑕疵檢測機台
                 <br />
               </h3>
+              
             </div>
             </div>
           </div>

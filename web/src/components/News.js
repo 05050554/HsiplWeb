@@ -10,6 +10,7 @@ import img_professor2018 from "../img/News/professor2018.jpg";
 import img_yuntech2017 from "../img/News/yuntech2017.jpg";
 import img_HyperSLCA from "../img/News/HyperSLCA.jpg"
 import img_IRIS_AOIShow from "../img/News/img_IRIS_AOIShow.jpg"
+import img_IRIS_NG from "../img/News/2021IRIS_NG.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -46,6 +47,17 @@ const News = () => {
         
         {/*  新增資訊由此開始  */}
         
+        <div className="Item">
+          <h1>2021/12/21</h1>
+          <Image  src={img_IRIS_NG} alt="IRIS中心台灣國際人工智慧暨物聯網"/>
+          <h3>
+            <br />
+            本實驗室陳士煜教師參與 <span className = "red">2021台灣國際人工智慧暨物聯網</span>
+            <br/>
+            參展展示新品機台:<br/> <span className = "red">即時生咖啡豆瑕疵檢測機台</span>
+          </h3>
+        </div>
+
         <div className="Item">
           <h1>2021/12/09</h1>
           <Image  src={img_IRIS_AOIShow} alt="IRIS中心AIO技術展示"/>
