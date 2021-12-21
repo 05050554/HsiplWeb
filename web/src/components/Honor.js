@@ -144,13 +144,27 @@ const Honer = () => {
             <div className="detail_hon">
               
               <h3>
-              本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學、郝祖德 同學 榮獲
+                本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學、郝祖德 同學 榮獲
                 
                 <span className = "red" >2021 香港國際發明展 金牌</span>
                 
                 <br /> 
                 題目：即時生咖啡豆瑕疵檢測機台
                 <br />
+                連結：
+                <a
+                    target="_blank" rel="noopener noreferrer"
+                    href="https://www.yuntech.edu.tw/index.php/2019-04-10-08-06-20/item/6293-3-3"
+                >
+                  雲科大新聞
+                </a>
+                ,
+                <a
+                  target="_blank" rel="noopener noreferrer"
+                  href="https://www.ner.gov.tw/news/61b024873827990007e4726b"
+                >
+                  國立教育廣播電台
+                </a>
               </h3>
               
             </div>

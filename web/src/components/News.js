@@ -66,6 +66,14 @@ const News = () => {
             本實驗室陳士煜教師參與 YunTech智慧辨識產業服務中心<span className = "red">AOI論壇技術展示</span>
             <br/>
             參展並發表新品技術 <span className = "red">智慧新農業之即時自動化高光譜瑕疵檢測系統</span>
+            <br/>
+            網址:
+            <a
+              target="_blank" rel="noopener noreferrer"
+              href="https://money.udn.com/money/story/5639/5962596?utm_source=ednlinemobile&utm_medium=share"
+            >
+              經濟時報
+            </a>
           </h3>
         </div>
       
