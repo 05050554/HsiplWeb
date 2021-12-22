@@ -11,6 +11,7 @@ import img_yuntech2017 from "../img/News/yuntech2017.jpg";
 import img_HyperSLCA from "../img/News/HyperSLCA.jpg"
 import img_IRIS_AOIShow from "../img/News/img_IRIS_AOIShow.jpg"
 import img_IRIS_NG from "../img/News/2021IRIS_NG.jpg"
+import img_202112NTR from "../img/News/202112NPR1.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -48,6 +49,25 @@ const News = () => {
         {/*  新增資訊由此開始  */}
         
         <div className="Item">
+          <h1>2021/12/22</h1>
+          <Image  src={img_202112NTR} alt="2021新聞專訪"/>
+          <h3>
+            <br />
+            本實驗室陳士煜獲 <span className = "red">經濟日報</span> 專訪
+            <br/>
+            <span className = "red">雲科大陳士煜 研發高光譜瑕疪檢測系統</span>
+            <br/>
+            網址:
+            <a target="_blank" rel="noopener noreferrer"
+              href="https://money.udn.com/money/story/5639/5978664?utm_source=ednlinemobile&utm_medium=share"
+              class ="red">
+              經濟時報
+            </a>
+          </h3>
+        </div>
+
+
+        <div className="Item">
           <h1>2021/12/21</h1>
           <Image  src={img_IRIS_NG} alt="IRIS中心台灣國際人工智慧暨物聯網"/>
           <h3>
@@ -71,6 +91,7 @@ const News = () => {
             <a
               target="_blank" rel="noopener noreferrer"
               href="https://money.udn.com/money/story/5639/5962596?utm_source=ednlinemobile&utm_medium=share"
+              class ="red"
             >
               經濟時報
             </a>
