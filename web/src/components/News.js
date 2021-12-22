@@ -61,7 +61,7 @@ const News = () => {
             <a target="_blank" rel="noopener noreferrer"
               href="https://money.udn.com/money/story/5639/5978664?utm_source=ednlinemobile&utm_medium=share"
               class ="red">
-              經濟時報
+              經濟日報
             </a>
           </h3>
         </div>
