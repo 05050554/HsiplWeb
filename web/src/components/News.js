@@ -93,7 +93,7 @@ const News = () => {
               href="https://money.udn.com/money/story/5639/5962596?utm_source=ednlinemobile&utm_medium=share"
               class ="red"
             >
-              經濟時報
+              經濟日報
             </a>
           </h3>
         </div>

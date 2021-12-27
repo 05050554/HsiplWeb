@@ -144,7 +144,7 @@ const Honer = () => {
             <div className="detail_hon">
               
               <h3>
-              五鈴光學股份有限公司 郝祖德 總經理 及 本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學 同學 榮獲
+              五鈴光學股份有限公司 郝祖德 總經理 與 李冠杰 工程師 及 本實驗室 鄒學緯、邱明豐、歐承學 同學 榮獲
                 
                 <span className = "red" >2021 香港國際發明展 金牌</span>
                 
@@ -177,7 +177,7 @@ const Honer = () => {
             <Image className="column_Pic" src={img_KaoGold} alt="KaoShonGoldWard"/>
             <div className="detail_hon">
               <h3>
-              五鈴光學股份有限公司 郝祖德 總經理 及 本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學 同學 榮獲
+              五鈴光學股份有限公司 郝祖德 總經理 與 李冠杰 工程師 及 本實驗室 鄒學緯、邱明豐、歐承學 同學 榮獲
               <span className = "red">2021 高雄國際發明暨設計展 金牌</span>
                 <br /> 
                 題目：即時生咖啡豆瑕疵檢測機台
