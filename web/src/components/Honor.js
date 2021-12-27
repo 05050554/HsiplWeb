@@ -144,7 +144,7 @@ const Honer = () => {
             <div className="detail_hon">
               
               <h3>
-                本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學、郝祖德 同學 榮獲
+              五鈴光學股份有限公司 郝祖德 總經理 及 本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學 同學 榮獲
                 
                 <span className = "red" >2021 香港國際發明展 金牌</span>
                 
@@ -177,7 +177,8 @@ const Honer = () => {
             <Image className="column_Pic" src={img_KaoGold} alt="KaoShonGoldWard"/>
             <div className="detail_hon">
               <h3>
-              本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學、郝祖德 同學 榮獲<span className = "red">2021 高雄國際發明暨設計展 金牌</span>
+              五鈴光學股份有限公司 郝祖德 總經理 及 本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學 同學 榮獲
+              <span className = "red">2021 高雄國際發明暨設計展 金牌</span>
                 <br /> 
                 題目：即時生咖啡豆瑕疵檢測機台
                 <br />
@@ -216,11 +217,11 @@ const Honer = () => {
 
           <div className="pic_hon" id="secondpic">
             <div className="all">
-            <h4>2021​-7/20</h4>
+            <h4>2021​-10/29</h4>
             <Image className="column_Pic" src={img_IEEE_2021OCT} alt="imgIEEEECICEB"/>
             <div className="detail_hon">
               <h3>
-              本實驗室陳士煜教師與實驗室研究生榮獲 <span className = "red"> 2021 IEEE ECICE Best Conference Paper Award</span>
+              本實驗室陳士煜教師與實驗室研究生 蔡逢記 同學 榮獲 <span className = "red"> 2021 IEEE ECICE Best Conference Paper Award</span>
                 <br /> 
                 <br />
               </h3>

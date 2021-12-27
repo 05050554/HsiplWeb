@@ -126,7 +126,7 @@ export const Awards = () => {
         <Tabs defaultActiveKey="1" className="tab"> 
           <TabPane tab={2021} key="1">
             <Table
-              dataSource={Awards_data.slice(0, 1)}
+              dataSource={Awards_data.slice(0, 6)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -134,7 +134,7 @@ export const Awards = () => {
           </TabPane>
           <TabPane tab={2020} key="2">
             <Table
-              dataSource={Awards_data.slice(1, 6)}
+              dataSource={Awards_data.slice(6,11)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -142,15 +142,15 @@ export const Awards = () => {
           </TabPane>
           <TabPane tab={2019} key="3">
             <Table
-              dataSource={Awards_data.slice(6, 16)}
+              dataSource={Awards_data.slice(11, 21)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
             />
           </TabPane>
-          <TabPane tab="2018" key="4">
+          <TabPane tab={2018} key="4">
             <Table
-              dataSource={Awards_data.slice(16, 25)}
+              dataSource={Awards_data.slice(21, 30)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -158,7 +158,7 @@ export const Awards = () => {
           </TabPane>
           <TabPane tab="2017" key="5">
             <Table
-              dataSource={Awards_data.slice(25, 36)}
+              dataSource={Awards_data.slice(30, 41)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -166,7 +166,7 @@ export const Awards = () => {
           </TabPane>
           <TabPane tab="2016" key="6">
             <Table
-              dataSource={Awards_data.slice(36, 43)}
+              dataSource={Awards_data.slice(41, 48)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -174,7 +174,7 @@ export const Awards = () => {
           </TabPane>
           <TabPane tab="2015" key="7">
             <Table
-              dataSource={Awards_data.slice(43, 53)}
+              dataSource={Awards_data.slice(48, 58)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -182,7 +182,7 @@ export const Awards = () => {
           </TabPane>
           <TabPane tab="2014" key="8">
             <Table
-              dataSource={Awards_data.slice(53)}
+              dataSource={Awards_data.slice(58,59)}
               bordered={true}
               columns={Awards_columns}
               pagination={false}
@@ -720,9 +720,42 @@ const Awards_columns = [
 const Awards_data = [
   {
     year: "2021",
+    data: "五鈴光學股份有限公司 郝祖德 總經理 及 本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學 同學 參與2021 香港國際發明展",
+    award: "金牌",
+    key:"1",
+  },
+  {
+    year: "2021",
+    data: "五鈴光學股份有限公司 郝祖德 總經理 及 本實驗室碩士生 鄒學緯、邱明豐、李冠杰、歐承學 同學 參與2021 高雄國際發明暨設計展",
+    award: "金牌",
+  },
+  {
+    year: "2021",
+    data: "本實驗室專題生歐俊毅、張元懷、張哲維 同學 參與 2021實務專題競賽暨成果發表觀摩會",
+    award: "佳作",
+    key:"1",
+  },
+  {
+    year: "2021",
+    data: "本實驗室陳士煜教師參與嶺東高級中學創校五十週年校慶頒獎",
+    award: "傑出校友",
+    key:"1",
+  },
+
+
+  {
+    year: "2021",
     data: "指導專題生歐俊毅 ,張哲維 ,康峻瑋同學參加教育部人工智慧競賽-AI CUP 2021醫病訊息決策與對話語料分析競賽",
     award: "前標",
   },
+
+  
+  {
+    year: "2021",
+    data: "本實驗室陳士煜教師與實驗室研究生 蔡逢記 同學 參與 2021 IEEE ECICE",
+    award: "Best Conference Paper Award",
+  },
+
 
   { year: "2020", data: "雲科大109年度", award: "教師免評鑑榮譽" },
   { year: "2020", data: "科技部109年度", award: "特殊優秀人才獎勵" },
