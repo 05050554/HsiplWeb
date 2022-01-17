@@ -144,26 +144,26 @@ const Honer = () => {
             <div className="detail_hon">
               
               <h3>
-              五鈴光學股份有限公司 郝祖德 總經理 與 李冠杰 及 本實驗室 鄒學緯、邱明豐、歐承學 同學 榮獲
-                
+              本實驗室團隊 與 五鈴光學股份有限公司 合作開發 <span  className = "red">即時生咖啡豆瑕疵檢測機台</span>  榮獲
+
                 <span className = "red" >2021 香港國際發明展 金牌</span>
-                
-                <br /> 
-                題目：即時生咖啡豆瑕疵檢測機台
                 <br />
-                連結：
                 <a
                     target="_blank" rel="noopener noreferrer"
                     href="https://www.yuntech.edu.tw/index.php/2019-04-10-08-06-20/item/6293-3-3"
                 >
+                  <u>
                   雲科大新聞
+                  </u>
                 </a>
                 ,
                 <a
                   target="_blank" rel="noopener noreferrer"
                   href="https://www.ner.gov.tw/news/61b024873827990007e4726b"
                 >
+                  <u>
                   國立教育廣播電台
+                  </u>
                 </a>
               </h3>
               
@@ -177,11 +177,10 @@ const Honer = () => {
             <Image className="column_Pic" src={img_KaoGold} alt="KaoShonGoldWard"/>
             <div className="detail_hon">
               <h3>
-              五鈴光學股份有限公司 郝祖德 總經理 與 李冠杰 及 本實驗室 鄒學緯、邱明豐、歐承學 同學 榮獲
+              本實驗室團隊 與 五鈴光學股份有限公司 合作開發 <span  className = "red">即時生咖啡豆瑕疵檢測機台</span>  榮獲
               <span className = "red">2021 高雄國際發明暨設計展 金牌</span>
                 <br /> 
-                題目：即時生咖啡豆瑕疵檢測機台
-                <br />
+
               </h3>
             </div>
             </div>
