@@ -23,6 +23,7 @@ import life17 from "../img/Photos of life/高雄國際發明展01.jpeg";
 import life18 from "../img/Photos of life/高雄國際發明展02.jpg";
 import life19 from "../img/Photos of life/2021指導教授慶生.jpg";
 import life20 from "../img/Photos of life/20211221BIR2.jpg";
+import life21 from "../img/Photos of life/2022新春尾牙.jpg";
 
 
 import "antd/dist/antd.css";
@@ -42,7 +43,11 @@ export const About_HSIPL = () => {
       <div className="all_life">
         <Slider className="life_Slider" autoplay {...settings_slider}>
 
-        <div>
+          <div>
+            <img id="life" src={life21} alt="life" />
+          </div>
+
+          <div>
             <img id="life" src={life20} alt="life" />
           </div>
 

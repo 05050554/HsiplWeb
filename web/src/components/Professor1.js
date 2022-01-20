@@ -91,7 +91,16 @@ const Professor1 = () => {
           <div className="List">
             <h1 className="Title">Journal Articles</h1>
             <Divider  />
-            <List className="page_list"
+            <Table
+              dataSource={data}
+              bordered = {true}
+              columns = {Journal_Art_cols}
+              pagination = {{pageSzie : 10}}
+            >
+            </Table>
+            
+
+            {/* <List  className="page_list"
               // header={<h1 className="">Journal articles</h1>}
               itemLayout={"horizontal"}
               bordered={true}
@@ -110,7 +119,8 @@ const Professor1 = () => {
                   </span>
                 </List.Item>
               )}
-            ></List>
+            ></List> */}
+             
           </div>
         </div>
         <Talks />
@@ -130,6 +140,52 @@ const Professor1 = () => {
     
   );
 };
+
+const Journal_Art_cols = [
+  {title:"Num",
+  dataIndex:"Num"
+  },
+  {title:"author",
+   
+  render : (record) =>{
+    return (
+      <span>
+        <b>
+        {record.blod}  
+        </b>
+        {record.content1}{record.content2}
+      </span>
+    )
+  }
+    
+    
+  },
+  { title:"Articles",
+    dataIndex:"title",
+    render: (text,record) =>{
+      if (record.link ===""){
+        return <a style = {{color:"black"}}>{text}</a>;
+      }
+      else{
+        return (
+          <a href={record.link} target="_blank" rel="noopener noreferrer">
+            <b>
+              <u>
+                {text}
+              </u>
+            </b>
+          </a>
+        );
+      }
+    },
+  },
+  {
+    title:"",
+    dataIndex:"content3",
+
+  },
+
+];
 
 const Education_columns = [
     { title: "From and to", dataIndex: "time" },
@@ -182,6 +238,7 @@ const Education_columns = [
   
   const data = [
     {
+      Num: "1",
       blod: "Shih-Yu Chen;",
       content1: "",
       content2: " Y. -C. Cheng, W. -L. Yang and M. -Y. Wang, ",
@@ -193,6 +250,7 @@ const Education_columns = [
         ", in IEEE Access, vol. 9, pp. 127685-127702, 2021, doi: 10.1109/ACCESS.2021.3112133. ",
     },
     {
+      Num: "2",
       blod: "Chen, Shih-Yu;",
       content1: "",
       content2: " Lin, Chinsu; Li, Guan-Jie; Hsu, Yu-Chun; Liu, Keng-Hao. 2021.",
@@ -204,6 +262,7 @@ const Education_columns = [
         " Sensors 21, no. 6: 2077. ",
     },
     {
+      Num: "3",
       blod: "Shih-Yu Chen,",
       content1: "",
       content2: " Chuan-Yu Chang, Cheng-Syue OU and Chou-Tien Lien (2020, Jul). ",
@@ -214,6 +273,7 @@ const Education_columns = [
         " Remote sensing, 12(15), 2348. (SCI, IF = 4.509, Ranking = 9/30 = 30%,  Remote sensing). 本人為第一作者、通訊作者. ",
     },
     {
+      Num: "4",
       blod: "SY Chen,",
       content1: "William C Chiu, DB Powers, JM Hirshon, SA Shackelford, PF Hu, ",
       content2:
@@ -225,6 +285,7 @@ const Education_columns = [
       content3: " BMJ Mil Health. (SCI, IF = 0.994).",
     },
     {
+      Num: "5",
       blod: "Shih-Yu Chen,",
       content1: "",
       content2: " Chinsu Lin, Shang-Ju Chuang and Zhe-Yuan Kao (2019, May). ",
@@ -235,6 +296,7 @@ const Education_columns = [
         " Remote Sens., 11(9), 1081. (SCI, IF = 4.5, Ranking = 7/29 = 24.13%, Remote Sensing). 本人為第一作者. ",
     },
     {
+      Num: "6",
       blod: "Shih-Yu Chen,",
       content1: "Chinsu Lin, ",
       content2: " Chia-Chun Chen, Chia-Huei Tai (2018, Aug). ",
@@ -246,6 +308,7 @@ const Education_columns = [
         " ISPRS JOURNAL OF PHOTOGRAMMETRY AND REMOTE SENSING. (SCI, IF = 7.31, Ranking = 1/29 = 3.4%, GEOCHEMISTRY & GEOPHYSICS). 本人為通訊作者.",
     },
     {
+      Num: "7",
       blod: "Shih-Yu Chen,",
       content1: "Keng-Hao Liu, ",
       content2: " Hung-Chang Chien, Meng-Han Lu (2018, Feb). ",
@@ -257,6 +320,7 @@ const Education_columns = [
         " Remote Sensing, 10(3), 367. (SCI, IF = 4.5, Ranking = 7/29 = 24.13%, Remote Sensing).",
     },
     {
+      Num: "8",
       blod: "Shih-Yu Chen,",
       content2: " Chinsu Lin, Chia-Hui Tai, Shang-Ju Chuang (2018, Jan). ",
       link:
@@ -267,6 +331,7 @@ const Education_columns = [
         " Remote Sensing, 10(1), 96. (SCI, IF = 4.5, Ranking = 7/29 = 24.13%, Remote Sensing). 本人為第一作者.",
     },
     {
+      Num: "9",
       blod: "Shih-Yu Chen;",
       content1: "Chein-I Chang; ",
       content2: " Hsiao-Chi Li; Hsian-Min Chen; Chia-Hsien Wen (2016, Sep). ",
@@ -277,6 +342,7 @@ const Education_columns = [
         " IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 9(9), 4280-4306. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC). 本人為通訊作者.",
     },
     {
+      Num: "10",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I Chang, Wei Xiong, ",
       content2: " (2016, May). ",
@@ -288,6 +354,7 @@ const Education_columns = [
         " International Journal of Computational Science and Engineering, Vol. 12, Nos. 2/3, pp. 186-191. (EI). 本人為通訊作者.",
     },
     {
+      Num: "11",
       blod: "Shih-Yu Chen ",
       content1: "Chein-I Chang, Cheng Gao, and ",
       content2: " (2015, Sep). ",
@@ -298,6 +365,7 @@ const Education_columns = [
         " IEEE Geoscience and Remote Sensing Letters, 12(9), 1848 - 1852. (SCI, 67/265, ENGINEERING, ELECTRICAL & ELECTRONIC). 本人為通訊作者.",
     },
     {
+      Num: "12",
       blod: "Shih-Yu Chen, ",
       content1: "Yaw-Jiunn Chiou, Clayton Chi-Chang Chen, ",
       content2:
@@ -309,6 +377,7 @@ const Education_columns = [
         " Journal of the Chinese Institute of Engineers.(IF = 0.395, Ranking = 76/85 = 89.41%).",
     },
     {
+      Num: "13",
       blod: "Shih-Yu Chen ",
       content1: "Chein-I Chang, Yulei Wang and ",
       content2: " (2015, Jul). ",
@@ -318,6 +387,7 @@ const Education_columns = [
         " IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 8(7), 3260 - 3270. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC). 本人為通訊作者.",
     },
     {
+      Num: "14",
       blod: "Shih-Yu Chen, ",
       content1: "Meiping Song, ",
       content2: " Hsiao-Chi Li, Hsian-Min Chen and Chein-I Chang (2015, Jun). ",
@@ -327,6 +397,7 @@ const Education_columns = [
         " IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing, 8(6), 2704 - 2719. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC).",
     },
     {
+      Num: "15",
       blod: "Shih-Yu Chen, ",
       content1: "Chein-I. Chang, Robert C. Schultz, Marissa C. Hobbs, ",
       content2: " Yulei Wang, and Chunhong Liu (2015, Mar). ",
@@ -337,6 +408,7 @@ const Education_columns = [
         " IEEE Transactions on Geoscience and Remote sensing, 53(3),1626 - 1637. (SCI, IF = 5.85, Ranking = 4/84=4.07%).",
     },
     {
+      Num: "16",
       blod: "Shih-Yu Chen, ",
       content1: "Colin F Mackenzie, Yulei Wang, Peter F Hu, ",
       content2: " Hegang H (2014, Jun). ",
@@ -348,6 +420,7 @@ const Education_columns = [
         " Journal of Trauma and Acute Care Surgery, Vol. 76, no. 6, pp.1379-1385. (SCI, IF = 3.4, Ranking = 33/197 = 16.75%, Surgery).",
     },
     {
+      Num: "17",
       blod: "Shih-Yu Chen,",
       content1: "",
       content2:
@@ -359,6 +432,7 @@ const Education_columns = [
         " IEEE Transactions on Aerospace and Electronic Systems, vol.52, no.2, pp.1511-1534. (SCI, IF = 3.67, Ranking = 4/31 = 12.90.%, AEROSPACE). 本人為第一作者.",
     },
     {
+      Num: "18",
       blod: "Shih-Yu Chen,",
       content1: "Hsian-Min Chen, Chinsu Lin, ",
       content2: " Yen-Chieh Ouyang, Chein-I Chang (2013, Aug). ",
@@ -369,6 +443,7 @@ const Education_columns = [
         " IEEE Journal of Selected Topics in Applied Earth Observation sand Remote Sensing, vol. 6, no. 4, pp. 1834-1842. (SCI, IF = 3.82, Ranking = 6/26 = 23.07%, ENGINEERING, ELECTRICAL & ELECTRONIC).",
     },
     {
+      Num: "19",
       blod: "Shih-Yu Chen,",
       content1: "Clayton Chi-Chang Chen, Englin Wong, Hsian-Min Chen, ",
       content2:
