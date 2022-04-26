@@ -31,6 +31,8 @@ import img_110Topic from "../img/Honor/110Topic_winning.jpg"
 import img_LinDon50 from "../img/Honor/LinDon50.jpg"
 import img_KaoGold from "../img/Honor/KaoDesignGold.jpeg"
 import img_HKDGold from "../img/Honor/HonKongDGold.jpg"
+import img_2022calculate from "../img/Honor/2022泛珠三角計算機作品三等.jpg"
+
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -137,6 +139,24 @@ const Honer = () => {
           nextArrow={<Arrow type="next" />}
           prevArrow={<Arrow type="prev" />}
         >
+          <div className="pic_hon" id="secondpic">
+            <div className="all">
+            <h4>2021​-12/05</h4>
+            <Image className="column_Pic" src={img_2022calculate} alt="2022chinacalaulate"/>
+            <div className="detail_hon">
+              
+              <h3>
+              本實驗室團隊 <span  className = "red">高光譜咖啡豆即時自動化瑕疵檢測系統</span>  榮獲
+
+                <span className = "red" >2021 泛珠三角大學生計算機作品賽總決賽 三等獎</span>
+              </h3>
+              
+            </div>
+            </div>
+          </div>
+
+
+
           <div className="pic_hon" id="secondpic">
             <div className="all">
             <h4>2021​-12/05</h4>
