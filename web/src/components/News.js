@@ -12,6 +12,7 @@ import img_HyperSLCA from "../img/News/HyperSLCA.jpg"
 import img_IRIS_AOIShow from "../img/News/img_IRIS_AOIShow.jpg"
 import img_IRIS_NG from "../img/News/2021IRIS_NG.jpg"
 import img_202112NTR from "../img/News/202112NPR1.jpg"
+import img_PT202205 from "../img/News/Personnel_training202205.jpg"
 
 // import Zmage from "react-zmage";
 import 'antd/dist/antd.css';
@@ -47,6 +48,16 @@ const News = () => {
       <div className="allItems">
         
         {/*  新增資訊由此開始  */}
+        <div className="Item">
+          <h1>2021/12/22</h1>
+          <Image  src={img_PT202205} alt="2021新聞專訪"/>
+          <h3>
+            <br />
+            本實驗室陳士煜獲 <span className = "red">工業區人才培訓課程</span> 活動邀請擔任 講師 一職
+            <br/>
+            <br/>
+          </h3>
+        </div>
         
         <div className="Item">
           <h1>2021/12/22</h1>
