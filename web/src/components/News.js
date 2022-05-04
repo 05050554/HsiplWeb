@@ -49,7 +49,7 @@ const News = () => {
         
         {/*  新增資訊由此開始  */}
         <div className="Item">
-          <h1>2021/12/22</h1>
+          <h1>2022/05/03</h1>
           <Image  src={img_PT202205} alt="2021新聞專訪"/>
           <h3>
             <br />
