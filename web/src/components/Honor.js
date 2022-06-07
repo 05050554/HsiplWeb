@@ -142,7 +142,7 @@ const Honer = () => {
         >
           <div className="pic_hon" id="secondpic">
             <div className="all">
-            <h4>2021​-12/05</h4>
+            <h4>2022​-06/01</h4>
             <Image className="column_Pic" src={img_2022PonHo} alt="img_2022PonHo"/>
             <div className="detail_hon">
               
@@ -158,10 +158,10 @@ const Honer = () => {
             </div>
           </div>
 
-          
+
           <div className="pic_hon" id="secondpic">
             <div className="all">
-            <h4>2021​-12/05</h4>
+            <h4>2021​-03/27</h4>
             <Image className="column_Pic" src={img_2022calculate} alt="2022chinacalaulate"/>
             <div className="detail_hon">
               
