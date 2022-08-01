@@ -161,7 +161,7 @@ const Honer = () => {
 
           <div className="pic_hon" id="secondpic">
             <div className="all">
-            <h4>2021​-03/27</h4>
+            <h4>2022-03/27</h4>
             <Image className="column_Pic" src={img_2022calculate} alt="2022chinacalaulate"/>
             <div className="detail_hon">
               
